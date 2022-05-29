@@ -1,2 +1,15 @@
-# A02_产品_Motion
-- 
+# B01_技术_AutomationStudio
+- [001Automation Studio（AS）在Physical View中添加硬件组态时，无法找到实际硬件型号,是什么原因？](001Automation%20Studio（AS）在Physical%20View中添加硬件组态时，无法找到实际硬件型号,是什么原因？.md)
+- [002如何获取Automation Studio（AS）的试用注册码？](002如何获取Automation%20Studio（AS）的试用注册码？.md)
+- [003在安装Automation Studio（AS）的过程中，有什么注意事项？](003在安装Automation%20Studio（AS）的过程中，有什么注意事项？.md)
+- [004Automation Studio（AS）支持哪些版本的windows系统？不同版本的Automation Studio（AS）之间有什么差异？](004Automation%20Studio（AS）支持哪些版本的windows系统？不同版本的Automation%20Studio（AS）之间有什么差异？.md)
+- [005如何获取和查询Automation Studio 帮助中Guid ID？](005如何获取和查询Automation%20Studio%20帮助中Guid%20ID？.md)
+- [006打开Automation Studio项目时，出现中文注释乱码的情况怎么办？](006打开Automation%20Studio项目时，出现中文注释乱码的情况怎么办？.md)
+- [007如何恢复AS软件的默认界面布局？](007如何恢复AS软件的默认界面布局？.md)
+- [008在编程时如何开启新变量自动声明？如何设置编程自动缩进？如何设置自动提示结构图变量？](008在编程时如何开启新变量自动声明？如何设置编程自动缩进？如何设置自动提示结构图变量？.md)
+- [009在Automation Studio（AS）中编程时，如何完成结构体嵌套？](009在Automation%20Studio（AS）中编程时，如何完成结构体嵌套？.md)
+- [010Automation Studio项目文件太大，太占用电脑存储空间怎么办？](010Automation%20Studio项目文件太大，太占用电脑存储空间怎么办？.md)
+- [011在使用ARsim时，为什么到了一定的时间就会自动关闭Simulation？](011在使用ARsim时，为什么到了一定的时间就会自动关闭Simulation？.md)
+- [012使用Automation Studio时，部分文本框无法输入中文怎么办？ ](012使用Automation%20Studio时，部分文本框无法输入中文怎么办？%20.md)
+- [013在卸载或重装Automation Studio时，出现报错导致卸载或安装失败怎么办？](013在卸载或重装Automation%20Studio时，出现报错导致卸载或安装失败怎么办？.md)
+- [014 如何单独安装Automation Studio的帮助？](014%20如何单独安装Automation%20Studio的帮助？.md)

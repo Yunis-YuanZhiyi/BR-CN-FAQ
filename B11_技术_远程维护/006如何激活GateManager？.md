@@ -1,0 +1,8 @@
+# 006如何激活GateManager？
+Tags：GateManager、激活
+A：
+GateManager以试用/演示模式交付。其中预装了1个LinkManager和1个 LinkManager Mobile的许可证；
+LinkManager最多可同时管理3个SiteManager而LinkManager Mobile最多可以同时管理2个。演示模式没有功能限制。
+要充分使用GateManager，就必须将其激活。必须将GateManager的许可证ID和主机名报告给贝加莱才能进行激活。
+基于这些信息（许可证ID和主机名），将生成可用于激活GateManager的许可证密钥。	
+LinkManager和LinkManager Mobile的许可证和用户都可以在GateManager中进行管理。
