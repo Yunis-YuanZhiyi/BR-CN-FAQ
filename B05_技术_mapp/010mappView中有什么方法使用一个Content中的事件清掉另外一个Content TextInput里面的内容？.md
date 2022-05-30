@@ -1,0 +1,2 @@
+# 010mappView中有什么方法使用一个Content中的事件清掉另外一个Content TextInput里面的内容？
+使用session var作为中间变量， 触发了一个Content中的事件以后把Session Var 覆成TRUE，然后另外判断这个session Var是TRUE时，把Input赋成空，顺便把Session Var复位

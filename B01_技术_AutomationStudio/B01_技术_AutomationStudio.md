@@ -19,3 +19,4 @@
 - [018没有源程序可以Watch与Trace变量吗？](018没有源程序可以Watch与Trace变量吗？.md)
 - [019程序编程的时候写新变量能够自动声明吗？](019程序编程的时候写新变量能够自动声明吗？.md)
 - [020新版本的AS软件烧卡按钮位置在哪里](020新版本的AS软件烧卡按钮位置在哪里.md)
+- [021AS下载程序时提示“Automation runtime target mismatch.The target online does not match”](021AS下载程序时提示“Automation%20runtime%20target%20mismatch.The%20target%20online%20does%20not%20match”.md)

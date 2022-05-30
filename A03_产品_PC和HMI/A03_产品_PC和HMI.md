@@ -11,3 +11,4 @@
 - [010忘记了T30系列面板的VNC画面密码，该怎么办？](010忘记了T30系列面板的VNC画面密码，该怎么办？.md)
 - [011在Automation Studio中新建了工程，添加了相应的工控机（支持Hypervisor功能），进入CPU configuration界面以后，找不到Hypervisor选项怎么办？](011在Automation%20Studio中新建了工程，添加了相应的工控机（支持Hypervisor功能），进入CPU%20configuration界面以后，找不到Hypervisor选项怎么办？.md)
 - [012贝加莱的工控机在开机时如何进入bios设置？](012贝加莱的工控机在开机时如何进入bios设置？.md)
+- [013如何生成工控机上的HMI Report？](013如何生成工控机上的HMI%20Report？.md)
