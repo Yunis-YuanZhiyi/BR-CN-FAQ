@@ -33,5 +33,5 @@
 - 你可以直接在评论区留言
 - 更好的是：创建一个Issues反馈问题
 - 你也可以：
-    - 发送问题至 support@br-automation.com
+    - 发送问题至 support.cn@br-automation.com
     - 电话联系：021-54644800
