@@ -21,3 +21,4 @@
 - [020新版本的AS软件烧卡按钮位置在哪里](020新版本的AS软件烧卡按钮位置在哪里.md)
 - [021AS下载程序时提示“Automation runtime target mismatch.The target online does not match”](021AS下载程序时提示“Automation%20runtime%20target%20mismatch.The%20target%20online%20does%20not%20match”.md)
 - [022ARSim项目仿真无法正常启动](022ARSim项目仿真无法正常启动.md)
+- [023AS软件无法扫描到实际的PLC](023AS软件无法扫描到实际的PLC.md)
