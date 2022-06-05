@@ -22,3 +22,4 @@
 - [021AS下载程序时提示“Automation runtime target mismatch.The target online does not match”](021AS下载程序时提示“Automation%20runtime%20target%20mismatch.The%20target%20online%20does%20not%20match”.md)
 - [022ARSim项目仿真无法正常启动](022ARSim项目仿真无法正常启动.md)
 - [023AS软件无法扫描到实际的PLC](023AS软件无法扫描到实际的PLC.md)
+- [024AS如何上传控制器内的工程和进行在线比较](024AS如何上传控制器内的工程和进行在线比较.md)
