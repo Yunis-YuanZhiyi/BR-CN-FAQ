@@ -1,0 +1,6 @@
+# 017X20CS1030放在X20PLC本地使用是正常。但是放在BC0083扩展时候，FRM_gbuf() 报8071  frmERR_NOBUFFER
+## 解决方案
+客户把CP1585的POWERLINK设为V1版本引起问题。
+改为V2就可以了。
+
+![Img](./FILES/017请问一下X20CS1030放在X20PLC本地使用是正常。但是放在BC0083扩展时候，FRM_gbuf%28%29%20报8071%20%20frmERR_NOBUFFER.md/img-20220608155609.png)
