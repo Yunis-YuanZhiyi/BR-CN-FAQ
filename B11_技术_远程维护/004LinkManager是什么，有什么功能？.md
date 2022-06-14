@@ -1,5 +1,6 @@
 # 004LinkManager是什么，有什么功能？
 Tags：LinkManager
+
 A： 
 - LinkManager是一个可在维修技术人员的 PC 上运行的、易于安装的 Windows 应用程序。
 - LinkManager通过双重身份验证（2-factor authentication，2FA）连接到 GateManager，并与SiteManager一起实现对远程设备的安全访问。
