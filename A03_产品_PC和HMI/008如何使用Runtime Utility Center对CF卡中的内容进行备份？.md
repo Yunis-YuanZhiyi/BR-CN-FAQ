@@ -1,5 +1,6 @@
 # 008如何使用Runtime Utility Center对CF卡中的内容进行备份？
-Tags：Runtime Utility Center、CF卡；
+Tags：Runtime Utility Center、CF卡
+
 A：
 Runtime Utility Center是对贝加莱控制器提供各种故障诊断和维修方式的维护工具。安装文件
 可以在贝加莱的官网免费下载。
