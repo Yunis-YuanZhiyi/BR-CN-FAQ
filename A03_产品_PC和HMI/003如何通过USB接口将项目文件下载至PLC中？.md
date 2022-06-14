@@ -15,4 +15,5 @@
 ![Img](./FILES/003如何通过USB接口将项目文件下载至PLC中？.md/img-20220528211429.png)
 然后，点击Creat project installation package，默认设置即可，如果版本不同，请仔细看相关设置。U盘路径选择一级路径即可。
 ![Img](./FILES/003如何通过USB接口将项目文件下载至PLC中？.md/img-20220528211437.png)
+
 完成后，系统会提示成功。把U盘查到控制器上，重启，程序即可更新。
