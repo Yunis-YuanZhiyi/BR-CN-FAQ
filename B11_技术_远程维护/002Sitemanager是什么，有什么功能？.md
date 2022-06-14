@@ -1,5 +1,6 @@
 # 002Sitemanager是什么，有什么功能？
 Tags：Sitemanager
+
 A： 
 - SiteManager使机器或机器网络能够连接到GateManager，进而连接到互联网。
 - 所有SiteManager都配备了集成的输入和输出，以及至少一个以太网接口，用于上行到互联网。
