@@ -1,5 +1,6 @@
 # 006如何激活GateManager？
 Tags：GateManager、激活
+
 A：
 GateManager以试用/演示模式交付。其中预装了1个LinkManager和1个 LinkManager Mobile的许可证；
 LinkManager最多可同时管理3个SiteManager而LinkManager Mobile最多可以同时管理2个。演示模式没有功能限制。
