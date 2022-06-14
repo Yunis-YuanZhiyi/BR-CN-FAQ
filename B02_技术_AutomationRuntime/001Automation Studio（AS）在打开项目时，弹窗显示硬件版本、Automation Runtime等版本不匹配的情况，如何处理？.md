@@ -1,5 +1,6 @@
 # 001Automation Studio（AS）在打开项目时，弹窗显示硬件版本、Automation Runtime等版本不匹配的情况，如何处理？
 Tags：硬件版本、Automation Runtime、Hardware Mismatch
+
 A：
 出现此情况时，是由于AS打开项目时，检测到项目中硬件版本信息，AR版本信息在AS中没有找到对应的文件，不建议点击”Ignore Mismatch“，
 这将会强行忽视硬件和Automation Runtime版本的差异，在后续对项目进行编译时可能会导致报错。
