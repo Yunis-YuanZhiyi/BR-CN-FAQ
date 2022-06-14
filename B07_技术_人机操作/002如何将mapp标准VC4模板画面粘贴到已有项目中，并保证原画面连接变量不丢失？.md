@@ -1,5 +1,6 @@
 # 002如何将mapp标准VC4模板画面粘贴到已有项目中，并保证原画面连接变量不丢失？
 Tags：VC4、变量
+
 A：
 	标准VC4模板画面所连接的变量都对应每个Mapp功能的UI结构体变量，且UI结构体变量定义的都是全局变量。
 	若要复制一个名称为MpAlarmX画面，就要先在现有程序中定义一个名称MpAlarmXListUIConnect的全局变量，变量类型为MpAlarmXListUIConnectType。
