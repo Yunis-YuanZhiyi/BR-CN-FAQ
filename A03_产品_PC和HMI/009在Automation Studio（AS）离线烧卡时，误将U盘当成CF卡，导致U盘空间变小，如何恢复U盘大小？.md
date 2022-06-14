@@ -1,5 +1,6 @@
 # 009在Automation Studio（AS）离线烧卡时，误将U盘当成CF卡，导致U盘空间变小，如何恢复U盘大小？
-Tags：Offline Installation、CF卡；
+Tags：Offline Installation、CF卡
+
 A：
 1. 打开Runtime Utility Center，选择Create，modify and execute projects(.pil)
 2. 在Commands中选择PC CF functions/Compact Flash service functions
