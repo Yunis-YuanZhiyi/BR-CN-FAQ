@@ -1,5 +1,6 @@
 # 001Automation Studio（AS）在Physical View中添加硬件组态时，无法找到实际硬件型号,是什么原因？
 Tags： HW更新、硬件更新、Upgrade
+
 A： 
 在Physical View的Toolbox中可以查询到已经安装好的硬件型号。如果未找到，需到贝加莱官网下载相应的硬件更新。
 根据AS授权的不同，方式如下：
