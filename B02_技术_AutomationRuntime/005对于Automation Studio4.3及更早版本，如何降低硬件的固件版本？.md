@@ -1,5 +1,6 @@
 # 005对于Automation Studio4.3及更早版本，如何降低硬件的固件版本？
 Tags：Hardware module
+
 A：
 	以X20CP1586和AS4.2为例
 	从官网下载低版本的固件安装文件。将此exe文件通过解压缩软件提取出来获得相应文件夹。
