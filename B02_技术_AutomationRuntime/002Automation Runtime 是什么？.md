@@ -1,5 +1,6 @@
 # 002Automation Runtime 是什么？
 Tags：Automation Runtime
+
 A： 
 Automation Runtime 实时操作系统是 Automation Studio 的一个组成部分。其构成​​了允许应用程序在目标系统上运行的软件内核。
 - 保证所用硬件的最高性能
