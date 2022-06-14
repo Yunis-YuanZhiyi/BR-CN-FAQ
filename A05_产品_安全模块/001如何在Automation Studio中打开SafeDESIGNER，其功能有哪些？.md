@@ -1,5 +1,6 @@
 # 001如何在Automation Studio中打开SafeDESIGNER，其功能有哪些？
 Tags： SafeDESIGNER
+
 A：
 SafeDESIGNER是用于编写安全功能的工具，通过SafeDESIGNER可以实现连接安全模块相应的I/O通道、配置安全模块等功能。
 在Automation Studio中配置好安全模块的硬件组态后，即可打开SafeDESIGNER编写相关的安全项目，操作如下：
