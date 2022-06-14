@@ -1,5 +1,6 @@
 # 007如何在Automation Studio中通过控制器配置Sitemanager？
 Tags：Sitemanager、Automation Studio
+
 A： 
 在Physical View中添加Sitemanager的组态
 选择相应的服务器，进行相应配置，参考下图：
