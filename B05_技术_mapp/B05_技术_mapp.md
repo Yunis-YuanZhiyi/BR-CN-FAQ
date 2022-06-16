@@ -16,3 +16,4 @@
 - [015mappView界面使用Snippet动态显示数据信息怎么实现](015mappView界面使用Snippet动态显示数据信息怎么实现.md)
 - [016mappView界面显示控件提示内容](016mappView界面显示控件提示内容.md)
 - [017如何在TMX的一个条目调用多个Snippet](017如何在TMX的一个条目调用多个Snippet.md)
+- [018使用MpRecipeXml时，REAL类型变量的数值与XML文件里保存的数值不一致，是否正常？](018使用MpRecipeXml时，REAL类型变量的数值与XML文件里保存的数值不一致，是否正常？.md)
