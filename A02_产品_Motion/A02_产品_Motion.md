@@ -6,3 +6,5 @@
 - [005关于8CVE在ACOPOSmulti65系统中的使用](005关于8CVE在ACOPOSmulti65系统中的使用.md)
 - [006是否所有ACOPOS驱动器都能使用8AC114.60-2 POWERLINK通讯卡](006是否所有ACOPOS驱动器都能使用8AC114.60-2%20POWERLINK通讯卡.md)
 - [007ACOPOSmulti编码器接口一览](007ACOPOSmulti编码器接口一览.md)
+- [008ACOPOS P3编码器接口卡一览](008ACOPOS%20P3编码器接口卡一览.md)
+- [009ACOPOS编码器接口卡一览](009ACOPOS编码器接口卡一览.md)
