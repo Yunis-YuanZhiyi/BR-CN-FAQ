@@ -1,4 +1,13 @@
 # 011下载程序出现a connection via ANSL is need to execute “transfer”
+
+## 现象
+- 使用AS时，点击"Transfer"按钮无法下载程序，报错显示没有ANSL连接，如何解决？
+- 具体报错如下图：
+- ![Img](./FILES/011下载程序出现a%20connection%20via%20ANSL%20is%20need%20to%20execute%20“transfer”.md/img-20220616140507.png)
+
+
+
+## 解决方式
 - 一般通过关闭AS软件重开即可解决
 - 另一种解决方式：
     - 1、打开online→settings，选择标签页“Serial”，用串口连接一下PLC（不需要真的与PLC建立串口的物理连接，只需要在AS中操作一下即可）。如下图：

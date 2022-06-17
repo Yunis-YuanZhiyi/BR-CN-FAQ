@@ -5,7 +5,7 @@
 - ![Img](./FILES/023AS软件无法扫描到实际的PLC.md/img-20220604193748.png)
 
 
-## 问题原因
+## 问题原因一：使用高版本的AR，SNMP服务默认关闭
 贝加莱PLC是通过SNMP服务提供被扫描到IP的功能的。
 
 - 此项功能在AR4.7以下是默认开启的，如下图所示
@@ -14,7 +14,7 @@
 
 但出于网络安全的考虑，贝加莱PLC中运行的操作系统版本在4.8及以上，此设置默认关闭的，如果不通过额外设置，则通过AS软件无法扫描到IP地址。
 
-## 解决方式
+### 解决方式
 #### 如果无法获得项目的源代码
 
 - 1. 向相关人员了解到此PLC的实际IP地址
@@ -40,3 +40,12 @@
 
 2. 将U盘插入到PLC上，将PLC进行断电上电。
 
+## 问题原因二：Windows系统的Pcap 驱动没有正常工作导致的
+
+### 解决方式
+- Win7系统需要重新安装WinPcap 驱动，可以上网 
+    - https://www.winpcap.org/ 下载后直接安装；
+- Win10系统需要重新安装PVI，可在贝加莱官网 https://www.br-automation.com/zh/downloads/#categories=Software/Automation+NET%2FPVI 下载
+    - 安装时需要 
+        - 1. 确保已有的PVI没有启动（关掉AS即可）
+        - 2. 勾选下图中红框标记Install PVI Manager as service。
