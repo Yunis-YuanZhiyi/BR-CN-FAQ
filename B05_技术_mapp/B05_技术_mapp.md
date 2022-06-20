@@ -20,3 +20,4 @@
 - [019使用MpRecipeXML时，如何将两个变量分别存到两个不同的XML文件中](019使用MpRecipeXML时，如何将两个变量分别存到两个不同的XML文件中.md)
 - [020mapp View 中如何设置中文输入](020mapp%20View%20中如何设置中文输入.md)
 - [021如何在mapp View 中添加字体](021如何在mapp%20View%20中添加字体.md)
+- [022MappView中无法显示MpAlarmX报警](022MappView中无法显示MpAlarmX报警.md)
