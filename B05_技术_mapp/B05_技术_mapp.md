@@ -17,3 +17,6 @@
 - [016mappView界面显示控件提示内容](016mappView界面显示控件提示内容.md)
 - [017如何在TMX的一个条目调用多个Snippet](017如何在TMX的一个条目调用多个Snippet.md)
 - [018使用MpRecipeXml时，REAL类型变量的数值与XML文件里保存的数值不一致，是否正常？](018使用MpRecipeXml时，REAL类型变量的数值与XML文件里保存的数值不一致，是否正常？.md)
+- [019使用MpRecipeXML时，如何将两个变量分别存到两个不同的XML文件中](019使用MpRecipeXML时，如何将两个变量分别存到两个不同的XML文件中.md)
+- [020mapp View 中如何设置中文输入](020mapp%20View%20中如何设置中文输入.md)
+- [021如何在mapp View 中添加字体](021如何在mapp%20View%20中添加字体.md)

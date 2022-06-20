@@ -35,3 +35,5 @@
 - [034 TG PVI Runtime TG License 无法正常工作之排查步骤](034%20TG%20PVI%20Runtime%20TG%20License%20无法正常工作之排查步骤.md)
 - [035用RUC生产CF卡小镜像](035用RUC生产CF卡小镜像.md)
 - [036用U盘更新包的方式给CPU烧卡](036用U盘更新包的方式给CPU烧卡.md)
+- [037AS 如何上传控制器内的工程和进行在线比较](037AS%20如何上传控制器内的工程和进行在线比较.md)
+- [038如何获取USB口device name](038如何获取USB口device%20name.md)
