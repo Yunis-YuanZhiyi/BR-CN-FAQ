@@ -37,3 +37,4 @@
 - [036用U盘更新包的方式给CPU烧卡](036用U盘更新包的方式给CPU烧卡.md)
 - [038如何获取USB口device name](038如何获取USB口device%20name.md)
 - [039使用烧卡功能误将程序下载U盘，导致U盘空间变小，如何恢复](039使用烧卡功能误将程序下载U盘，导致U盘空间变小，如何恢复.md)
+- [040AS软件烧卡时报错提示BR Disk Image Service未启动](040AS软件烧卡时报错提示BR%20Disk%20Image%20Service未启动.md)
