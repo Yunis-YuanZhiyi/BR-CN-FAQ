@@ -1,4 +1,6 @@
-# 023x2x异步载荷对cpu负载影响
-![Img](./FILES/x2xyi-bu-zai-he-dui-cpufu-zai-ying-xiang.md/36f4aa36.png)
-修改这个X2X 的异步大小；看帮助对CPU 负载的影响较大。
-答：x2x的异步是用来更新IO固件，读写异步寄存器用的，对CPU没啥影响，对IO点数会有影响。
+# 023X2X异步载荷对CPU负载影响
+## 问题
+![Img](./FILES/023X2X异步载荷对CPU负载影响.md/img-20220623110653.png)
+- 修改这个X2X 的异步负载大小对CPU的负载有影响吗？
+## 回答
+- X2X的异步是用来更新IO固件，读写异步寄存器用的，对CPU没啥影响，对IO点数会有影响。
