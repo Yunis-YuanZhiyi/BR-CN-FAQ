@@ -22,4 +22,4 @@
 - [021如何在mapp View 中添加字体](021如何在mapp%20View%20中添加字体.md)
 - [022MappView中无法显示MpAlarmX报警](022MappView中无法显示MpAlarmX报警.md)
 - [023mappView使用自定义单位无法正常转换问题](023mappView使用自定义单位无法正常转换问题.md)
-- 
+- [024mappView中的OnlineChart显示的曲线，在数值发生跳变时，之前一段不变的数值（水平线）会被修改成斜线](024mappView中的OnlineChart显示的曲线，在数值发生跳变时，之前一段不变的数值（水平线）会被修改成斜线.md)
