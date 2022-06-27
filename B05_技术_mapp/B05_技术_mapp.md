@@ -25,3 +25,4 @@
 - [024mappView中的OnlineChart显示的曲线，在数值发生跳变时，之前一段不变的数值（水平线）会被修改成斜线](024mappView中的OnlineChart显示的曲线，在数值发生跳变时，之前一段不变的数值（水平线）会被修改成斜线.md)
 - [025OnlineChartHDA无法记录历史数据](025OnlineChartHDA无法记录历史数据.md)
 - [026mappView中能否限制键盘只输入英文？](026mappView中能否限制键盘只输入英文？.md)
+- [027mappView使用Paper控件展现SVG出现SVG起始位置与设定位置不一致的现象](027mappView使用Paper控件展现SVG出现SVG起始位置与设定位置不一致的现象.md)
