@@ -40,3 +40,4 @@
 - [040AS软件烧卡时报错提示BR Disk Image Service未启动](040AS软件烧卡时报错提示BR%20Disk%20Image%20Service未启动.md)
 - [041AS2.7安装后出现的问题](041AS2.7安装后出现的问题.md)
 - [042AS4.2以上版本如何支持长度超32字符变量](042AS4.2以上版本如何支持长度超32字符变量.md)
+- [043AS软件提示ODBC Microsoft Access Driver Failed并且无法关闭](043AS软件提示ODBC%20Microsoft%20Access%20Driver%20Failed并且无法关闭.md)
