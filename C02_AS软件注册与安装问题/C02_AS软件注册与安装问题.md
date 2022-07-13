@@ -1,0 +1,13 @@
+# C02_AS软件注册与安装问题
+- [001AS打开报错Could not load file or assembly ](001AS打开报错Could%20not%20load%20file%20or%20assembly%20.md)
+- [002EPlan导致AS注册报错License operations cannot be performed.](002EPlan导致AS注册报错License%20operations%20cannot%20be%20performed..md)
+- [003AS注册遇到SSL TLS通道无法建立](003AS注册遇到SSL%20TLS通道无法建立.md)
+- [004AS注册90天授权报错262](004AS注册90天授权报错262.md)
+- [005unable to connect to the remote server](005unable%20to%20connect%20to%20the%20remote%20server.md)
+- [006AS打开报错CouldNotLoadFile与WibuCmNET](006AS打开报错CouldNotLoadFile与WibuCmNET.md)
+- [007AS启动报错PVIManagerC00000FD](007AS启动报错PVIManagerC00000FD.md)
+- [008AS激活报错10036](008AS激活报错10036.md)
+- [009AS注册提示报错260](009AS注册提示报错260.md)
+- [010AS注册提示Error71](010AS注册提示Error71.md)
+- [011AS注册提示266与9008](011AS注册提示266与9008.md)
+- [012AS安装软件提示当前安装版本低于已安装版本](012AS安装软件提示当前安装版本低于已安装版本.md)
