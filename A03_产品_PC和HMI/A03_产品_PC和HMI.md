@@ -24,3 +24,4 @@
 - [023 VC4 Windows10环境下使用VC4出现崩溃现象](023%20VC4%20Windows10环境下使用VC4出现崩溃现象.md)
 - [024PPC2100装hypervisor系统win10不能独立重启的解决办法](024PPC2100装hypervisor系统win10不能独立重启的解决办法.md)
 - [025工控机报错7027 AR plug play device missing](025工控机报错7027%20AR%20plug%20play%20device%20missing.md)
+- [026工控机Windows授权问题](026工控机Windows授权问题.md)
