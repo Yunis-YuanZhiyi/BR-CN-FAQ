@@ -54,3 +54,4 @@
 - [054AS工程里的文本文件打开乱码](054AS工程里的文本文件打开乱码.md)
 - [055配置视图Acp10man.br打叉](055配置视图Acp10man.br打叉.md)
 - [056AS无法将库添加到logical view中](056AS无法将库添加到logical%20view中.md)
+- [057如何设置使AS代码用Tab排布整齐](057如何设置使AS代码用Tab排布整齐.md)
