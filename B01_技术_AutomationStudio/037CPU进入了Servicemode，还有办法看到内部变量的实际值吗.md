@@ -1,4 +1,4 @@
-# 046CPU进入了Servicemode，还有办法看到内部变量的实际值吗
+# 037CPU进入了Servicemode，还有办法看到内部变量的实际值吗
 ## 问题描述
 
 CPU进入了Servicemode，还有办法看到内部变量的实际值吗
