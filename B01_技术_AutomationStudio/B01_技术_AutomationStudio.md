@@ -43,3 +43,4 @@
 - [043AS软件提示ODBC Microsoft Access Driver Failed并且无法关闭](043AS软件提示ODBC%20Microsoft%20Access%20Driver%20Failed并且无法关闭.md)
 - [044AS4.2.10.53无法使用员工授权注册的处理办法](044AS4.2.10.53无法使用员工授权注册的处理办法.md)
 - [045仿真状态下如何更改IP](045仿真状态下如何更改IP.md)
+- [046CPU进入了Servicemode，还有办法看到内部变量的实际值吗](046CPU进入了Servicemode，还有办法看到内部变量的实际值吗.md)
