@@ -41,7 +41,10 @@
 2. 将U盘插入到PLC上，将PLC进行断电上电。
 
 ## 问题原因二：Windows系统的Pcap 驱动没有正常工作导致的
-
+## 问题描述:
+部分客户第一次安装使用Automation Studio时，在电脑能够与CPU ping 通的情况下发生Online->Settings中点击Browse后扫描不到CPU的现象。
+## 问题原因:
+- 无法扫描到PLC是因为Windows系统的Pcap 驱动没有正常工作导致的
 ### 解决方式
 - Win7系统需要重新安装WinPcap 驱动，可以上网 
     - https://www.winpcap.org/ 下载后直接安装；
@@ -49,3 +52,5 @@
     - 安装时需要 
         - 1. 确保已有的PVI没有启动（关掉AS即可）
         - 2. 勾选下图中红框标记Install PVI Manager as service。
+        - ![Img](./FILES/023AS软件无法扫描到实际的PLC.md/img-20220810135249.png)
+

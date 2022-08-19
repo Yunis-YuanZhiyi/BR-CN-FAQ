@@ -26,3 +26,5 @@
 - [025工控机报错7027 AR plug play device missing](025工控机报错7027%20AR%20plug%20play%20device%20missing.md)
 - [026工控机Windows授权问题](026工控机Windows授权问题.md)
 - [027贝加莱工控机是否支持双系统方案](027贝加莱工控机是否支持双系统方案.md)
+- [028PPC2200触摸失效](028PPC2200触摸失效.md)
+- [029AS4.2无法添加5PPC2200-AL02-00 ](029AS4.2无法添加5PPC2200-AL02-00%20.md)
