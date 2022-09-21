@@ -13,3 +13,4 @@
 - [012AS安装软件提示当前安装版本低于已安装版本](012AS安装软件提示当前安装版本低于已安装版本.md)
 - [013软件到期无法注册](013软件到期无法注册.md)
 - [014软件打开提示Error 267](014软件打开提示Error%20267.md)
+- [015AS打开报错EXCEPTION at BR.AS.License.Core](015AS打开报错EXCEPTION%20at%20BR.AS.License.Core.md)
