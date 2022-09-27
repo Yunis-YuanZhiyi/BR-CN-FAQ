@@ -1,4 +1,7 @@
 # 贝加莱FAQ
+#### 访问链接
+- [Gitee](https://gitee.com/yzydeer/BuR-FAQ)
+- [Github](https://github.com/Yunis-YuanZhiyi/BR-CN-FAQ)
 
 #### 介绍
 贝加莱常问问题解决办法汇总，希望在这里你能更快的找到使用过程中出现问题的答案。
