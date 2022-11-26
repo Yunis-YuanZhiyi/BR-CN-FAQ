@@ -7,7 +7,7 @@ TechnologyGuarding.Interface， Version=1.0.0.0, Culture=neutral, PublicKeyToken
 The System cannot find the file specified.
 
 ## 截图
-![Img](./FILES/001AS打开报错Could%20not%20load%20file%20or%20assembly%20.md/img-20220713151104.png)
+![Img](FILES/001AS打开报错Could%20not%20load%20file%20or%20assembly/img-20220713151104.png)
 
 
 
@@ -25,10 +25,10 @@ The System cannot find the file specified.
 
 ## 原因分析
 - AS 启动时会检查 Technology Guarding，这个过程需要调用一些函数，而这些函数存在于BR.TechnologyGuarding.Interfaces.dll 这个库文件中。该文件位于 AS 安装目录下的 AsTools 文件夹 中，找到并打开：
-- ![](FILES/001AS打开报错Could%20not%20load%20file%20or%20assembly%20/image-20221126235547349.png)
+- ![](FILES/001AS打开报错Could%20not%20load%20file%20or%20assembly/image-20221126235547349.png)
 
 - 打开后进入 AsTools/Technology Guarding/bin 目录可以看到如下
-- ![](FILES/001AS打开报错Could%20not%20load%20file%20or%20assembly%20/image-20221126235601755.png)
+- ![](FILES/001AS打开报错Could%20not%20load%20file%20or%20assembly/image-20221126235601755.png)
 - 如果你打开这个路径能找到这个文件，说明 AS 文件没有缺失，但是这个路径不在 AS 启动时的加载路 径中。应用程序启动时的加载路径会按以下方式去搜索：
   - 1. Windows/system32 或Windows/SysWow64 下的系统默认路径
   - 2. ASxx.exe 这个程序同一目录下的路径
@@ -37,6 +37,6 @@ The System cannot find the file specified.
 
 ## 解决方法
 - 到系统环境变量设置的地方，找到 BR_TG_PATH 这个环境变量，修改它的值：（不知道如何修改环境 变量请参照百度一下）
-- ![](FILES/001AS打开报错Could%20not%20load%20file%20or%20assembly%20/image-20221126235702539.png)
+- ![](FILES/001AS打开报错Could%20not%20load%20file%20or%20assembly/image-20221126235702539.png)
 - 把这个变量的值，修改为安装目录下的 AsTools/Technology Guarding 下，然后再打开 AS 就不会报 错了
 
