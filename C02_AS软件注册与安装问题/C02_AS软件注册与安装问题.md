@@ -1,6 +1,6 @@
 # C02_AS软件注册与安装问题
 - [001AS打开报错Could not load file or assembly ](001AS打开报错Could%20not%20load%20file%20or%20assembly%20.md)
-- [002EPlan导致AS注册报错License operations cannot be performed.](002EPlan导致AS注册报错License%20operations%20cannot%20be%20performed..md)
+- [002EPlan导致AS注册报错License operations cannot be performed](002EPlan导致AS注册报错License%20operations%20cannot%20be%20performed.md)
 - [003AS注册遇到SSL TLS通道无法建立](003AS注册遇到SSL%20TLS通道无法建立.md)
 - [004AS注册90天授权报错262](004AS注册90天授权报错262.md)
 - [005unable to connect to the remote server](005unable%20to%20connect%20to%20the%20remote%20server.md)
