@@ -2,8 +2,10 @@
 
 ## 问题描述
 
-FDT/DTM is not supported for hardware module because it's parent's DTM ID
-![Img](./FILES/026DTM.md/img-20220812111825.png)
+- FDT/DTM is not supported for hardware module because it's parent's DTM ID
+- ![](FILES/026第三方IO%20link设备显示FDT%20DTM%20is%20not%20supported%20for%20hardware%20module%20because%20it's%20parent's%20DTM%20ID/image-20221202154550250.png)
+
+
 
 ![Img](./FILES/026DTM.md/img-20220812113148.png)
 
