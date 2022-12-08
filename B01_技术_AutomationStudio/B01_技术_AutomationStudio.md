@@ -59,3 +59,4 @@
 - [059AS中插入X20IF1043-1模块后编译报错](059AS中插入X20IF1043-1模块后编译报错.md)
 - [060可以编译通过但无法配置其他人电脑中正常的DTM模块从站](060可以编译通过但无法配置其他人电脑中正常的DTM模块从站.md)
 - [061AS软件Monitor状态下的Watch窗口消失](061AS软件Monitor状态下的Watch窗口消失.md)
+- [062AS软件编译编译提示DTM could not be loaded](062AS软件编译编译提示DTM%20could%20not%20be%20loaded.md)
