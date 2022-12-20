@@ -1,0 +1,42 @@
+## FAQ
+1 
+Q: Is there any reason why this new "automatic update of .vis file" feature is not handled by asking the user at every file added via dialog boxes?
+A: When doing a mapp View visualization, users are adding many resources to the logical view. Asking constantly using a dialog if this should be included in the .vis file could cause frustration and reduce efficiency during engineering. We decided to not use this method and add them automatically instead.
+
+问:为什么这个新的“automatic update of .vis file”功能没有通过弹出对话框的形式来提醒用户进行使用?
+答:当使用mapp View visualization时，用户正在向逻辑视图中添加许多资源。经常使用对话框询问是否应该将其包含在.vis文件中可能会导致困扰并降低工程期间的效率。我们决定不使用这种方法，而是自动添加它们。
+
+2 
+Q: Why is the property autoUpdate not set in the vis file by default, also with value false?
+A: We will include this setting in the next version once all the resources are supported. At the moment there are some missing resources that need to be added manually (expressions, snippets…).
+
+问:为什么vis文件中默认没有设置autoUpdate属性，即使是值false的形式?
+答:一旦所有资源都得到支持，我们将在下一个版本中包含这个设置。目前，有一些缺失的资源仍然需要手动添加(expressions，snippets等)。
+
+3 
+Q: Is it possible to filter on the Visualization package name from the logical view to do the autoUpdate in the different *.vis files when changing different visus in the logical view?
+A: No. Auto update will add all files that are added into the logical view independent of the package where they are added.
+
+Q:是否能够通过过滤Logical view的Visualization package名字来对不同的.vis文件进行自动更新？
+A:不能，Auto update将会对在Logical view中添加的所有文件进行更新，与添加它们的package无关。
+
+4 
+Q: Does the autoUpdate also works when copy/pasting a page? And deleting it?
+A: Yes. The vis file will be properly refactored in these cases.
+
+Q: autoUpdate对复制、粘贴、删除一个page时起作用吗
+A: 是的。在这些情况下，vis文件将被正确地重构。
+
+5 
+Q: Does the autoUpdate only work when editing the references in the graphical Content, Page... Editor, or also when the file was changed in the text editor or in an external editor?
+A: autoUpdate only works when the files are modified inside Automation Studio.
+
+Q:autoUpdate是否只在图形编辑器中编辑Content, Page..Editor等时才起作用，还是当文件在文本编辑器或外部编辑器中更改时也起作用?
+A:autoUpdate只适用于在Automation Studio内修改文件。
+
+6 
+Q: Does autoUpdate work with vis file linked as a reference?
+A: Yes. autoUpdate will add automatically the resources to the .vis file even if the resource is added as a reference.
+
+Q:autoUpdate对引用的文件起作用吗?
+A:autoUpdate会自动将资源添加到.vis文件中，即使资源是作为引用添加的。
