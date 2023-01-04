@@ -17,3 +17,4 @@
 - [016AS安装提示4735错误](016AS安装提示4735错误.md)
 - [017安装AS4后AS2.X无法正常使用的解决办法](017安装AS4后AS2.X无法正常使用的解决办法.md)
 - [018安装Technology Guarding提示error code 1603](018安装Technology%20Guarding提示error%20code%201603.md)
+- [019安装Codemeter Runtime 7.30a导致SafeDesign和mappSafety许可失效](019安装Codemeter%20Runtime%207.30a导致SafeDesign和mappSafety许可失效.md)
