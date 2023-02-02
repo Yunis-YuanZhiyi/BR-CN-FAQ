@@ -42,7 +42,7 @@ BrowserPath
 ```
 
 所有 OPC UA 通信都是通过会话( Session )完成的，在正常情况下，会话必须始终处于活动状态。服务器和客户端都可以监视会话的状态，以便它们能够及早发现问题，并且可以执行适当的清理，即使会话未正确关闭。
-一个Client可以发起多个Session连接Server，Server只能知道被多少个Session连接，但不知道有多少个Client数量连接
+一个Client可以发起多个Session连接Server。
 
 ![](028如何知道OPC%20UA%20Server被多少Client连接.svg)
 
