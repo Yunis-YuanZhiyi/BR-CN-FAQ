@@ -11,10 +11,10 @@
 - [Technology Guarding](https://www.br-automation.com/zh/downloads/software/technology-guarding/technology-guarding/)
 
 # 影响范围
-受影响范围的SafeDesigner与mappSafety版本
+## 受影响范围的SafeDesigner与mappSafety版本
 - SafeDesigner 4.4.0 与 4.3.x 
 - mapp Safety < 5.12.
-不受此影响的SafeDesigner与mappSafety版本
+## 不受此影响的SafeDesigner与mappSafety版本
 - SafeDesigner 4.4.1
     - [Automation Studio SafeDESIGNER](https://www.br-automation.com/zh/downloads/software/safedesigner/automation-studio-safedesigner/)
 - mappSafety >= 5.12
