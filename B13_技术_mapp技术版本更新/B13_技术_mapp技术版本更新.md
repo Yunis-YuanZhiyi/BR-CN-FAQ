@@ -3,6 +3,7 @@
 - [5.11 mappServices 更新要点](5.11%20mappServices%20更新要点.md)
 - [5.12 mappServices+mappView 更新要点](5.12%20mappServices+mappView%20更新要点.md)
 - [5.13 mappServices 更新要点](5.13%20mappServices%20更新要点.md)
+- [5.14 mappServices更新要点](5.14%20mappServices更新要点.md)
 - [5.16 mappServices + mappView更新要点](5.16%20mappServices%20+%20mappView更新要点.md)
 - [5.17 mappServices 更新要点](5.17%20mappServices%20更新要点.md)
 - [5.17 mappView FAQ](5.17%20mappView%20FAQ.md)
