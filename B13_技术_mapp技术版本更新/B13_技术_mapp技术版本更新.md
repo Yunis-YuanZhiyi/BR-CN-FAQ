@@ -8,4 +8,5 @@
 - [5.17 mappServices 更新要点](5.17%20mappServices%20更新要点.md)
 - [5.17 mappView FAQ](5.17%20mappView%20FAQ.md)
 - [5.17 mappView 更新要点](5.17%20mappView%20更新要点.md)
+- [5.19 mappService更新要点](5.19%20mappService更新要点.md)
 - 
