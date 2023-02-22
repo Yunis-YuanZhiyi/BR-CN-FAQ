@@ -1,4 +1,9 @@
 # B05_技术_mapp
+## 帮助文件
+- [mappServices使用助手](https://brtechs.huashengyun.online/index.php?mod=bjl&do=file&gid=19#group&do=file&gid=19&fid=2865)
+- [mappView使用助手](https://brtechs.huashengyun.online/index.php?mod=bjl&do=file&gid=19#group&do=file&gid=19&fid=2866)
+
+## 问题列表
 - [001mapp 技术是什么，有哪些具体的功能？](001mapp%20技术是什么，有哪些具体的功能？.md)
 - [002在mappView中给按钮绑定变量时，找不到相应的变量？](002在mappView中给按钮绑定变量时，找不到相应的变量？.md)
 - [003在mappView中给按钮绑定变量后，访问画面时发现变量的值没有显示？](003在mappView中给按钮绑定变量后，访问画面时发现变量的值没有显示？.md)
