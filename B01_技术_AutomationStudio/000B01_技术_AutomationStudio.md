@@ -3,7 +3,7 @@
 ## 软件安装与注册
 - [002如何获取Automation Studio（AS）的试用注册码](002如何获取Automation%20Studio（AS）的试用注册码.md)
 - [003在安装Automation Studio（AS）的过程中，有什么注意事项](003在安装Automation%20Studio（AS）的过程中，有什么注意事项.md)
-- [004Automation Studio（AS）支持哪些版本的windows系统，不同版本的Automation Studio（AS）之间有什么差异](004Automation%20Studio（AS）支持哪些版本的windows系统，不同版本的Automation%20Studio（AS）之间有什么差异.md)
+- [004Automation Studio（AS）支持哪些版本的windows系统并且不同版本的Automation Studio（AS）之间有什么差异](004Automation%20Studio（AS）支持哪些版本的windows系统并且不同版本的Automation%20Studio（AS）之间有什么差异.md)
 - [013在卸载或重装Automation Studio时，出现报错导致卸载或安装失败怎么办？](013在卸载或重装Automation%20Studio时，出现报错导致卸载或安装失败怎么办？.md)
 - [014 如何单独安装Automation Studio的帮助？](014%20如何单独安装Automation%20Studio的帮助？.md)
 - [016AS软件试用期到期了就不能重新激活了吗？](016AS软件试用期到期了就不能重新激活了吗？.md)
