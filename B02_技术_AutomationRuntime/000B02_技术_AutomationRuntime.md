@@ -16,6 +16,7 @@
 - [016OPC UA的4840端口能否在线修改](016OPC%20UA的4840端口能否在线修改.md)
 - [017Hypervisor安装与使用问题](017Hypervisor安装与使用问题.md)
 - [018贝加莱的看门狗Watchdog机制说明](018贝加莱的看门狗Watchdog机制说明.md)
+- [019贝加莱PLC系统资源数量说明](019贝加莱PLC系统资源数量说明.md)
 
 ## Hypervisor常见使用问题
 - [017Hypervisor安装与使用问题](017Hypervisor安装与使用问题.md)
