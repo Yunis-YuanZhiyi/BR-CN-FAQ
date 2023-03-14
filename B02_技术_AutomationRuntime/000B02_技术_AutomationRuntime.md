@@ -1,0 +1,22 @@
+# B02_技术_AutomationRuntime
+- [001Automation Studio在打开项目时弹窗显示硬件版本 Automation Runtime等版本不匹配的情况 如何处理](001Automation%20Studio在打开项目时弹窗显示硬件版本%20Automation%20Runtime等版本不匹配的情况%20如何处理.md)
+- [002Automation Runtime 是什么](002Automation%20Runtime%20是什么.md)
+- [003如何知道当前控制器中Automation Runtime的版本](003如何知道当前控制器中Automation%20Runtime的版本.md)
+- [004在下载程序时提示Automation runtime target mismatch如何解决](004在下载程序时提示Automation%20runtime%20target%20mismatch如何解决.md)
+- [005对于Automation Studio4.3及更早版本 如何降低硬件的固件版本](005对于Automation%20Studio4.3及更早版本%20如何降低硬件的固件版本.md)
+- [006AS RUNTIME版本的A-Z都是什么意思](006AS%20RUNTIME版本的A-Z都是什么意思.md)
+- [007AR系统是怎么分区的 盘符分别对应了什么内容 有相关的介绍资料吗](007AR系统是怎么分区的%20盘符分别对应了什么内容%20有相关的介绍资料吗.md)
+- [008更新下载程序意外导致操作系统进行初始化安装导致数据丢失](008更新下载程序意外导致操作系统进行初始化安装导致数据丢失.md)
+- [010AR访问windows共享文件夹](010AR访问windows共享文件夹.md)
+- [011离线模式下安装工控机的runtime到硬盘上](011离线模式下安装工控机的runtime到硬盘上.md)
+- [012二进制库无法在ARM类型PLC上导入使用](012二进制库无法在ARM类型PLC上导入使用.md)
+- [013贝加莱二进制库可以在任何AS版本通用吗](013贝加莱二进制库可以在任何AS版本通用吗.md)
+- [014仿真情况下的IP地址是否可以设置为自定义IP？](./014仿真情况下的IP地址是否可以设置为自定义IP.md)
+- [015程序下载后，重启时仿真不能重启](015程序下载后，重启时仿真不能重启.md)
+- [016OPC UA的4840端口能否在线修改](016OPC%20UA的4840端口能否在线修改.md)
+- [017Hypervisor安装与使用问题](017Hypervisor安装与使用问题.md)
+- [018贝加莱的看门狗Watchdog机制说明](018贝加莱的看门狗Watchdog机制说明.md)
+- [019贝加莱PLC系统资源数量说明](019贝加莱PLC系统资源数量说明.md)
+
+## Hypervisor常见使用问题
+- [017Hypervisor安装与使用问题](017Hypervisor安装与使用问题.md)
