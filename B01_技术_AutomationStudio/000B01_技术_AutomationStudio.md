@@ -1,6 +1,9 @@
 # B01_技术_AutomationStudio
 
-## 软件安装与注册
+## 软件安装与注册问题汇总
+- [C02_AS软件注册与安装问题](C02_AS软件注册与安装问题/000C02_AS软件注册与安装问题.md)
+
+## 软件安装与注册其他问题
 - [002如何获取Automation Studio的试用注册码](002如何获取Automation%20Studio的试用注册码.md)
 - [003在安装Automation Studio的过程中，有什么注意事项](003在安装Automation%20Studio的过程中，有什么注意事项.md)
 - [004Automation Studio支持哪些版本的windows系统](004Automation%20Studio支持哪些版本的windows系统.md)
