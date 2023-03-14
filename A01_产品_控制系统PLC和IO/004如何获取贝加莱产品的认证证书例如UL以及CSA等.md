@@ -2,7 +2,7 @@
 
 Tags：产品、认证证书
 
-A：
+### 解决方案
 登录 www.br-automation.com/download
 点击“下载”栏，随后选择所需要的认证证书进行下载即可：
 
