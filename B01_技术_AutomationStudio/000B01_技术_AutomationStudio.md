@@ -3,15 +3,11 @@
 ## 软件安装与注册问题汇总
 - [C02_AS软件注册与安装问题](C02_AS软件注册与安装问题/000C02_AS软件注册与安装问题.md)
 
-## 软件安装与注册其他问题
+## 软件安装简介
 - [002如何获取Automation Studio的试用注册码](002如何获取Automation%20Studio的试用注册码.md)
 - [003在安装Automation Studio的过程中，有什么注意事项](003在安装Automation%20Studio的过程中，有什么注意事项.md)
 - [004Automation Studio支持哪些版本的windows系统](004Automation%20Studio支持哪些版本的windows系统.md)
-- [013在卸载或重装Automation Studio时出现报错导致卸载或安装失败怎么办](013在卸载或重装Automation%20Studio时出现报错导致卸载或安装失败怎么办.md)
 - [014 如何单独安装Automation Studio的帮助](014%20如何单独安装Automation%20Studio的帮助.md)
-- [016AS软件试用期到期了就不能重新激活了吗](016AS软件试用期到期了就不能重新激活了吗.md)
-- [017我有装破解版Eplan 4.2以上版本安装不上 如何解决](017我有装破解版Eplan%204.2以上版本安装不上%20如何解决.md)
-- [044AS4.2.10.53无法使用员工授权注册的处理办法](044AS4.2.10.53无法使用员工授权注册的处理办法.md)
 - [063什么AS版本开始支持Win11](063什么AS版本开始支持Win11.md)
 
 ## PLC连接与操作

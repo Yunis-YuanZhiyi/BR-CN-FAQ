@@ -16,35 +16,35 @@ https://urldefense.proofpoint.com/v2/url?u=https-3A__technology-2Dguarding.br-2D
 
 或者：通过打开 Windows 开始菜单打开 Code Meter，输入“CodeMeter”，按 Enter 确认并通过拖放导入 .wbb 文件
 
-![](FILES/066Automation%20Studio离线注册方法/image-20230316152502932.png)
+![](FILES/020Automation%20Studio离线注册方法/image-20230316152502932.png)
 
 3.)  接受问题“是否要导入许可证文件”并选择是。 
-![](FILES/066Automation%20Studio离线注册方法/image-20230316152532376.png)
+![](FILES/020Automation%20Studio离线注册方法/image-20230316152532376.png)
 
 4.) 选择出现在窗口左侧的所谓许可证容器（“CmContainer”），如您在此屏幕截图中所见。 
-![](FILES/066Automation%20Studio离线注册方法/image-20230316152550253.png)
+![](FILES/020Automation%20Studio离线注册方法/image-20230316152550253.png)
 
 
 5.) 要创建请求文件，请在下一个出现的窗口中单击“激活许可证”和“下一步” 
 
 6.) 现在选择“创建许可请求”并单击下一步 
-![](FILES/066Automation%20Studio离线注册方法/image-20230316152620319.png)
+![](FILES/020Automation%20Studio离线注册方法/image-20230316152620319.png)
 
 下一步
-![](FILES/066Automation%20Studio离线注册方法/image-20230316152627685.png)
+![](FILES/020Automation%20Studio离线注册方法/image-20230316152627685.png)
 
 7.) 选择文件保存位置，然后按“提交”。 
-![](FILES/066Automation%20Studio离线注册方法/image-20230316152641818.png)
+![](FILES/020Automation%20Studio离线注册方法/image-20230316152641818.png)
 8.) 将文件传输到可以访问 Internet 的 PC（例如，将其保存到 USB 闪存驱动器或类似设备）。 
 
 
 9.)  在底部的字段中输入许可证密钥（试用版本就是注册后邮箱收到的Key），然后按发送 
 (https://www.br-automation.com/en/service/automation-studio-offline-licensing/) 
 
-![](FILES/066Automation%20Studio离线注册方法/image-20230316152718927.png)
+![](FILES/020Automation%20Studio离线注册方法/image-20230316152718927.png)
 10.) 选择之前保存的 .WibuCmRaC 文件。 
 
-![](FILES/066Automation%20Studio离线注册方法/image-20230316152743858.png)
+![](FILES/020Automation%20Studio离线注册方法/image-20230316152743858.png)
 
 
 11.)  .WibuCmRaU 文件的下载应该会自动开始。

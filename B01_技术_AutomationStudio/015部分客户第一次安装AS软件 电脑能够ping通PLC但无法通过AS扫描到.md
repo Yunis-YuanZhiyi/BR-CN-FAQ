@@ -9,4 +9,4 @@ https://www.br-automation.com/zh/downloads#categories=Software/Automation+NET%2F
 安装时需要：
     - 1.确保已有的PVI没有启动(关掉AS即可)，
     - 2.勾选下图中红框标记Install PVI Manager as service
-    - ![Img](./FILES/015部分客户第一次安装AS软件，电脑能够ping通PLC但无法通过AS扫描到.md/img-20220530144509.png)
+    - ![Img](FILES/015部分客户第一次安装AS软件，电脑能够ping通PLC但无法通过AS扫描到.md/img-20220530144509.png)

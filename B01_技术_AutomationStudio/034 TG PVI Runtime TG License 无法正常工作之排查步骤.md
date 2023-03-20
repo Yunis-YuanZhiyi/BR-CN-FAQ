@@ -5,25 +5,25 @@
 PVI：4.5.3.50；
 Winodws：Windows7 SP1 7601；
 
-![Img](./FILES/030[TG]%20PVI%20Runtime%20TG%20License%20无法正常工作之排查步骤.md/img-20220615142648.png)
+![Img](FILES/030[TG]%20PVI%20Runtime%20TG%20License%20无法正常工作之排查步骤.md/img-20220615142648.png)
 
 可能是PVI Runtime TG License没有被系统正常识别造成。
 ## 解决方案
 - 首先通过Technologu Guarding与CodeMeter查看Dongle内是否存在相应License。PVI安装文件内包含Technology Guarding与CodeMeter。如下图：
 
-![Img](./FILES/030[TG]%20PVI%20Runtime%20TG%20License%20无法正常工作之排查步骤.md/img-20220615142849.png)
+![Img](FILES/030[TG]%20PVI%20Runtime%20TG%20License%20无法正常工作之排查步骤.md/img-20220615142849.png)
 
-![Img](./FILES/030[TG]%20PVI%20Runtime%20TG%20License%20无法正常工作之排查步骤.md/img-20220615150706.png)
+![Img](FILES/030[TG]%20PVI%20Runtime%20TG%20License%20无法正常工作之排查步骤.md/img-20220615150706.png)
 
-![Img](./FILES/030[TG]%20PVI%20Runtime%20TG%20License%20无法正常工作之排查步骤.md/img-20220615150723.png)
+![Img](FILES/030[TG]%20PVI%20Runtime%20TG%20License%20无法正常工作之排查步骤.md/img-20220615150723.png)
 
 -  如果TG识别正常，请卸载原版本PVI，重新安装PVI。安装PVI过程中务必关闭其他不相关软件，并且检查1TG0500.02驱动选项是否勾选，如下图：
 
-![Img](./FILES/030[TG]%20PVI%20Runtime%20TG%20License%20无法正常工作之排查步骤.md/img-20220615150858.png)
+![Img](FILES/030[TG]%20PVI%20Runtime%20TG%20License%20无法正常工作之排查步骤.md/img-20220615150858.png)
 
 - 正常状态如下：
 
-![Img](./FILES/030[TG]%20PVI%20Runtime%20TG%20License%20无法正常工作之排查步骤.md/img-20220615150927.png)
+![Img](FILES/030[TG]%20PVI%20Runtime%20TG%20License%20无法正常工作之排查步骤.md/img-20220615150927.png)
 
 如果以上步骤仍然无法解决问题，则需要提供以下文件供总部进行分析：
 
@@ -66,7 +66,7 @@ Snapshot
 
 在PVI  Diagnostics-Path选择Snapshot文件的保存路径，点击“Snapshot”即可。
 
-![Img](./FILES/030[TG]%20PVI%20Runtime%20TG%20License%20无法正常工作之排查步骤.md/img-20220615151315.png)
+![Img](FILES/030[TG]%20PVI%20Runtime%20TG%20License%20无法正常工作之排查步骤.md/img-20220615151315.png)
 
 Codemeter Log
 - Start > Codemeter Command Promt
