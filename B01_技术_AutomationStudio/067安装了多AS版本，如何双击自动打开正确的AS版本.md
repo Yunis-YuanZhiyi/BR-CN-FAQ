@@ -28,31 +28,26 @@
 ## 可用的reg文件信息
 - 文件名：FixAutomationStudioLauncer.reg
 ```
-`Windows Registry Editor Version` `5.00`
-
-`[HKEY_CLASSES_ROOT\.apj]`
-
-`@=``"AutomationStudio.English"`
-
-`[HKEY_CLASSES_ROOT\.apj\OpenWithProgids]`
-
-`"AutomationStudio.English"``=``""`
-
-`[HKEY_CLASSES_ROOT\AutomationStudio.English]`
-
-`@=``"Automation Studio Project"`
-
-`[HKEY_CLASSES_ROOT\AutomationStudio.English\DefaultIcon]`
-
-`@=``"C:\\BrAutomation\\AsTools\\AutomationStudioLauncher\\Bin-en\\AutomationStudioLauncher.exe"`
-
-`[HKEY_CLASSES_ROOT\AutomationStudio.English\Shell]`
-
-`[HKEY_CLASSES_ROOT\AutomationStudio.English\Shell\Open]`
-
-`[HKEY_CLASSES_ROOT\AutomationStudio.English\Shell\Open\Command]`
-
-`@=``"\"C:\\BrAutomation\\AsTools\\AutomationStudioLauncher\\Bin-en\\AutomationStudioLauncher.exe\" \"%1\""`
+Windows Registry Editor Version 5.00
+ 
+[HKEY_CLASSES_ROOT\.apj]
+@="AutomationStudio.English"
+ 
+[HKEY_CLASSES_ROOT\.apj\OpenWithProgids]
+"AutomationStudio.English"=""
+ 
+[HKEY_CLASSES_ROOT\AutomationStudio.English]
+@="Automation Studio Project"
+ 
+[HKEY_CLASSES_ROOT\AutomationStudio.English\DefaultIcon]
+@="C:\\BrAutomation\\AsTools\\AutomationStudioLauncher\\Bin-en\\AutomationStudioLauncher.exe"
+ 
+[HKEY_CLASSES_ROOT\AutomationStudio.English\Shell]
+ 
+[HKEY_CLASSES_ROOT\AutomationStudio.English\Shell\Open]
+ 
+[HKEY_CLASSES_ROOT\AutomationStudio.English\Shell\Open\Command]
+@="\"C:\\BrAutomation\\AsTools\\AutomationStudioLauncher\\Bin-en\\AutomationStudioLauncher.exe\" \"%1\""
 ```
 
 > 复制内容至一个后缀为.reg的文件，核对并修改AS软件安装路径，双击执行。
