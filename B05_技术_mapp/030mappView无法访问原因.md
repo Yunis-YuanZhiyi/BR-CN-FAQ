@@ -1,6 +1,6 @@
 [TOC]
 ## 1.现象 ERR_CONNECTION_TIME_OUT
-![](FILES/030mappView无法访问原因/image-20230302171449000.png)
+- ![](FILES/030mappView无法访问原因/image-20230302171449000.png)
 
 ### 解决方式
 - 等待片刻
@@ -17,8 +17,8 @@
 - 查看Logger，检查程序或者硬件问题。
 
 ## 4.PLC内存不够
-访问SDM页面，了解当前设备的DRAM是否被消耗尽
-![](FILES/030mappView无法访问原因/image-20230320162055309.png)
+- 访问SDM页面，了解当前设备的DRAM是否被消耗尽
+- ![](FILES/030mappView无法访问原因/image-20230320162055309.png)
 ### 解决方式
 - 若内存不够，更换内存大一点的PLC或者进行程序优化
 
@@ -28,10 +28,10 @@
 - 把CPU和Windows的时间都统一到当前时间
 
 ## 6.ARSim在Win10运行，mappView无法访问，logger中有-1061083372
-![](FILES/030mappView无法访问原因/image-20230320162945945.png)
+- ![](FILES/030mappView无法访问原因/image-20230320162945945.png)
 
 ### 原因
-在Win10下，AR000调用Windows WSA库里一些函数失败，需要安装相应的依赖。
+- 在Win10下，AR000调用Windows WSA库里一些函数失败，需要安装相应的依赖。
 ### 解决方式
 - 安装Microsoft Visual C++ 2010  x86 Redistributable Setup
 - 重启一次
@@ -43,7 +43,7 @@
 - 
 
 ## 7.浏览器代理影响
-![](FILES/030mappView无法访问原因/image-20230320165707677.png)
+- ![](FILES/030mappView无法访问原因/image-20230320165707677.png)
 
 ### 解决方式
 - 代理问题：关闭浏览器的局域网设置的代理，取消自动检测设置的打勾。
