@@ -54,3 +54,16 @@
         - 2. 勾选下图中红框标记Install PVI Manager as service。
         - ![Img](FILES/023AS软件无法扫描到实际的PLC.md/img-20220810135249.png)
 
+## 问题原因三：WinPcag的驱动npf没有正常启动
+### 解决方式
+- 使用管理员权限打开CMD
+![](FILES/023AS软件无法扫描到实际的PLC/image-20230321195817618.png)
+
+- 输入net start npf
+    - 如果提示服务名无效则安装WinPcag（安装Wireshark软件时会自动安装）
+- 再在cmd下输入 net start npf
+- 如果npf服务正常启动了，则会提示如下信息
+- ![](FILES/023AS软件无法扫描到实际的PLC/image-20230321195859626.png)
+
+
+
