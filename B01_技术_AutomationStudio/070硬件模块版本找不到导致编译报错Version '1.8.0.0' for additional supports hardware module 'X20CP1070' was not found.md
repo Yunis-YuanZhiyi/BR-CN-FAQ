@@ -1,0 +1,2 @@
+- 项目编译过程中如果提示硬件模块版本找不到，解决方式有两种：下载所需版本或者忽略则可。但是，若是出现<font color=#F36208><u>硬件模块版本找不到导致编译报错Version '1.8.0.0' for additional supports hardware module 'X20CP1070' was not found</u></font>问题，则只能通过下载对应硬件模块才能解决编译报错问题。
+- 与additional supports hardware module相关文档：![](FILES/070硬件模块版本找不到导致编译报错Version%20'1.8.0.0'%20for%20additional%20supports%20hardware%20module%20'X20CP1070'%20was%20not%20found/V1_贝加莱项目动态切换说明文档.docx)
