@@ -1,3 +1,28 @@
+- [[#一、背景知识|一、背景知识]]
+- [[#二、整体mappView项目移植|二、整体mappView项目移植]]
+	- [[#二、整体mappView项目移植#源项目|源项目]]
+		- [[#源项目#确认mappView版本|确认mappView版本]]
+		- [[#源项目#导出MappView组件|导出MappView组件]]
+		- [[#源项目#获取导出的文件|获取导出的文件]]
+	- [[#二、整体mappView项目移植#目标项目|目标项目]]
+		- [[#目标项目#导入MappView组件|导入MappView组件]]
+		- [[#目标项目#拷贝Project.Language文件|拷贝Project.Language文件]]
+	- [[#二、整体mappView项目移植#注意事项|注意事项]]
+		- [[#注意事项#OPC UA设定|OPC UA设定]]
+		- [[#注意事项#Config ID与 CPU型号是否一致|Config ID与 CPU型号是否一致]]
+		- [[#注意事项#Event Binding确认|Event Binding确认]]
+		- [[#注意事项#VIS文件确认|VIS文件确认]]
+- [[#三、单页移植|三、单页移植]]
+	- [[#三、单页移植#复制相关的Content|复制相关的Content]]
+	- [[#三、单页移植#增加页面切换功能|增加页面切换功能]]
+	- [[#三、单页移植#界面需要相应图片|界面需要相应图片]]
+	- [[#三、单页移植#添加TMX文本文件|添加TMX文本文件]]
+	- [[#三、单页移植#导入并配置snippet内容|导入并配置snippet内容]]
+	- [[#三、单页移植#导入Dialog相关信息|导入Dialog相关信息]]
+	- [[#三、单页移植#导入Binding，EventBinding文件|导入Binding，EventBinding文件]]
+	- [[#三、单页移植#.VIS文件中添加所有内容|.VIS文件中添加所有内容]]
+	- [[#三、单页移植#OPC UA 变量参数调整|OPC UA 变量参数调整]]
+
 # 一、背景知识
 若需要对mappView项目进行移植，请先对mappView软件基本使用有一定的概念，请先参加相关培训
 - TM611
