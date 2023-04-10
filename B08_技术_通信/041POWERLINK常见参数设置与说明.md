@@ -85,3 +85,7 @@
 - MTU Size 调整为 1500
 - Asynchronous timeout 调整为250 μs
 - Asynchronous Slots per cycle 调整为7
+
+# 深入理解
+- [039POWERLINK实时通信基本概念](039POWERLINK实时通信基本概念.md)
+- [040POWERLINK通信超时分析与解决](040POWERLINK通信超时分析与解决.md)

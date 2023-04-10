@@ -99,3 +99,7 @@
     - [TM950 POWERLINK 配置和诊断.pdf](https://gitee.com/yzydeer/BuR_Assistant/blob/master/TM_files/TM950%20POWERLINK%20%E9%85%8D%E7%BD%AE%E5%92%8C%E8%AF%8A%E6%96%AD.pdf)
 - 贝加莱Automation Help中POWERLINK章节
     - ![](FILES/039POWERLINK实时通信基本概念/image-20230410185453836.png)
+- 案例分享
+    - [040POWERLINK通信超时分析与解决](040POWERLINK通信超时分析与解决.md)
+- 概念理解
+    - [041POWERLINK常见参数设置与说明](041POWERLINK常见参数设置与说明.md)
