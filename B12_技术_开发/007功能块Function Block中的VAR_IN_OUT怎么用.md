@@ -32,3 +32,18 @@
 
 # 测试Demo
 - [Demo文件](FILES/007功能块Function%20Block中的VAR_IN_OUT怎么用/Test_VAR_IN_OUT.7z)
+
+# 异常使用时报错信息
+## 1177
+- Short text
+    - No external access to VAR_IN_OUT parameter `<Name>` of `<Function block>`. 
+- Error description
+    - When calling a function block, the address of the current parameter is specified for VAR_IN_OUT parameters instead of the value. This allows the value of the current parameter in the function block to be changed.
+    - A VAR_IN_OUT parameter is only permitted to be used when calling a function block; direct access using the instance variable is not possible.
+    - In Automation Basic, an alias function block call cannot be assigned to a VAR_IN_OUT parameter. Assignment to a VAR_IN_OUT parameter of a function block is only possible with a normal function block call. In a normal function block call, all parameters are specified in the line in which the call is made.
+- Suggestion for error correction
+    - In Automation Basic, replace the alias function block call of a function block with a VAR_IN_OUT parameter with a normal function block call.
+
+
+ 
+
