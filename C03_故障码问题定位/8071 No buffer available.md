@@ -1,7 +1,7 @@
 ### 问题描述
-![](FILES/8071/image-20230215101815994.png)
+![](FILES/8071%20No%20buffer%20available/image-20230215101815994.png)
 
-![](FILES/8071/image-20230215101829730.png)
+![](FILES/8071%20No%20buffer%20available/image-20230215101829730.png)
 
 ### 解决方案
 

@@ -1,8 +1,8 @@
 # 现象
-![](FILES/505/image-20230217010334901.png)
+![](FILES/505%20Expect%20command%20line%20option%20instead%20of%20Name/image-20230217010334901.png)
 # 原因
 - 使用Automation Studio 4.2编译库文件，其中库的描述信息中包含了中文信息，如下图所示：
-![](FILES/505/image-20230217010434153.png)
+![](FILES/505%20Expect%20command%20line%20option%20instead%20of%20Name/image-20230217010434153.png)
 > 注意：Function/Function Block函数名的说明信息包含中文不会导致报错
 
 # 解决方式

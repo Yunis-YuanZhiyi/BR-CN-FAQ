@@ -4,5 +4,5 @@
 
 # 原因
 - FUB是与X20CS1070卡一起使用的。当使用CAN_Lib库时，必须选择功能模型 "Stream"。没有CAN库与函数模型 Flat一起工作（见Ticket 400095509）
-- ![](FILES/8817/image-20221208155039046.png)
+- ![](FILES/8817%20Specified%20CAN%20controller%20not%20found/image-20221208155039046.png)
 
