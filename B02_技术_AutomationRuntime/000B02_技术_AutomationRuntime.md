@@ -17,6 +17,7 @@
 - [017Hypervisor安装与使用问题](017Hypervisor安装与使用问题.md)
 - [018贝加莱的看门狗Watchdog机制说明](018贝加莱的看门狗Watchdog机制说明.md)
 - [019贝加莱PLC系统资源数量说明](019贝加莱PLC系统资源数量说明.md)
+- [020什么是贝加莱PLC的SERV模式](020什么是贝加莱PLC的SERV模式.md)
 
 ## Hypervisor常见使用问题
 - [017Hypervisor安装与使用问题](017Hypervisor安装与使用问题.md)
