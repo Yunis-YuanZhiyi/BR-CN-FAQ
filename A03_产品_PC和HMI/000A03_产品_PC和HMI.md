@@ -30,3 +30,6 @@
 - [029AS4.2无法添加5PPC2200-AL02-00 ](029AS4.2无法添加5PPC2200-AL02-00%20.md)
 - [030工控机Windows不能长时间待机响应第三方远程连接](030工控机Windows不能长时间待机响应第三方远程连接.md)
 - [031PPC3100硬件启动自动进入BIOS并提示UEFI OS has been blocked by the current security policy](031PPC3100硬件启动自动进入BIOS并提示UEFI%20OS%20has%20been%20blocked%20by%20the%20current%20security%20policy.md)
+- [032一台工控机如何接两个HMI显示两个独立的画面](032一台工控机如何接两个HMI显示两个独立的画面.md)
+- [033APC工控机支持的最大内存是多少](033APC工控机支持的最大内存是多少.md)
+- 
