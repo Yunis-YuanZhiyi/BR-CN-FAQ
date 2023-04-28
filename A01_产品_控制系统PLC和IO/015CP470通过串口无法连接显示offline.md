@@ -3,8 +3,8 @@
 
 ## 解决方法
 1. 将CP470的拨码拨到0，使CP470进入BOOT模式
+![](FILES/015CP470通过串口无法连接显示offline/image-20230428110450124.png)
 
-![](file:///C:/Users/zhous/AppData/Local/Temp/msohtmlclip1/01/clip_image001.png)
 
 2. 打开Automation Studio，找到Transfer Automation Runtime选项，将AR系统下载至CP470
 
