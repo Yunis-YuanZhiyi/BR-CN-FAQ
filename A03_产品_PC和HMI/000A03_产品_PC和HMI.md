@@ -32,4 +32,5 @@
 - [031PPC3100硬件启动自动进入BIOS并提示UEFI OS has been blocked by the current security policy](031PPC3100硬件启动自动进入BIOS并提示UEFI%20OS%20has%20been%20blocked%20by%20the%20current%20security%20policy.md)
 - [032一台工控机如何接两个HMI显示两个独立的画面](032一台工控机如何接两个HMI显示两个独立的画面.md)
 - [033APC工控机支持的最大内存是多少](033APC工控机支持的最大内存是多少.md)
+- [034PPC断电后开机显示startup.nsh界面](034PPC断电后开机显示startup.nsh界面.md)
 - 
