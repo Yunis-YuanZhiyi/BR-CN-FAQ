@@ -17,13 +17,11 @@
 
 # 2 添加和配置 "Database" 部件
 
-![image-20230523155326987](FILES/037_mappDatabase4/image-20230523155326987.png)
+![image-20230524094102015](FILES/037_mappDatabase4/image-20230524094102015.png)
 
-![img](FILES/037_mappDatabase4/clip_image005-16848290123603.gif)     按回车键
 
-![image-20230523155854477](FILES/037_mappDatabase4/image-20230523155854477.png)
 
-![img](FILES/037_mappDatabase4/clip_image005-16848290123603.gif)     按回车键
+![image-20230524094159958](FILES/037_mappDatabase4/image-20230524094159958.png)
 
 ![image-20230523155911396](FILES/037_mappDatabase4/image-20230523155911396.png) 
 
@@ -38,9 +36,9 @@
 
    **5**  分钟
 
-![image-20230523160206697](FILES/037_mappDatabase4/image-20230523160206697.png)
+![image-20230524094351960](FILES/037_mappDatabase4/image-20230524094351960.png)
 
-![image-20230523160211924](FILES/037_mappDatabase4/image-20230523160211924.png)
+![image-20230524094408697](FILES/037_mappDatabase4/image-20230524094408697.png)
 
 
 
