@@ -12,10 +12,12 @@
 1. 如下图所示配置 Database
 
 ![](FILES/035_mappDatabase2/image-20230530083439476.png)
+
 2. 在程序中插入 MpDatabase 功能块
 
 ![](FILES/035_mappDatabase2/image-20230530083548042.png)
 ![](FILES/035_mappDatabase2/image-20230530083608807.png)
+
 3. 将 MpLink 引脚与配置文件中的 MpLink 对应
 
 ![](FILES/035_mappDatabase2/image-20230530083713991.png)
