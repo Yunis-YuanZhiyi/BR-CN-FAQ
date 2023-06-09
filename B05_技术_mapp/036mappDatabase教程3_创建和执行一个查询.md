@@ -1,4 +1,3 @@
-# 036AltenbuchnerMappDatabase3-创建和执行一个查询
 
 ![image-20230523152334009](FILES/036AltenbuchnerMappDatabase3-创建和执行一个查询/image-20230523152334009.png) 
 
