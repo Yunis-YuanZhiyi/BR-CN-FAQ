@@ -19,6 +19,7 @@
 - [019贝加莱PLC系统资源数量说明](019贝加莱PLC系统资源数量说明.md)
 - [020什么是贝加莱PLC的SERV模式](020什么是贝加莱PLC的SERV模式.md)
 - [021贝加莱端口有哪些](021贝加莱端口有哪些.md)
+- [022Hypervisor支持使用虚拟机与Docker吗](022Hypervisor支持使用虚拟机与Docker吗.md)
 
 ## Hypervisor常见使用问题
 - [017Hypervisor安装与使用问题](017Hypervisor安装与使用问题.md)
