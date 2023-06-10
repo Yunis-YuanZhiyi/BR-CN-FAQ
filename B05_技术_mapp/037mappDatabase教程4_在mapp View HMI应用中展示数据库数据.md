@@ -1,4 +1,6 @@
 [TOC]
+[页内自由跳转测试]( #STEP 2 测试 HMI 应用)
+
 ## 概述 
 ### 学习目标
 - 在 mappView 画面上添加和配置一个 "Database" 部件
@@ -27,7 +29,7 @@
 1. 选择 mapp 的 Tab 页，选择对应的 mpLink
 2. 点击 **OK** 按钮
 ![image-20230523172444317](FILES/037_mappDatabase4/image-20230523172444317.png)
- 
+
 1. 拖拽 **“Table”** 项到 **“Database”** 控件上面
 ![image-20230523172522028](FILES/037_mappDatabase4/image-20230523172522028.png)
 
