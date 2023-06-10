@@ -22,7 +22,7 @@
 - 详细描述可在 Automation Help 对应位置了解
 -  ![image-20230523153644749](FILES/036AltenbuchnerMappDatabase3-创建和执行一个查询/image-20230523153644749.png)
 ## STEP 4 添加与配置 MpDatabaseQuery
-- 1. 双击：DatabaseMgmt 
+1. 双击：DatabaseMgmt 任务 
 - ![image-20230523154951224](FILES/036AltenbuchnerMappDatabase3-创建和执行一个查询/image-20230523154951224.png)
 
 
@@ -58,7 +58,7 @@
 2. 输入‘SelectData’区域。
 >注意：名称必须用单引号 `'`
 3. 按下回车键
-![image-20230523161648861](FILES/036AltenbuchnerMappDatabase3-创建和执行一个查询/image-20230523161648861.png)
+-  ![image-20230523161648861](FILES/036AltenbuchnerMappDatabase3-创建和执行一个查询/image-20230523161648861.png)
 
 
 1. 程序中的 MpDatabaseQuery 的 Name 引脚参数与 mpdatabasecore 配置表中的 Name 完全一致。
@@ -70,7 +70,6 @@
 
 1. 点击 Transfer 按钮
 -  ![image-20230523161854483](FILES/036AltenbuchnerMappDatabase3-创建和执行一个查询/image-20230523161854483.png)
-
 
 1. 点击 Monitor 监控图标
 -  ![image-20230523162015292](FILES/036AltenbuchnerMappDatabase3-创建和执行一个查询/image-20230523162015292.png)
