@@ -14,7 +14,6 @@
 
 1. 在 Automation Studio 项目中，在 Logical View 下，找到想添加画面的 mappView - Visualization - Pages
 2. 双击 Content.content 表格单元
-
 ![image-20230523161028541](FILES/037_mappDatabase4/image-20230523161028541.png)
 
 1. 点击 **Search** 输入字段
