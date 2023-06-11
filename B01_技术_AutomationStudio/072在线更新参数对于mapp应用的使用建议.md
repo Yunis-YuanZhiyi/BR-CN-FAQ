@@ -9,7 +9,7 @@
 |Execute exit/init subroutines |明确不建议使用❌|明确不建议使用❌|
 
 ### Advanced Installation Settings
-指定了重新启动和程序安装的行为。
+- 未标注即意味支持，但不是特别推荐选项
 
 |参数|mapp Motion|mapp Vision|mapp Safety|
 |:-----|:-----|:-----|:-----|
