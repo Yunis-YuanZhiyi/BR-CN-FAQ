@@ -1,7 +1,7 @@
-问题描述
+#问题描述
 C80网口IP丢失，无法在AS中搜索到。通过按机身的Reset Button，C80会进入service模式。有没有什么办法能让C80像X20CP1382一样，通过按Reset Button让设备恢复Boot模式。
 
-解决方式
+##解决方式
 C80的Reset Button默认情况下点击会使设备进入Service模式，在AS帮助中可以找到相关说明。
 在进行程序硬件配置时，可以在C80的硬件configuration中，可以对该设置修改为Boot。
 
