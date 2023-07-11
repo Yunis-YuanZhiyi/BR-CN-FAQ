@@ -35,3 +35,6 @@
 - [034PPC断电后开机显示startup.nsh界面](034PPC断电后开机显示startup.nsh界面.md)
 - [035PP500的屏升级了AR版本重新烧卡持续蓝屏](035PP500的屏升级了AR版本重新烧卡持续蓝屏.md)
 - [036PPC屏幕断电上电后蓝屏](036PPC屏幕断电上电后蓝屏.md)
+- [037C80如何恢复初始化](037C80如何恢复初始化.md)
+- [038mappView中获取当前用户信息](038mappView中获取当前用户信息.md)
+- [039APC2100安装Hypervisor报错The PCI device specified in section cannot be explicitly assigned because it is configured for other purposes](039APC2100安装Hypervisor报错The PCI device specified in section cannot be explicitly assigned because it is configured for other purposes.md)
