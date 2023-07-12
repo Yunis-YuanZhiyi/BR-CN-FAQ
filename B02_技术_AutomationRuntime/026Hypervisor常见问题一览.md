@@ -468,7 +468,7 @@ A36:
 
 A37:
 
-U盘坏了，换个U盘（USB 2.0 USB 3.0 接口的均可 )
+U 盘坏了，换个 U 盘（建议使用 USB 3.0 及以上的接口的 U 盘，使用 2.0 接口的 U 盘，可能会导致安装失败 )
 
 ## Q38:安装Hypervisor提示Hypervisor boot failed.
 
