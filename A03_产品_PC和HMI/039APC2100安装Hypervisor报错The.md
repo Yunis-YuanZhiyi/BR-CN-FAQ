@@ -5,9 +5,11 @@
 
 
 ## 解决方式
-5APC2100安装Hypervisor需手动在BIOS中开启Hypervisor环境，如下图所示，使能“Hypervisor Environment”：
-![](FILES/039APC2100安装Hypervisor报错The/image-20230711153141893.png)
-![](FILES/039APC2100安装Hypervisor报错The/image-20230711153208755.png)
+使用AS扫描到该设备，连接上该设备，transfer程序，transfer结束后，会重启设备，重启后正常进入系统。
+![](FILES/039APC2100安装Hypervisor报错The/image-20230712162103563.jpeg)
+
+
+
 
 
 
