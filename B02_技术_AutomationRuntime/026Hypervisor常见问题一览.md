@@ -450,7 +450,7 @@ A35:
 
 ![](FILES/026Hypervisor常见问题一览/9ffa39ce6509410480c761f832bca3ea.png)
 
-## Q36:安装过程中Hypervisor重启几次后，卡在/OS/1 Booting runtime 0 状态
+## Q36:安装过程中 Hypervisor 重启几次后，卡在/OS/1 Booting runtime 0 状态
 
 ![](FILES/026Hypervisor常见问题一览/73e802585a4ead7d4c321328e3556b94.png)
 
