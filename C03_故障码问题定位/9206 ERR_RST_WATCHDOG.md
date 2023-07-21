@@ -86,7 +86,7 @@
 
 - 将所有软件（AS，AR，Firmware，mapp）更新到最新版本
 - 将 AS 项目更新到版本 >= AS/AR 4.8。在此版本中，添加了循环备份剩余数据的选项。这不会修复Watchdog错误，但可以防止剩余数据丢失：
-- ![](FILES/018贝加莱的看门狗Watchdog机制说明/image-20230304000121836.png)
+- ![](FILES/9206%20ERR_RST_WATCHDOG/image-20230721154028882.png)
 
 # 四、案例总结
 
