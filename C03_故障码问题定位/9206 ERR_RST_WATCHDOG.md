@@ -1,12 +1,13 @@
-
-- [现象](#%E7%8E%B0%E8%B1%A1)
-- [看门狗Watchdog错误描述（9206）](#%E7%9C%8B%E9%97%A8%E7%8B%97watchdog%E9%94%99%E8%AF%AF%E6%8F%8F%E8%BF%B09206)
+- [一、现象](#%E4%B8%80%E7%8E%B0%E8%B1%A1)
+- [二、看门狗 Watchdog 错误描述（9206）](#%E4%BA%8C%E7%9C%8B%E9%97%A8%E7%8B%97-watchdog-%E9%94%99%E8%AF%AF%E6%8F%8F%E8%BF%B09206)
 	- [以下是由硬件看门狗触发重启的最常见原因](#%E4%BB%A5%E4%B8%8B%E6%98%AF%E7%94%B1%E7%A1%AC%E4%BB%B6%E7%9C%8B%E9%97%A8%E7%8B%97%E8%A7%A6%E5%8F%91%E9%87%8D%E5%90%AF%E7%9A%84%E6%9C%80%E5%B8%B8%E8%A7%81%E5%8E%9F%E5%9B%A0)
-- [建议解决方式](#%E5%BB%BA%E8%AE%AE%E8%A7%A3%E5%86%B3%E6%96%B9%E5%BC%8F)
-	- [Profiler设置](#profiler%E8%AE%BE%E7%BD%AE)
-	- [应用程序检查](#%E5%BA%94%E7%94%A8%E7%A8%8B%E5%BA%8F%E6%A3%80%E6%9F%A5)
-	- [更换硬件](#%E6%9B%B4%E6%8D%A2%E7%A1%AC%E4%BB%B6)
-- [案例总结](#%E6%A1%88%E4%BE%8B%E6%80%BB%E7%BB%93)
+- [三、建议解决方式](#%E4%B8%89%E5%BB%BA%E8%AE%AE%E8%A7%A3%E5%86%B3%E6%96%B9%E5%BC%8F)
+	- [0. 收集 Logger 与 Profile 信息](#0-%E6%94%B6%E9%9B%86-logger-%E4%B8%8E-profile-%E4%BF%A1%E6%81%AF)
+	- [1.Profiler 设置](#1profiler-%E8%AE%BE%E7%BD%AE)
+	- [2.应用程序检查](#2%E5%BA%94%E7%94%A8%E7%A8%8B%E5%BA%8F%E6%A3%80%E6%9F%A5)
+	- [3.更换硬件](#3%E6%9B%B4%E6%8D%A2%E7%A1%AC%E4%BB%B6)
+	- [4. 更新软件版本，开启备份数据选项](#4-%E6%9B%B4%E6%96%B0%E8%BD%AF%E4%BB%B6%E7%89%88%E6%9C%AC%E5%BC%80%E5%90%AF%E5%A4%87%E4%BB%BD%E6%95%B0%E6%8D%AE%E9%80%89%E9%A1%B9)
+- [四、案例总结](#%E5%9B%9B%E6%A1%88%E4%BE%8B%E6%80%BB%E7%BB%93)
 
 # 一、现象
 
