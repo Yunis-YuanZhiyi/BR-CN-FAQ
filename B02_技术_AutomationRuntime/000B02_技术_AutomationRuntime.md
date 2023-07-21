@@ -23,6 +23,7 @@
 - [023贝加莱操作系统支持防火墙功能吗](023贝加莱操作系统支持防火墙功能吗.md)
 - [024如何在Automation Studio中配置防火墙](024如何在Automation%20Studio中配置防火墙.md)
 - [025贝加莱防火墙Firewall配置案例](025贝加莱防火墙Firewall配置案例.md)
+- [027贝加莱系统日志Logger](027贝加莱系统日志Logger.md)
 
 ## Hypervisor常见使用问题
 - [017Hypervisor安装与使用问题](017Hypervisor安装与使用问题.md)
