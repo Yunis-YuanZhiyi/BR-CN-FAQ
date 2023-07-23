@@ -6,116 +6,117 @@
     -   AS4.7
     -   mapp ACP10 ARNC0(Motion) ：5.16
 
-| • [29200: The axis object is invalid.](#29200轴对象无效)                                                                            |
-|-------------------------------------------------------------------------------------------------------------------------------------|
-| • [29203: Drive is not ready.](#29203驱动器没有准备好)                                                                              |
-| • [29204: Invalid parameter number](#29204-参数编号无效)                                                                            |
-| • [29205: The axis is not homed.](#29205轴没有归位)                                                                                 |
-| • [29206: The controller is off.](#29206控制器已关闭)                                                                               |
-| • [29207: This movement type is currently not allowed.](#29207这种运动类型目前不允许)                                               |
-| • [29208: The axis object was changed since last FB call.](#29208自上次调用fb后轴对象被改变)                                        |
-| • [29209: The drive is in error state.](#29209该驱动器处于错误状态)                                                                 |
-| • [29210: Parameter initialization (Global-init) failed.](#29210参数初始化global-init失败)                                          |
-| • [29211: Cannot switch holding brake. Controller switched on.](#29211不能切换保持制动控制器已打开)                                 |
-| • [29214: Homing not possible.](#29214无法归位)                                                                                     |
-| • [29215: Discrete movement not possible.](#29215不可能实现离散运动)                                                                |
-| • [29216: Continuous movement not possible.](#29216不可能连续运动)                                                                  |
-| • [29217: Invalid input parameter](#29217无效的输入参数)                                                                            |
-| • [29218: Unknown PLCopen axis state](#29218plcopen轴状态不明)                                                                      |
-| • [29219: Invalid value for PLCopen parameter](#29219plcopen参数的无效值)                                                           |
-| • [29221: No cam name](#29221没有凸轮名称)                                                                                          |
-| • [29222: Error at cam download.](#29222凸轮下载时出错)                                                                             |
-| • [29225: The target position is outside the axis period.](#29225目标位置在轴周期之外)                                              |
-| • [29226: Drive error. Call MC_(BR_)ReadAxisError for details.](#29226驱动器错误调用mc_br_readaxiserror了解详情)                    |
-| • [29227: No further master position can be sent on the network from this drive.](#29227不能再从该驱动器的网络上发送主控位置)       |
-| • [29228: No further master position can be read from the network by this drive.](#29228该驱动器不能再从网络中读取主控位置)         |
-| • [29229: Synchronized movement not possible](#29229无法实现同步运动)                                                               |
-| • [29230: Internal error: Error transferring parameter list](#29230内部错误传输参数列表时出错)                                      |
-| • [29231: The master velocity is invalid, 0 or negative.](#29231主速度是无效的为0或负值)                                            |
-| • [29232: Internal error: Invalid SPT resource type](#29232内部错误无效的spt资源类型)                                               |
-| • [29233: SPT resources of required type not available](#29233-所需类型的spt资源不可用)                                             |
-| • [29234: Internal error: Number of requested SPT resources is not available](#29234内部错误请求的spt资源数量不可用)                |
-| • [29235: The functionality is not available for the current axis type.](#29235该功能对当前轴类型不可用)                            |
-| • [29237: Error in TriggerInput parameters](#29237在triggerinput参数中出错)                                                         |
-| • [29238: Unable to use function block in current PLCopen state.](#29238在当前plcopen状态下无法使用功能块)                          |
-| • [29239: This functionality is not available for this network.](#29239此功能对该网络不适用)                                        |
-| • [29240: The specified ParID can't be used because of the data type size.](#29240由于数据类型的大小不能使用指定的parid)            |
-| • [29241: Incorrect data type for specified ParID](#29241-指定的parid的数据类型不正确)                                              |
-| • [29242: Cyclic read data full](#29242循环读取数据已满)                                                                            |
-| • [29244: Internal error while configuring cyclic data](#29244配置循环数据时发生内部错误)                                           |
-| • [29246: Invalid TouchProbe window](#29246无效的touchprobe窗口)                                                                    |
-| • [29247: Master sync position cannot be reached.](#29247无法达到主同步位置)                                                        |
-| • [29250: Invalid CamTableID](#29250-无效的camtableid)                                                                              |
-| • [29251: Error downloading ACOPOS parameter table](#29251下载acopos参数表时出错)                                                   |
-| • [29252: Error initializing parameter list](#29252初始化参数列表时出错)                                                            |
-| • [29253: Error downloading parameter sequence](#29253下载参数序列时出错)                                                           |
-| • [29254: Error initializing parameter sequence](#29254初始化参数序列错误)                                                          |
-| • [29255: Initialization not possible, axis coupling active](#29255-初始化不可能轴耦合有效)                                         |
-| • [29256: Multiple simultaneous commands not possible](#29256不可能有多个同时的命令)                                                |
-| • [29257: The specified data address is invalid.](#29257指定的数据地址是无效的)                                                     |
-| • [29260: No data object name specified](#29260没有指定数据对象名称)                                                                |
-| • [29261: Invalid data object index](#29261无效的数据对象索引)                                                                      |
-| • [29262: Send channel already in use.](#29262发送通道已在使用中)                                                                   |
-| • [29263: Slave channel already in use](#29263从属通道已在使用中)                                                                   |
-| • [29264: Cyclic write data full](#29264循环写数据已满)                                                                             |
-| • [29265: Communication to drive lost](#29265与驱动器的通信丢失)                                                                    |
-| • [29266: The MasterParID was changed since last FB call.](#29266masterparid在上次调用fb后发生了变化)                               |
-| • [29267: Invalid number of cam polynomials](#29267凸轮多项式的数量无效)                                                            |
-| • [29268: Function block aborted by another function block](#29268-功能块被另一个功能块中止了)                                      |
-| • [29269: Error saving NC init parameter module](#29269保存nc初始参数模块错误)                                                      |
-| • [29270: Error loading NC init parameter module](#29270加载nc初始参数模块时出错)                                                   |
-| • [29271: Selected MC_TouchProbe function block is not active.](#29271选定的mc_touchprobe功能块没有激活)                            |
-| • [29272: Cam Profile Automat data not initialized](#29272cam-profile-automat数据未被初始化)                                        |
-| • [29273: Specified "Subject" invalid](#29273指定的-主题-无效)                                                                      |
-| • [29274: Error initializing data. Call MC_(BR_)ReadAxisError for details.](#29274初始化数据时出错调用mc_br_readaxiserror了解详情)  |
-| • [29275: At least one input value changed while "Enable = TRUE"](#29275当-enable--true-时至少有一个输入值发生变化)                 |
-| • [29276: A phase shift is already in progress.](#29276已经在进行相位转换)                                                          |
-| • [29277: A offset shift is already in progress.](#29277已经在进行偏移)                                                             |
-| • [29278: No period defined for axis, master, slave or function block input](#29278-没有为轴主从或功能块输入定义周期)               |
-| • [29279: Cannot calculate value for output](#29279无法计算输出的值)                                                                |
-| • [29280: No valid master axis defined](#29280没有定义有效的主轴)                                                                   |
-| • [29281: This functionality is not available for ACOPOSmulti drives.](#29281该功能对acoposmulti驱动器不可用)                       |
-| • [29282: Command currently cannot be executed.](#29282命令目前不能被执行)                                                          |
-| • [29283: Master or slave position of first cam point not equal to 0](#29283第一个凸轮点的主站或从站位置不等于0)                    |
-| • [29284: Too few curve points](#29284-曲线点太少)                                                                                  |
-| • [29285: Invalid type for cam section](#29285-凸轮部分的类型无效)                                                                  |
-| • [29286: Invalid mode for the last cam point](#29286最后一个凸轮点的模式无效)                                                      |
-| • [29287: Invalid master or slave position for last cam point](#29287最后一个凸轮点的主站或从站位置无效)                            |
-| • [29288: Master positions not strictly monotonic increasing](#29288主力位置不是严格的单调增长)                                     |
-| • [29289: Invalid boundary parameters](#29289无效的边界参数)                                                                        |
-| • [29290: Too many cam polynomials](#29290太多的凸轮多项式)                                                                         |
-| • [29291: Turning point outside of cam section](#29291-凸轮部分外的转折点)                                                          |
-| • [29292: Identical slave positions not permitted](#29292不允许有相同的slave位置)                                                   |
-| • [29293: Specified data length too low or 0](#29293指定的数据长度太低或0)                                                          |
+| 错误报警号                                                   |
+| ------------------------------------------------------------ |
+| • [29200: The axis object is invalid.](#29200轴对象无效)     |
+| • [29203: Drive is not ready.](#29203驱动器没有准备好)       |
+| • [29204: Invalid parameter number](#29204-参数编号无效)     |
+| • [29205: The axis is not homed.](#29205轴没有归位)          |
+| • [29206: The controller is off.](#29206控制器已关闭)        |
+| • [29207: This movement type is currently not allowed.](#29207这种运动类型目前不允许) |
+| • [29208: The axis object was changed since last FB call.](#29208自上次调用fb后轴对象被改变) |
+| • [29209: The drive is in error state.](#29209该驱动器处于错误状态) |
+| • [29210: Parameter initialization (Global-init) failed.](#29210参数初始化global-init失败) |
+| • [29211: Cannot switch holding brake. Controller switched on.](#29211不能切换保持制动控制器已打开) |
+| • [29214: Homing not possible.](#29214无法归位)              |
+| • [29215: Discrete movement not possible.](#29215不可能实现离散运动) |
+| • [29216: Continuous movement not possible.](#29216不可能连续运动) |
+| • [29217: Invalid input parameter](#29217无效的输入参数)     |
+| • [29218: Unknown PLCopen axis state](#29218plcopen轴状态不明) |
+| • [29219: Invalid value for PLCopen parameter](#29219plcopen参数的无效值) |
+| • [29221: No cam name](#29221没有凸轮名称)                   |
+| • [29222: Error at cam download.](#29222凸轮下载时出错)      |
+| • [29225: The target position is outside the axis period.](#29225目标位置在轴周期之外) |
+| • [29226: Drive error. Call MC_(BR_)ReadAxisError for details.](#29226驱动器错误调用mc_br_readaxiserror了解详情) |
+| • [29227: No further master position can be sent on the network from this drive.](#29227不能再从该驱动器的网络上发送主控位置) |
+| • [29228: No further master position can be read from the network by this drive.](#29228该驱动器不能再从网络中读取主控位置) |
+| • [29229: Synchronized movement not possible](#29229无法实现同步运动) |
+| • [29230: Internal error: Error transferring parameter list](#29230内部错误传输参数列表时出错) |
+| • [29231: The master velocity is invalid, 0 or negative.](#29231主速度是无效的为0或负值) |
+| • [29232: Internal error: Invalid SPT resource type](#29232内部错误无效的spt资源类型) |
+| • [29233: SPT resources of required type not available](#29233-所需类型的spt资源不可用) |
+| • [29234: Internal error: Number of requested SPT resources is not available](#29234内部错误请求的spt资源数量不可用) |
+| • [29235: The functionality is not available for the current axis type.](#29235该功能对当前轴类型不可用) |
+| • [29237: Error in TriggerInput parameters](#29237在triggerinput参数中出错) |
+| • [29238: Unable to use function block in current PLCopen state.](#29238在当前plcopen状态下无法使用功能块) |
+| • [29239: This functionality is not available for this network.](#29239此功能对该网络不适用) |
+| • [29240: The specified ParID can't be used because of the data type size.](#29240由于数据类型的大小不能使用指定的parid) |
+| • [29241: Incorrect data type for specified ParID](#29241-指定的parid的数据类型不正确) |
+| • [29242: Cyclic read data full](#29242循环读取数据已满)     |
+| • [29244: Internal error while configuring cyclic data](#29244配置循环数据时发生内部错误) |
+| • [29246: Invalid TouchProbe window](#29246无效的touchprobe窗口) |
+| • [29247: Master sync position cannot be reached.](#29247无法达到主同步位置) |
+| • [29250: Invalid CamTableID](#29250-无效的camtableid)       |
+| • [29251: Error downloading ACOPOS parameter table](#29251下载acopos参数表时出错) |
+| • [29252: Error initializing parameter list](#29252初始化参数列表时出错) |
+| • [29253: Error downloading parameter sequence](#29253下载参数序列时出错) |
+| • [29254: Error initializing parameter sequence](#29254初始化参数序列错误) |
+| • [29255: Initialization not possible, axis coupling active](#29255-初始化不可能轴耦合有效) |
+| • [29256: Multiple simultaneous commands not possible](#29256不可能有多个同时的命令) |
+| • [29257: The specified data address is invalid.](#29257指定的数据地址是无效的) |
+| • [29260: No data object name specified](#29260没有指定数据对象名称) |
+| • [29261: Invalid data object index](#29261无效的数据对象索引) |
+| • [29262: Send channel already in use.](#29262发送通道已在使用中) |
+| • [29263: Slave channel already in use](#29263从属通道已在使用中) |
+| • [29264: Cyclic write data full](#29264循环写数据已满)      |
+| • [29265: Communication to drive lost](#29265与驱动器的通信丢失) |
+| • [29266: The MasterParID was changed since last FB call.](#29266masterparid在上次调用fb后发生了变化) |
+| • [29267: Invalid number of cam polynomials](#29267凸轮多项式的数量无效) |
+| • [29268: Function block aborted by another function block](#29268-功能块被另一个功能块中止了) |
+| • [29269: Error saving NC init parameter module](#29269保存nc初始参数模块错误) |
+| • [29270: Error loading NC init parameter module](#29270加载nc初始参数模块时出错) |
+| • [29271: Selected MC_TouchProbe function block is not active.](#29271选定的mc_touchprobe功能块没有激活) |
+| • [29272: Cam Profile Automat data not initialized](#29272cam-profile-automat数据未被初始化) |
+| • [29273: Specified "Subject" invalid](#29273指定的-主题-无效) |
+| • [29274: Error initializing data. Call MC_(BR_)ReadAxisError for details.](#29274初始化数据时出错调用mc_br_readaxiserror了解详情) |
+| • [29275: At least one input value changed while "Enable = TRUE"](#29275当-enable--true-时至少有一个输入值发生变化) |
+| • [29276: A phase shift is already in progress.](#29276已经在进行相位转换) |
+| • [29277: A offset shift is already in progress.](#29277已经在进行偏移) |
+| • [29278: No period defined for axis, master, slave or function block input](#29278-没有为轴主从或功能块输入定义周期) |
+| • [29279: Cannot calculate value for output](#29279无法计算输出的值) |
+| • [29280: No valid master axis defined](#29280没有定义有效的主轴) |
+| • [29281: This functionality is not available for ACOPOSmulti drives.](#29281该功能对acoposmulti驱动器不可用) |
+| • [29282: Command currently cannot be executed.](#29282命令目前不能被执行) |
+| • [29283: Master or slave position of first cam point not equal to 0](#29283第一个凸轮点的主站或从站位置不等于0) |
+| • [29284: Too few curve points](#29284-曲线点太少)           |
+| • [29285: Invalid type for cam section](#29285-凸轮部分的类型无效) |
+| • [29286: Invalid mode for the last cam point](#29286最后一个凸轮点的模式无效) |
+| • [29287: Invalid master or slave position for last cam point](#29287最后一个凸轮点的主站或从站位置无效) |
+| • [29288: Master positions not strictly monotonic increasing](#29288主力位置不是严格的单调增长) |
+| • [29289: Invalid boundary parameters](#29289无效的边界参数) |
+| • [29290: Too many cam polynomials](#29290太多的凸轮多项式)  |
+| • [29291: Turning point outside of cam section](#29291-凸轮部分外的转折点) |
+| • [29292: Identical slave positions not permitted](#29292不允许有相同的slave位置) |
+| • [29293: Specified data length too low or 0](#29293指定的数据长度太低或0) |
 | • [29294: Unable to determine error text. See error text string for details.](#29294无法确定错误文本请参阅错误文本字符串以了解详情) |
-| • [29295: An error has occurred. See "ErrorRecord" output for details.](#29295发生了一个错误详见-errorrecord-输出)                  |
-| • [29296: Not enough space in broadcast channel](#29296广播频道没有足够的空间)                                                      |
-| • [29297: Problem with variable in permanent memory](#29297永久内存中的变量问题)                                                    |
-| • [29298: Network configuration error](#29298网络配置错误)                                                                          |
-| • [29299: Error occurred during the setup operation.](#29299在设置操作中发生错误)                                                   |
-| • [29300: Invalid number of polynomials in cam](#29300-凸轮中的多项式数目无效)                                                      |
-| • [29301: Unable to calculate cam value](#29301-无法计算凸轮值)                                                                     |
-| • [29302: One instance of the function block is already active on this axis.](#29302该功能块的一个实例在该轴上已经激活)             |
-| • [29303: Specified IntervalTime too small.](#29303指定的intervaltime太小)                                                          |
-| • [29304: This functionality is not available for ACOPOS.](#29304-这个功能对acopos不适用)                                           |
-| • [29305: Cannot read ParID with specified mode](#29305-无法用指定模式读取parid)                                                    |
-| • [29306: Invalid interpolation mode](#29306无效的插值模式)                                                                         |
-| • [29307: Master period 0](#29307主周期0)                                                                                           |
-| • [29308: Internal calculation error](#29308内部计算错误)                                                                           |
-| • [29309: General internal fault](#29309一般内部故障)                                                                               |
-| • [29310: Calculated Compensation exceeds limit values.](#29310计算出的补偿超过了极限值)                                            |
-| • [29311: Maximum time expired.](#29311最大时间过期)                                                                                |
-| • [29312: An error occurred during the holding brake test.](#29312在保持制动测试期间发生错误)                                       |
-| • [29313: FIFO - Maximum number of available elements exceeded](#29313-fifo---超过了最大的可用元素数)                               |
-| • [29314: Function block called in the wrong task class](#29314在错误的任务类中调用功能块)                                          |
-| • [29315: Cyclic transfer of the position aborted because of an axis error](#29315由于轴的错误位置的循环转移被中止了)               |
-| • [29316: Two-encoder control not enabled](#29316未启用双编码器控制)                                                                |
-| • [29489: Internal values of the axis structure are invalid.](#29489轴结构的内部值是无效的)                                         |
-| • [29490: Internal initialization error (global init)](#29490内部初始化错误全局启动)                                                |
-| • [29491: Internal initialization error (software limit switches)](#29491内部初始化错误软件极限开关)                                |
-| • [29492: Internal initialization error (homing a virtual axis)](#29492内部初始化错误归位一个虚拟轴)                                |
-| • [29498: ACP10_MC library: Initialization aborted](#29498acp10_mc库初始化失败)                                                     |
-| • [29499: ACP10_MC library: Error with details in "ASCII data"](#29499acp10_mc库在-ascii数据-中的细节出现错误)                      |
+| • [29295: An error has occurred. See "ErrorRecord" output for details.](#29295发生了一个错误详见-errorrecord-输出) |
+| • [29296: Not enough space in broadcast channel](#29296广播频道没有足够的空间) |
+| • [29297: Problem with variable in permanent memory](#29297永久内存中的变量问题) |
+| • [29298: Network configuration error](#29298网络配置错误)   |
+| • [29299: Error occurred during the setup operation.](#29299在设置操作中发生错误) |
+| • [29300: Invalid number of polynomials in cam](#29300-凸轮中的多项式数目无效) |
+| • [29301: Unable to calculate cam value](#29301-无法计算凸轮值) |
+| • [29302: One instance of the function block is already active on this axis.](#29302该功能块的一个实例在该轴上已经激活) |
+| • [29303: Specified IntervalTime too small.](#29303指定的intervaltime太小) |
+| • [29304: This functionality is not available for ACOPOS.](#29304-这个功能对acopos不适用) |
+| • [29305: Cannot read ParID with specified mode](#29305-无法用指定模式读取parid) |
+| • [29306: Invalid interpolation mode](#29306无效的插值模式)  |
+| • [29307: Master period 0](#29307主周期0)                    |
+| • [29308: Internal calculation error](#29308内部计算错误)    |
+| • [29309: General internal fault](#29309一般内部故障)        |
+| • [29310: Calculated Compensation exceeds limit values.](#29310计算出的补偿超过了极限值) |
+| • [29311: Maximum time expired.](#29311最大时间过期)         |
+| • [29312: An error occurred during the holding brake test.](#29312在保持制动测试期间发生错误) |
+| • [29313: FIFO - Maximum number of available elements exceeded](#29313-fifo---超过了最大的可用元素数) |
+| • [29314: Function block called in the wrong task class](#29314在错误的任务类中调用功能块) |
+| • [29315: Cyclic transfer of the position aborted because of an axis error](#29315由于轴的错误位置的循环转移被中止了) |
+| • [29316: Two-encoder control not enabled](#29316未启用双编码器控制) |
+| • [29489: Internal values of the axis structure are invalid.](#29489轴结构的内部值是无效的) |
+| • [29490: Internal initialization error (global init)](#29490内部初始化错误全局启动) |
+| • [29491: Internal initialization error (software limit switches)](#29491内部初始化错误软件极限开关) |
+| • [29492: Internal initialization error (homing a virtual axis)](#29492内部初始化错误归位一个虚拟轴) |
+| • [29498: ACP10_MC library: Initialization aborted](#29498acp10_mc库初始化失败) |
+| • [29499: ACP10_MC library: Error with details in "ASCII data"](#29499acp10_mc库在-ascii数据-中的细节出现错误) |
 
 ### 29200：轴对象无效。
 
