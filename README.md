@@ -1,4 +1,6 @@
-# 贝加莱FAQ
+# 贝加莱 FAQ
+## 网页版
+- [https://yzydeer.gitee.io/bur-faq](https://yzydeer.gitee.io/bur-faq)
 ## 访问链接
 - [Gitee](https://gitee.com/yzydeer/BuR-FAQ)
 - [Github](https://github.com/Yunis-YuanZhiyi/BR-CN-FAQ)
