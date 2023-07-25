@@ -13,3 +13,5 @@
 //unpkg.com/docsify-footer-enh/dist/docsify-footer-enh.min.js
 
 //unpkg.com/docsify-count/dist/countable.js
+
+//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js
