@@ -27,6 +27,7 @@
 - [049AS4.2工程仿真时打不开模拟器](049AS4.2工程仿真时打不开模拟器.md)
 - [051变量无法添加Watch监视](051变量无法添加Watch监视.md)
 - [061AS软件Monitor状态下的Watch窗口消失](061AS软件Monitor状态下的Watch窗口消失.md)
+- [074使用AS连接PLC需要输入密码怎么实现](074使用AS连接PLC需要输入密码怎么实现.md)
 
 ## 基本使用问题
 - [001Automation Studio在Physical View中添加硬件组态时无法找到实际硬件型号是什么原因](001Automation%20Studio在Physical%20View中添加硬件组态时无法找到实际硬件型号是什么原因.md)
