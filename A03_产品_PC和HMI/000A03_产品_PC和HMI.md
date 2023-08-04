@@ -36,7 +36,7 @@
 - [035PP500的屏升级了AR版本重新烧卡持续蓝屏](035PP500的屏升级了AR版本重新烧卡持续蓝屏.md)
 - [036PPC屏幕断电上电后蓝屏](036PPC屏幕断电上电后蓝屏.md)
 - [037C80如何恢复初始化](037C80如何恢复初始化.md)
-- [038mappView中获取当前用户信息](038mappView中获取当前用户信息.md)
+- 
 
 ## Hypervisor 使用说明
 - [017Hypervisor安装与使用问题](../B02_技术_AutomationRuntime/017Hypervisor安装与使用问题.md)

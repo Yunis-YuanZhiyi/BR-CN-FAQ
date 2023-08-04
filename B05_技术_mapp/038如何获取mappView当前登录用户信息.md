@@ -1,1 +1,0 @@
-- 通过 mappView 中的 session 系统变量，直接可获取信息
