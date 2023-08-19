@@ -4209,17 +4209,3 @@ ACP10_MC库的错误信息，在 "ASCII数据 "中有详细介绍。
 
 在ACP10_MC库的初始化过程中会报告这个错误。
 
-Table of Figures
-
-**No table of figures entries found.**
-
-*If your help project contains images with captions, these images will be listed here as figures. (When you customize this template, you may want to delete this explanatory text.)  
-*
-
-Keyword Index
-
-**No index entries found.**
-
-*If your help project contains keyword, these keywords will be listed here with page references. (When you customize this template, you may want to delete this explanatory text.)*
-
-Some final words here... This is another freely designed page that goes to the end of the published document.
