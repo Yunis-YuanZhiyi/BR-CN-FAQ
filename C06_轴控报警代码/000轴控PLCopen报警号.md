@@ -1,124 +1,159 @@
-## PLCopen错误描述中文信息
+- 基于版本：
+    - AS4.7
+    - Mapp ACP 10 ARNC 0 (Motion) ：5.16
+- [29200：轴对象无效](#29200%EF%BC%9A%E8%BD%B4%E5%AF%B9%E8%B1%A1%E6%97%A0%E6%95%88)
+- [29203：驱动器没有准备好。](#29203%EF%BC%9A%E9%A9%B1%E5%8A%A8%E5%99%A8%E6%B2%A1%E6%9C%89%E5%87%86%E5%A4%87%E5%A5%BD%E3%80%82)
+	- [应用案例](#%E5%BA%94%E7%94%A8%E6%A1%88%E4%BE%8B)
+		- [2023.06.28](#2023.06.28)
+		- [2023.07.07](#2023.07.07)
+- [29204: 参数编号无效](#29204:%20%E5%8F%82%E6%95%B0%E7%BC%96%E5%8F%B7%E6%97%A0%E6%95%88)
+- [29205:轴没有归位。](#29205:%E8%BD%B4%E6%B2%A1%E6%9C%89%E5%BD%92%E4%BD%8D%E3%80%82)
+- [29206:控制器已关闭。](#29206:%E6%8E%A7%E5%88%B6%E5%99%A8%E5%B7%B2%E5%85%B3%E9%97%AD%E3%80%82)
+	- [应用案例](#%E5%BA%94%E7%94%A8%E6%A1%88%E4%BE%8B)
+		- [2022.01.11](#2022.01.11)
+		- [2023.07.07](#2023.07.07)
+- [29207：这种运动类型目前不允许。](#29207%EF%BC%9A%E8%BF%99%E7%A7%8D%E8%BF%90%E5%8A%A8%E7%B1%BB%E5%9E%8B%E7%9B%AE%E5%89%8D%E4%B8%8D%E5%85%81%E8%AE%B8%E3%80%82)
+	- [应用案例](#%E5%BA%94%E7%94%A8%E6%A1%88%E4%BE%8B)
+		- [2023.07.07](#2023.07.07)
+		- [2023.07.07](#2023.07.07)
+		- [2023.07.07](#2023.07.07)
+- [29208:自上次调用FB后，轴对象被改变。](#29208:%E8%87%AA%E4%B8%8A%E6%AC%A1%E8%B0%83%E7%94%A8FB%E5%90%8E%EF%BC%8C%E8%BD%B4%E5%AF%B9%E8%B1%A1%E8%A2%AB%E6%94%B9%E5%8F%98%E3%80%82)
+- [29209:该驱动器处于错误状态](#29209:%E8%AF%A5%E9%A9%B1%E5%8A%A8%E5%99%A8%E5%A4%84%E4%BA%8E%E9%94%99%E8%AF%AF%E7%8A%B6%E6%80%81)
+	- [应用案例](#%E5%BA%94%E7%94%A8%E6%A1%88%E4%BE%8B)
+		- [2023.02.14](#2023.02.14)
+		- [2023.06.28](#2023.06.28)
+		- [2023.07.05](#2023.07.05)
+- [29210：参数初始化（Global-init）失败。](#29210%EF%BC%9A%E5%8F%82%E6%95%B0%E5%88%9D%E5%A7%8B%E5%8C%96%EF%BC%88Global-init%EF%BC%89%E5%A4%B1%E8%B4%A5%E3%80%82)
+- [29211：不能切换保持制动。控制器已打开。](#29211%EF%BC%9A%E4%B8%8D%E8%83%BD%E5%88%87%E6%8D%A2%E4%BF%9D%E6%8C%81%E5%88%B6%E5%8A%A8%E3%80%82%E6%8E%A7%E5%88%B6%E5%99%A8%E5%B7%B2%E6%89%93%E5%BC%80%E3%80%82)
+- [29214：无法归位。](#29214%EF%BC%9A%E6%97%A0%E6%B3%95%E5%BD%92%E4%BD%8D%E3%80%82)
+- [29215:不可能实现离散运动。](#29215:%E4%B8%8D%E5%8F%AF%E8%83%BD%E5%AE%9E%E7%8E%B0%E7%A6%BB%E6%95%A3%E8%BF%90%E5%8A%A8%E3%80%82)
+- [29216:不可能连续运动](#29216:%E4%B8%8D%E5%8F%AF%E8%83%BD%E8%BF%9E%E7%BB%AD%E8%BF%90%E5%8A%A8)
+	- [应用案例](#%E5%BA%94%E7%94%A8%E6%A1%88%E4%BE%8B)
+		- [2022.01.11](#2022.01.11)
+		- [2023.07.07](#2023.07.07)
+- [29217:无效的输入参数](#29217:%E6%97%A0%E6%95%88%E7%9A%84%E8%BE%93%E5%85%A5%E5%8F%82%E6%95%B0)
+	- [应用案例](#%E5%BA%94%E7%94%A8%E6%A1%88%E4%BE%8B)
+		- [2023.06.28](#2023.06.28)
+		- [2023.07.05](#2023.07.05)
+		- [2023.07.07](#2023.07.07)
+- [29218:PLCopen轴状态不明](#29218:PLCopen%E8%BD%B4%E7%8A%B6%E6%80%81%E4%B8%8D%E6%98%8E)
+- [29219:PLCopen参数的无效值](#29219:PLCopen%E5%8F%82%E6%95%B0%E7%9A%84%E6%97%A0%E6%95%88%E5%80%BC)
+- [29221:没有凸轮名称](#29221:%E6%B2%A1%E6%9C%89%E5%87%B8%E8%BD%AE%E5%90%8D%E7%A7%B0)
+- [29222:凸轮下载时出错。](#29222:%E5%87%B8%E8%BD%AE%E4%B8%8B%E8%BD%BD%E6%97%B6%E5%87%BA%E9%94%99%E3%80%82)
+- [29225:目标位置在轴周期之外。](#29225:%E7%9B%AE%E6%A0%87%E4%BD%8D%E7%BD%AE%E5%9C%A8%E8%BD%B4%E5%91%A8%E6%9C%9F%E4%B9%8B%E5%A4%96%E3%80%82)
+- [29226:驱动器错误。调用MC_(BR_)ReadAxisError了解详情](#29226:%E9%A9%B1%E5%8A%A8%E5%99%A8%E9%94%99%E8%AF%AF%E3%80%82%E8%B0%83%E7%94%A8MC_(BR_)ReadAxisError%E4%BA%86%E8%A7%A3%E8%AF%A6%E6%83%85)
+	- [应用案例](#%E5%BA%94%E7%94%A8%E6%A1%88%E4%BE%8B)
+		- [2022.01.11](#2022.01.11)
+		- [2023.07.07](#2023.07.07)
+- [29227:不能再从该驱动器的网络上发送主控位置](#29227:%E4%B8%8D%E8%83%BD%E5%86%8D%E4%BB%8E%E8%AF%A5%E9%A9%B1%E5%8A%A8%E5%99%A8%E7%9A%84%E7%BD%91%E7%BB%9C%E4%B8%8A%E5%8F%91%E9%80%81%E4%B8%BB%E6%8E%A7%E4%BD%8D%E7%BD%AE)
+- [29228:该驱动器不能再从网络中读取主控位置。](#29228:%E8%AF%A5%E9%A9%B1%E5%8A%A8%E5%99%A8%E4%B8%8D%E8%83%BD%E5%86%8D%E4%BB%8E%E7%BD%91%E7%BB%9C%E4%B8%AD%E8%AF%BB%E5%8F%96%E4%B8%BB%E6%8E%A7%E4%BD%8D%E7%BD%AE%E3%80%82)
+- [29229：无法实现同步运动](#29229%EF%BC%9A%E6%97%A0%E6%B3%95%E5%AE%9E%E7%8E%B0%E5%90%8C%E6%AD%A5%E8%BF%90%E5%8A%A8)
+- [29230:内部错误。传输参数列表时出错](#29230:%E5%86%85%E9%83%A8%E9%94%99%E8%AF%AF%E3%80%82%E4%BC%A0%E8%BE%93%E5%8F%82%E6%95%B0%E5%88%97%E8%A1%A8%E6%97%B6%E5%87%BA%E9%94%99)
+	- [应用案例](#%E5%BA%94%E7%94%A8%E6%A1%88%E4%BE%8B)
+		- [2023.07.07](#2023.07.07)
+- [29231:主速度是无效的，为0或负值。](#29231:%E4%B8%BB%E9%80%9F%E5%BA%A6%E6%98%AF%E6%97%A0%E6%95%88%E7%9A%84%EF%BC%8C%E4%B8%BA0%E6%88%96%E8%B4%9F%E5%80%BC%E3%80%82)
+- [29232:内部错误。无效的SPT资源类型](#29232:%E5%86%85%E9%83%A8%E9%94%99%E8%AF%AF%E3%80%82%E6%97%A0%E6%95%88%E7%9A%84SPT%E8%B5%84%E6%BA%90%E7%B1%BB%E5%9E%8B)
+- [29233: 所需类型的SPT资源不可用](#29233:%20%E6%89%80%E9%9C%80%E7%B1%BB%E5%9E%8B%E7%9A%84SPT%E8%B5%84%E6%BA%90%E4%B8%8D%E5%8F%AF%E7%94%A8)
+- [29234:内部错误。请求的SPT资源数量不可用](#29234:%E5%86%85%E9%83%A8%E9%94%99%E8%AF%AF%E3%80%82%E8%AF%B7%E6%B1%82%E7%9A%84SPT%E8%B5%84%E6%BA%90%E6%95%B0%E9%87%8F%E4%B8%8D%E5%8F%AF%E7%94%A8)
+- [29235:该功能对当前轴类型不可用。](#29235:%E8%AF%A5%E5%8A%9F%E8%83%BD%E5%AF%B9%E5%BD%93%E5%89%8D%E8%BD%B4%E7%B1%BB%E5%9E%8B%E4%B8%8D%E5%8F%AF%E7%94%A8%E3%80%82)
+- [29237:在TriggerInput参数中出错](#29237:%E5%9C%A8TriggerInput%E5%8F%82%E6%95%B0%E4%B8%AD%E5%87%BA%E9%94%99)
+- [29238:在当前PLCopen状态下无法使用功能块。](#29238:%E5%9C%A8%E5%BD%93%E5%89%8DPLCopen%E7%8A%B6%E6%80%81%E4%B8%8B%E6%97%A0%E6%B3%95%E4%BD%BF%E7%94%A8%E5%8A%9F%E8%83%BD%E5%9D%97%E3%80%82)
+- [29239:此功能对该网络不适用。](#29239:%E6%AD%A4%E5%8A%9F%E8%83%BD%E5%AF%B9%E8%AF%A5%E7%BD%91%E7%BB%9C%E4%B8%8D%E9%80%82%E7%94%A8%E3%80%82)
+- [29240：由于数据类型的大小，不能使用指定的ParID。](#29240%EF%BC%9A%E7%94%B1%E4%BA%8E%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B%E7%9A%84%E5%A4%A7%E5%B0%8F%EF%BC%8C%E4%B8%8D%E8%83%BD%E4%BD%BF%E7%94%A8%E6%8C%87%E5%AE%9A%E7%9A%84ParID%E3%80%82)
+- [29241: 指定的ParID的数据类型不正确](#29241:%20%E6%8C%87%E5%AE%9A%E7%9A%84ParID%E7%9A%84%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B%E4%B8%8D%E6%AD%A3%E7%A1%AE)
+- [29242:循环读取数据已满](#29242:%E5%BE%AA%E7%8E%AF%E8%AF%BB%E5%8F%96%E6%95%B0%E6%8D%AE%E5%B7%B2%E6%BB%A1)
+	- [应用案例](#%E5%BA%94%E7%94%A8%E6%A1%88%E4%BE%8B)
+		- [2023.07.07](#2023.07.07)
+- [29244:配置循环数据时发生内部错误](#29244:%E9%85%8D%E7%BD%AE%E5%BE%AA%E7%8E%AF%E6%95%B0%E6%8D%AE%E6%97%B6%E5%8F%91%E7%94%9F%E5%86%85%E9%83%A8%E9%94%99%E8%AF%AF)
+- [29246:无效的TouchProbe窗口](#29246:%E6%97%A0%E6%95%88%E7%9A%84TouchProbe%E7%AA%97%E5%8F%A3)
+- [29247：无法达到主同步位置。](#29247%EF%BC%9A%E6%97%A0%E6%B3%95%E8%BE%BE%E5%88%B0%E4%B8%BB%E5%90%8C%E6%AD%A5%E4%BD%8D%E7%BD%AE%E3%80%82)
+	- [应用案例](#%E5%BA%94%E7%94%A8%E6%A1%88%E4%BE%8B)
+		- [2023.07.07](#2023.07.07)
+- [29250: 无效的CamTableID](#29250:%20%E6%97%A0%E6%95%88%E7%9A%84CamTableID)
+- [29251：下载ACOPOS参数表时出错](#29251%EF%BC%9A%E4%B8%8B%E8%BD%BDACOPOS%E5%8F%82%E6%95%B0%E8%A1%A8%E6%97%B6%E5%87%BA%E9%94%99)
+- [29252:初始化参数列表时出错](#29252:%E5%88%9D%E5%A7%8B%E5%8C%96%E5%8F%82%E6%95%B0%E5%88%97%E8%A1%A8%E6%97%B6%E5%87%BA%E9%94%99)
+- [29253:下载参数序列时出错](#29253:%E4%B8%8B%E8%BD%BD%E5%8F%82%E6%95%B0%E5%BA%8F%E5%88%97%E6%97%B6%E5%87%BA%E9%94%99)
+- [29254：初始化参数序列错误](#29254%EF%BC%9A%E5%88%9D%E5%A7%8B%E5%8C%96%E5%8F%82%E6%95%B0%E5%BA%8F%E5%88%97%E9%94%99%E8%AF%AF)
+- [29255: 初始化不可能，轴耦合有效](#29255:%20%E5%88%9D%E5%A7%8B%E5%8C%96%E4%B8%8D%E5%8F%AF%E8%83%BD%EF%BC%8C%E8%BD%B4%E8%80%A6%E5%90%88%E6%9C%89%E6%95%88)
+- [29256：不可能有多个同时的命令](#29256%EF%BC%9A%E4%B8%8D%E5%8F%AF%E8%83%BD%E6%9C%89%E5%A4%9A%E4%B8%AA%E5%90%8C%E6%97%B6%E7%9A%84%E5%91%BD%E4%BB%A4)
+- [29257:指定的数据地址是无效的。](#29257:%E6%8C%87%E5%AE%9A%E7%9A%84%E6%95%B0%E6%8D%AE%E5%9C%B0%E5%9D%80%E6%98%AF%E6%97%A0%E6%95%88%E7%9A%84%E3%80%82)
+- [29260:没有指定数据对象名称](#29260:%E6%B2%A1%E6%9C%89%E6%8C%87%E5%AE%9A%E6%95%B0%E6%8D%AE%E5%AF%B9%E8%B1%A1%E5%90%8D%E7%A7%B0)
+- [29261:无效的数据对象索引](#29261:%E6%97%A0%E6%95%88%E7%9A%84%E6%95%B0%E6%8D%AE%E5%AF%B9%E8%B1%A1%E7%B4%A2%E5%BC%95)
+	- [应用案例](#%E5%BA%94%E7%94%A8%E6%A1%88%E4%BE%8B)
+		- [2023.07.07](#2023.07.07)
+- [29262：发送通道已在使用中。](#29262%EF%BC%9A%E5%8F%91%E9%80%81%E9%80%9A%E9%81%93%E5%B7%B2%E5%9C%A8%E4%BD%BF%E7%94%A8%E4%B8%AD%E3%80%82)
+- [29263：从属通道已在使用中](#29263%EF%BC%9A%E4%BB%8E%E5%B1%9E%E9%80%9A%E9%81%93%E5%B7%B2%E5%9C%A8%E4%BD%BF%E7%94%A8%E4%B8%AD)
+- [29264:循环写数据已满](#29264:%E5%BE%AA%E7%8E%AF%E5%86%99%E6%95%B0%E6%8D%AE%E5%B7%B2%E6%BB%A1)
+- [29265:与驱动器的通信丢失](#29265:%E4%B8%8E%E9%A9%B1%E5%8A%A8%E5%99%A8%E7%9A%84%E9%80%9A%E4%BF%A1%E4%B8%A2%E5%A4%B1)
+	- [应用案例](#%E5%BA%94%E7%94%A8%E6%A1%88%E4%BE%8B)
+		- [2023.03.23](#2023.03.23)
+		- [2023.07.04](#2023.07.04)
+		- [2023.07.14](#2023.07.14)
+- [29266：MasterParID在上次调用FB后发生了变化。](#29266%EF%BC%9AMasterParID%E5%9C%A8%E4%B8%8A%E6%AC%A1%E8%B0%83%E7%94%A8FB%E5%90%8E%E5%8F%91%E7%94%9F%E4%BA%86%E5%8F%98%E5%8C%96%E3%80%82)
+- [29267：凸轮多项式的数量无效](#29267%EF%BC%9A%E5%87%B8%E8%BD%AE%E5%A4%9A%E9%A1%B9%E5%BC%8F%E7%9A%84%E6%95%B0%E9%87%8F%E6%97%A0%E6%95%88)
+- [29268: 功能块被另一个功能块中止了](#29268:%20%E5%8A%9F%E8%83%BD%E5%9D%97%E8%A2%AB%E5%8F%A6%E4%B8%80%E4%B8%AA%E5%8A%9F%E8%83%BD%E5%9D%97%E4%B8%AD%E6%AD%A2%E4%BA%86)
+- [29269:保存NC初始参数模块错误](#29269:%E4%BF%9D%E5%AD%98NC%E5%88%9D%E5%A7%8B%E5%8F%82%E6%95%B0%E6%A8%A1%E5%9D%97%E9%94%99%E8%AF%AF)
+- [29270：加载NC初始参数模块时出错](#29270%EF%BC%9A%E5%8A%A0%E8%BD%BDNC%E5%88%9D%E5%A7%8B%E5%8F%82%E6%95%B0%E6%A8%A1%E5%9D%97%E6%97%B6%E5%87%BA%E9%94%99)
+- [29271:选定的MC_TouchProbe功能块没有激活。](#29271:%E9%80%89%E5%AE%9A%E7%9A%84MC_TouchProbe%E5%8A%9F%E8%83%BD%E5%9D%97%E6%B2%A1%E6%9C%89%E6%BF%80%E6%B4%BB%E3%80%82)
+- [29272:Cam Profile Automat数据未被初始化](#29272:Cam%20Profile%20Automat%E6%95%B0%E6%8D%AE%E6%9C%AA%E8%A2%AB%E5%88%9D%E5%A7%8B%E5%8C%96)
+- [29273:指定的 "主题 "无效](#29273:%E6%8C%87%E5%AE%9A%E7%9A%84%20%22%E4%B8%BB%E9%A2%98%20%22%E6%97%A0%E6%95%88)
+- [29274:初始化数据时出错。调用MC_(BR_)ReadAxisError了解详情。](#29274:%E5%88%9D%E5%A7%8B%E5%8C%96%E6%95%B0%E6%8D%AE%E6%97%B6%E5%87%BA%E9%94%99%E3%80%82%E8%B0%83%E7%94%A8MC_(BR_)ReadAxisError%E4%BA%86%E8%A7%A3%E8%AF%A6%E6%83%85%E3%80%82)
+- [29275:当 "Enable = TRUE "时，至少有一个输入值发生变化](#29275:%E5%BD%93%20%22Enable%20=%20TRUE%20%22%E6%97%B6%EF%BC%8C%E8%87%B3%E5%B0%91%E6%9C%89%E4%B8%80%E4%B8%AA%E8%BE%93%E5%85%A5%E5%80%BC%E5%8F%91%E7%94%9F%E5%8F%98%E5%8C%96)
+- [29276:已经在进行相位转换。](#29276:%E5%B7%B2%E7%BB%8F%E5%9C%A8%E8%BF%9B%E8%A1%8C%E7%9B%B8%E4%BD%8D%E8%BD%AC%E6%8D%A2%E3%80%82)
+- [29277:已经在进行偏移。](#29277:%E5%B7%B2%E7%BB%8F%E5%9C%A8%E8%BF%9B%E8%A1%8C%E5%81%8F%E7%A7%BB%E3%80%82)
+- [29278: 没有为轴、主、从或功能块输入定义周期](#29278:%20%E6%B2%A1%E6%9C%89%E4%B8%BA%E8%BD%B4%E3%80%81%E4%B8%BB%E3%80%81%E4%BB%8E%E6%88%96%E5%8A%9F%E8%83%BD%E5%9D%97%E8%BE%93%E5%85%A5%E5%AE%9A%E4%B9%89%E5%91%A8%E6%9C%9F)
+- [29279:无法计算输出的值](#29279:%E6%97%A0%E6%B3%95%E8%AE%A1%E7%AE%97%E8%BE%93%E5%87%BA%E7%9A%84%E5%80%BC)
+- [29280:没有定义有效的主轴](#29280:%E6%B2%A1%E6%9C%89%E5%AE%9A%E4%B9%89%E6%9C%89%E6%95%88%E7%9A%84%E4%B8%BB%E8%BD%B4)
+- [29281:该功能对ACOPOSmulti驱动器不可用。](#29281:%E8%AF%A5%E5%8A%9F%E8%83%BD%E5%AF%B9ACOPOSmulti%E9%A9%B1%E5%8A%A8%E5%99%A8%E4%B8%8D%E5%8F%AF%E7%94%A8%E3%80%82)
+- [29282:命令目前不能被执行。](#29282:%E5%91%BD%E4%BB%A4%E7%9B%AE%E5%89%8D%E4%B8%8D%E8%83%BD%E8%A2%AB%E6%89%A7%E8%A1%8C%E3%80%82)
+- [29283:第一个凸轮点的主站或从站位置不等于0](#29283:%E7%AC%AC%E4%B8%80%E4%B8%AA%E5%87%B8%E8%BD%AE%E7%82%B9%E7%9A%84%E4%B8%BB%E7%AB%99%E6%88%96%E4%BB%8E%E7%AB%99%E4%BD%8D%E7%BD%AE%E4%B8%8D%E7%AD%89%E4%BA%8E0)
+- [29284: 曲线点太少](#29284:%20%E6%9B%B2%E7%BA%BF%E7%82%B9%E5%A4%AA%E5%B0%91)
+- [29285: 凸轮部分的类型无效](#29285:%20%E5%87%B8%E8%BD%AE%E9%83%A8%E5%88%86%E7%9A%84%E7%B1%BB%E5%9E%8B%E6%97%A0%E6%95%88)
+- [29286：最后一个凸轮点的模式无效](#29286%EF%BC%9A%E6%9C%80%E5%90%8E%E4%B8%80%E4%B8%AA%E5%87%B8%E8%BD%AE%E7%82%B9%E7%9A%84%E6%A8%A1%E5%BC%8F%E6%97%A0%E6%95%88)
+- [29287:最后一个凸轮点的主站或从站位置无效](#29287:%E6%9C%80%E5%90%8E%E4%B8%80%E4%B8%AA%E5%87%B8%E8%BD%AE%E7%82%B9%E7%9A%84%E4%B8%BB%E7%AB%99%E6%88%96%E4%BB%8E%E7%AB%99%E4%BD%8D%E7%BD%AE%E6%97%A0%E6%95%88)
+- [29288：主力位置不是严格的单调增长](#29288%EF%BC%9A%E4%B8%BB%E5%8A%9B%E4%BD%8D%E7%BD%AE%E4%B8%8D%E6%98%AF%E4%B8%A5%E6%A0%BC%E7%9A%84%E5%8D%95%E8%B0%83%E5%A2%9E%E9%95%BF)
+- [29289:无效的边界参数](#29289:%E6%97%A0%E6%95%88%E7%9A%84%E8%BE%B9%E7%95%8C%E5%8F%82%E6%95%B0)
+- [29290：太多的凸轮多项式](#29290%EF%BC%9A%E5%A4%AA%E5%A4%9A%E7%9A%84%E5%87%B8%E8%BD%AE%E5%A4%9A%E9%A1%B9%E5%BC%8F)
+- [29291: 凸轮部分外的转折点](#29291:%20%E5%87%B8%E8%BD%AE%E9%83%A8%E5%88%86%E5%A4%96%E7%9A%84%E8%BD%AC%E6%8A%98%E7%82%B9)
+- [29292：不允许有相同的Slave位置](#29292%EF%BC%9A%E4%B8%8D%E5%85%81%E8%AE%B8%E6%9C%89%E7%9B%B8%E5%90%8C%E7%9A%84Slave%E4%BD%8D%E7%BD%AE)
+- [29293：指定的数据长度太低或0](#29293%EF%BC%9A%E6%8C%87%E5%AE%9A%E7%9A%84%E6%95%B0%E6%8D%AE%E9%95%BF%E5%BA%A6%E5%A4%AA%E4%BD%8E%E6%88%960)
+- [29294:无法确定错误文本。请参阅错误文本字符串以了解详情。](#29294:%E6%97%A0%E6%B3%95%E7%A1%AE%E5%AE%9A%E9%94%99%E8%AF%AF%E6%96%87%E6%9C%AC%E3%80%82%E8%AF%B7%E5%8F%82%E9%98%85%E9%94%99%E8%AF%AF%E6%96%87%E6%9C%AC%E5%AD%97%E7%AC%A6%E4%B8%B2%E4%BB%A5%E4%BA%86%E8%A7%A3%E8%AF%A6%E6%83%85%E3%80%82)
+- [29295:发生了一个错误。详见 "ErrorRecord "输出。](#29295:%E5%8F%91%E7%94%9F%E4%BA%86%E4%B8%80%E4%B8%AA%E9%94%99%E8%AF%AF%E3%80%82%E8%AF%A6%E8%A7%81%20%22ErrorRecord%20%22%E8%BE%93%E5%87%BA%E3%80%82)
+- [29296:广播频道没有足够的空间](#29296:%E5%B9%BF%E6%92%AD%E9%A2%91%E9%81%93%E6%B2%A1%E6%9C%89%E8%B6%B3%E5%A4%9F%E7%9A%84%E7%A9%BA%E9%97%B4)
+- [29297:永久内存中的变量问题](#29297:%E6%B0%B8%E4%B9%85%E5%86%85%E5%AD%98%E4%B8%AD%E7%9A%84%E5%8F%98%E9%87%8F%E9%97%AE%E9%A2%98)
+- [29298:网络配置错误](#29298:%E7%BD%91%E7%BB%9C%E9%85%8D%E7%BD%AE%E9%94%99%E8%AF%AF)
+- [29299：在设置操作中发生错误。](#29299%EF%BC%9A%E5%9C%A8%E8%AE%BE%E7%BD%AE%E6%93%8D%E4%BD%9C%E4%B8%AD%E5%8F%91%E7%94%9F%E9%94%99%E8%AF%AF%E3%80%82)
+- [29300: 凸轮中的多项式数目无效](#29300:%20%E5%87%B8%E8%BD%AE%E4%B8%AD%E7%9A%84%E5%A4%9A%E9%A1%B9%E5%BC%8F%E6%95%B0%E7%9B%AE%E6%97%A0%E6%95%88)
+- [29301: 无法计算凸轮值](#29301:%20%E6%97%A0%E6%B3%95%E8%AE%A1%E7%AE%97%E5%87%B8%E8%BD%AE%E5%80%BC)
+- [29302:该功能块的一个实例在该轴上已经激活。](#29302:%E8%AF%A5%E5%8A%9F%E8%83%BD%E5%9D%97%E7%9A%84%E4%B8%80%E4%B8%AA%E5%AE%9E%E4%BE%8B%E5%9C%A8%E8%AF%A5%E8%BD%B4%E4%B8%8A%E5%B7%B2%E7%BB%8F%E6%BF%80%E6%B4%BB%E3%80%82)
+- [29303：指定的IntervalTime太小。](#29303%EF%BC%9A%E6%8C%87%E5%AE%9A%E7%9A%84IntervalTime%E5%A4%AA%E5%B0%8F%E3%80%82)
+- [29304: 这个功能对ACOPOS不适用。](#29304:%20%E8%BF%99%E4%B8%AA%E5%8A%9F%E8%83%BD%E5%AF%B9ACOPOS%E4%B8%8D%E9%80%82%E7%94%A8%E3%80%82)
+- [29305: 无法用指定模式读取ParID](#29305:%20%E6%97%A0%E6%B3%95%E7%94%A8%E6%8C%87%E5%AE%9A%E6%A8%A1%E5%BC%8F%E8%AF%BB%E5%8F%96ParID)
+- [29306：无效的插值模式](#29306%EF%BC%9A%E6%97%A0%E6%95%88%E7%9A%84%E6%8F%92%E5%80%BC%E6%A8%A1%E5%BC%8F)
+- [29307：主周期0](#29307%EF%BC%9A%E4%B8%BB%E5%91%A8%E6%9C%9F0)
+- [29308：内部计算错误](#29308%EF%BC%9A%E5%86%85%E9%83%A8%E8%AE%A1%E7%AE%97%E9%94%99%E8%AF%AF)
+- [29309：一般内部故障](#29309%EF%BC%9A%E4%B8%80%E8%88%AC%E5%86%85%E9%83%A8%E6%95%85%E9%9A%9C)
+- [29310:计算出的补偿超过了极限值。](#29310:%E8%AE%A1%E7%AE%97%E5%87%BA%E7%9A%84%E8%A1%A5%E5%81%BF%E8%B6%85%E8%BF%87%E4%BA%86%E6%9E%81%E9%99%90%E5%80%BC%E3%80%82)
+- [29311:最大时间过期。](#29311:%E6%9C%80%E5%A4%A7%E6%97%B6%E9%97%B4%E8%BF%87%E6%9C%9F%E3%80%82)
+- [29312：在保持制动测试期间发生错误。](#29312%EF%BC%9A%E5%9C%A8%E4%BF%9D%E6%8C%81%E5%88%B6%E5%8A%A8%E6%B5%8B%E8%AF%95%E6%9C%9F%E9%97%B4%E5%8F%91%E7%94%9F%E9%94%99%E8%AF%AF%E3%80%82)
+- [29313: FIFO - 超过了最大的可用元素数](#29313:%20FIFO%20-%20%E8%B6%85%E8%BF%87%E4%BA%86%E6%9C%80%E5%A4%A7%E7%9A%84%E5%8F%AF%E7%94%A8%E5%85%83%E7%B4%A0%E6%95%B0)
+- [29314:在错误的任务类中调用功能块](#29314:%E5%9C%A8%E9%94%99%E8%AF%AF%E7%9A%84%E4%BB%BB%E5%8A%A1%E7%B1%BB%E4%B8%AD%E8%B0%83%E7%94%A8%E5%8A%9F%E8%83%BD%E5%9D%97)
+- [29315:由于轴的错误，位置的循环转移被中止了](#29315:%E7%94%B1%E4%BA%8E%E8%BD%B4%E7%9A%84%E9%94%99%E8%AF%AF%EF%BC%8C%E4%BD%8D%E7%BD%AE%E7%9A%84%E5%BE%AA%E7%8E%AF%E8%BD%AC%E7%A7%BB%E8%A2%AB%E4%B8%AD%E6%AD%A2%E4%BA%86)
+- [29316:未启用双编码器控制](#29316:%E6%9C%AA%E5%90%AF%E7%94%A8%E5%8F%8C%E7%BC%96%E7%A0%81%E5%99%A8%E6%8E%A7%E5%88%B6)
+- [29489：轴结构的内部值是无效的。](#29489%EF%BC%9A%E8%BD%B4%E7%BB%93%E6%9E%84%E7%9A%84%E5%86%85%E9%83%A8%E5%80%BC%E6%98%AF%E6%97%A0%E6%95%88%E7%9A%84%E3%80%82)
+	- [应用案例](#%E5%BA%94%E7%94%A8%E6%A1%88%E4%BE%8B)
+		- [2023.07.07](#2023.07.07)
+- [29490：内部初始化错误（全局启动）。](#29490%EF%BC%9A%E5%86%85%E9%83%A8%E5%88%9D%E5%A7%8B%E5%8C%96%E9%94%99%E8%AF%AF%EF%BC%88%E5%85%A8%E5%B1%80%E5%90%AF%E5%8A%A8%EF%BC%89%E3%80%82)
+	- [应用案例](#%E5%BA%94%E7%94%A8%E6%A1%88%E4%BE%8B)
+		- [2023.07.07](#2023.07.07)
+- [29491：内部初始化错误（软件极限开关）。](#29491%EF%BC%9A%E5%86%85%E9%83%A8%E5%88%9D%E5%A7%8B%E5%8C%96%E9%94%99%E8%AF%AF%EF%BC%88%E8%BD%AF%E4%BB%B6%E6%9E%81%E9%99%90%E5%BC%80%E5%85%B3%EF%BC%89%E3%80%82)
+- [29492：内部初始化错误（归位一个虚拟轴）。](#29492%EF%BC%9A%E5%86%85%E9%83%A8%E5%88%9D%E5%A7%8B%E5%8C%96%E9%94%99%E8%AF%AF%EF%BC%88%E5%BD%92%E4%BD%8D%E4%B8%80%E4%B8%AA%E8%99%9A%E6%8B%9F%E8%BD%B4%EF%BC%89%E3%80%82)
+- [29498:ACP10_MC库。初始化失败](#29498:ACP10_MC%E5%BA%93%E3%80%82%E5%88%9D%E5%A7%8B%E5%8C%96%E5%A4%B1%E8%B4%A5)
+	- [应用案例](#%E5%BA%94%E7%94%A8%E6%A1%88%E4%BE%8B)
+		- [2023.07.07](#2023.07.07)
+- [29499:ACP10_MC库。在 "ASCII数据 "中的细节出现错误](#29499:ACP10_MC%E5%BA%93%E3%80%82%E5%9C%A8%20%22ASCII%E6%95%B0%E6%8D%AE%20%22%E4%B8%AD%E7%9A%84%E7%BB%86%E8%8A%82%E5%87%BA%E7%8E%B0%E9%94%99%E8%AF%AF)
 
-本节的主题:
-
--   基于版本：
-    -   AS4.7
-    -   mapp ACP10 ARNC0(Motion) ：5.16
-
-| 错误报警号                                                   |
-| ------------------------------------------------------------ |
-| • [29200: The axis object is invalid.](#29200轴对象无效)     |
-| • [29203: Drive is not ready.](#29203驱动器没有准备好)       |
-| • [29204: Invalid parameter number](#29204-参数编号无效)     |
-| • [29205: The axis is not homed.](#29205轴没有归位)          |
-| • [29206: The controller is off.](#29206控制器已关闭)        |
-| • [29207: This movement type is currently not allowed.](#29207这种运动类型目前不允许) |
-| • [29208: The axis object was changed since last FB call.](#29208自上次调用fb后轴对象被改变) |
-| • [29209: The drive is in error state.](#29209该驱动器处于错误状态) |
-| • [29210: Parameter initialization (Global-init) failed.](#29210参数初始化global-init失败) |
-| • [29211: Cannot switch holding brake. Controller switched on.](#29211不能切换保持制动控制器已打开) |
-| • [29214: Homing not possible.](#29214无法归位)              |
-| • [29215: Discrete movement not possible.](#29215不可能实现离散运动) |
-| • [29216: Continuous movement not possible.](#29216不可能连续运动) |
-| • [29217: Invalid input parameter](#29217无效的输入参数)     |
-| • [29218: Unknown PLCopen axis state](#29218plcopen轴状态不明) |
-| • [29219: Invalid value for PLCopen parameter](#29219plcopen参数的无效值) |
-| • [29221: No cam name](#29221没有凸轮名称)                   |
-| • [29222: Error at cam download.](#29222凸轮下载时出错)      |
-| • [29225: The target position is outside the axis period.](#29225目标位置在轴周期之外) |
-| • [29226: Drive error. Call MC_(BR_)ReadAxisError for details.](#29226驱动器错误调用mc_br_readaxiserror了解详情) |
-| • [29227: No further master position can be sent on the network from this drive.](#29227不能再从该驱动器的网络上发送主控位置) |
-| • [29228: No further master position can be read from the network by this drive.](#29228该驱动器不能再从网络中读取主控位置) |
-| • [29229: Synchronized movement not possible](#29229无法实现同步运动) |
-| • [29230: Internal error: Error transferring parameter list](#29230内部错误传输参数列表时出错) |
-| • [29231: The master velocity is invalid, 0 or negative.](#29231主速度是无效的为0或负值) |
-| • [29232: Internal error: Invalid SPT resource type](#29232内部错误无效的spt资源类型) |
-| • [29233: SPT resources of required type not available](#29233-所需类型的spt资源不可用) |
-| • [29234: Internal error: Number of requested SPT resources is not available](#29234内部错误请求的spt资源数量不可用) |
-| • [29235: The functionality is not available for the current axis type.](#29235该功能对当前轴类型不可用) |
-| • [29237: Error in TriggerInput parameters](#29237在triggerinput参数中出错) |
-| • [29238: Unable to use function block in current PLCopen state.](#29238在当前plcopen状态下无法使用功能块) |
-| • [29239: This functionality is not available for this network.](#29239此功能对该网络不适用) |
-| • [29240: The specified ParID can't be used because of the data type size.](#29240由于数据类型的大小不能使用指定的parid) |
-| • [29241: Incorrect data type for specified ParID](#29241-指定的parid的数据类型不正确) |
-| • [29242: Cyclic read data full](#29242循环读取数据已满)     |
-| • [29244: Internal error while configuring cyclic data](#29244配置循环数据时发生内部错误) |
-| • [29246: Invalid TouchProbe window](#29246无效的touchprobe窗口) |
-| • [29247: Master sync position cannot be reached.](#29247无法达到主同步位置) |
-| • [29250: Invalid CamTableID](#29250-无效的camtableid)       |
-| • [29251: Error downloading ACOPOS parameter table](#29251下载acopos参数表时出错) |
-| • [29252: Error initializing parameter list](#29252初始化参数列表时出错) |
-| • [29253: Error downloading parameter sequence](#29253下载参数序列时出错) |
-| • [29254: Error initializing parameter sequence](#29254初始化参数序列错误) |
-| • [29255: Initialization not possible, axis coupling active](#29255-初始化不可能轴耦合有效) |
-| • [29256: Multiple simultaneous commands not possible](#29256不可能有多个同时的命令) |
-| • [29257: The specified data address is invalid.](#29257指定的数据地址是无效的) |
-| • [29260: No data object name specified](#29260没有指定数据对象名称) |
-| • [29261: Invalid data object index](#29261无效的数据对象索引) |
-| • [29262: Send channel already in use.](#29262发送通道已在使用中) |
-| • [29263: Slave channel already in use](#29263从属通道已在使用中) |
-| • [29264: Cyclic write data full](#29264循环写数据已满)      |
-| • [29265: Communication to drive lost](#29265与驱动器的通信丢失) |
-| • [29266: The MasterParID was changed since last FB call.](#29266masterparid在上次调用fb后发生了变化) |
-| • [29267: Invalid number of cam polynomials](#29267凸轮多项式的数量无效) |
-| • [29268: Function block aborted by another function block](#29268-功能块被另一个功能块中止了) |
-| • [29269: Error saving NC init parameter module](#29269保存nc初始参数模块错误) |
-| • [29270: Error loading NC init parameter module](#29270加载nc初始参数模块时出错) |
-| • [29271: Selected MC_TouchProbe function block is not active.](#29271选定的mc_touchprobe功能块没有激活) |
-| • [29272: Cam Profile Automat data not initialized](#29272cam-profile-automat数据未被初始化) |
-| • [29273: Specified "Subject" invalid](#29273指定的-主题-无效) |
-| • [29274: Error initializing data. Call MC_(BR_)ReadAxisError for details.](#29274初始化数据时出错调用mc_br_readaxiserror了解详情) |
-| • [29275: At least one input value changed while "Enable = TRUE"](#29275当-enable--true-时至少有一个输入值发生变化) |
-| • [29276: A phase shift is already in progress.](#29276已经在进行相位转换) |
-| • [29277: A offset shift is already in progress.](#29277已经在进行偏移) |
-| • [29278: No period defined for axis, master, slave or function block input](#29278-没有为轴主从或功能块输入定义周期) |
-| • [29279: Cannot calculate value for output](#29279无法计算输出的值) |
-| • [29280: No valid master axis defined](#29280没有定义有效的主轴) |
-| • [29281: This functionality is not available for ACOPOSmulti drives.](#29281该功能对acoposmulti驱动器不可用) |
-| • [29282: Command currently cannot be executed.](#29282命令目前不能被执行) |
-| • [29283: Master or slave position of first cam point not equal to 0](#29283第一个凸轮点的主站或从站位置不等于0) |
-| • [29284: Too few curve points](#29284-曲线点太少)           |
-| • [29285: Invalid type for cam section](#29285-凸轮部分的类型无效) |
-| • [29286: Invalid mode for the last cam point](#29286最后一个凸轮点的模式无效) |
-| • [29287: Invalid master or slave position for last cam point](#29287最后一个凸轮点的主站或从站位置无效) |
-| • [29288: Master positions not strictly monotonic increasing](#29288主力位置不是严格的单调增长) |
-| • [29289: Invalid boundary parameters](#29289无效的边界参数) |
-| • [29290: Too many cam polynomials](#29290太多的凸轮多项式)  |
-| • [29291: Turning point outside of cam section](#29291-凸轮部分外的转折点) |
-| • [29292: Identical slave positions not permitted](#29292不允许有相同的slave位置) |
-| • [29293: Specified data length too low or 0](#29293指定的数据长度太低或0) |
-| • [29294: Unable to determine error text. See error text string for details.](#29294无法确定错误文本请参阅错误文本字符串以了解详情) |
-| • [29295: An error has occurred. See "ErrorRecord" output for details.](#29295发生了一个错误详见-errorrecord-输出) |
-| • [29296: Not enough space in broadcast channel](#29296广播频道没有足够的空间) |
-| • [29297: Problem with variable in permanent memory](#29297永久内存中的变量问题) |
-| • [29298: Network configuration error](#29298网络配置错误)   |
-| • [29299: Error occurred during the setup operation.](#29299在设置操作中发生错误) |
-| • [29300: Invalid number of polynomials in cam](#29300-凸轮中的多项式数目无效) |
-| • [29301: Unable to calculate cam value](#29301-无法计算凸轮值) |
-| • [29302: One instance of the function block is already active on this axis.](#29302该功能块的一个实例在该轴上已经激活) |
-| • [29303: Specified IntervalTime too small.](#29303指定的intervaltime太小) |
-| • [29304: This functionality is not available for ACOPOS.](#29304-这个功能对acopos不适用) |
-| • [29305: Cannot read ParID with specified mode](#29305-无法用指定模式读取parid) |
-| • [29306: Invalid interpolation mode](#29306无效的插值模式)  |
-| • [29307: Master period 0](#29307主周期0)                    |
-| • [29308: Internal calculation error](#29308内部计算错误)    |
-| • [29309: General internal fault](#29309一般内部故障)        |
-| • [29310: Calculated Compensation exceeds limit values.](#29310计算出的补偿超过了极限值) |
-| • [29311: Maximum time expired.](#29311最大时间过期)         |
-| • [29312: An error occurred during the holding brake test.](#29312在保持制动测试期间发生错误) |
-| • [29313: FIFO - Maximum number of available elements exceeded](#29313-fifo---超过了最大的可用元素数) |
-| • [29314: Function block called in the wrong task class](#29314在错误的任务类中调用功能块) |
-| • [29315: Cyclic transfer of the position aborted because of an axis error](#29315由于轴的错误位置的循环转移被中止了) |
-| • [29316: Two-encoder control not enabled](#29316未启用双编码器控制) |
-| • [29489: Internal values of the axis structure are invalid.](#29489轴结构的内部值是无效的) |
-| • [29490: Internal initialization error (global init)](#29490内部初始化错误全局启动) |
-| • [29491: Internal initialization error (software limit switches)](#29491内部初始化错误软件极限开关) |
-| • [29492: Internal initialization error (homing a virtual axis)](#29492内部初始化错误归位一个虚拟轴) |
-| • [29498: ACP10_MC library: Initialization aborted](#29498acp10_mc库初始化失败) |
-| • [29499: ACP10_MC library: Error with details in "ASCII data"](#29499acp10_mc库在-ascii数据-中的细节出现错误) |
-
-### 29200：轴对象无效。
+# 29200：轴对象无效
 
 说明
 
@@ -140,13 +175,13 @@
 
 ACP10_MC功能块至少有以下一个输入可以报告这个错误。
 
--   "Axis"
--   "Master"
--   "Slave"
+- "Axis"
+- "Master"
+- "Slave"
 
 接收一个结构或包含 "轴"、"主 "或 "从 "元素的结构地址的功能块。
 
-### 29203：驱动器没有准备好。
+# 29203：驱动器没有准备好。
 
 说明
 
@@ -166,23 +201,34 @@ ACP10_MC功能块至少有以下一个输入可以报告这个错误。
 
 可能的原因。
 
--   直流母线电压太低
--   24V 电源没有打开
--   网络连接不正常
--   硬件限位开关关闭
--   驱动器的 "启用 "输入端没有电源
--   ...
+- 直流母线电压太低
+- 24V 电源没有打开
+- 网络连接不正常
+- 硬件限位开关关闭
+- 驱动器的 "启用 "输入端没有电源
+- ...
 
 可以返回此错误的功能块。
 
 MC_Power
 
-| 应用案例                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
-|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 2023.06.28 **现象** 4005: Controller cannot be switched on: Drive in error state 5005: Start of movement not possible: Position controller inactive 6048: Motor holding brake movement monitor: Position error too large 9070: Motor temperature model: Stop limit exceeded 41031: Junction temperature model: Warning limit exceeded 41070: Motor temperature model: Warning limit exceeded 29203: Drive is not ready. 29209: The drive is in error state. 29217: Invalid input parameter **原因** 零位参数不对引起过载，客户更换了模具，但是没有重新走回零的流程，导致参数错误，机械卡主了，当前顶住位置距离零位还有1mm以上 因此当伺服使能，由于不在零位位置，所以向零位运动，由于已机械顶住，所以动态偏差LagError一直有1mm以上，就一直以最大扭矩输出，造成电机温度超过70度以上，驱动器的散热片温度高达70度，IGBT温度高达133度。持续较长时间后就报警而POWER OFF，进行复位后，又进入以上死循环。 **优化方式** 使能后，走到零位，如果持续1秒超过+5Nm或小于-5Nm，则把HomePosition 进行偏移，再进行MC_HOME操作。 |
-| 2023.07.07 **现象** 生产过程中报错6045/29207/29203 **原因** 查看驱动器UVW接线，打开电柜发现驱动器UVW接线处有一相线烧了                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
+## 应用案例
 
-### 29204: 参数编号无效
+### 2023.06.28
+
+**现象** 4005: Controller cannot be switched on: Drive in error state 5005: Start of movement not possible: Position controller inactive 6048: Motor holding brake movement monitor: Position error too large 9070: Motor temperature model: Stop limit exceeded 41031: Junction temperature model: Warning limit exceeded 41070: Motor temperature model: Warning limit exceeded 29203: Drive is not ready. 29209: The drive is in error state. 29217: Invalid input parameter
+
+**原因** 零位参数不对引起过载，客户更换了模具，但是没有重新走回零的流程，导致参数错误，机械卡主了，当前顶住位置距离零位还有1mm 以上因此当伺服使能，由于不在零位位置，所以向零位运动，由于已机械顶住，所以动态偏差 LagError 一直有1mm 以上，就一直以最大扭矩输出，造成电机温度超过70度以上，驱动器的散热片温度高达70度，IGBT 温度高达133度。持续较长时间后就报警而 POWER OFF，进行复位后，又进入以上死循环。
+
+**优化方式** 使能后，走到零位，如果持续1秒超过+5Nm 或小于-5Nm，则把 HomePosition 进行偏移，再进行 MC_HOME 操作
+
+### 2023.07.07
+
+**现象** 生产过程中报错6045/29207/29203
+
+**原因** 查看驱动器UVW接线，打开电柜发现驱动器UVW接线处有一相线烧了
+
+# 29204: 参数编号无效
 
 说明
 
@@ -215,7 +261,7 @@ MC_ReadParameter
 
 MC_WriteParameter
 
-### 29205:轴没有归位。
+# 29205:轴没有归位。
 
 说明
 
@@ -293,7 +339,7 @@ MC_BR_JogLimitPosition
 
 MC_BR_JogTargetPosition
 
-### 29206:控制器已关闭。
+# 29206:控制器已关闭。
 
 说明
 
@@ -367,12 +413,19 @@ MC_BR_JogLimitPosition
 
 MC_BR_JogTargetPosition
 
-| 应用案例                                                                                                                                               |
-|--------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 2022.01.11 驱动器断使能，但是功能块请求驱动器使能: 非关键报警，一般由轴错误导致                                                                        |
-| 2023.07.07 **现象** PLC出现29206报警且无法复位，检查程序，原来报警复位程序逻辑存在问题，轴报警后持续发送同步指令 **解决方式** 检查逻辑时序并优化程序。 |
+## 应用案例
 
-### 29207：这种运动类型目前不允许。
+### 2022.01.11
+
+驱动器断使能，但是功能块请求驱动器使能: 非关键报警，一般由轴错误导致
+
+### 2023.07.07
+
+**现象** PLC 出现29206报警且无法复位，检查程序，原来报警复位程序逻辑存在问题，轴报警后持续发送同步指令
+
+**解决方式** 检查逻辑时序并优化程序。
+
+# 29207：这种运动类型目前不允许。
 
 说明
 
@@ -512,13 +565,25 @@ MC_BR_JogTargetPosition
 
 [MC_BR_JogTargetPosition](../../../../libraries/acp10_mc/alphabetische_ubersicht/mc_br_jogtargetposition/mc_br_jogtargetposition.html)
 
-| 应用案例                                                                                                                                                                                    |
-|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 2023.07.07 **现象** 生产过程中报错6045/29207/29203 **原因** 查看驱动器UVW接线，打开电柜发现驱动器UVW接线处有一相线烧了                                                                      |
-| 2023.07.07 **现象** 停止时报29207：This movement type is currently not allowed. 因为关闭通过AxisFun.Axis[Index].Command.Stop置1，轴控程序中将VelocityCtrl已经disable了，然后又执行了MC_Stop |
-| 2023.07.07 不增加延时的情况下刚上电启动虚轴会报错29207                                                                                                                                      |
+## 应用案例
 
-### 29208:自上次调用FB后，轴对象被改变。
+### 2023.07.07
+
+**现象** 生产过程中报错6045/29207/29203
+
+**原因** 查看驱动器 UVW 接线，打开电柜发现驱动器 UVW 接线处有一相线烧了
+
+### 2023.07.07
+
+**现象**
+
+停止时报29207：This movement type is currently not allowed. 因为关闭通过 AxisFun.Axis[Index].Command.Stop 置1，轴控程序中将 VelocityCtrl 已经 disable 了，然后又执行了 MC_Stop
+
+### 2023.07.07
+
+不增加延时的情况下刚上电启动虚轴会报错29207
+
+# 29208:自上次调用FB后，轴对象被改变。
 
 说明
 
@@ -540,13 +605,13 @@ MC_BR_JogTargetPosition
 
 ACP10_MC功能块至少有以下一个输入可以报告这个错误。
 
--   "轴"
--   "Master"
--   "Slave"。
+- "轴"
+- "Master"
+- "Slave"。
 
 接收含有 "Axis"、"Master "或 "Slave "元素的结构或结构地址的功能块。
 
-### 29209:该驱动器处于错误状态
+# 29209:该驱动器处于错误状态
 
 说明
 
@@ -572,13 +637,39 @@ ACP10_MC功能块至少有以下一个输入可以报告这个错误。
 
 [MC_Power](../../../../libraries/acp10_mc/alphabetische_ubersicht/mc_power/mc_power.html)
 
-| 应用案例                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
-|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 2023.02.14 该错误不能代表更实质的含义，请继续翻找其他的报警代码，或者轻点一次复位，会弹出更多的错误信息                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
-| 2023.06.28 **现象** 4005: Controller cannot be switched on: Drive in error state 5005: Start of movement not possible: Position controller inactive 6048: Motor holding brake movement monitor: Position error too large 9070: Motor temperature model: Stop limit exceeded 41031: Junction temperature model: Warning limit exceeded 41070: Motor temperature model: Warning limit exceeded 29203: Drive is not ready. 29209: The drive is in error state. 29217: Invalid input parameter **原因** 零位参数不对引起过载，客户更换了模具，但是没有重新走回零的流程，导致参数错误，机械卡主了，当前顶住位置距离零位还有1mm以上 因此当伺服使能，由于不在零位位置，所以向零位运动，由于已机械顶住，所以动态偏差LagError一直有1mm以上，就一直以最大扭矩输出，造成电机温度超过70度以上，驱动器的散热片温度高达70度，IGBT温度高达133度。持续较长时间后就报警而POWER OFF，进行复位后，又进入以上死循环。 **优化方式** 使能后，走到零位，如果持续1秒超过+5Nm或小于-5Nm，则把HomePosition 进行偏移，再进行MC_HOME操作。 |
-| 2023.07.05 **现象** 移机后频繁出现的39047与29209错误 设备开一个小时左右报一次，复位能够正常生产，使用ACOPOS驱动器，外接SICK 编码器，接口为HIPERFACE  **排查方式** 1.不会是驱动器或者编码卡坏了，因为如果坏了，是无法复位成功继续工作生产的。 2.大概率是干扰带来的问题，可能线缆的屏蔽没有接，通讯卡件有松动，或者接地排有问题有电压导致了问题。  **建议检查方向** 1.动力线的线缆屏蔽层确保已经接地 2.确认伺服控制器的外壳是否正确接地 3.编码器卡附近的接地是正确的，并确认螺丝已经插好。 4.检查接地排在出现问题的时候，是否有电压。 5.出现问题的频率不固定，需要收集一下信息，是否附近其他机器在开的时候，出现问题的频率就增高，可通过这个定位问题点。  **解决方式** 打了接地的地桩，但还是有报警 把线重新整理并拔插驱动器线缆，并清理了灰尘，问题不再出现                                                                                                                                                                                                                                                     |
+## 应用案例
 
-### 29210：参数初始化（Global-init）失败。
+### 2023.02.14
+
+该错误不能代表更实质的含义，请继续翻找其他的报警代码，或者轻点一次复位，会弹出更多的错误信息
+
+### 2023.06.28
+
+**现象** 4005: Controller cannot be switched on: Drive in error state 5005: Start of movement not possible: Position controller inactive 6048: Motor holding brake movement monitor: Position error too large 9070: Motor temperature model: Stop limit exceeded 41031: Junction temperature model: Warning limit exceeded 41070: Motor temperature model: Warning limit exceeded 29203: Drive is not ready. 29209: The drive is in error state. 29217: Invalid input parameter
+
+**原因** 零位参数不对引起过载，客户更换了模具，但是没有重新走回零的流程，导致参数错误，机械卡主了，当前顶住位置距离零位还有1mm 以上因此当伺服使能，由于不在零位位置，所以向零位运动，由于已机械顶住，所以动态偏差 LagError 一直有 1 mm 以上，就一直以最大扭矩输出，造成电机温度超过 70 度以上，驱动器的散热片温度高达 70 度，IGBT 温度高达 133 度。持续较长时间后就报警而 POWER OFF，进行复位后，又进入以上死循环。
+
+**优化方式** 使能后，走到零位，如果持续1秒超过+5Nm 或小于-5Nm，则把 HomePosition 进行偏移，再进行 MC_HOME 操作。
+
+### 2023.07.05
+
+**现象** 移机后频繁出现的39047与29209错误设备开一个小时左右报一次，复位能够正常生产，使用 ACOPOS 驱动器，外接 SICK 编码器，接口为 HIPERFACE
+
+**排查方式**
+
+- 1.不会是驱动器或者编码卡坏了，因为如果坏了，是无法复位成功继续工作生产的。
+- 2.大概率是干扰带来的问题，可能线缆的屏蔽没有接，通讯卡件有松动，或者接地排有问题有电压导致了问题。
+**建议检查方向**
+
+- 1.动力线的线缆屏蔽层确保已经接地
+- 2.确认伺服控制器的外壳是否正确接地
+- 3.编码器卡附近的接地是正确的，并确认螺丝已经插好。
+- 4.检查接地排在出现问题的时候，是否有电压。
+- 5. 出现问题的频率不固定，需要收集一下信息，是否附近其他机器在开的时候，出现问题的频率就增高，可通过这个定位问题点。
+
+**解决方式** 打了接地的地桩，但还是有报警 把线重新整理并拔插驱动器线缆，并清理了灰尘，问题不再出现
+
+# 29210：参数初始化（Global-init）失败。
 
 说明
 
@@ -600,7 +691,7 @@ ACP10_MC功能块至少有以下一个输入可以报告这个错误。
 
 [MC_BR_InitAxisPar](../../../../libraries/acp10_mc/alphabetische_ubersicht/mc_br_initaxispar/mc_br_initaxispar.html)
 
-### 29211：不能切换保持制动。控制器已打开。
+# 29211：不能切换保持制动。控制器已打开。
 
 说明
 
@@ -626,7 +717,7 @@ ACP10_MC功能块至少有以下一个输入可以报告这个错误。
 
 [MC_BR_BrakeOperation](../../../../libraries/acp10_mc/alphabetische_ubersicht/mc_br_brakeoperation/mc_br_brakeoperation.html)
 
-### 29214：无法归位。
+# 29214：无法归位。
 
 说明
 
@@ -650,7 +741,7 @@ ACP10_MC功能块至少有以下一个输入可以报告这个错误。
 
 [MC_Home](../../../../libraries/acp10_mc/alphabetische_ubersicht/mc_home/mc_home.html)
 
-### 29215:不可能实现离散运动。
+# 29215:不可能实现离散运动。
 
 说明
 
@@ -688,7 +779,7 @@ ACP10_MC功能块至少有以下一个输入可以报告这个错误。
 
 [MC_BR_JogTargetPosition](../../../../libraries/acp10_mc/alphabetische_ubersicht/mc_br_jogtargetposition/mc_br_jogtargetposition.html)
 
-### 29216:不可能连续运动
+# 29216:不可能连续运动
 
 说明
 
@@ -736,12 +827,19 @@ ACP10_MC功能块至少有以下一个输入可以报告这个错误。
 
 [MC_BR_JogVelocity](../../../../libraries/acp10_mc/alphabetische_ubersicht/mc_br_jogvelocity/mc_br_jogvelocity.html)
 
-| 应用案例                                                                                                                                                                        |
-|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 2022.01.11 当前轴状态不允许连续运动： 非关键报警，一般由轴错误导致                                                                                                              |
-| 2023.07.07 **现象** 使用MpAxisBasic中的Move Velocity指令，其中Position为0，速度与加速度为0.001，运动后报错29216,5003 **原因** 速度、加速度太小，0.001相当于0 加大两个参数后解决 |
+## 应用案例
 
-### 29217:无效的输入参数
+### 2022.01.11
+
+当前轴状态不允许连续运动： 非关键报警，一般由轴错误导致
+
+### 2023.07.07
+
+**现象** 使用 MpAxisBasic 中的 Move Velocity 指令，其中 Position 为0，速度与加速度为0.001，运动后报错29216,5003
+
+**原因** 速度、加速度太小，0.001相当于0 加大两个参数后解决
+
+# 29217:无效的输入参数
 
 说明
 
@@ -949,13 +1047,27 @@ ACP10_MC功能块至少有以下一个输入可以报告这个错误。
 
 [MC_BR_ReadParList](../../../../libraries/acp10_mc/alphabetische_ubersicht/mc_br_readparlist/mc_br_initparlist.html)
 
-| 应用案例                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
-|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 2023.06.28 **现象** 4005: Controller cannot be switched on: Drive in error state 5005: Start of movement not possible: Position controller inactive 6048: Motor holding brake movement monitor: Position error too large 9070: Motor temperature model: Stop limit exceeded 41031: Junction temperature model: Warning limit exceeded 41070: Motor temperature model: Warning limit exceeded 29203: Drive is not ready. 29209: The drive is in error state. 29217: Invalid input parameter **原因** 零位参数不对引起过载，客户更换了模具，但是没有重新走回零的流程，导致参数错误，机械卡主了，当前顶住位置距离零位还有1mm以上 因此当伺服使能，由于不在零位位置，所以向零位运动，由于已机械顶住，所以动态偏差LagError一直有1mm以上，就一直以最大扭矩输出，造成电机温度超过70度以上，驱动器的散热片温度高达70度，IGBT温度高达133度。持续较长时间后就报警而POWER OFF，进行复位后，又进入以上死循环。 **优化方式** 使能后，走到零位，如果持续1秒超过+5Nm或小于-5Nm，则把HomePosition 进行偏移，再进行MC_HOME操作。 |
-| 2023.07.05 **现象** 使用功能块MC_GearInPos，当Velocity=0，Acceleration=0，MasterParIDMaxVelocity=0，触发Execute=1时报错29217 **原因** 原因是Velocity和Acceleration必须大于0。                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
-| 2023.07.07 使用MC_BR_TorqueControl库，模式选择mcV_LIMIT_CAL,就是会把速度限制在一定的范围内，不会超过最大正反最大速度，但是这两个速度也不是随便设置的，如果极限值靠得太近，则由于计算参数重叠而不能使用将报出错误29217:将报告无效的输入参数。                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
+## 应用案例
 
-### 29218:PLCopen轴状态不明
+### 2023.06.28
+
+**现象** 4005: Controller cannot be switched on: Drive in error state 5005: Start of movement not possible: Position controller inactive 6048: Motor holding brake movement monitor: Position error too large 9070: Motor temperature model: Stop limit exceeded 41031: Junction temperature model: Warning limit exceeded 41070: Motor temperature model: Warning limit exceeded 29203: Drive is not ready. 29209: The drive is in error state. 29217: Invalid input parameter
+
+**原因** 零位参数不对引起过载，客户更换了模具，但是没有重新走回零的流程，导致参数错误，机械卡主了，当前顶住位置距离零位还有1mm 以上因此当伺服使能，由于不在零位位置，所以向零位运动，由于已机械顶住，所以动态偏差 LagError 一直有1mm 以上，就一直以最大扭矩输出，造成电机温度超过70度以上，驱动器的散热片温度高达70度，IGBT 温度高达133度。持续较长时间后就报警而 POWER OFF，进行复位后，又进入以上死循环。
+
+**优化方式** 使能后，走到零位，如果持续1秒超过+5Nm 或小于-5Nm，则把 HomePosition 进行偏移，再进行 MC_HOME 操作。
+
+### 2023.07.05
+
+**现象** 使用功能块 MC_GearInPos，当 Velocity=0，Acceleration=0，MasterParIDMaxVelocity=0，触发 Execute=1时报错29217
+
+**原因** 原因是 Velocity 和 Acceleration 必须大于0。
+
+### 2023.07.07
+
+使用MC_BR_TorqueControl库，模式选择mcV_LIMIT_CAL,就是会把速度限制在一定的范围内，不会超过最大正反最大速度，但是这两个速度也不是随便设置的，如果极限值靠得太近，则由于计算参数重叠而不能使用将报出错误29217:将报告无效的输入参数。
+
+# 29218:PLCopen轴状态不明
 
 说明
 
@@ -977,7 +1089,7 @@ ACP10_MC功能块至少有以下一个输入可以报告这个错误。
 
 [MC_ReadStatus](../../../../libraries/acp10_mc/alphabetische_ubersicht/mc_readstatus/mc_readstatus.html)
 
-### 29219:PLCopen参数的无效值
+# 29219:PLCopen参数的无效值
 
 说明
 
@@ -1001,7 +1113,7 @@ MaxJerk (16) = 0.0
 
 [MC_WriteParameter](../../../../libraries/acp10_mc/alphabetische_ubersicht/mc_writeparameter/mc_writeparameter.html)
 
-### 29221:没有凸轮名称
+# 29221:没有凸轮名称
 
 说明
 
@@ -1033,7 +1145,7 @@ MaxJerk (16) = 0.0
 
 [MC_BR_CalcPointsFromCam](../../../../libraries/acp10_mc/alphabetische_ubersicht/mc_br_calcpointsfromcam/mc_br_calcpointsfromcam.html)
 
-### 29222:凸轮下载时出错。
+# 29222:凸轮下载时出错。
 
 说明
 
@@ -1068,7 +1180,7 @@ MaxJerk (16) = 0.0
 
 [MC_BR_MechPosDeviationComp](../../../../libraries/acp10_mc/alphabetische_ubersicht/mc_br_mechposdeviationcomp/mc_br_mechposdeviationcomp_.html)
 
-### 29225:目标位置在轴周期之外。
+# 29225:目标位置在轴周期之外。
 
 说明
 
@@ -1114,7 +1226,7 @@ MaxJerk (16) = 0.0
 
 [MC_BR_JogTargetPosition](../../../../libraries/acp10_mc/alphabetische_ubersicht/mc_br_jogtargetposition/mc_br_jogtargetposition.html)
 
-### 29226:驱动器错误。调用MC_(BR_)ReadAxisError了解详情
+# 29226:驱动器错误。调用MC_(BR_)ReadAxisError了解详情
 
 说明
 
@@ -1212,12 +1324,17 @@ MaxJerk (16) = 0.0
 
 [MC_BR_MechPosDeviationComp](../../../../libraries/acp10_mc/alphabetische_ubersicht/mc_br_mechposdeviationcomp/mc_br_mechposdeviationcomp_.html)
 
-| 应用案例                                                                                            |
-|-----------------------------------------------------------------------------------------------------|
-| 2022.01.11 发生或未清除轴错误： 非关键报警，一般由轴错误导致                                        |
-| 2023.07.07 41041 / 7225 / 29226由于外部制动电阻的欧姆电阻或功率不足，导致机器无法在较高的速度运行。 |
+## 应用案例
 
-### 29227:不能再从该驱动器的网络上发送主控位置
+### 2022.01.11
+
+发生或未清除轴错误： 非关键报警，一般由轴错误导致
+
+### 2023.07.07
+
+41041 / 7225 / 29226由于外部制动电阻的欧姆电阻或功率不足，导致机器无法在较高的速度运行。
+
+# 29227:不能再从该驱动器的网络上发送主控位置
 
 说明
 
@@ -1265,7 +1382,7 @@ CAN：每个CAN总线最多可以传输三个位置。
 
 [MC_BR_GearIn](../../../../libraries/acp10_mc/alphabetische_ubersicht/mc_br_gearin/mc_br_gearin.html)
 
-### 29228:该驱动器不能再从网络中读取主控位置。
+# 29228:该驱动器不能再从网络中读取主控位置。
 
 描述
 
@@ -1325,7 +1442,7 @@ POWERLINK。每个驱动器最多可以通过网络接收5个位置。
 
 [MC_BR_InitReceiveNetworkEnc](../../../../libraries/acp10_mc/alphabetische_ubersicht/mc_br_initreceivenetworkenc/mc_br_initreceivenetworkenc_.html)
 
-### 29229：无法实现同步运动
+# 29229：无法实现同步运动
 
 说明
 
@@ -1363,7 +1480,7 @@ POWERLINK。每个驱动器最多可以通过网络接收5个位置。
 
 [MC_BR_CamIn](../../../../libraries/acp10_mc/alphabetische_ubersicht/mc_br_camin/mc_br_camin_.html)
 
-### 29230:内部错误。传输参数列表时出错
+# 29230:内部错误。传输参数列表时出错
 
 说明
 
@@ -1447,11 +1564,15 @@ POWERLINK。每个驱动器最多可以通过网络接收5个位置。
 
 [MC_BR_WriteLoadSimPosition](../../../mc_simif/funktionsbausteine/fb_mc_br_writeloadsimposition/fehler.html)
 
-| 应用案例                                                                                                                                                                                                                                                                                                                 |
-|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 2023.07.07 **现象** MC_BR_MoveCyclicVelocity 报错 29230 MC_BR_MoveCyclicVelocity是基于PLK网络的广播通道实现的，使用外部的PLK从站数量较多（例如超过21个PLK从站，且均通过Chained Station 设置为True），则报此错误，若使用PLK从站数少（例如少于21个从站），则能够正常使用。 **解决方式** 不使用此功能块，换用其他方式实现。 |
+## 应用案例
 
-### 29231:主速度是无效的，为0或负值。
+### 2023.07.07
+
+**现象** MC_BR_MoveCyclicVelocity 报错 29230 MC_BR_MoveCyclicVelocity 是基于 PLK 网络的广播通道实现的，使用外部的 PLK 从站数量较多（例如超过21个 PLK 从站，且均通过 Chained Station 设置为 True），则报此错误，若使用 PLK 从站数少（例如少于21个从站），则能够正常使用。
+
+**解决方式** 不使用此功能块，换用其他方式实现。
+
+# 29231:主速度是无效的，为0或负值。
 
 说明
 
@@ -1479,7 +1600,7 @@ POWERLINK。每个驱动器最多可以通过网络接收5个位置。
 
 [MC_GearInPos](../../../../libraries/acp10_mc/alphabetische_ubersicht/mc_gearinpos/mc_gearinpos.html)
 
-### 29232:内部错误。无效的SPT资源类型
+# 29232:内部错误。无效的SPT资源类型
 
 说明
 
@@ -1517,7 +1638,7 @@ POWERLINK。每个驱动器最多可以通过网络接收5个位置。
 
 [MC_BR_CamTransition](../../../../libraries/acp10_mc/alphabetische_ubersicht/mc_br_camtransition/mc_br_camtransition.html)
 
-### 29233: 所需类型的SPT资源不可用
+# 29233: 所需类型的SPT资源不可用
 
 说明
 
@@ -1577,7 +1698,7 @@ POWERLINK。每个驱动器最多可以通过网络接收5个位置。
 
 [MC_BR_MechPosDeviationComp](../../../../libraries/acp10_mc/alphabetische_ubersicht/mc_br_mechposdeviationcomp/mc_br_mechposdeviationcomp_.html)
 
-### 29234:内部错误。请求的SPT资源数量不可用
+# 29234:内部错误。请求的SPT资源数量不可用
 
 描述
 
@@ -1593,7 +1714,7 @@ POWERLINK。每个驱动器最多可以通过网络接收5个位置。
 
 可以返回此错误的功能块
 
-### 29235:该功能对当前轴类型不可用。
+# 29235:该功能对当前轴类型不可用。
 
 说明
 
@@ -1692,7 +1813,7 @@ POWERLINK。每个驱动器最多可以通过网络接收5个位置。
 
 [MC_BR_InitReceiveNetworkEnc](../../../../libraries/acp10_mc/alphabetische_ubersicht/mc_br_initreceivenetworkenc/mc_br_initreceivenetworkenc_.html)
 
-### 29237:在TriggerInput参数中出错
+# 29237:在TriggerInput参数中出错
 
 说明
 
@@ -1748,7 +1869,7 @@ TriggerInput.IntervalSourceParID等于0或TriggerInput.IntervalCompareMode等于
 
 [MC_BR_RegMarkCapture001](../../../../libraries/acp10_mc/alphabetische_ubersicht/mc_br_regmarkcapture001/mc_br_regmarkcapture001.html)
 
-### 29238:在当前PLCopen状态下无法使用功能块。
+# 29238:在当前PLCopen状态下无法使用功能块。
 
 说明
 
@@ -1848,7 +1969,7 @@ TriggerInput.IntervalSourceParID等于0或TriggerInput.IntervalCompareMode等于
 
 [MC_BR_SetupFromParTabObj](../../../../libraries/acp10_mc/alphabetische_ubersicht/mc_br_setupfrompartabobj/mc_br_br_setupfrompartabobj_.html)
 
-### 29239:此功能对该网络不适用。
+# 29239:此功能对该网络不适用。
 
 说明
 
@@ -1883,7 +2004,7 @@ TriggerInput.IntervalSourceParID等于0或TriggerInput.IntervalCompareMode等于
 | [MC_BR_MoveCyclicVelocityExt](../../../../libraries/acp10_mc/alphabetische_ubersicht/mc_br_movecyclicvelocityext/mc_br_movecyclicvelocityext.html)    | CAN                                                                           |
 | [MC_BR_InitReceiveNetworkEnc](../../../../libraries/acp10_mc/alphabetische_ubersicht/mc_br_initreceivenetworkenc/mc_br_initreceivenetworkenc_.html)   | CAN, SDC                                                                      |
 
-### 29240：由于数据类型的大小，不能使用指定的ParID。
+# 29240：由于数据类型的大小，不能使用指定的ParID。
 
 说明
 
@@ -1911,7 +2032,7 @@ TriggerInput.IntervalSourceParID等于0或TriggerInput.IntervalCompareMode等于
 
 [MC_BR_InitCyclicWrite](../../../../libraries/acp10_mc/alphabetische_ubersicht/mc_br_initcyclicwrite/mc_br_initcyclicwrite.html)
 
-### 29241: 指定的ParID的数据类型不正确
+# 29241: 指定的ParID的数据类型不正确
 
 说明
 
@@ -1941,7 +2062,7 @@ ParID不被写入。
 
 [MC_BR_WriteParID](../../../../libraries/acp10_mc/alphabetische_ubersicht/mc_br_writeparid/mc_br_writeparid.html)
 
-### 29242:循环读取数据已满
+# 29242:循环读取数据已满
 
 说明
 
@@ -2025,11 +2146,19 @@ ParID不被写入。
 
 [MC_BR_MechPosDeviationComp](../../../../libraries/acp10_mc/alphabetische_ubersicht/mc_br_mechposdeviationcomp/mc_br_mechposdeviationcomp_.html)
 
-| 应用案例                                                                                                                                                                                                                                                                                                      |
-|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 2023.07.07 **现象** 使用ACOPOS 1320驱动器，在使用MC_BR_CyclicRead功能块，在同一时刻调用数量过多，因此报错。 ![](FILES/000轴控PLCopen报警号/38d62bfa430a3b172fb457298bcf564f.png) 通过帮助可知，限制在一个周期下，只能有6个ParID读写，且总字节长度最大为18字节。 **解决方式** 调整时序，不必要高频读的ParID调整为几个周期读写一次。 |
+## 应用案例
 
-### 29244:配置循环数据时发生内部错误
+### 2023.07.07
+
+**现象** 使用 ACOPOS 1320驱动器，在使用 MC_BR_CyclicRead 功能块，在同一时刻调用数量过多，因此报错。
+
+![](FILES/000轴控PLCopen报警号/38d62bfa430a3b172fb457298bcf564f.png)
+
+通过帮助可知，限制在一个周期下，只能有6个 ParID 读写，且总字节长度最大为18字节。
+
+**解决方式** 调整时序，不必要高频读的ParID调整为几个周期读写一次。 |
+
+# 29244:配置循环数据时发生内部错误
 
 说明
 
@@ -2105,7 +2234,7 @@ ParID不被写入。
 
 [MC_BR_MechPosDeviationComp](../../../../libraries/acp10_mc/alphabetische_ubersicht/mc_br_mechposdeviationcomp/mc_br_mechposdeviationcomp_.html)
 
-### 29246:无效的TouchProbe窗口
+# 29246:无效的TouchProbe窗口
 
 说明
 
@@ -2123,18 +2252,18 @@ ParID不被写入。
 
 在下列情况下会发生这个错误。
 
--   设置了 "WindowOnly "输入。
--   正在使用一个周期性轴。
--   "FirstPosition" ≥ 轴的周期
--   "FirstPosition" \<0
--   "最后位置" ≥ 轴周期
--   "LastPosition" \<0
+- 设置了 "WindowOnly "输入。
+- 正在使用一个周期性轴。
+- "FirstPosition" ≥ 轴的周期
+- "FirstPosition" \<0
+- "最后位置" ≥ 轴周期
+- "LastPosition" \<0
 
 可以返回此错误的功能块
 
 [MC_TouchProbe](../../../../libraries/acp10_mc/alphabetische_ubersicht/mc_touchprobe/mc_touchprobe.html)
 
-### 29247：无法达到主同步位置。
+# 29247：无法达到主同步位置。
 
 说明
 
@@ -2152,18 +2281,19 @@ ParID不被写入。
 
 在下列情况下会出现这种错误。
 
--   MasterSyncPosition - MasterStartDistance \< 主轴的实际位置
--   
+- MasterSyncPosition - MasterStartDistance \< 主轴的实际位置
 
 可以返回此错误的功能块
 
 [MC_GearInPos](../../../../libraries/acp10_mc/alphabetische_ubersicht/mc_gearinpos/mc_gearinpos.html)
 
-| 应用案例                                                                                                                                                                                                                                                                                                                                                                                 |
-|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 2023.07.07 非周期主轴，当MC_GearInPos输入参数满足Sslave = (Vin+Vout) \*0.5 \*Smaster时，补偿段从轴加速度曲线为三角波，从轴速度曲线平滑。 其中Sslave=SlaveSyncPosition-SlaveCurrentPos；Smaster=MasterStartDistance。 如果MasterSyncPosition- MasterStartDistance\<MasterCurrentPos，FB报错29247，因为InSync=1之前主轴只允许正转。 如果是周期主轴，不会报错，主轴运动到下个周期开始补偿。 |
+## 应用案例
 
-### 29250: 无效的CamTableID
+### 2023.07.07
+
+非周期主轴，当 MC_GearInPos 输入参数满足 Sslave = (Vin+Vout) * 0.5 * Smaster 时，补偿段从轴加速度曲线为三角波，从轴速度曲线平滑。其中 Sslave=SlaveSyncPosition-SlaveCurrentPos；Smaster=MasterStartDistance。如果 MasterSyncPosition- MasterStartDistance\<MasterCurrentPos，FB 报错29247，因为 InSync=1之前主轴只允许正转。如果是周期主轴，不会报错，主轴运动到下个周期开始补偿。
+
+# 29250: 无效的CamTableID
 
 说明
 
@@ -2195,7 +2325,7 @@ CamTableID \> 14
 
 [MC_BR_CamTransition](../../../../libraries/acp10_mc/alphabetische_ubersicht/mc_br_camtransition/mc_br_camtransition.html)
 
-### 29251：下载ACOPOS参数表时出错
+# 29251：下载ACOPOS参数表时出错
 
 描述
 
@@ -2217,7 +2347,7 @@ CamTableID \> 14
 
 [MC_BR_InitParTabObj](../../../../libraries/acp10_mc/alphabetische_ubersicht/mc_br_initpartabobj/mc_br_initpartabobj.html)
 
-### 29252:初始化参数列表时出错
+# 29252:初始化参数列表时出错
 
 说明
 
@@ -2239,7 +2369,7 @@ CamTableID \> 14
 
 [MC_BR_InitParList](../../../../libraries/acp10_mc/alphabetische_ubersicht/mc_br_initparlist/mc_br_initparlist.html)
 
-### 29253:下载参数序列时出错
+# 29253:下载参数序列时出错
 
 说明
 
@@ -2261,7 +2391,7 @@ CamTableID \> 14
 
 [MC_BR_DownloadParSequ](../../../../libraries/acp10_mc/alphabetische_ubersicht/mc_br_downloadparsequ/mc_br_downloadparsequ.html)
 
-### 29254：初始化参数序列错误
+# 29254：初始化参数序列错误
 
 说明
 
@@ -2283,7 +2413,7 @@ CamTableID \> 14
 
 [MC_BR_InitParSequ](../../../../libraries/acp10_mc/alphabetische_ubersicht/mc_br_initparsequ/mc_br_initparsequ.html)
 
-### 29255: 初始化不可能，轴耦合有效
+# 29255: 初始化不可能，轴耦合有效
 
 说明
 
@@ -2315,7 +2445,7 @@ CamTableID \> 14
 
 [MC_BR_InitAutData](../../../../libraries/acp10_mc/alphabetische_ubersicht/mc_br_initautdata/mc_br_initautdata.html)
 
-### 29256：不可能有多个同时的命令
+# 29256：不可能有多个同时的命令
 
 说明
 
@@ -2347,7 +2477,7 @@ CamTableID \> 14
 
 [MC_BR_CamIn](../../../../libraries/acp10_mc/alphabetische_ubersicht/mc_br_camin/mc_br_camin_.html)
 
-### 29257:指定的数据地址是无效的。
+# 29257:指定的数据地址是无效的。
 
 说明
 
@@ -2442,7 +2572,7 @@ CamTableID \> 14
 
 [MC_BR_MechPosDeviationComp](../../../../libraries/acp10_mc/alphabetische_ubersicht/mc_br_mechposdeviationcomp/mc_br_mechposdeviationcomp_.html)
 
-### 29260:没有指定数据对象名称
+# 29260:没有指定数据对象名称
 
 说明
 
@@ -2472,7 +2602,7 @@ CamTableID \> 14
 
 [MC_BR_GetErrorText](../../../../libraries/acp10_mc/alphabetische_ubersicht/mc_br_geterrortext/mc_br_geterrortext.html)
 
-### 29261:无效的数据对象索引
+# 29261:无效的数据对象索引
 
 说明
 
@@ -2508,11 +2638,13 @@ CamTableID \> 14
 
 [MC_BR_LimitLoadCam](../../../../libraries/acp10_mc/alphabetische_ubersicht/mc_br_limitloadcam/mc_br_limitloadcam.html)
 
-| 应用案例                                                                                                                             |
-|--------------------------------------------------------------------------------------------------------------------------------------|
-| 2023.07.07 初次上电，伺服报错29261。 原因是凸轮曲线没有数据，改MC_BR_DownloadCamProfileObj为MC_BR_DownloadCamProfileData，问题解决。 |
+## 应用案例
 
-### 29262：发送通道已在使用中。
+### 2023.07.07
+
+初次上电，伺服报错29261。 原因是凸轮曲线没有数据，改MC_BR_DownloadCamProfileObj为MC_BR_DownloadCamProfileData，问题解决。
+
+# 29262：发送通道已在使用中。
 
 说明
 
@@ -2534,7 +2666,7 @@ CamTableID \> 14
 
 [MC_BR_InitSendParID](../../../../libraries/acp10_mc/alphabetische_ubersicht/mc_br_initsendparid/mc_br_initsendparid.html)
 
-### 29263：从属通道已在使用中
+# 29263：从属通道已在使用中
 
 说明
 
@@ -2560,7 +2692,7 @@ CamTableID \> 14
 
 [MC_BR_InitReceiveNetworkData](../../../../libraries/acp10_mc/alphabetische_ubersicht/mc_br_initreceivenetworkdata/mc_br_initreceivenetworkdata.html)
 
-### 29264:循环写数据已满
+# 29264:循环写数据已满
 
 说明
 
@@ -2590,7 +2722,7 @@ CamTableID \> 14
 
 [MC_BR_CrossCutterControl](../../../../libraries/acp10_mc/alphabetische_ubersicht/mc_br_crosscuttercontrol/mc_br_crosscuttercontrol.html)
 
-### 29265:与驱动器的通信丢失
+# 29265:与驱动器的通信丢失
 
 说明
 
@@ -2608,32 +2740,51 @@ CamTableID \> 14
 
 原因/解决方案
 
--   网络电缆中断
--   POWERLINK站失败或关闭
--   连续连接了太多的站（超过了最大级别的集线器数量，超过了最大电缆长度）
--   在配置的POWERLINK循环时间内有太多的站出现
--   环境温度超出有效范围
--   ACOPOS通讯插卡有缺陷或硬件版本错误
+- 网络电缆中断
+- POWERLINK站失败或关闭
+- 连续连接了太多的站（超过了最大级别的集线器数量，超过了最大电缆长度）
+- 在配置的POWERLINK循环时间内有太多的站出现
+- 环境温度超出有效范围
+- ACOPOS通讯插卡有缺陷或硬件版本错误
 
 在有干扰的情况下，请参考ACP10错误编号7030下的接线指南描述。
 
 在ACOPOS复位后或POWERLINK站再次开机后，可以按以下方法开始网络初始化。
 
--   使用功能块MC_BR_NetworkInit，命令 mcSTART （推荐）。
--   将配置文件acp10cfg.ncc中 "网络初始化（ACOPOS启动）"下的 "ACOPOS复位后自动执行 "设置从 "否 "改为 "是"
--   
+- 使用功能块MC_BR_NetworkInit，命令 mcSTART （推荐）。
+- 将配置文件acp10cfg.ncc中 "网络初始化（ACOPOS启动）"下的 "ACOPOS复位后自动执行 "设置从 "否 "改为 "是"
 
 可以返回此错误的功能块。
 
 所有ACP10_MC功能块都可以报告这个错误。
 
-| 应用案例                                                                                                                                                                                                                                                                                                |
-|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 2023.03.23 1.重新插拔贝加莱控制器与驱动器之间连接的POWERLINK线缆 2.更换POWERLINK线缆 3.检查POWERLINK线缆是否插对位置                                                                                                                                                                                    |
-| 2023.07.04 **现象** 生产过程中出现报警29265、32189等故障，偶尔驱动先报警29265，重启上电后正常但运行一段时间后又会突然出现 **解决方式** 调整了PLK网络布局，更换PLK线缆，仍未解决问题 更换出问题的驱动器后解决                                                                                            |
-| 2023.07.14 **现象** 原因运行正常的ACOPOS驱动器，突然无法连接，报出29265，无法复位，LED情况如下所示 ![](FILES/000轴控PLCopen报警号/134242edffee3a65ef407e57cab41ae7.png) 通过SDM连接，发现此驱动器无法连接上，AC114卡的灯闪烁如上图所示 **原因** 由于设备意外进水，驱动器损坏 ![](FILES/000轴控PLCopen报警号/500f90cb874106d054466b673fddaf17.png) |
+## 应用案例
 
-### 29266：MasterParID在上次调用FB后发生了变化。
+### 2023.03.23
+
+1.重新插拔贝加莱控制器与驱动器之间连接的 POWERLINK 线缆
+
+2.更换 POWERLINK 线缆 3.检查 POWERLINK 线缆是否插对位置
+
+### 2023.07.04
+
+**现象** 生产过程中出现报警29265、32189等故障，偶尔驱动先报警29265，重启上电后正常但运行一段时间后又会突然出现
+
+**解决方式** 调整了 PLK 网络布局，更换 PLK 线缆，仍未解决问题更换出问题的驱动器后解决
+
+### 2023.07.14
+
+**现象** 原因运行正常的 ACOPOS 驱动器，突然无法连接，报出29265，无法复位，LED 情况如下所示
+
+![](FILES/000轴控PLCopen报警号/134242edffee3a65ef407e57cab41ae7.png)
+
+通过 SDM 连接，发现此驱动器无法连接上，AC114卡的灯闪烁如上图所示
+
+**原因** 由于设备意外进水，驱动器损坏
+
+![](FILES/000轴控PLCopen报警号/500f90cb874106d054466b673fddaf17.png) |
+
+# 29266：MasterParID在上次调用FB后发生了变化。
 
 说明
 
@@ -2679,7 +2830,7 @@ ParID没有被转移到硬盘上。
 
 [MC_BR_GearIn](../../../../libraries/acp10_mc/alphabetische_ubersicht/mc_br_gearin/mc_br_gearin.html)
 
-### 29267：凸轮多项式的数量无效
+# 29267：凸轮多项式的数量无效
 
 说明
 
@@ -2701,7 +2852,7 @@ ParID没有被转移到硬盘上。
 
 [MC_BR_DownloadCamProfileData](../../../../libraries/acp10_mc/alphabetische_ubersicht/mc_br_downloadcamprofiledata/mc_br_downloadcamprofiledata.html)
 
-### 29268: 功能块被另一个功能块中止了
+# 29268: 功能块被另一个功能块中止了
 
 说明
 
@@ -2734,7 +2885,7 @@ ParID没有被转移到硬盘上。
 
 [MC_Power](../../../../libraries/acp10_mc/alphabetische_ubersicht/mc_power/mc_power.html)
 
-### 29269:保存NC初始参数模块错误
+# 29269:保存NC初始参数模块错误
 
 说明
 
@@ -2758,7 +2909,7 @@ ParID没有被转移到硬盘上。
 
 [MC_BR_SetupController](../../../../libraries/acp10_mc/alphabetische_ubersicht/mc_br_setupcontroller/mc_br_setupcontroller.html)
 
-### 29270：加载NC初始参数模块时出错
+# 29270：加载NC初始参数模块时出错
 
 说明
 
@@ -2780,7 +2931,7 @@ ParID没有被转移到硬盘上。
 
 [MC_BR_LoadAxisPar](../../../../libraries/acp10_mc/alphabetische_ubersicht/mc_br_loadaxispar/mc_br_loadaxispar.html)
 
-### 29271:选定的MC_TouchProbe功能块没有激活。
+# 29271:选定的MC_TouchProbe功能块没有激活。
 
 说明
 
@@ -2808,21 +2959,20 @@ ParID没有被转移到硬盘上。
 
 [MC_AbortTrigger](../../../../libraries/acp10_mc/alphabetische_ubersicht/mc_aborttrigger/mc_aborttrigger.html)
 
-### 29272:Cam Profile Automat数据未被初始化
+# 29272:Cam Profile Automat数据未被初始化
 
 说明
 
 如果以下功能块改变了Cam Profile Automat的参数，在 "MC_BR_AutControl.Start", "MC_BR_AutControl.Restart", "MC_BR_AutCommand.Start", "MC_BR_AutCommand.Restart", "MC_BR_CamIn.EnterCam" 或 "MC_BR_CamIn.Restart" 的上升沿出现错误。
 
--   [MC_CamIn](../../../../libraries/acp10_mc/alphabetische_ubersicht/mc_camin/mc_camin.html)
--   [MC_GearIn](../../../../libraries/acp10_mc/alphabetische_ubersicht/mc_gearin/mc_gearin.html)
--   [MC_GearInPos](../../../../libraries/acp10_mc/alphabetische_ubersicht/mc_gearinpos/mc_gearinpos.html)
--   [MC_BR_CamDwell](../../../../libraries/acp10_mc/alphabetische_ubersicht/mc_br_camdwell/mc_br_camdwell.html)
--   [MC_BR_AutoCamDwell](../../../../libraries/acp10_mc/alphabetische_ubersicht/mc_br_autocamdwell/mc_br_autocamdwell.html)
--   [MC_BR_CamTransition](../../../../libraries/acp10_mc/alphabetische_ubersicht/mc_br_camtransition/mc_br_camtransition.html)
--   [MC_BR_GearIn](../../../../libraries/acp10_mc/alphabetische_ubersicht/mc_br_gearin/mc_br_gearin.html)
--   [MC_BR_CamIn](../../../../libraries/acp10_mc/alphabetische_ubersicht/mc_br_camin/mc_br_camin_.html)
--   
+- [MC_CamIn](../../../../libraries/acp10_mc/alphabetische_ubersicht/mc_camin/mc_camin.html)
+- [MC_GearIn](../../../../libraries/acp10_mc/alphabetische_ubersicht/mc_gearin/mc_gearin.html)
+- [MC_GearInPos](../../../../libraries/acp10_mc/alphabetische_ubersicht/mc_gearinpos/mc_gearinpos.html)
+- [MC_BR_CamDwell](../../../../libraries/acp10_mc/alphabetische_ubersicht/mc_br_camdwell/mc_br_camdwell.html)
+- [MC_BR_AutoCamDwell](../../../../libraries/acp10_mc/alphabetische_ubersicht/mc_br_autocamdwell/mc_br_autocamdwell.html)
+- [MC_BR_CamTransition](../../../../libraries/acp10_mc/alphabetische_ubersicht/mc_br_camtransition/mc_br_camtransition.html)
+- [MC_BR_GearIn](../../../../libraries/acp10_mc/alphabetische_ubersicht/mc_br_gearin/mc_br_gearin.html)
+- [MC_BR_CamIn](../../../../libraries/acp10_mc/alphabetische_ubersicht/mc_br_camin/mc_br_camin_.html)
 
 反应
 
@@ -2846,7 +2996,7 @@ Cam Profile Automat不被启动。
 
 [MC_BR_CamIn](../../../../libraries/acp10_mc/alphabetische_ubersicht/mc_br_camin/mc_br_camin_.html) （即使 [MC_BR_InitAutData](../../../../libraries/acp10_mc/alphabetische_ubersicht/mc_br_initautdata/mc_br_initautdata.html) 改变了参数）。
 
-### 29273:指定的 "主题 "无效
+# 29273:指定的 "主题 "无效
 
 说明
 
@@ -2868,7 +3018,7 @@ Cam Profile Automat不被启动。
 
 [MC_BR_InitAxisSubjectPar](../../../../libraries/acp10_mc/alphabetische_ubersicht/mc_br_initaxissubjectpar/mc_br_initaxissubjectpar.html)
 
-### 29274:初始化数据时出错。调用MC_(BR_)ReadAxisError了解详情。
+# 29274:初始化数据时出错。调用MC_(BR_)ReadAxisError了解详情。
 
 说明
 
@@ -2890,7 +3040,7 @@ Cam Profile Automat不被启动。
 
 [MC_BR_InitAxisSubjectPar](../../../../libraries/acp10_mc/alphabetische_ubersicht/mc_br_initaxissubjectpar/mc_br_initaxissubjectpar.html)
 
-### 29275:当 "Enable = TRUE "时，至少有一个输入值发生变化
+# 29275:当 "Enable = TRUE "时，至少有一个输入值发生变化
 
 说明
 
@@ -2898,12 +3048,12 @@ Cam Profile Automat不被启动。
 
 当 "Enable = TRUE"时不能改变的输入 。
 
--   "ApplicationMode"
--   "ShiftMode"
--   "AdvancedParameters.ShiftParID"
--   "TriggerInput.EventSourceParID"
--   "TriggerInput.PosSource"
--   "Mode"
+- "ApplicationMode"
+- "ShiftMode"
+- "AdvancedParameters.ShiftParID"
+- "TriggerInput.EventSourceParID"
+- "TriggerInput.PosSource"
+- "Mode"
 
 反应
 
@@ -2931,7 +3081,7 @@ Cam Profile Automat不被启动。
 
 [MC_BR_VelocityControl](../../../../libraries/acp10_mc/alphabetische_ubersicht/mc_br_velocitycontrol/mc_br_velocitycontrol.html)
 
-### 29276:已经在进行相位转换。
+# 29276:已经在进行相位转换。
 
 说明
 
@@ -2965,7 +3115,7 @@ Cam Profile Automat不被启动。
 
 [MC_BR_Phasing](../../../../libraries/acp10_mc/alphabetische_ubersicht/mc_br_phasing/mc_br_phasing.html)
 
-### 29277:已经在进行偏移。
+# 29277:已经在进行偏移。
 
 说明
 
@@ -2991,7 +3141,7 @@ Cam Profile Automat不被启动。
 
 [MC_BR_OffsetZone](../../../../libraries/acp10_mc/alphabetische_ubersicht/mc_br_offsetzone/mc_br_offsetzone.html)
 
-### 29278: 没有为轴、主、从或功能块输入定义周期
+# 29278: 没有为轴、主、从或功能块输入定义周期
 
 说明
 
@@ -3021,7 +3171,7 @@ Cam Profile Automat不被启动。
 
 [MC_BR_JogTargetPosition](../../../../libraries/acp10_mc/alphabetische_ubersicht/mc_br_jogtargetposition/mc_br_jogtargetposition.html)
 
-### 29279:无法计算输出的值
+# 29279:无法计算输出的值
 
 说明
 
@@ -3047,7 +3197,7 @@ Cam Profile Automat不被启动。
 |-------------------------------------------------------------------------------------------------------------------------------------|
 | 2023.07.07 故障引起的原因是对应ParID的最后一次的锁存值和当前锁存值的差值超过231。因此功能块不能计算正确的输出值"RecordedPosition"。 |
 
-### 29280:没有定义有效的主轴
+# 29280:没有定义有效的主轴
 
 说明
 
@@ -3079,7 +3229,7 @@ Cam Profile Automat不被启动。
 
 [MC_BR_RegMarkCapture002](../../../../libraries/acp10_mc/alphabetische_ubersicht/mc_br_regmarkcapture002/mc_br_regmarkcapure002.html)
 
-### 29281:该功能对ACOPOSmulti驱动器不可用。
+# 29281:该功能对ACOPOSmulti驱动器不可用。
 
 说明
 
@@ -3101,7 +3251,7 @@ Cam Profile Automat不被启动。
 
 [MC_BR_HomeAcpEncoder](../../../../libraries/acp10_mc/alphabetische_ubersicht/mc_br_homeacpencoder/mc_br_homeacpencoder.html)
 
-### 29282:命令目前不能被执行。
+# 29282:命令目前不能被执行。
 
 说明
 
@@ -3129,7 +3279,7 @@ Cam Profile Automat不被启动。
 
 [MC_BR_NetworkInit](../../../../libraries/acp10_mc/alphabetische_ubersicht/mc_br_networkinit/mc_br_networkinit.html)
 
-### 29283:第一个凸轮点的主站或从站位置不等于0
+# 29283:第一个凸轮点的主站或从站位置不等于0
 
 说明
 
@@ -3157,7 +3307,7 @@ Cam Profile Automat不被启动。
 
 [MC_BR_CalcCamFromPoints](../../../../libraries/acp10_mc/alphabetische_ubersicht/mc_br_calccamfrompoints/mc_br_calccamfrompoints.html)
 
-### 29284: 曲线点太少
+# 29284: 曲线点太少
 
 说明
 
@@ -3191,7 +3341,7 @@ Cam Profile Automat不被启动。
 |---------------------------------------------------------------------------------------------------------------------------------|
 | 2023.07.07 激活MC_BR_MechPosDeviationComp时，参数Parameters. CompDataPos.NumberOfPoints=0导致报错，未随着补偿数据的更新而更新。 |
 
-### 29285: 凸轮部分的类型无效
+# 29285: 凸轮部分的类型无效
 
 说明
 
@@ -3219,7 +3369,7 @@ Cam Profile Automat不被启动。
 
 [MC_BR_CalcCamFromSections](../../../../libraries/acp10_mc/alphabetische_ubersicht/mc_br_calccamfromsections/mc_br_calccamfromsections.html)
 
-### 29286：最后一个凸轮点的模式无效
+# 29286：最后一个凸轮点的模式无效
 
 说明
 
@@ -3245,7 +3395,7 @@ Cam Profile Automat不被启动。
 
 [MC_BR_CalcCamFromSections](../../../../libraries/acp10_mc/alphabetische_ubersicht/mc_br_calccamfromsections/mc_br_calccamfromsections.html)
 
-### 29287:最后一个凸轮点的主站或从站位置无效
+# 29287:最后一个凸轮点的主站或从站位置无效
 
 说明
 
@@ -3273,7 +3423,7 @@ ACOPOS固件只接受最后一个凸轮点的主站和从站位置的整数值�
 
 [MC_BR_CalcCamFromPoints](../../../../libraries/acp10_mc/alphabetische_ubersicht/mc_br_calccamfrompoints/mc_br_calccamfrompoints.html)
 
-### 29288：主力位置不是严格的单调增长
+# 29288：主力位置不是严格的单调增长
 
 说明
 
@@ -3307,7 +3457,7 @@ ACOPOS固件只接受最后一个凸轮点的主站和从站位置的整数值�
 
 [MC_BR_MechPosDeviationComp](../../../../libraries/acp10_mc/alphabetische_ubersicht/mc_br_mechposdeviationcomp/mc_br_mechposdeviationcomp_.html)
 
-### 29289:无效的边界参数
+# 29289:无效的边界参数
 
 说明
 
@@ -3339,7 +3489,7 @@ ACOPOS固件只接受最后一个凸轮点的主站和从站位置的整数值�
 
 [MC_BR_CalcPointsFromCam](../../../../libraries/acp10_mc/alphabetische_ubersicht/mc_br_calcpointsfromcam/mc_br_calcpointsfromcam.html)
 
-### 29290：太多的凸轮多项式
+# 29290：太多的凸轮多项式
 
 说明
 
@@ -3367,7 +3517,7 @@ ACOPOS固件限制每个凸轮的最大多项式数量为64。
 
 [MC_BR_CalcCamFromPoints](../../../../libraries/acp10_mc/alphabetische_ubersicht/mc_br_calccamfrompoints/mc_br_calccamfrompoints.html)
 
-### 29291: 凸轮部分外的转折点
+# 29291: 凸轮部分外的转折点
 
 说明
 
@@ -3397,7 +3547,7 @@ ACOPOS固件限制每个凸轮的最大多项式数量为64。
 
 [MC_BR_CalcPointsFromCam](../../../../libraries/acp10_mc/alphabetische_ubersicht/mc_br_calcpointsfromcam/mc_br_calcpointsfromcam.html)
 
-### 29292：不允许有相同的Slave位置
+# 29292：不允许有相同的Slave位置
 
 说明
 
@@ -3425,7 +3575,7 @@ ACOPOS固件限制每个凸轮的最大多项式数量为64。
 
 [MC_BR_CalcCamFromSections](../../../../libraries/acp10_mc/alphabetische_ubersicht/mc_br_calccamfromsections/mc_br_calccamfromsections.html)
 
-### 29293：指定的数据长度太低或0
+# 29293：指定的数据长度太低或0
 
 说明
 
@@ -3449,7 +3599,7 @@ ACOPOS固件限制每个凸轮的最大多项式数量为64。
 
 [MC_BR_ReadAxisError](../../../../libraries/acp10_mc/alphabetische_ubersicht/mc_br_readaxiserror/mc_br_readaxiserror.html)
 
-### 29294:无法确定错误文本。请参阅错误文本字符串以了解详情。
+# 29294:无法确定错误文本。请参阅错误文本字符串以了解详情。
 
 说明
 
@@ -3473,7 +3623,7 @@ ACOPOS固件限制每个凸轮的最大多项式数量为64。
 
 [MC_BR_GetErrorText](../../../../libraries/acp10_mc/alphabetische_ubersicht/mc_br_geterrortext/mc_br_geterrortext.html)
 
-### 29295:发生了一个错误。详见 "ErrorRecord "输出。
+# 29295:发生了一个错误。详见 "ErrorRecord "输出。
 
 说明
 
@@ -3501,7 +3651,7 @@ ACOPOS固件限制每个凸轮的最大多项式数量为64。
 
 [MC_BR_SaveCamProfileObj](../../../../libraries/acp10_mc/alphabetische_ubersicht/mc_br_savecamprofileobj/mc_br_savecamprofileobj.html)
 
-### 29296:广播频道没有足够的空间
+# 29296:广播频道没有足够的空间
 
 说明
 
@@ -3525,7 +3675,7 @@ ACOPOS固件限制每个凸轮的最大多项式数量为64。
 
 [MC_BR_MoveCyclicVelocity](../../../../libraries/acp10_mc/alphabetische_ubersicht/mc_br_movecyclicvelocity/mc_br_movecyclicvelocity.html)
 
-### 29297:永久内存中的变量问题
+# 29297:永久内存中的变量问题
 
 说明
 
@@ -3555,15 +3705,15 @@ ACOPOS固件限制每个凸轮的最大多项式数量为64。
 
 [MC_BR_HomeAcpEncoder](../../../../libraries/acp10_mc/alphabetische_ubersicht/mc_br_homeacpencoder/mc_br_homeacpencoder.html)
 
-### 29298:网络配置错误
+# 29298:网络配置错误
 
 描述
 
 在下列情况下报告此错误。
 
--   轴没有通过POWERLINK V2或SDC接口运行。
--   轴通过POWERLINK V2接口运行，但没有定义名为 "ACP10_MC_BROADCAST "的广播通道。
--   正在使用V3.00之前的自动化运行时间版本
+- 轴没有通过POWERLINK V2或SDC接口运行。
+- 轴通过POWERLINK V2接口运行，但没有定义名为 "ACP10_MC_BROADCAST "的广播通道。
+- 正在使用V3.00之前的自动化运行时间版本
 
 反应
 
@@ -3583,15 +3733,15 @@ ACOPOS固件限制每个凸轮的最大多项式数量为64。
 
 [MC_BR_MoveCyclicVelocity](../../../../libraries/acp10_mc/alphabetische_ubersicht/mc_br_movecyclicvelocity/mc_br_movecyclicvelocity.html)
 
-### 29299：在设置操作中发生错误。
+# 29299：在设置操作中发生错误。
 
 说明
 
 如果在下列操作中发生错误，将报告该错误。
 
--   设置
--   保存参数
--   停止设置
+- 设置
+- 保存参数
+- 停止设置
 
 反应
 
@@ -3619,7 +3769,7 @@ ACOPOS固件限制每个凸轮的最大多项式数量为64。
 
 [MC_BR_SetupFromParTabObj](../../../../libraries/acp10_mc/alphabetische_ubersicht/mc_br_setupfrompartabobj/mc_br_br_setupfrompartabobj_.html)
 
-### 29300: 凸轮中的多项式数目无效
+# 29300: 凸轮中的多项式数目无效
 
 说明
 
@@ -3647,7 +3797,7 @@ ACOPOS固件限制每个凸轮的最大多项式数量为64。
 
 [MC_BR_CalcPointsFromCam](../../../../libraries/acp10_mc/alphabetische_ubersicht/mc_br_calcpointsfromcam/mc_br_calcpointsfromcam.html)
 
-### 29301: 无法计算凸轮值
+# 29301: 无法计算凸轮值
 
 说明
 
@@ -3669,7 +3819,7 @@ ACOPOS固件限制每个凸轮的最大多项式数量为64。
 
 [MC_BR_GetCamMasterPosition](../../../../libraries/acp10_mc/alphabetische_ubersicht/mc_br_getcammasterposition/mc_br_getcammasterposition.html)
 
-### 29302:该功能块的一个实例在该轴上已经激活。
+# 29302:该功能块的一个实例在该轴上已经激活。
 
 说明
 
@@ -3709,7 +3859,7 @@ ACOPOS固件限制每个凸轮的最大多项式数量为64。
 
 [MC_BR_WriteLoadSimPosition](../../../mc_simif/funktionsbausteine/fb_mc_br_writeloadsimposition/fehler.html)
 
-### 29303：指定的IntervalTime太小。
+# 29303：指定的IntervalTime太小。
 
 说明
 
@@ -3731,7 +3881,7 @@ ACOPOS固件限制每个凸轮的最大多项式数量为64。
 
 [MC_BR_PowerMeter](../../../../libraries/acp10_mc/alphabetische_ubersicht/mc_br_powermeter/mc_br_powermeter.html)
 
-### 29304: 这个功能对ACOPOS不适用。
+# 29304: 这个功能对ACOPOS不适用。
 
 说明
 
@@ -3753,7 +3903,7 @@ ACOPOS固件限制每个凸轮的最大多项式数量为64。
 
 \-
 
-### 29305: 无法用指定模式读取ParID
+# 29305: 无法用指定模式读取ParID
 
 说明
 
@@ -3775,7 +3925,7 @@ ACOPOS固件限制每个凸轮的最大多项式数量为64。
 
 [MC_BR_CyclicRead](../../../../libraries/acp10_mc/alphabetische_ubersicht/mc_br_cyclicread/mc_br_cyclicread.html)
 
-### 29306：无效的插值模式
+# 29306：无效的插值模式
 
 说明
 
@@ -3799,7 +3949,7 @@ ACOPOS固件限制每个凸轮的最大多项式数量为64。
 
 [MC_BR_CalcCamFromPoints](../../../../libraries/acp10_mc/alphabetische_ubersicht/mc_br_calccamfrompoints/mc_br_calccamfrompoints.html)
 
-### 29307：主周期0
+# 29307：主周期0
 
 说明
 
@@ -3823,7 +3973,7 @@ ACOPOS固件限制每个凸轮的最大多项式数量为64。
 
 [MC_BR_CalcCamFromPoints](../../../../libraries/acp10_mc/alphabetische_ubersicht/mc_br_calccamfrompoints/mc_br_calccamfrompoints.html)
 
-### 29308：内部计算错误
+# 29308：内部计算错误
 
 说明
 
@@ -3851,7 +4001,7 @@ ACOPOS固件限制每个凸轮的最大多项式数量为64。
 
 [MC_BR_CalcCamFromPoints](../../../../libraries/acp10_mc/alphabetische_ubersicht/mc_br_calccamfrompoints/mc_br_calccamfrompoints.html)
 
-### 29309：一般内部故障
+# 29309：一般内部故障
 
 说明
 
@@ -3879,7 +4029,7 @@ ACOPOS固件限制每个凸轮的最大多项式数量为64。
 
 [MC_BR_TorqueControl](../../../../libraries/acp10_mc/alphabetische_ubersicht/mc_br_torquecontrol/mc_br_torquecontrol.html)
 
-### 29310:计算出的补偿超过了极限值。
+# 29310:计算出的补偿超过了极限值。
 
 说明
 
@@ -3901,7 +4051,7 @@ ACOPOS固件限制每个凸轮的最大多项式数量为64。
 
 [MC_BR_CheckAutCompensation](../../../../libraries/acp10_mc/alphabetische_ubersicht/mc_br_checkautcompensation/mc_br_checkautcompensation.html)
 
-### 29311:最大时间过期。
+# 29311:最大时间过期。
 
 说明
 
@@ -3925,7 +4075,7 @@ ACOPOS固件限制每个凸轮的最大多项式数量为64。
 
 [MC_BR_TorqueControl](../../../../libraries/acp10_mc/alphabetische_ubersicht/mc_br_torquecontrol/mc_br_torquecontrol.html)
 
-### 29312：在保持制动测试期间发生错误。
+# 29312：在保持制动测试期间发生错误。
 
 说明
 
@@ -3947,7 +4097,7 @@ ACOPOS固件限制每个凸轮的最大多项式数量为64。
 
 [MC_BR_BrakeControl](../../../../libraries/acp10_mc/alphabetische_ubersicht/mc_br_brakecontrol/mc_br_brakecontrol.html)
 
-### 29313: FIFO - 超过了最大的可用元素数
+# 29313: FIFO - 超过了最大的可用元素数
 
 说明
 
@@ -3969,7 +4119,7 @@ ACOPOS固件限制每个凸轮的最大多项式数量为64。
 
 [MC_BR_RegMarkCapture002](../../../../libraries/acp10_mc/alphabetische_ubersicht/mc_br_regmarkcapture002/mc_br_regmarkcapure002.html)
 
-### 29314:在错误的任务类中调用功能块
+# 29314:在错误的任务类中调用功能块
 
 说明
 
@@ -3997,7 +4147,7 @@ ACOPOS固件限制每个凸轮的最大多项式数量为64。
 
 [MC_BR_WriteLoadSimPosition](../../../mc_simif/funktionsbausteine/fb_mc_br_writeloadsimposition/fehler.html)
 
-### 29315:由于轴的错误，位置的循环转移被中止了
+# 29315:由于轴的错误，位置的循环转移被中止了
 
 说明
 
@@ -4041,7 +4191,7 @@ ACOPOS固件限制每个凸轮的最大多项式数量为64。
 
 [MC_BR_DigitalCamSwitch](../../../../libraries/acp10_mc/alphabetische_ubersicht/mc_br_digitalcamswitch/mc_br_digitalcamswitch.html)
 
-### 29316:未启用双编码器控制
+# 29316:未启用双编码器控制
 
 说明
 
@@ -4065,7 +4215,7 @@ ACP10PAR_VCTRL_S_ACT_PARID相同）。
 
 MC_BR_WriteLoadSimTwoEncPos
 
-### 29489：轴结构的内部值是无效的。
+# 29489：轴结构的内部值是无效的。
 
 说明
 
@@ -4085,11 +4235,13 @@ MC_BR_WriteLoadSimTwoEncPos
 
 在初始化失败后被调用的ACP10_MC功能块可以报告此错误。
 
-| 应用案例                                                          |
-|-------------------------------------------------------------------|
-| 2023.07.07 轴1的NC structure数据为空，报29489，结果是轴名称搞错了 |
+## 应用案例
 
-### 29490：内部初始化错误（全局启动）。
+### 2023.07.07
+
+轴1的NC structure数据为空，报29489，结果是轴名称搞错了
+
+# 29490：内部初始化错误（全局启动）。
 
 说明
 
@@ -4113,11 +4265,13 @@ MC_BR_WriteLoadSimTwoEncPos
 
 在初始化失败后被调用的ACP10_MC功能块可以报告此错误。
 
-| 应用案例                                                     |
-|--------------------------------------------------------------|
-| 2023.07.07 伺服报29490的问题，原因是PLK周期时间不是400倍数。 |
+## 应用案例
 
-### 29491：内部初始化错误（软件极限开关）。
+### 2023.07.07
+
+伺服报29490的问题，原因是PLK周期时间不是400倍数。
+
+# 29491：内部初始化错误（软件极限开关）。
 
 说明
 
@@ -4139,7 +4293,7 @@ MC_BR_WriteLoadSimTwoEncPos
 
 在初始化失败后被调用的ACP10_MC功能块可以报告这个错误。
 
-### 29492：内部初始化错误（归位一个虚拟轴）。
+# 29492：内部初始化错误（归位一个虚拟轴）。
 
 说明
 
@@ -4161,7 +4315,7 @@ MC_BR_WriteLoadSimTwoEncPos
 
 在初始化失败后被调用的ACP10_MC功能块可以报告这个错误。
 
-### 29498:ACP10_MC库。初始化失败
+# 29498:ACP10_MC库。初始化失败
 
 说明
 
@@ -4183,11 +4337,13 @@ ACP10_MC功能块不能被使用。
 
 这个错误在ACP10_MC库的初始化过程中被报告。
 
-| 应用案例                                                                                                                             |
-|--------------------------------------------------------------------------------------------------------------------------------------|
-| 2023.07.07 程序监控时无轴状态，且报错 29498 经排查发现是 Mapping 的 ncm 表里的轴命名被更改，但程序中的轴变量名字没有更改，导致轴报错 |
+## 应用案例
 
-### 29499:ACP10_MC库。在 "ASCII数据 "中的细节出现错误
+### 2023.07.07
+
+程序监控时无轴状态，且报错 29498 经排查发现是 Mapping 的 ncm 表里的轴命名被更改，但程序中的轴变量名字没有更改，导致轴报错
+
+# 29499:ACP10_MC库。在 "ASCII数据 "中的细节出现错误
 
 说明
 
@@ -4208,4 +4364,3 @@ ACP10_MC库的错误信息，在 "ASCII数据 "中有详细介绍。
 \- (这个错误指的是库本身。)
 
 在ACP10_MC库的初始化过程中会报告这个错误。
-
