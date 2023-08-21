@@ -3472,6 +3472,18 @@ ACOPOS固件限制每个凸轮的最大多项式数量为64。
 
 [MC_BR_GetErrorText](../../../../libraries/acp10_mc/alphabetische_ubersicht/mc_br_geterrortext/mc_br_geterrortext.html)
 
+## 应用案例
+
+### 2023.08.21
+
+**现象**：当速度设定值超过 limit 时，sdc 轴就会挂掉，故障无法清除。手动清除时会反复出现32037，29294。用 MC_Reset 功能块能清掉，但是 test 反而不行，只是 Error 清掉但 ErrorText 内容不不消失。Status.ErrorText[0]的信息为 The Error Text table does not exist!
+
+**原因**：轴控报错文本名在初始化表，MC_ReadAxisError_0，CPU 的配置里面不一致。
+
+![](FILES/000轴控ACOPOS报警号%2032000%20-%2032999/image-20230821092057661.png)
+
+一系列问题都是 ErrorText 文本名字不一致导致。新版 acp 版本的 `acp10etxen名称` 和旧的 simple 例程默认不一致。
+
 # 29295:发生了一个错误。详见 "ErrorRecord "输出。
 
 说明
