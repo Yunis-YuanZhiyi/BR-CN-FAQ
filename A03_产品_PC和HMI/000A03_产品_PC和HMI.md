@@ -9,7 +9,7 @@
 - [008如何使用Runtime Utility Center对CF卡中的内容进行备份](008如何使用Runtime%20Utility%20Center对CF卡中的内容进行备份.md)
 - [009在Automation Studio离线烧卡时误将U盘当成CF卡导致U盘空间变小 如何恢复U盘大小](009在Automation%20Studio离线烧卡时误将U盘当成CF卡导致U盘空间变小%20如何恢复U盘大小.md)
 - [010忘记了T30系列面板的VNC画面密码该怎么办](010忘记了T30系列面板的VNC画面密码该怎么办.md)
-- [011在Automation Studio中新建了工程 添加了相应的支持Hypervisor功能的工控机 进入CPU configuration界面以后 找不到Hypervisor选项怎么办](011在Automation%20Studio中新建了工程%20添加了相应的支持Hypervisor功能的工控机%20进入CPU%20configuration界面以后%20找不到Hypervisor选项怎么办.md)
+- [011在AS中进入CPU configuration界面以后找不到Hypervisor选项怎么办](011在AS中进入CPU%20configuration界面以后找不到Hypervisor选项怎么办.md)
 - [012贝加莱的工控机在开机时如何进入bios设置](012贝加莱的工控机在开机时如何进入bios设置.md)
 - [013如何生成工控机上的HMI Report](013如何生成工控机上的HMI%20Report.md)
 - [014贝加莱工控机访问局域网其他电脑的共享文件夹](014贝加莱工控机访问局域网其他电脑的共享文件夹.md)
