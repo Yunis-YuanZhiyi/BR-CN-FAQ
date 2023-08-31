@@ -31,3 +31,4 @@
 - [029ACOPOSmulti被动电源中被动电机短路制动是什么意思](029ACOPOSmulti被动电源中被动电机短路制动是什么意思.md)
 - [030ACOPOS或ACOPOSmulti电源模块之前长时间没有使用应该怎么处理](030ACOPOS或ACOPOSmulti电源模块之前长时间没有使用应该怎么处理.md)
 - [031ACOPOS P3如何设置PLK拨码](031ACOPOS%20P3如何设置PLK拨码.md)
+- [032单轴ACOPOS P3更改编码器卡8EAC0152.003-1接口方法](032单轴ACOPOS%20P3更改编码器卡8EAC0152.003-1接口方法.md)
