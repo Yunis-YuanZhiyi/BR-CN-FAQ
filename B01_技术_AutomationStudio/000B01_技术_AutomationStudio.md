@@ -64,6 +64,7 @@
 - [066无法打开AS项目 提示为被一个不存在的AS版本打开过](066无法打开AS项目%20提示为被一个不存在的AS版本打开过.md)
 - [070硬件模块版本找不到导致编译报错Version 1.8.0.0 for additional supports hardware module X20CS1070 was not found](070硬件模块版本找不到导致编译报错Version%201.8.0.0%20for%20additional%20supports%20hardware%20module%20X20CS1070%20was%20not%20found.md)
 - [075IOmapping中在monitor下有红色感叹号](075IOmapping中在monitor下有红色感叹号.md)
+- [⭐076AS软件入门操作表](076AS软件入门操作表.md)
 
 ## 授权问题
 - [030AS软件授权没有和TG绑定在一起，需要如何使用](030AS软件授权没有和TG绑定在一起，需要如何使用.md)
