@@ -2,23 +2,13 @@
 
 ## 网页版
 
-- [https://yzydeer.gitee.io/bur-faq](https://yzydeer.gitee.io/bur-faq)
-
-## 访问链接
-
-- [Gitee](https://gitee.com/yzydeer/BuR-FAQ)
-- [Github](https://github.com/Yunis-YuanZhiyi/BR-CN-FAQ)
-- [Bitbucket 内部维护](https://bitbucket.br-automation.com/projects/FIWW/repos/faq/browse)
+- www.brhelp.cn
 
 ## 介绍
 
 贝加莱常问问题解决办法汇总，希望在这里你能更快的找到使用过程中出现问题的答案。
 
 > 如果发现哪个问题能解答他人问题，可以拷贝链接给他人，点击即阅！
-
-### 如何搜索
-
-- [如何搜索帮助](C01_其他/007如何搜索帮助.md)
 
 ### 其他连接
 
@@ -88,11 +78,20 @@
 
 ## 需要帮助？想要补充问题？
 
-- 创建一个Issues反馈问题
+- ⭐前往 [贝加莱社区](https://www.br-education.com/qa-community) ，来问一下
 - 你也可以：
     - 发送问题至 support.cn@br-automation.com
     - 电话联系：021-54644800
 
+## 维护方式
+
+- [Gitee](https://gitee.com/yzydeer/BuR-FAQ)
+- [Github](https://github.com/Yunis-YuanZhiyi/BR-CN-FAQ)
+- [Bitbucket 内部维护](https://bitbucket.br-automation.com/projects/FIWW/repos/faq/browse)
+
+### 如何在代码托管平台中搜索
+
+- [如何搜索帮助](C01_其他/007如何搜索帮助.md)
 ## 维护规则
 
 1. 按照分类建立FAQ条目，一个问题一个条目

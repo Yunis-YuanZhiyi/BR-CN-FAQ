@@ -15,3 +15,7 @@
 //unpkg.com/docsify-count/dist/countable.js
 
 //busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js
+
+
+
+[UNPKG - docsify-plugin-toc](https://unpkg.com/browse/docsify-plugin-toc@1.3.2/dist/)
