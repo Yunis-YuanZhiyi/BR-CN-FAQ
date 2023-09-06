@@ -1,11 +1,10 @@
 <!-- _coverpage.md -->
-# 贝加莱知识库 <small>0.2<small> 
+# 贝加莱中文帮助 <small>0.3<small> 
+> 持续迭代更新，协作维护的贝加莱中文帮助
 
-> 持续迭代更新的贝加莱知识库<br>
-> 下拉网页，左上角，直接**搜索**
+# ⭐搜索一下：下拉，左上角，**搜索**
 
 # 在线帮助 
-
 ## 🚀 [轴控_轴控硬件使用助手](//axisinfo.brhelp.cn) 🚀 [轴控_轴控开发助手](//axisdev.brhelp.cn) 
 ## 📚 [通用_授权使用说明](//license.brhelp.cn) 📚 [通用_Hypervisor使用助手](//hypervisor.brhelp.cn) 📚 [通用_exOS 使用助手](//exos.brhelp.cn) 
 ## 🚅 [mapp_mappServices 使用助手](//mappservices.brhelp.cn) 🚅 [mapp_mappView使用助手](//mappview.brhelp.cn) 
