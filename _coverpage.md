@@ -1,13 +1,14 @@
 <!-- _coverpage.md -->
 
-## 贝加莱中文帮助 <small>0.3<small>
+## 🗃️ <small>0.5<small>
+
 > 持续迭代更新，协作维护的贝加莱中文帮助
 
 ### ⏳手机端访问资源较多页面可能会加载耗时略大，请耐心等待
 ### （刷新一下 | 使用 PC 访问）
 
 # ⭐搜索一下：下拉，左上角，**搜索**
-# [❔有技术问题，就上贝加莱问答社区](//www.br-education.com/qa-community)
+# [🙋‍♂️有技术问题，就上贝加莱问答社区](//www.br-education.com/qa-community)
 
 # 在线帮助
 ## 🚀 [轴控_轴控硬件使用助手](//axisinfo.brhelp.cn) 🚀 [轴控_轴控开发助手](//axisdev.brhelp.cn)
