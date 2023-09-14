@@ -1,3 +1,4 @@
-- 使用 VC 4 的 Text 控件，在 Text 条目下，在文本中间输入 `\n` 即可实现换行。 
-- ![](FILES/016VC4中Text文字信息如何换行/image-20230912153646135.png)
-
+- 使用 VC 4 的 Text 控件
+    - 确认 Format - Multiline 选项的参数为 Automatic（默认参数一般是这个）
+    - 在 Text 条目下，在文本中间输入 `\n` 即可实现换行。 
+    - ![](FILES/016VC4中Text文字信息如何换行/image-20230914105526721.png)
