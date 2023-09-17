@@ -1,6 +1,6 @@
 <!-- _coverpage.md -->
 
-## 🗃️ <small>0.5<small>
+## 🗃️ <small> <small>
 
 > 持续迭代更新，协作维护的贝加莱中文帮助
 

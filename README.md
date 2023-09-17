@@ -10,7 +10,7 @@
 
 > 如果发现哪个问题能解答他人问题，可以拷贝链接给他人，点击即阅！
 
-### 其他连接
+### 相关链接
 
 - [贝加莱开发调试助手 新手工程师第一站](https://gitee.com/yzydeer/BuR_Assistant)
 - [贝加莱工具箱: 通过这些工具，加速你的开发与维护！](https://gitee.com/yzydeer/BuR_Toolkit)
@@ -83,26 +83,4 @@
     - 发送问题至 support.cn@br-automation.com
     - 电话联系：021-54644800
 
-## 维护方式
-
-- [Gitee](https://gitee.com/yzydeer/BuR-FAQ)
-- [Github](https://github.com/Yunis-YuanZhiyi/BR-CN-FAQ)
-- [Bitbucket 内部维护](https://bitbucket.br-automation.com/projects/FIWW/repos/faq/browse)
-
-### 如何在代码托管平台中搜索
-
-- [如何搜索帮助](C01_其他/007如何搜索帮助.md)
-## 维护规则
-
-1. 按照分类建立FAQ条目，一个问题一个条目
-2. 新增条目，不修改目录，避免额外的Merge操作
-3. 条目命名为0XX开头，以序号来方便定位
-4. 如果没有答案的问题，就创建一个Issues，看是否有有人能回答
-5. 图片尽量使用`Snipaste`软件截图,减少图片占用空间
-6. 不上传视频，使用`ScreenToGif`软件制作Gif动图
-7. 建议使用已配置完成的Obisidian软件参与本仓库维护，保持项目统一
-8. 标题末尾不能有多余空格，不能以`.`，`?`结尾
-9. 标题中不能包含`%`，`'`与 `"`
-10. 标题不宜过长
-11. 文本信息中，充分使用格式，避免样式混乱
-12. 不要导入 WORD 文件，请使用 `Writage` 转换为 Markdown 文件
+## [参与维护](join_maintain.md)
