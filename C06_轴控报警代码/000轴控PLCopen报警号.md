@@ -4,94 +4,63 @@
 
 # 29200：轴对象无效
 
-说明
+- **说明**
+    - 如果一个无效的轴参考被连接到功能块的 "轴"、"主 "或 "从 "输入，则报告该错误。参见轴参考。Guid: aaf22c34-92e5-4ab0-9380-f7289ad83987
+- **反应**
+    - 该功能块的进一步执行被中止。
+    - 除了 "Error "和 "ErrorID "之外，该功能块的输出被重置。
+    - 该功能块一直处于错误状态，直到再次调用该功能块时错误不再存在（通过设置 "Execute"/"Enable "输入）。
+- **原因/解决方案**
+    - 驱动器必须被打开，并且轴参考必须有一个非 "0 "的值。 有关如何确定的信息，请参见 轴参考 。
+- **可以返回此错误的功能块**
+    - ACP10_MC功能块至少有以下一个输入可以报告这个错误。
+        - "Axis"
+        - "Master"
+        - "Slave"
+    - 接收一个结构或包含 "轴"、"主 "或 "从 "元素的结构地址的功能块。
 
-如果一个无效的轴参考被连接到功能块的 "轴"、"主 "或 "从 "输入，则报告该错误。参见 轴参考。Guid: aaf22c34-92e5-4ab0-9380-f7289ad83987
+# 29203：驱动器没有准备好
 
-反应
-
-该功能块的进一步执行被中止。
-
-除了 "Error "和 "ErrorID "之外，该功能块的输出被重置。
-
-该功能块一直处于错误状态，直到再次调用该功能块时错误不再存在（通过设置 "Execute"/"Enable "输入）。
-
-原因/解决方案
-
-驱动器必须被打开，并且轴参考必须有一个非 "0 "的值。 有关如何确定的信息，请参见 轴参考 。
-
-可以返回此错误的功能块。
-
-ACP10_MC功能块至少有以下一个输入可以报告这个错误。
-
-- "Axis"
-- "Master"
-- "Slave"
-
-接收一个结构或包含 "轴"、"主 "或 "从 "元素的结构地址的功能块。
-
-# 29203：驱动器没有准备好。
-
-说明
-
-如果驱动器还没有准备好，控制器不能被打开，就会发生这个错误。
-
-反应
-
-该功能块的进一步执行被中止。
-
-除了 "Error "和 "ErrorID "之外，该功能块的输出被重置。
-
-该功能块一直处于错误状态，直到再次调用该功能块时错误不再存在（通过设置 "Execute"/"Enable "输入）。
-
-原因/解决方案
-
-控制器没有准备好。
-
-可能的原因。
-
-- 直流母线电压太低
-- 24V 电源没有打开
-- 网络连接不正常
-- 硬件限位开关关闭
-- 驱动器的 "启用 "输入端没有电源
-- ...
-
-可以返回此错误的功能块。
-
-MC_Power
+- **说明**
+    - 如果驱动器还没有准备好，控制器不能被打开，就会发生这个错误。
+- **反应**
+    - 该功能块的进一步执行被中止。
+    - 除了 "Error "和 "ErrorID "之外，该功能块的输出被重置。
+    - 该功能块一直处于错误状态，直到再次调用该功能块时错误不再存在（通过设置 "Execute"/"Enable "输入）。
+- **原因/解决方案**
+    - 控制器没有准备好。
+**- 可能的原因**
+    - 直流母线电压太低
+    - 24V 电源没有打开
+    - 网络连接不正常
+    - 硬件限位开关关闭
+    - 驱动器的 "启用 "输入端没有电源
+    - ...
+- **可以返回此错误的功能块**
+    - MC_Power
 
 ## 应用案例
 
 ### 2023.06.28
 
-**现象** 4005: Controller cannot be switched on: Drive in error state 5005: Start of movement not possible: Position controller inactive 6048: Motor holding brake movement monitor: Position error too large 9070: Motor temperature model: Stop limit exceeded 41031: Junction temperature model: Warning limit exceeded 41070: Motor temperature model: Warning limit exceeded 29203: Drive is not ready. 29209: The drive is in error state. 29217: Invalid input parameter
-
-**原因** 零位参数不对引起过载，客户更换了模具，但是没有重新走回零的流程，导致参数错误，机械卡主了，当前顶住位置距离零位还有1mm 以上因此当伺服使能，由于不在零位位置，所以向零位运动，由于已机械顶住，所以动态偏差 LagError 一直有1mm 以上，就一直以最大扭矩输出，造成电机温度超过70度以上，驱动器的散热片温度高达70度，IGBT 温度高达133度。持续较长时间后就报警而 POWER OFF，进行复位后，又进入以上死循环。
-
-**优化方式** 使能后，走到零位，如果持续1秒超过+5Nm 或小于-5Nm，则把 HomePosition 进行偏移，再进行 MC_HOME 操作
+- **现象** 4005: Controller cannot be switched on: Drive in error state 5005: Start of movement not possible: Position controller inactive 6048: Motor holding brake movement monitor: Position error too large 9070: Motor temperature model: Stop limit exceeded 41031: Junction temperature model: Warning limit exceeded 41070: Motor temperature model: Warning limit exceeded 29203: Drive is not ready. 29209: The drive is in error state. 29217: Invalid input parameter
+- **原因** 零位参数不对引起过载，客户更换了模具，但是没有重新走回零的流程，导致参数错误，机械卡主了，当前顶住位置距离零位还有1mm 以上因此当伺服使能，由于不在零位位置，所以向零位运动，由于已机械顶住，所以动态偏差 LagError 一直有1mm 以上，就一直以最大扭矩输出，造成电机温度超过70度以上，驱动器的散热片温度高达70度，IGBT 温度高达133度。持续较长时间后就报警而 POWER OFF，进行复位后，又进入以上死循环。
+- **优化方式** 使能后，走到零位，如果持续1秒超过+5Nm 或小于-5Nm，则把 HomePosition 进行偏移，再进行 MC_HOME 操作
 
 ### 2023.07.07
 
-**现象** 生产过程中报错6045/29207/29203
-
-**原因** 查看驱动器UVW接线，打开电柜发现驱动器UVW接线处有一相线烧了
+- **现象** 生产过程中报错6045/29207/29203
+- **原因** 查看驱动器UVW接线，打开电柜发现驱动器UVW接线处有一相线烧了
 
 # 29204: 参数编号无效
 
-说明
-
-如果试图读取或写入一个无效的 PLCopen参数编号，就会发生这个错误 。
-
-反应
-
-该功能块的进一步执行被中止。
-
-除了 "Error "和 "ErrorID "之外，该功能块的输出被重置。
-
-该功能块一直处于错误状态，直到再次调用该功能块时错误不再存在（通过设置 "执行"/"启用 "输入）。
-
-原因/解决方案
+- **说明**
+    - 如果试图读取或写入一个无效的 PLCopen 参数编号，就会发生这个错误。
+- **反应**
+    - 该功能块的进一步执行被中止。
+    - 除了 "Error "和 "ErrorID "之外，该功能块的输出被重置。
+    - 该功能块一直处于错误状态，直到再次调用该功能块时错误不再存在（通过设置 "执行"/"启用 "输入）。
+- **原因/解决方案**
 
 | 功能块                | 原因                                                          |
 |-----------------------|---------------------------------------------------------------|
@@ -100,95 +69,54 @@ MC_Power
 | MC_ReadParameter      | 试图读取一个无效的PLCopen参数编号                             |
 | MC_WriteParameter     | 试图写入一个无效的PLCopen参数号。                             |
 
-可以返回此错误的功能块。
+- **可以返回此错误的功能块**
+    - MC_ReadBoolParameter
+    - MC_WriteBoolParameter
+    - MC_ReadParameter
+    - MC_WriteParameter
 
-MC_ReadBoolParameter
+# 29205:轴没有归位
 
-MC_WriteBoolParameter
+- **说明**
+    - 如果在轴被引用之前试图开始运动，就会发生这个错误。
+- **反应**
+    - 该功能块的进一步执行被中止。
+    - 运动不被启动。
+    - 除了 "Error "和 "ErrorID "之外，该功能块的输出被重置。
+    - 该功能块一直处于错误状态，直到再次调用该功能块时（通过设置 "执行"/"启用 "输入）错误不再存在。
+- **原因/解决方案**
+    - 见描述。
+    - 可以通过 "Mode "禁用 MC_TorqueControl 功能块的检查功能。
+- **可以返回此错误的功能块**
+    - MC_BR_MoveVelocityTriggStop
+    - MC_BR_MoveAdditiveTriggStop
+    - MC_BR_MoveAbsoluteTriggStop
+    - MC_MoveVelocity
+    - MC_MoveAdditive
+    - MC_MoveAbsolute
+    - MC_GearOut
+    - MC_CamOut
+    - MC_Halt
+    - MC_BR_AutControl
+    - MC_CamIn
+    - MC_GearIn
+    - MC_GearInPos
+    - MC_BR_RegMarkCapture001
+    - MC_BR_CamDwell
+    - MC_BR_AutoCamDwell
+    - MC_BR_EventMoveAbsolute
+    - MC_BR_EventMoveAdditive
+    - MC_BR_EventMoveVelocity
+    - MC_BR_VelocityControl
+    - MC_BR_CamTransition
+    - MC_TorqueControl
+    - MC_BR_TorqueControl
+    - MC_BR_CrossCutterControl
+    - MC_BR_JogVelocity
+    - MC_BR_JogLimitPosition
+    - MC_BR_JogTargetPosition
 
-MC_ReadParameter
-
-MC_WriteParameter
-
-# 29205:轴没有归位。
-
-说明
-
-如果在轴被引用之前试图开始运动，就会发生这个错误。
-
-反应
-
-该功能块的进一步执行被中止。
-
-运动不被启动。
-
-除了 "Error "和 "ErrorID "之外，该功能块的输出被重置。
-
-该功能块一直处于错误状态，直到再次调用该功能块时（通过设置 "执行"/"启用 "输入）错误不再存在。
-
-原因/解决方案
-
-见 描述。
-
-可以 通过 "Mode "禁用 MC_TorqueControl 功能块的检查功能 。
-
-可以返回此错误的功能块。
-
-MC_BR_MoveVelocityTriggStop
-
-MC_BR_MoveAdditiveTriggStop
-
-MC_BR_MoveAbsoluteTriggStop
-
-MC_MoveVelocity
-
-MC_MoveAdditive
-
-MC_MoveAbsolute
-
-MC_GearOut
-
-MC_CamOut
-
-MC_Halt
-
-MC_BR_AutControl
-
-MC_CamIn
-
-MC_GearIn
-
-MC_GearInPos
-
-MC_BR_RegMarkCapture001
-
-MC_BR_CamDwell
-
-MC_BR_AutoCamDwell
-
-MC_BR_EventMoveAbsolute
-
-MC_BR_EventMoveAdditive
-
-MC_BR_EventMoveVelocity
-
-MC_BR_VelocityControl
-
-MC_BR_CamTransition
-
-MC_TorqueControl
-
-MC_BR_TorqueControl
-
-MC_BR_CrossCutterControl
-
-MC_BR_JogVelocity
-
-MC_BR_JogLimitPosition
-
-MC_BR_JogTargetPosition
-
-# 29206:控制器已关闭。
+# 29206:控制器已关闭
 
 说明
 
