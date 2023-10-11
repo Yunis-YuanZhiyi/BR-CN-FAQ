@@ -77,7 +77,7 @@
 - [033TG license授权激活失败的处理方式](033TG%20license授权激活失败的处理方式.md)
 - [034 TG PVI Runtime TG License 无法正常工作之排查步骤](034%20TG%20PVI%20Runtime%20TG%20License%20无法正常工作之排查步骤.md)
 
-## 程序下载与备份
+# 程序下载与备份
 
 - [020新版本的AS软件烧卡按钮位置在哪里](020新版本的AS软件烧卡按钮位置在哪里.md)
 - [021AS下载程序时提示Automation runtime target mismatch.The target online does not match](021AS下载程序时提示Automation%20runtime%20target%20mismatch.The%20target%20online%20does%20not%20match.md)
@@ -89,6 +89,7 @@
 - [071在线更新Transfer参数说明与变量保留规则](071在线更新Transfer参数说明与变量保留规则.md)
 - [072在线更新参数对于mapp应用的使用建议](072在线更新参数对于mapp应用的使用建议.md)
 - [073在线更新会导致程序内存溢出吗](073在线更新会导致程序内存溢出吗.md)
+- [077使用二进制包在线更新PLC程序](077使用二进制包在线更新PLC程序.md)
 
 # AS2.7软件使用
 
