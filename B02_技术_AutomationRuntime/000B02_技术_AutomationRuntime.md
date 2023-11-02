@@ -25,6 +25,7 @@
 - [025贝加莱防火墙Firewall配置案例](025贝加莱防火墙Firewall配置案例.md)
 - [027贝加莱系统日志Logger](027贝加莱系统日志Logger.md)
 - [028如何使用RUC在线备份无卡PLC以及SGC与SG3系统](028如何使用RUC在线备份无卡PLC以及SGC与SG3系统.md)
+- [029SGC,SG3,SG4是什么有什么区别](029SGC,SG3,SG4是什么有什么区别.md)
 
 # Hypervisor常见使用问题
 - [017Hypervisor安装与使用问题](017Hypervisor安装与使用问题.md)
