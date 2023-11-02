@@ -70,6 +70,7 @@
 - [070硬件模块版本找不到导致编译报错Version 1.8.0.0 for additional supports hardware module X20CS1070 was not found](070硬件模块版本找不到导致编译报错Version%201.8.0.0%20for%20additional%20supports%20hardware%20module%20X20CS1070%20was%20not%20found.md)
 - [075IOmapping中在monitor下有红色感叹号](075IOmapping中在monitor下有红色感叹号.md)
 - [⭐076AS软件入门操作表](076AS软件入门操作表.md)
+- [078高版本AS软件使用已停产硬件](078高版本AS软件使用已停产硬件.md)
 
 # 授权问题
 
