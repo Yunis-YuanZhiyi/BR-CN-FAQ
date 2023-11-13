@@ -36,7 +36,7 @@
 |---|---|---|---|---|
 |Library created with GCC 4.1.2 for ARM|OK|OK|Error: Undefined reference to "fbFoo"|Error: Undefined reference to "fbFoo"|
 |Library created with GCC 6.3.0 for ARM|File not recognized: File format not recognized |OK|Error: Undefined reference to "fbFoo"|Error: Undefined reference to "fbFoo"|
-|Library created with GCC 4.1.2 for Intel|Error: Undefined reference to "fbFoo"|Error: Undefined reference to "fbFoo"|OK|OK|
+|Library created with GCC 4.1.2 for Intel|Error: Undefined reference to "fbFoo"|Error: Undefined reference to "fbFoo"|OK |OK|
 |Library created with GCC 6.3.0 for Intel|Error: Undefined reference to "fbFoo"|Error: Undefined reference to "fbFoo"|OK|OK|
 
 # 3 解决方式
