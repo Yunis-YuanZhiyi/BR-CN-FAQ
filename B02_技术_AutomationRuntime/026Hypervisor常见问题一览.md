@@ -1,3 +1,9 @@
+> 026Hypervisor常见问题一览
+
+> #Hypervisor
+
+> 最后更新时间：2023.11.29
+
 - [Q0: Hypervisor安装启动中出现 /OS/1 I/O access blocked. 影响安装吗？](#Q0:%20Hypervisor%E5%AE%89%E8%A3%85%E5%90%AF%E5%8A%A8%E4%B8%AD%E5%87%BA%E7%8E%B0%20/OS/1%20I/O%20access%20blocked.%20%E5%BD%B1%E5%93%8D%E5%AE%89%E8%A3%85%E5%90%97%EF%BC%9F)
 - [Q1: Hypervisor安装停留在界面](#Q1:%20Hypervisor%E5%AE%89%E8%A3%85%E5%81%9C%E7%95%99%E5%9C%A8%E7%95%8C%E9%9D%A2)
 - [Q2:Hyervisor装完之后进入windows就崩溃，删除后能正常启动](#Q2:Hyervisor%E8%A3%85%E5%AE%8C%E4%B9%8B%E5%90%8E%E8%BF%9B%E5%85%A5windows%E5%B0%B1%E5%B4%A9%E6%BA%83%EF%BC%8C%E5%88%A0%E9%99%A4%E5%90%8E%E8%83%BD%E6%AD%A3%E5%B8%B8%E5%90%AF%E5%8A%A8)
@@ -16,7 +22,7 @@
 - [Q15: 重新启动后安装冻结，无法继续 - ARemb在SERVICE模式](#Q15:%20%E9%87%8D%E6%96%B0%E5%90%AF%E5%8A%A8%E5%90%8E%E5%AE%89%E8%A3%85%E5%86%BB%E7%BB%93%EF%BC%8C%E6%97%A0%E6%B3%95%E7%BB%A7%E7%BB%AD%20-%20ARemb%E5%9C%A8SERVICE%E6%A8%A1%E5%BC%8F)
 - [Q16: Windows循环重启，并带有错误码: INACCESIBLE BOOT DEVICE](#Q16:%20Windows%E5%BE%AA%E7%8E%AF%E9%87%8D%E5%90%AF%EF%BC%8C%E5%B9%B6%E5%B8%A6%E6%9C%89%E9%94%99%E8%AF%AF%E7%A0%81:%20INACCESIBLE%20BOOT%20DEVICE)
 - [Q17:安装GPOS上的驱动时报错](#Q17:%E5%AE%89%E8%A3%85GPOS%E4%B8%8A%E7%9A%84%E9%A9%B1%E5%8A%A8%E6%97%B6%E6%8A%A5%E9%94%99)
-- [Q18：在UEFI APC上安装Hypervisor的常见问题](#Q18%EF%BC%9A%E5%9C%A8UEFI%20APC%E4%B8%8A%E5%AE%89%E8%A3%85Hypervisor%E7%9A%84%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98)
+- [Q18:在UEFI APC上安装Hypervisor的常见问题](#Q18:%E5%9C%A8UEFI%20APC%E4%B8%8A%E5%AE%89%E8%A3%85Hypervisor%E7%9A%84%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98)
 - [Q19:为Hypervisor分配太多的内存](#Q19:%E4%B8%BAHypervisor%E5%88%86%E9%85%8D%E5%A4%AA%E5%A4%9A%E7%9A%84%E5%86%85%E5%AD%98)
 - [Q20:使用APC910 TS77-04安装Hypervisor，启动后显示器显示花屏](#Q20:%E4%BD%BF%E7%94%A8APC910%20TS77-04%E5%AE%89%E8%A3%85Hypervisor%EF%BC%8C%E5%90%AF%E5%8A%A8%E5%90%8E%E6%98%BE%E7%A4%BA%E5%99%A8%E6%98%BE%E7%A4%BA%E8%8A%B1%E5%B1%8F)
 - [Q21:Hypervisor的驱动安装了，但内部的虚拟网口无法被找到](#Q21:Hypervisor%E7%9A%84%E9%A9%B1%E5%8A%A8%E5%AE%89%E8%A3%85%E4%BA%86%EF%BC%8C%E4%BD%86%E5%86%85%E9%83%A8%E7%9A%84%E8%99%9A%E6%8B%9F%E7%BD%91%E5%8F%A3%E6%97%A0%E6%B3%95%E8%A2%AB%E6%89%BE%E5%88%B0)
@@ -35,8 +41,10 @@
 - [Q34:Hypervisor在USB更新程序后无法启动显示License is not valid](#Q34:Hypervisor%E5%9C%A8USB%E6%9B%B4%E6%96%B0%E7%A8%8B%E5%BA%8F%E5%90%8E%E6%97%A0%E6%B3%95%E5%90%AF%E5%8A%A8%E6%98%BE%E7%A4%BALicense%20is%20not%20valid)
 - [Q35:给一台全新的硬件安装Hypervisor提示Uninstall](#Q35:%E7%BB%99%E4%B8%80%E5%8F%B0%E5%85%A8%E6%96%B0%E7%9A%84%E7%A1%AC%E4%BB%B6%E5%AE%89%E8%A3%85Hypervisor%E6%8F%90%E7%A4%BAUninstall)
 - [Q36:安装过程中 Hypervisor 重启几次后，卡在/OS/1 Booting runtime 0 状态](#Q36:%E5%AE%89%E8%A3%85%E8%BF%87%E7%A8%8B%E4%B8%AD%20Hypervisor%20%E9%87%8D%E5%90%AF%E5%87%A0%E6%AC%A1%E5%90%8E%EF%BC%8C%E5%8D%A1%E5%9C%A8/OS/1%20Booting%20runtime%200%20%E7%8A%B6%E6%80%81)
-- [Q37: U盘安装Hypervisor，在系统选择从U盘启动时提示BOOTMGR is missing](#Q37:%20U%E7%9B%98%E5%AE%89%E8%A3%85Hypervisor%EF%BC%8C%E5%9C%A8%E7%B3%BB%E7%BB%9F%E9%80%89%E6%8B%A9%E4%BB%8EU%E7%9B%98%E5%90%AF%E5%8A%A8%E6%97%B6%E6%8F%90%E7%A4%BABOOTMGR%20is%20missing)
+- [Q37:U盘安装Hypervisor，在系统选择从U盘启动时提示BOOTMGR is missing](#Q37:U%E7%9B%98%E5%AE%89%E8%A3%85Hypervisor%EF%BC%8C%E5%9C%A8%E7%B3%BB%E7%BB%9F%E9%80%89%E6%8B%A9%E4%BB%8EU%E7%9B%98%E5%90%AF%E5%8A%A8%E6%97%B6%E6%8F%90%E7%A4%BABOOTMGR%20is%20missing)
 - [Q38:安装Hypervisor提示Hypervisor boot failed.](#Q38:%E5%AE%89%E8%A3%85Hypervisor%E6%8F%90%E7%A4%BAHypervisor%20boot%20failed.)
+- [Q39:安装卡在30%，出现欢迎访问Buildroot的信息](#Q39:%E5%AE%89%E8%A3%85%E5%8D%A1%E5%9C%A830%25%EF%BC%8C%E5%87%BA%E7%8E%B0%E6%AC%A2%E8%BF%8E%E8%AE%BF%E9%97%AEBuildroot%E7%9A%84%E4%BF%A1%E6%81%AF)
+- [Q40:在APC3100上安装Hypervisor提示You cannot install B&R Hypervisor on a UEFI system when you have booted the USB install stick with legacy.](#Q40:%E5%9C%A8APC3100%E4%B8%8A%E5%AE%89%E8%A3%85Hypervisor%E6%8F%90%E7%A4%BAYou%20cannot%20install%20B&R%20Hypervisor%20on%20a%20UEFI%20system%20when%20you%20have%20booted%20the%20USB%20install%20stick%20with%20legacy.)
 
 # Q0: Hypervisor安装启动中出现 /OS/1 I/O access blocked. 影响安装吗？
 
@@ -242,36 +250,26 @@ A17：
 
 ![](FILES/026Hypervisor常见问题一览/02172ff1f43fd553962517991985e4e0.png)
 
-# Q18：在UEFI APC上安装Hypervisor的常见问题
+# Q18:在UEFI APC上安装Hypervisor的常见问题
 
-- 可以在APC上安装 Legacy boot type only 的hypervisor。
-- 在BIOS中检查你是否正确设置了Legacy启动模式。
-- 如遇到此类问题，建议使用AS4.7及以上的软件进行安装
-- 如果你试图在这样的APC上安装hypervisor，你会在安装过程中收到信息，即不可能在UEFI系统上安装hypervisor。
-
-![](FILES/026Hypervisor常见问题一览/6272c0337810b13cc71f6fb441ca7533.png)
-
-- 在旧版本的AR中，你可以在安装过程中收到一个窗口，说没有可用的磁盘来安装Hypervisor，即使出现了未分配的分区。
-
-![](FILES/026Hypervisor常见问题一览/6facb0716d92a2d3e7bae3ebc62e7f93.png)
-
-- 也有可能你能在APC上以UEFI启动模式安装hypervisor，但在第一次重启hypervisor安装后，你会再次进入安装屏幕，hypervisor会想要卸载。
-
-![](FILES/026Hypervisor常见问题一览/d080bc3efdeed3114f9345ea4689461d.png)
+- 原本可以在APC上安装的Hypervisor, Boot Type选择 Legacy boot type only，由于更换了CFast卡，或者选择重新安装镜像，发现提示UEFI，不能正常安装
+- 如遇到以下中列出的问题，建议使用AS4.7及以上的软件进行安装
+- 案例说明
+    - 如果你试图在这样的APC上安装hypervisor，你会在安装过程中收到信息，即不可能在UEFI系统上安装hypervisor。
+        - ![](FILES/026Hypervisor常见问题一览/6272c0337810b13cc71f6fb441ca7533.png)
+    - 在旧版本的AR中，你可以在安装过程中收到一个窗口，说没有可用的磁盘来安装Hypervisor，即使出现了未分配的分区。
+        - ![](FILES/026Hypervisor常见问题一览/6facb0716d92a2d3e7bae3ebc62e7f93.png)
+    - 也有可能你能在APC上以UEFI启动模式安装hypervisor，但在第一次重启hypervisor安装后，你会再次进入安装屏幕，hypervisor会想要卸载。
+        - ![](FILES/026Hypervisor常见问题一览/d080bc3efdeed3114f9345ea4689461d.png)
 
 # Q19:为Hypervisor分配太多的内存
 
 - 可以在AS中配置hypervisor的内存大小。
-
-![](FILES/026Hypervisor常见问题一览/3fed4b25a65e1cc93ff3df6a62fbafb8.png)
-
+    - ![](FILES/026Hypervisor常见问题一览/3fed4b25a65e1cc93ff3df6a62fbafb8.png)
 - 我们有不同的APC，有不同大小的DRAM内存。可能发生的情况是，为管理程序配置了太多的内存。当这种情况发生时，你会收到这个错误窗口
-
-![](FILES/026Hypervisor常见问题一览/7b50f749bf014575a3690977d528142b.png)
-
+    - ![](FILES/026Hypervisor常见问题一览/7b50f749bf014575a3690977d528142b.png)
 - Hypervisor将不会更多的启动，GPOS也不会启动。
-
-A19: 在这种情况下，有必要减少配置在 AS 中的 DRAM 内存的大小。如果需要使用更多的内存，有必要订购内部有更多DRAM内存的APC。
+- A19: 在这种情况下，有必要减少配置在 AS 中的 DRAM 内存的大小。如果需要使用更多的内存，有必要订购内部有更多DRAM内存的APC。
 
 # Q20:使用APC910 TS77-04安装Hypervisor，启动后显示器显示花屏
 
@@ -295,7 +293,7 @@ A21:AS项目中的ETHinternal没有正确配置，合理配置如下：
 
 ![](FILES/026Hypervisor常见问题一览/8d38797354450e82af32ece5d781cf88.png)
 
-Q22:使用AS4.7，并使用Automation Runtime B4.73及以上版本进行安装。
+A22:使用AS4.7，并使用Automation Runtime B4.73及以上版本进行安装。
 
 # Q23:AS4.7安装Hypervisor在Win10操作系统后，操作系统一直进入蓝屏状态，重启后仍然会进入蓝屏
 
@@ -445,7 +443,7 @@ A36:
 
 - 需要在线通过Automation Studio连上Hyperviosr的ARemb端，进行更新程序后解决。
 
-# Q37: U盘安装Hypervisor，在系统选择从U盘启动时提示BOOTMGR is missing
+# Q37:U盘安装Hypervisor，在系统选择从U盘启动时提示BOOTMGR is missing
 
 ![](FILES/026Hypervisor常见问题一览/33fe0d517f29f0b916e19c1e2aff30ba.png)
 
@@ -461,3 +459,27 @@ A38:
 
 - Hypervisor的分区有问题，windows里面shink没用，Hypervisor安装时仍会提示uninstall，无法安装
 - 重新用DiskGenius软件删除重建选主分区，确保磁盘最后一个分区是主分区，就可以install了。
+
+# Q39:安装卡在30%，出现欢迎访问Buildroot的信息
+
+- **现象**
+    - 在安装过程中，安装程序冻结在30%，并出现“Welcome to Buildroot"和“Buildroot login:”。重启后再开始安装，你会看到 boot loader已经存在的信息
+    - ![](FILES/026Hypervisor常见问题一览/image-20231129143918745.png)
+- **可能的原因和补救措施**
+    - 未分配的分区不是列表中的最后一个，有可能是用"Free space preceding"而不是"New size"创建的自由空间。
+    - Linux可能需要重新安装。
+
+# Q40:在APC3100上安装Hypervisor提示You cannot install B&R Hypervisor on a UEFI system when you have booted the USB install stick with legacy.
+
+- **现象**
+    - ![](FILES/026Hypervisor常见问题一览/image-20231129153224329.png)
+- 硬件：
+    - 5APC3100_KBU2_000
+- 操作系统：
+    - Windows 10 IoT Enterprise 2019 LTSC
+- 开发环境
+    - AS4.10 E4.93
+- 磁盘信息
+    - ![](FILES/026Hypervisor常见问题一览/image-20231129153834448.png)
+- **解决方式**
+    - ![](FILES/026Hypervisor常见问题一览/image-20231129154049047.png)

@@ -1,4 +1,7 @@
-详情可下载贝加莱Hypervisor使用助手
+> 017Hypervisor安装与使用问题
+
+> #Hypervisor 
+
 ## 常见问题列表
 [⭐026Hypervisor常见问题一览](026Hypervisor常见问题一览.md)
 
