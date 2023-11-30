@@ -72,6 +72,7 @@
 - [075IOmapping中在monitor下有红色感叹号](075IOmapping中在monitor下有红色感叹号.md)
 - [⭐076AS软件入门操作表](076AS软件入门操作表.md)
 - [078高版本AS软件使用已停产硬件](078高版本AS软件使用已停产硬件.md)
+- [025使用AS无法编译任务提示Process terminated due to StackOverflowException](025使用AS无法编译任务提示Process%20terminated%20due%20to%20StackOverflowException.md)
 
 # 授权问题
 
