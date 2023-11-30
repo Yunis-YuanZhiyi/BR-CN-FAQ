@@ -10,11 +10,14 @@
 
 > 如果发现哪个问题能解答他人问题，可以拷贝链接给他人，点击即阅！
 
-### 相关链接
+### 相关信息
 
-- [贝加莱开发调试助手 新手工程师第一站](https://gitee.com/yzydeer/BuR_Assistant)
-- [贝加莱工具箱: 通过这些工具，加速你的开发与维护！](https://gitee.com/yzydeer/BuR_Toolkit)
-- [GAT与mappFramewok](https://gitee.com/yzydeer/GAT)
+| 类别 | 链接 |
+| :--- | :--- |
+| 贝加莱入门学习：开发调试助手 | [新手工程师第一站](https://gitee.com/yzydeer/BuR_Assistant) |
+| 贝加莱工具箱：加速你的开发 | [贝加莱工具箱](https://gitee.com/yzydeer/BuR_Toolkit) |
+| 贝加莱项目模板与功能导入工具 |  [GAT与mappFramewok](https://gitee.com/yzydeer/GAT) |
+| 贝加莱在线英文帮助 | [🌐贝加莱官方在线AS Help](https://help.br-automation.com/#/en/4) |
 
 ## 目录分类
 
