@@ -1,14 +1,12 @@
-# 贝加莱 FAQ
-
-## 网页版
+## 贝加莱中文帮助
 
 - www.brhelp.cn
 
-## 介绍
+## 使用方式
 
-贝加莱常问问题解决办法汇总，希望在这里你能更快的找到使用过程中出现问题的答案。
-
-> 如果发现哪个问题能解答他人问题，可以拷贝链接给他人，点击即阅！
+- 📖中文帮助，全方位了解贝加莱技术特点
+- 🔍报警、报错、使用方式，搜索即见
+- 🌐分享链接，快速分享，点击即阅
 
 ### 相关信息
 
@@ -16,8 +14,9 @@
 | :--- | :--- |
 | 贝加莱入门学习：开发调试助手 | [新手工程师第一站](https://gitee.com/yzydeer/BuR_Assistant) |
 | 贝加莱工具箱：加速你的开发 | [贝加莱工具箱](https://gitee.com/yzydeer/BuR_Toolkit) |
-| 贝加莱项目模板与功能导入工具 |  [GAT与mappFramewok](https://gitee.com/yzydeer/GAT) |
+| 贝加莱项目模板与功能导入工具 | [GAT与mappFramewok](https://gitee.com/yzydeer/GAT) |
 | 贝加莱在线英文帮助 | [🌐贝加莱官方在线AS Help](https://help.br-automation.com/#/en/4) |
+| 贝加莱全球英文社区 | [B&R Community](https://community.br-automation.com/) |
 
 ## 目录分类
 
@@ -86,4 +85,4 @@
     - 发送问题至 support.cn@br-automation.com
     - 电话联系：021-54644800
 
-## [参与维护](join_maintain.md)
+## [参与维护](Obsidian/Usage/join_maintain.md)
