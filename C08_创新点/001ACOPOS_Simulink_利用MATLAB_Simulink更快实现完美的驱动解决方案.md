@@ -1,6 +1,6 @@
 > 001ACOPOS_Simulink_利用MATLAB_Simulink更快实现完美的驱动解决方案
 
-> #仿真 #ACOPOS
+> Tags: #仿真 #ACOPOS
 
 - [1 ACOPOS for Simulink](#1%20ACOPOS%20for%20Simulink)
 	- [1.1 仿真取代了昂贵而耗时的真实硬件测试](#1.1%20%E4%BB%BF%E7%9C%9F%E5%8F%96%E4%BB%A3%E4%BA%86%E6%98%82%E8%B4%B5%E8%80%8C%E8%80%97%E6%97%B6%E7%9A%84%E7%9C%9F%E5%AE%9E%E7%A1%AC%E4%BB%B6%E6%B5%8B%E8%AF%95)
