@@ -47,7 +47,7 @@
     * [通信_PROFIBUS DP使用助手](//profibusdp.brhelp.cn)
     * [通信_PVI使用助手](//pvi.brhelp.cn)
     * [硬件_X20CM4810振动模块使用助手](//cm4810.brhelp.cn)
-    * [开发_mappframewoek使用助手](//mappframework.brhelp.cn)
+    * [开发_mappframework使用助手](//mappframework.brhelp.cn)
 * 离线帮助下载
     * [轴控_轴控硬件使用助手](//brtechs.huashengyun.online/index.php?mod=bjl&do=file&gid=19#group&do=file&gid=19&fid=2870)
     * [轴控_轴控开发助手](//brtechs.huashengyun.online/index.php?mod=bjl&do=file&gid=19#group&do=file&gid=19&fid=2871)
@@ -64,7 +64,7 @@
     * [通信_PROFIBUS DP使用助手](//brtechs.huashengyun.online/index.php?mod=bjl&do=file&gid=19#group&do=file&gid=19&fid=2868)
     * [通信_PVI使用助手](//brtechs.huashengyun.online/index.php?mod=bjl&do=file&gid=19#group&do=file&gid=19&fid=2861)
     * [硬件_X20CM4810振动模块使用助手](//brtechs.huashengyun.online/index.php?mod=bjl&do=file&gid=19#group&do=file&gid=19&fid=3784)
-    * [开发_mappframewoek使用助手](https://brtechs.huashengyun.online/index.php?mod=bjl&do=file&gid=19#group&do=file&gid=19&fid=1928)
+    * [开发_mappframework使用助手](https://brtechs.huashengyun.online/index.php?mod=bjl&do=file&gid=19#group&do=file&gid=19&fid=1928)
 * 友情链接
   * [贝加莱FAQ Gitee仓库](https://gitee.com/yzydeer/BuR-FAQ)
   * [贝加莱官方网站](https://www.br-automation.com/zh/)
