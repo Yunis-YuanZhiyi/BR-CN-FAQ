@@ -6,6 +6,7 @@
 
 # 软件安装简介
 
+- [📺智能模块化软件—— Automation Studio 4 介绍视频](https://app9qg8os8w3630.pc.xiaoe-tech.com/p/t_pc/course_pc_detail/video/v_5d5b8ee7d1f84_h0sPBvE8)
 - [002如何获取Automation Studio的试用注册码](002如何获取Automation%20Studio的试用注册码.md)
 - [003在安装Automation Studio的过程中，有什么注意事项](003在安装Automation%20Studio的过程中，有什么注意事项.md)
 - [004Automation Studio支持哪些版本的windows系统](004Automation%20Studio支持哪些版本的windows系统.md)

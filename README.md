@@ -12,15 +12,14 @@
 
 | 类别 | 链接 |
 | :--- | :--- |
-| 贝加莱入门学习：开发调试助手 | [新手工程师第一站](https://gitee.com/yzydeer/BuR_Assistant) |
-| 贝加莱工具箱：加速你的开发 | [贝加莱工具箱](https://gitee.com/yzydeer/BuR_Toolkit) |
-| 贝加莱项目模板与功能导入工具 | [GAT与mappFramewok](https://gitee.com/yzydeer/GAT) |
+| 贝加莱中文问答社区 | [贝加莱社区 (br-education.com)](https://www.br-education.com/qa-community) |
 | 贝加莱在线英文帮助 | [🌐贝加莱官方在线AS Help](https://help.br-automation.com/#/en/4) |
 | 贝加莱全球英文社区 | [B&R Community](https://community.br-automation.com/) |
 | 📋brhelp变更日志 | [Changelog](https://gitee.com/yzydeer/BuR-FAQ/commits/master) |
 
 ## 目录分类
-
+### 贝加莱入门指引
+- [000_贝加莱入门指引](000_入门指引/000_贝加莱入门指引.md)
 ### 产品
 
 - [A01_产品_控制系统PLC和IO](A01_产品_控制系统PLC和IO/000A01_产品_控制系统PLC和IO.md)
@@ -28,7 +27,8 @@
 - [A03_产品_PC和HMI](A03_产品_PC和HMI/000A03_产品_PC和HMI.md)
 - [A04_产品_移动自动化](A04_产品_移动自动化/000A04_产品_移动自动化.md)
 - [A05_产品_安全模块](A05_产品_安全模块/000A05_产品_安全模块.md)
-- [A06_产品_柔性传输系统Trak](A06_产品_柔性传输系统Trak/000A06_产品_柔性传输系统Trak.md)
+- [A06_产品_柔性传输系统Trak](A06_产品_柔性传输系统/000A06_产品_柔性传输系统.md)
+- [A07_产品_视觉](A07_产品_视觉/000A07_产品_视觉.md)
 
 ### 技术
 

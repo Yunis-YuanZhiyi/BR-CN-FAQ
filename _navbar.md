@@ -1,12 +1,14 @@
 <!-- _navbar.md -->
 
-* [FAQ](/README.md) 
+* [FAQ](/README.md)
+  * [000_贝加莱入门指引](/000_入门指引/000_贝加莱入门指引.md)
   * [A01_产品_控制系统PLC和IO](/A01_产品_控制系统PLC和IO/000A01_产品_控制系统PLC和IO.md)
   * [A02_产品_Motion](/A02_产品_Motion/000A02_产品_Motion.md)
   * [A03_产品_PC和HMI](/A03_产品_PC和HMI/000A03_产品_PC和HMI.md)
   * [A04_产品_移动自动化](/A04_产品_移动自动化/000A04_产品_移动自动化.md)
   * [A05_产品_安全模块](/A05_产品_安全模块/000A05_产品_安全模块.md)
-  * [A06_产品_柔性传输系统Trak](/A06_产品_柔性传输系统Trak/000A06_产品_柔性传输系统Trak.md)
+  * [A06_产品_柔性传输系统](A06_产品_柔性传输系统/000A06_产品_柔性传输系统.md)
+  * [A07_产品_视觉](/A07_产品_视觉/000A07_产品_视觉.md)
   * [B01_技术_AutomationStudio](/B01_技术_AutomationStudio/000B01_技术_AutomationStudio.md)
   * [B02_技术_AutomationRuntime](/B02_技术_AutomationRuntime/000B02_技术_AutomationRuntime.md)
   * [B03_技术_诊断](/B03_技术_诊断/000B03_技术_诊断.md)
