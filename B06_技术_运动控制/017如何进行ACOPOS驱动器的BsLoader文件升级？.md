@@ -1,4 +1,5 @@
-# 017如何进行ACOPOS驱动器的BsLoader文件升级？
+> # 017如何进行ACOPOS驱动器的BsLoader文件升级？
+
 - BsLoader文件升级是在AS程序中完成的，步骤如下，也可以参见 AS 4.x_Help Guid:    d7adcf7c-f697-4ad5-b877-3c529106ac3a；
 - 1）在AS项目程序中的Configuration View中选择Add Object-File-Existing File。
     - ![Img](./FILES/017如何进行ACOPOS驱动器的BsLoader文件升级？.md/img-20220616111432.png)
