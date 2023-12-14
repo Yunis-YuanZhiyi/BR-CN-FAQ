@@ -9,7 +9,6 @@
 - [002如何获取Automation Studio的试用注册码](002如何获取Automation%20Studio的试用注册码.md)
 - [003在安装Automation Studio的过程中，有什么注意事项](003在安装Automation%20Studio的过程中，有什么注意事项.md)
 - [004Automation Studio支持哪些版本的windows系统](004Automation%20Studio支持哪些版本的windows系统.md)
-- [014 如何单独安装Automation Studio的帮助](014%20如何单独安装Automation%20Studio的帮助.md)
 - [063什么AS版本开始支持Win11](063什么AS版本开始支持Win11.md)
 
 # AS软件使用体验优化
@@ -18,10 +17,15 @@
 - [068如何通过AS软件将IEC代码转换为C代码](068如何通过AS软件将IEC代码转换为C代码.md)
 - [069如何在多层文件夹下编译mappView项目](069如何在多层文件夹下编译mappView项目.md)
 
+# AS帮助使用
+
+- [014AutomationHelp贝加莱帮助使用与建议](014AutomationHelp贝加莱帮助使用与建议.md)
+- [031在AS_Help里面如何定位到Guid](031在AS_Help里面如何定位到Guid.md)
+
 # PLC 连接与操作
 
 - [004如何将PLC内部时钟设置为当前标准时间](004如何将PLC内部时钟设置为当前标准时间.md)
-- [015部分客户第一次安装AS软件 电脑能够ping通PLC但无法通过AS扫描到](015部分客户第一次安装AS软件%20电脑能够ping通PLC但无法通过AS扫描到.md)
+- [015部分客户第一次安装AS软件电脑能够ping通PLC但无法通过AS扫描到](015部分客户第一次安装AS软件电脑能够ping通PLC但无法通过AS扫描到.md)
 - [022ARSim项目仿真无法正常启动](022ARSim项目仿真无法正常启动.md)
 - [023AS软件无法扫描到实际的PLC](023AS软件无法扫描到实际的PLC.md)
 - [024AS如何上传控制器内的工程和进行在线比较](024AS如何上传控制器内的工程和进行在线比较.md)
@@ -50,7 +54,6 @@
 - [025如何通过命令行不依靠AS软件安装升级包](025如何通过命令行不依靠AS软件安装升级包.md)
 - [026如何使用AS软件比较项目间代码的差异](026如何使用AS软件比较项目间代码的差异.md)
 - [027AS中多个窗口无法通过点击标签页进行切换](027AS中多个窗口无法通过点击标签页进行切换.md)
-- [031在Help里面如何定位到Guid ID](031在Help里面如何定位到Guid%20ID.md)
 - [032AS版本降级与固件Firmware版本降级](032AS版本降级与固件Firmware版本降级.md)
 - [042AS4.2以上版本如何支持长度超32字符变量](042AS4.2以上版本如何支持长度超32字符变量.md)
 - [043AS软件提示ODBC Microsoft Access Driver Failed并且无法关闭](043AS软件提示ODBC%20Microsoft%20Access%20Driver%20Failed并且无法关闭.md)
