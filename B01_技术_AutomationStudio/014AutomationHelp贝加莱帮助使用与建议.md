@@ -5,9 +5,10 @@
 - [1 贝加莱帮助简介](#1%20%E8%B4%9D%E5%8A%A0%E8%8E%B1%E5%B8%AE%E5%8A%A9%E7%AE%80%E4%BB%8B)
 - [2 贝加莱Automation Help下载](#2%20%E8%B4%9D%E5%8A%A0%E8%8E%B1Automation%20Help%E4%B8%8B%E8%BD%BD)
 - [3 Automation Help使用小技巧](#3%20Automation%20Help%E4%BD%BF%E7%94%A8%E5%B0%8F%E6%8A%80%E5%B7%A7)
-	- [3.1 管理收藏夹](#3.1%20%E7%AE%A1%E7%90%86%E6%94%B6%E8%97%8F%E5%A4%B9)
-	- [3.2 使用GUID快速定位](#3.2%20%E4%BD%BF%E7%94%A8GUID%E5%BF%AB%E9%80%9F%E5%AE%9A%E4%BD%8D)
-	- [3.3 导出某个章节到PDF](#3.3%20%E5%AF%BC%E5%87%BA%E6%9F%90%E4%B8%AA%E7%AB%A0%E8%8A%82%E5%88%B0PDF)
+	- [3.1 使用工具，自动翻译本地的Automation Help](#3.1%20%E4%BD%BF%E7%94%A8%E5%B7%A5%E5%85%B7%EF%BC%8C%E8%87%AA%E5%8A%A8%E7%BF%BB%E8%AF%91%E6%9C%AC%E5%9C%B0%E7%9A%84Automation%20Help)
+	- [3.2 管理收藏夹](#3.2%20%E7%AE%A1%E7%90%86%E6%94%B6%E8%97%8F%E5%A4%B9)
+	- [3.3 使用GUID快速定位](#3.3%20%E4%BD%BF%E7%94%A8GUID%E5%BF%AB%E9%80%9F%E5%AE%9A%E4%BD%8D)
+	- [3.4 导出某个章节到PDF](#3.4%20%E5%AF%BC%E5%87%BA%E6%9F%90%E4%B8%AA%E7%AB%A0%E8%8A%82%E5%88%B0PDF)
 - [4 Automation Help在线帮助](#4%20Automation%20Help%E5%9C%A8%E7%BA%BF%E5%B8%AE%E5%8A%A9)
 	- [4.1 贝加莱官方在线Automation Help](#4.1%20%E8%B4%9D%E5%8A%A0%E8%8E%B1%E5%AE%98%E6%96%B9%E5%9C%A8%E7%BA%BFAutomation%20Help)
 	- [4.2 贝加莱中文帮助](#4.2%20%E8%B4%9D%E5%8A%A0%E8%8E%B1%E4%B8%AD%E6%96%87%E5%B8%AE%E5%8A%A9)
@@ -31,7 +32,11 @@
 
 # 3 Automation Help使用小技巧
 
-## 3.1 管理收藏夹
+## 3.1 使用工具，自动翻译本地的Automation Help
+
+- [012贝加莱帮助自动翻译工具](/C07_工具/012贝加莱帮助自动翻译工具.md)
+
+## 3.2 管理收藏夹
 
 - 经常查阅的文件，可以整理到收藏夹中，便于后续快速查阅
 - 操作步骤
@@ -41,13 +46,13 @@
     - 4 添加到收藏夹
 - ![](FILES/014AutomationHelp贝加莱帮助使用与建议/image-20231214133517854.png)
 
-## 3.2 使用GUID快速定位
+## 3.3 使用GUID快速定位
 
 - 为让对方能快速定位到您所说的内容，或者指定的章节，可以通过GUID 实现
 - 步骤：获取 GUID → 发送 GUID → 根据 GUID精确定位到指定章节
 - ![](FILES/014AutomationHelp贝加莱帮助使用与建议/image-20231214133931820.png)
 
-## 3.3 导出某个章节到PDF
+## 3.4 导出某个章节到PDF
 
 - 当客户没有本地安装AS Help时，由于网络问题没有办法，可以将AS Help中的相关内容以PDF的形式，提供给客户
 - ![](FILES/014AutomationHelp贝加莱帮助使用与建议/image-20231214134214403.png)

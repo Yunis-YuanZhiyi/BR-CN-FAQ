@@ -16,6 +16,7 @@
 - [067安装了多AS版本，如何双击自动打开正确的AS版本](067安装了多AS版本，如何双击自动打开正确的AS版本.md)
 - [068如何通过AS软件将IEC代码转换为C代码](068如何通过AS软件将IEC代码转换为C代码.md)
 - [069如何在多层文件夹下编译mappView项目](069如何在多层文件夹下编译mappView项目.md)
+- [⭐079AutomationStudio软件使用技巧](079AutomationStudio软件使用技巧.md)
 
 # AS帮助使用
 
