@@ -18,8 +18,11 @@
 | 📋brhelp变更日志 | [Changelog](https://gitee.com/yzydeer/BuR-FAQ/commits/master) |
 
 ## 目录分类
+
 ### 贝加莱入门指引
+
 - [000_贝加莱入门指引](000_入门指引/000_贝加莱入门指引.md)
+
 ### 产品
 
 - [A01_产品_控制系统PLC和IO](A01_产品_控制系统PLC和IO/000A01_产品_控制系统PLC和IO.md)
