@@ -1,7 +1,11 @@
 # A03_产品_PC和HMI
 
 # 产品介绍
+
 - [📺贝加莱工业PC是什么](https://app9qg8os8w3630.pc.xiaoe-tech.com/p/t_pc/course_pc_detail/video/v_5d51383db0c4f_alQPWHe4)
+- [📋040产品介绍_APC与PPC系列](040产品介绍_APC与PPC系列.md)
+- [041产品介绍_PowerPanel系列](041产品介绍_PowerPanel系列.md)
+
 # 使用方式
 
 - [002如何获得CF卡与CFast卡在不同工况下的运行寿命](002如何获得CF卡与CFast卡在不同工况下的运行寿命.md)
