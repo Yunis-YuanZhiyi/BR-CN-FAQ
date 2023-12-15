@@ -7,7 +7,7 @@
   * [A03_产品_PC和HMI](/A03_产品_PC和HMI/000A03_产品_PC和HMI.md)
   * [A04_产品_移动自动化](/A04_产品_移动自动化/000A04_产品_移动自动化.md)
   * [A05_产品_安全模块](/A05_产品_安全模块/000A05_产品_安全模块.md)
-  * [A06_产品_柔性传输系统](A06_产品_柔性传输系统/000A06_产品_柔性传输系统.md)
+  * [A06_产品_柔性传输系统](/A06_产品_柔性传输系统/000A06_产品_柔性传输系统.md)
   * [A07_产品_视觉](/A07_产品_视觉/000A07_产品_视觉.md)
   * [B01_技术_AutomationStudio](/B01_技术_AutomationStudio/000B01_技术_AutomationStudio.md)
   * [B02_技术_AutomationRuntime](/B02_技术_AutomationRuntime/000B02_技术_AutomationRuntime.md)
