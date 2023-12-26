@@ -28,6 +28,7 @@
 - [028如何使用RUC在线备份无卡PLC以及SGC与SG3系统](028如何使用RUC在线备份无卡PLC以及SGC与SG3系统.md)
 - [029SGC,SG3,SG4是什么有什么区别](029SGC,SG3,SG4是什么有什么区别.md)
 - [030AR中各个进程例如sdar,tAtaSrv0含义](030AR中各个进程例如sdar,tAtaSrv0含义.md)
+- [031贝加莱FTP Server配置与相关说明](031贝加莱FTP%20Server配置与相关说明.md)
 
 # Hypervisor常见使用问题
 

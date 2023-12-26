@@ -1,6 +1,7 @@
 > AR 中各个进程例如 sdar,tAtaSrv0含义
 
-#进程
+> Tags: #进程 #profile 
+
 - [1 使用前提](#1%20%E4%BD%BF%E7%94%A8%E5%89%8D%E6%8F%90)
 - [2 TcIdleFiller](#2%20TcIdleFiller)
 - [3 UnknownCyclic](#3%20UnknownCyclic)
@@ -11,6 +12,7 @@
 - [6 TimeSync](#6%20TimeSync)
 - [7 tAtaSvc0](#7%20tAtaSvc0)
 - [8 sdar](#8%20sdar)
+- [9 ipftps](#9%20ipftps)
 
 # 1 使用前提
 
@@ -70,3 +72,13 @@
 # 8 sdar
 
 - SDM（System Diagnostics Manager） 服务消耗的资源
+
+# 9 ipftps
+
+- FTP访问服务进程
+- ![](FILES/030AR中各个进程例如sdar,tAtaSrv0含义/image-20231227000251529.png)
+- 末尾带数字说明是现在还连着的多个Client。
+- 数字含义为
+    - FTP Client访问贝加莱FTP Server，建立了链接，则+1
+    - FTP Client从贝加莱FTP Server中传递一个文件，则+1
+    - 任务结束或断开，则进程消失
