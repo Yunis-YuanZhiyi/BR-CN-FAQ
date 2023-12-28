@@ -4,13 +4,13 @@
 
 - [1 常见问题列表](#1%20%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98%E5%88%97%E8%A1%A8)
 - [2 🌐在线帮助访问地址](#2%20%F0%9F%8C%90%E5%9C%A8%E7%BA%BF%E5%B8%AE%E5%8A%A9%E8%AE%BF%E9%97%AE%E5%9C%B0%E5%9D%80)
-- [3 下载地址](#3%20%E4%B8%8B%E8%BD%BD%E5%9C%B0%E5%9D%80)
+- [3 离线帮助下载地址](#3%20%E7%A6%BB%E7%BA%BF%E5%B8%AE%E5%8A%A9%E4%B8%8B%E8%BD%BD%E5%9C%B0%E5%9D%80)
 - [4 CHM文件显示](#4%20CHM%E6%96%87%E4%BB%B6%E6%98%BE%E7%A4%BA)
 - [5 常见使用案例问题](#5%20%E5%B8%B8%E8%A7%81%E4%BD%BF%E7%94%A8%E6%A1%88%E4%BE%8B%E9%97%AE%E9%A2%98)
 
 # 1 常见问题列表
 
-[⭐026Hypervisor常见问题一览](026Hypervisor常见问题一览.md)
+- [⭐026Hypervisor常见问题一览](026Hypervisor常见问题一览.md)
 
 # 2 🌐在线帮助访问地址
 
@@ -18,19 +18,19 @@
 hypervisor.brhelp.cn
 ```
 
-[Hypervisor使用助手 (brhelp.cn)](https://hypervisor.brhelp.cn/index.html?general.html)
+- [Hypervisor使用助手 (brhelp.cn)](https://hypervisor.brhelp.cn/index.html?general.html)
 
-# 3 下载地址
+# 3 离线帮助下载地址
 
 [贝加莱知识库 (huashengyun.online)](https://brtechs.huashengyun.online/index.php?mod=bjl&do=file&gid=19#group&do=file&gid=19&fid=2855)
 
 > 登录后再次点击链接即可自动
 
-![](FILES/017Hypervisor安装与使用问题/image-20230221144345725.png)
+- ![](FILES/017Hypervisor安装与使用问题/image-20230221144345725.png)
 
 # 4 CHM文件显示
 
-![](FILES/017Hypervisor安装与使用问题/image-20230221143845910.png)
+- ![](FILES/017Hypervisor安装与使用问题/image-20230221143845910.png)
 
 # 5 常见使用案例问题
 
