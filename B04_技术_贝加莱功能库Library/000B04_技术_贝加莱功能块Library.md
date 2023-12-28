@@ -7,6 +7,8 @@
 - [005AsIOAcc如何获取硬件模块寄存器中的信息](005AsIOAcc如何获取硬件模块寄存器中的信息.md)
 - [FileIO_AR通过CIFS访问windows共享文件夹](../B02_技术_AutomationRuntime/010AR通过CIFS访问windows共享文件夹.md)
 
+# 📥如何导入与使用
+- [006贝加莱库导入方式](006贝加莱库导入方式.md)
 # ⭐功能池
 
 | 序号 | 类别 | 下载链接 | AS版本要求 | 适用硬件类别 |
