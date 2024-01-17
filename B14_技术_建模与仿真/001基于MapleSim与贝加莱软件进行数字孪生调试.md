@@ -15,8 +15,8 @@
 
 # 1 基本效果演示
 
-<video muted autoplay="autoplay" loop="loop" width="1280" height="720" controls>
-  <source src="/B14_技术_建模与仿真/FILES/001基于MapleSim与贝加莱软件进行数字孪生开发/step_5_show.mp4" type="video/mp4">
+<video muted autoplay="autoplay" loop="loop" width="640" height="360" controls>
+  <source src="/B14_技术_建模与仿真/FILES/001基于MapleSim与贝加莱软件进行数字孪生调试/step_5_show.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
 
@@ -41,15 +41,15 @@
 
 ## 3.1 第4步，导入FMU到AS项目
 
-<video muted autoplay="autoplay" loop="loop" width="1280" height="720" controls>
-  <source src="/B14_技术_建模与仿真/FILES/001基于MapleSim与贝加莱软件进行数字孪生开发/step_4.mp4" type="video/mp4">
+<video muted autoplay="autoplay" loop="loop" width="640" height="360" controls>
+  <source src="/B14_技术_建模与仿真/FILES/001基于MapleSim与贝加莱软件进行数字孪生调试/step_4.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
 
 ## 3.2 第5步，在同一台笔记本上，本地仿真
 
-<video muted autoplay="autoplay" loop="loop" width="1280" height="720" controls>
-  <source src="/B14_技术_建模与仿真/FILES/001基于MapleSim与贝加莱软件进行数字孪生开发/step_5.mp4" type="video/mp4">
+<video muted autoplay="autoplay" loop="loop" width="640" height="360" controls>
+  <source src="/B14_技术_建模与仿真/FILES/001基于MapleSim与贝加莱软件进行数字孪生调试/step_5.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
 
