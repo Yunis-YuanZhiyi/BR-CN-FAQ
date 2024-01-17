@@ -1,6 +1,6 @@
-> 041产品介绍_PowerPanel系列
+> Tags: #T30 #C50 #FT50 #T50 #C70 #T80 #C80
 
-> Tags: #T50 #T80
+# 041产品介绍_PowerPanel系列
 
 - [T30](#T30)
 - [T50](#T50)
