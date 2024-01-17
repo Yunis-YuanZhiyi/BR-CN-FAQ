@@ -14,38 +14,42 @@
 
 # T30
 
-- ![](FILES/041产品介绍_PowerPanel系列/image-20231215151706587.png)
+![](FILES/041产品介绍_PowerPanel系列/image-20231215151706587.png)
 
 # T50
 
-- ![](FILES/041产品介绍_PowerPanel系列/image-20231215151803901.png)
+![](FILES/041产品介绍_PowerPanel系列/image-20231215151803901.png)
 
 # FT50
 
-- ![](FILES/041产品介绍_PowerPanel系列/image-20231215151825653.png)
+![](FILES/041产品介绍_PowerPanel系列/image-20231215151825653.png)
 
 # T80
 
-- ![](FILES/041产品介绍_PowerPanel系列/image-20231215151848133.png)
+![](FILES/041产品介绍_PowerPanel系列/image-20231215151848133.png)
 
 # C30
 
-- ![](FILES/041产品介绍_PowerPanel系列/image-20231215151918790.png)
+![](FILES/041产品介绍_PowerPanel系列/image-20231215151918790.png)
 
 # C50
 
-- ![](FILES/041产品介绍_PowerPanel系列/image-20231215151953558.png)
+![](FILES/041产品介绍_PowerPanel系列/image-20240117134106567.png)
+
+> 在1.1.6.0硬件固件版本后，C50开始支持Visual Components画面显示
+> [042贝加莱C50硬件如何支持VC4画面显示](042贝加莱C50硬件如何支持VC4画面显示.md)
 
 # C70
 
-- ![](FILES/041产品介绍_PowerPanel系列/image-20231215152014989.png)
+![](FILES/041产品介绍_PowerPanel系列/image-20231215152014989.png)
 
 # C80
 
-- ![](FILES/041产品介绍_PowerPanel系列/image-20231215152041519.png)
+![](FILES/041产品介绍_PowerPanel系列/image-20231215152041519.png)
 
 # 更新日志
 
-| 日期     | 修改人     | 修改内容     |
-|:-----|:-----|:-----|
-| 2023-12-15     | YuanZhiyi     | 初次创建     |
+| 日期 | 修改人 | 修改内容 |
+| :--- | :--- | :--- |
+| 2023-12-15 | YuanZhiyi | 初次创建 |
+| 2024-01-17 | YuanZhiyi | 更新C50信息 |

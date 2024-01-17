@@ -68,7 +68,7 @@
     - [Automation Studio V4.7 | B&R Industrial Automation (br-automation.com)](https://www.br-automation.com/en/downloads/software/automation-studio/automation-studio-47/automation-studio-v47/)
         - 本地软件，8GB
     - [V4.7 AS Upgrade (4.7.7.74_SP) | B&R Industrial Automation (br-automation.com)](https://www.br-automation.com/en/downloads/software/automation-studio/automation-studio-47/v47-as-upgrade-47774-sp/)
-        - AS安装升级包，67MB，在AS4.7软件安装完成后
+        - AS安装升级包，67MB，在AS4.7软件安装完成后再安装
 - 软件90天免费授权码申请
     - [002如何获取Automation Studio的试用注册码](../B01_技术_AutomationStudio/002如何获取Automation%20Studio的试用注册码.md)
 - 软件使用教程
