@@ -26,6 +26,7 @@
 - [📺视频介绍 | 伺服驱动器P3介绍](https://app9qg8os8w3630.pc.xiaoe-tech.com/p/t_pc/course_pc_detail/video/v_5f342a6ee4b075dc42ad6d5d?product_id=p_5f8e772ae4b0e95a89c52abd&content_app_id=&type=8&parent_pro_id=p_5f8e752ce4b0e95a89c52a40)
 - [008ACOPOS P3编码器接口卡一览](008ACOPOS%20P3编码器接口卡一览.md)
 - [031ACOPOS P3如何设置PLK拨码](031ACOPOS%20P3如何设置PLK拨码.md)
+- [034ACOPOS_P3的显示模块8EAD000.000-1能否使用延长线](034ACOPOS_P3的显示模块8EAD000.000-1能否使用延长线.md)
 - [032单轴ACOPOS P3更改编码器卡8EAC0152.003-1接口方法](032单轴ACOPOS%20P3更改编码器卡8EAC0152.003-1接口方法.md)
 
 ## 问题排查
