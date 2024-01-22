@@ -1,5 +1,7 @@
 # 001_产品_控制系统PLC和IO
+
 # 产品介绍
+
 - [🌐贝加莱官网 | 控制系统 | 可编程逻辑控制器（PLC）| 基于面板控制 | 基于PC的控制器 | 移动和室外应用](https://www.br-automation.com/zh/products/plc-systems/)
 - [🌐贝加莱官网 | I/O系统 | IP20和IP67防护等级 | 任意组合](https://www.br-automation.com/zh/products/io-systems/)
 - [📺 视频介绍 | X20CPU及IO介绍](https://app9qg8os8w3630.pc.xiaoe-tech.com/p/t_pc/course_pc_detail/video/v_5f3427b6e4b0b4059c4be3b6?product_id=p_5f8e772ae4b0e95a89c52abd&content_app_id=&type=8&parent_pro_id=p_5f8e752ce4b0e95a89c52a40)
@@ -10,7 +12,9 @@
 - [006如何获取贝加莱硬件的产品参数信息](006如何获取贝加莱硬件的产品参数信息.md)
 - [007X20CP3687X的序列规则是什么](007X20CP3687X的序列规则是什么.md)
 - [014如何获取硬件模块的高清图](014如何获取硬件模块的高清图.md)
+
 # 使用方式
+
 - [001Automation Studio帮助文件中提到的SG4是什么并与SG3、SGC有什么区别](001Automation%20Studio帮助文件中提到的SG4是什么并与SG3、SGC有什么区别.md)
 - [008硬件狗可以存储数据吗](008硬件狗可以存储数据吗.md)
 - [009只要PLC开始运行DO输出一个信号 如果PLC未运行或者处于serv则该不输出 怎么实现](009只要PLC开始运行DO输出一个信号%20如果PLC未运行或者处于serv则该不输出%20怎么实现.md)
@@ -27,4 +31,3 @@
 - [021X20DS1119用作边缘计数器用于速度测量](021X20DS1119用作边缘计数器用于速度测量.md)
 - [022X20DS1119使用普通DI功能读低频5V信号](022X20DS1119使用普通DI功能读低频5V信号.md)
 - [023X20DS1319模块测频功能与PWM脉冲输出](023X20DS1319模块测频功能与PWM脉冲输出.md)
-- 
