@@ -80,6 +80,7 @@
 - [066无法打开AS项目 提示为被一个不存在的AS版本打开过](066无法打开AS项目%20提示为被一个不存在的AS版本打开过.md)
 - [070硬件模块版本找不到导致编译报错Version 1.8.0.0 for additional supports hardware module X20CS1070 was not found](070硬件模块版本找不到导致编译报错Version%201.8.0.0%20for%20additional%20supports%20hardware%20module%20X20CS1070%20was%20not%20found.md)
 - [025使用AS无法编译任务提示Process terminated due to StackOverflowException](025使用AS无法编译任务提示Process%20terminated%20due%20to%20StackOverflowException.md)
+- [081贝加莱AS软件与Omron Sysmac studio同时安装报错Failed to create device description dictionary](081贝加莱AS软件与Omron%20Sysmac%20studio同时安装报错Failed%20to%20create%20device%20description%20dictionary.md)
 
 # 授权问题
 
