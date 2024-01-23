@@ -4,7 +4,6 @@
 *.doc
 *.pptx
 *.ppt
-*.xlsx
 *.xls
 *.7z
 *.rar
@@ -15,3 +14,4 @@
 ## 可以被推送的上的格式
 ## 压缩文件 zip
 ## 视频文件 mp4
+## EXCEl文件 xlsx
