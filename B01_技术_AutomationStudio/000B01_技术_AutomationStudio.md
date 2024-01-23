@@ -59,7 +59,7 @@
 - [061AS软件Monitor状态下的Watch窗口消失](061AS软件Monitor状态下的Watch窗口消失.md)
 - [074使用AS连接PLC需要输入密码怎么实现](074使用AS连接PLC需要输入密码怎么实现.md)
 
-# 使用异常问题解决方式
+# 🐞使用异常问题解决方式
 
 - [001Automation Studio在Physical View中添加硬件组态时无法找到实际硬件型号是什么原因](001Automation%20Studio在Physical%20View中添加硬件组态时无法找到实际硬件型号是什么原因.md)
 - [006打开Automation Studio项目时，出现中文注释乱码的情况怎么办？](006打开Automation%20Studio项目时，出现中文注释乱码的情况怎么办？.md)
