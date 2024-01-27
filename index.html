@@ -87,6 +87,10 @@
             //     crossChapter: true,
             //     crossChapterText: true,
             // },
+            //不读服务器中的缓存，每次都去取最新的页面
+            requestHeaders: {
+                'cache-control': 'max-age=0',
+            },
         }
 
     </script>
