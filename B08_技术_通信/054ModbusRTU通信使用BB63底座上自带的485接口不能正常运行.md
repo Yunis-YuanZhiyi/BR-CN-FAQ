@@ -10,6 +10,10 @@
 - BB53或BB63底座上自带的485接口做modbusRTU通讯
 - 同样的程序从CS1030换到BB63上，通讯就不通了
 - ![](FILES/054ModbusRTU通信使用BB63底座上自带的485接口不能正常运行/image-20240226124023318.png)
+- MBMaster() 功能块状态是 65535 和 20220 之间切换
+    - 20220 mbERR_NODE_TOUT
+        - In MBSOpen() or MBMOpen() FBKs: invalid value for timeout parameter (< 250 ms)
+        - In MBMCmd(), MBMaster() and MBSlave() FBKs: timeout detected
 
 # 2 原因与解决方案
 
@@ -26,6 +30,8 @@
     - [B&R Online Help (br-automation.com)](https://help.br-automation.com/#/en/4/hardware%2Fx20bb63%2Fallgemeines.html)
 - X20PS9600
     - [B&R Online Help (br-automation.com)](https://help.br-automation.com/#/en/4/hardware%2Fx20ps9600%2Fallgemeines.html)
+- ModbusRTU接线方式
+    - ![](FILES/054ModbusRTU通信使用BB63底座上自带的485接口不能正常运行/image-20240226133144736.png)
 
 # 4 更新日志
 
