@@ -12,15 +12,15 @@
     - ![Img](./FILES/003AS注册遇到SSLTLS通道无法建立.md/img-20220713152731.png)
     - ![Img](./FILES/003AS注册遇到SSLTLS通道无法建立.md/img-20220713152739.png)
 - The underlying connection was closed: An unexpected erroroccurred on a send.
-    - ![](FILES/003AS注册遇到The%20underlying%20connection%20was%20closed/image-20240303133851995.png)
+    - ![](FILES/003AS注册遇到The%20underlying%20connection%20was%20closed遇到SSL_TLS通道无法建立/image-20240303133851995.png)
 
 # 2 触发原因与解决方式
 
 | 序号  | 反馈内容        | 解决方案         |
 | --- | ----------- | ------------ |
-|     |             | 使用AS离线注册方式解决 |
-| 1   | 换手机热点一开始没成功 | 换了个时间点再注册就好了 |
-| 2   | --          | 添加证书并执行exe文件 |
+| 1   |             | 使用AS离线注册方式解决 |
+| 3   |             | 添加证书并执行exe文件 |
+| 2   | 换手机热点一开始没成功 | 换了个时间点再注册就好了 |
 
 ## 2.1 使用离线注册方式
 
