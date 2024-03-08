@@ -33,6 +33,8 @@
     - ![](FILES/085使用VMware虚拟机开箱即用贝加莱AS4.12软件/image-20240308231023236.png)
 - <span style="background:#F0A7D8">3___ </span>双击直接运行AS4.12.5
     - ![](FILES/085使用VMware虚拟机开箱即用贝加莱AS4.12软件/image-20240308231239226.png)
+- <span style="background:#F0A7D8">4___</span> 若提示需要激活码，则可以通过以下链接，在线申请90天免费测试激活码
+    - [002如何获取Automation Studio的试用注册码](002如何获取Automation%20Studio的试用注册码.md)
 
 # 4 使用案例一：直接打开mappView Demo画面
 
