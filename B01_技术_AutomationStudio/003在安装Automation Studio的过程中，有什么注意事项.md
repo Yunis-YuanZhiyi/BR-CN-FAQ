@@ -16,10 +16,14 @@
 
 # 2 安装AS软件版本说明
 
-- 前往贝加莱官方网站进行下载
+- <span style="background:#A0CCF6">下载方式一</span>：AS4.12.5合集可前往贝加莱下载中心进行下载
+    - [贝加莱社区-下载中心 (br-education.com)](https://br-education.com/downloadDis/70)
+- <span style="background:#A0CCF6">下载方式二</span>：下载已安装完成AS4.12.5的Win 10 VMware镜像，开箱即用。
+    - [085使用VMware虚拟机开箱即用贝加莱AS4.12软件](085使用VMware虚拟机开箱即用贝加莱AS4.12软件.md)
+- <span style="background:#A0CCF6">下载方式三</span>：前往贝加莱官方网站进行下载
     - www.br-automation.com
-- ![](FILES/003在安装Automation%20Studio的过程中，有什么注意事项/image-20231207234155628.png)
-- 在选择AS版本时，若新项目使用，需确认所需使用的硬件，不要选择过早的AS版本
-- AS软件一个大版本，会不断更新，修复初始版本存在的一些BUG，优化体验。因此安装完成后，需要再下载SP包，进行更新。
-    - 若有多个SP包，只需下载安装最高的版本即可。
-    - ![](FILES/003在安装Automation%20Studio的过程中，有什么注意事项/image-20231207234600731.png)
+    - ![](FILES/003在安装Automation%20Studio的过程中，有什么注意事项/image-20231207234155628.png)
+    - 在选择AS版本时，若新项目使用，需确认所需使用的硬件，不要选择过早的AS版本
+    - AS软件一个大版本，会不断更新，修复初始版本存在的一些BUG，优化体验。因此安装完成后，需要再下载SP包，进行更新。
+        - 若有多个SP包，只需下载安装最高的版本即可。
+        - ![](FILES/003在安装Automation%20Studio的过程中，有什么注意事项/image-20231207234600731.png)
