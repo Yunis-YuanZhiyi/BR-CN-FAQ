@@ -317,7 +317,7 @@ bcdedit /set {globalsettings} advancedoptions false
 - A31:
     - 原因为Linux下的驱动没有安装好。
     - 使用最新的Automation Runtime，创建Hypervisor的USB Installation Stick，可从中获得最新的Linux驱动，将驱动完全安装后，再安装Hypervisor。
-    - 详情参考[此处](#Setup10)。
+    - 详情参考 [Hypervisor使用助手 > 安装与使用 > Linux_Hypervisor安装指导手册 > 驱动安装 | Linux平台上安装Hypervisor驱动 (brhelp.cn)](https://hypervisor.brhelp.cn/index.html?setup10.html)
 
 # Q32:安装Hypervisor驱动时，提示A backup of the original boot loader already exists.
 
