@@ -7,12 +7,11 @@
 # 软件安装简介
 
 - [📺智能模块化软件—— Automation Studio 4 介绍视频](https://app9qg8os8w3630.pc.xiaoe-tech.com/p/t_pc/course_pc_detail/video/v_5d5b8ee7d1f84_h0sPBvE8)
-- [002如何获取Automation Studio的试用注册码](002如何获取Automation%20Studio的试用注册码.md)
-- [003在安装Automation Studio的过程中，有什么注意事项](003在安装Automation%20Studio的过程中，有什么注意事项.md)
+- [⭐在安装Automation Studio的过程中，有什么注意事项](003在安装Automation%20Studio的过程中，有什么注意事项.md)
+    - [002如何获取Automation Studio的试用注册码](002如何获取Automation%20Studio的试用注册码.md)
 - [004Automation Studio支持哪些版本的windows系统](004Automation%20Studio支持哪些版本的windows系统.md)
 - [063什么AS版本开始支持Win11](063什么AS版本开始支持Win11.md)
 - [025如何通过命令行不依靠AS软件安装升级包](025如何通过命令行不依靠AS软件安装升级包.md)
-- [032AS版本降级与固件Firmware版本降级](032AS版本降级与固件Firmware版本降级.md)
 - [⭐085使用VMware虚拟机开箱即用贝加莱AS4.12软件](085使用VMware虚拟机开箱即用贝加莱AS4.12软件.md)
 
 # AS软件使用技巧与优化
@@ -38,6 +37,11 @@
 - [065AS项目中的变量声明文件如何区分作用域是全局还是局部的](065AS项目中的变量声明文件如何区分作用域是全局还是局部的.md)
 - [075IOmapping中在monitor下有红色感叹号等原因说明](075IOmapping中在monitor下有红色感叹号等原因说明.md)
 - [078高版本AS软件使用已停产硬件](078高版本AS软件使用已停产硬件.md)
+- 贝加莱项目版本相关使用
+    - [086硬件的固件版本与硬件版本说明](086硬件的固件版本与硬件版本说明.md)
+    - [032AS版本降级与固件Firmware版本降级](032AS版本降级与固件Firmware版本降级.md)
+    - [005对于Automation Studio4.3及更早版本 如何降低硬件的固件版本](005对于Automation%20Studio4.3及更早版本%20如何降低硬件的固件版本.md)
+    - [087不更新程序实现固件firmware升降级操作说明](087不更新程序实现固件firmware升降级操作说明.md)
 
 # AS帮助使用
 

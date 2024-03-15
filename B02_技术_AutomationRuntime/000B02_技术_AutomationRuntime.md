@@ -4,7 +4,6 @@
 - [002Automation Runtime 是什么](002Automation%20Runtime%20是什么.md)
 - [003如何知道当前控制器中Automation Runtime的版本](003如何知道当前控制器中Automation%20Runtime的版本.md)
 - [004在下载程序时提示Automation runtime target mismatch如何解决](004在下载程序时提示Automation%20runtime%20target%20mismatch如何解决.md)
-- [005对于Automation Studio4.3及更早版本 如何降低硬件的固件版本](005对于Automation%20Studio4.3及更早版本%20如何降低硬件的固件版本.md)
 - [006AS RUNTIME版本的A-Z都是什么意思](006AS%20RUNTIME版本的A-Z都是什么意思.md)
 - [007AR系统是怎么分区的 盘符分别对应了什么内容 有相关的介绍资料吗](007AR系统是怎么分区的%20盘符分别对应了什么内容%20有相关的介绍资料吗.md)
 - [008更新下载程序意外导致操作系统进行初始化安装导致数据丢失](008更新下载程序意外导致操作系统进行初始化安装导致数据丢失.md)
