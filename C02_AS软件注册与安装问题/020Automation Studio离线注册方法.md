@@ -12,6 +12,7 @@
 # 1 简介
 
 - Automation Studio 通常通过 Internet 自动获得许可。
+    - [002如何获取Automation Studio的试用注册码](/B01_技术_AutomationStudio/002如何获取Automation%20Studio的试用注册码.md)
 - 如果安装 Automation Studio 的 PC 未连接到以太网Internet，则可以使用具有以太网Internet 连接的第二台 PC 进行许可。
 - 若贝加莱AS软件授权服务激活失效，提示报错，也可使用此方式进行离线注册激活AS软件
 - 为此，请完成以下步骤：
