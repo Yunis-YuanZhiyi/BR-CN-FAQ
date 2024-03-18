@@ -5,7 +5,7 @@
 - [建议解决方式](#%E5%BB%BA%E8%AE%AE%E8%A7%A3%E5%86%B3%E6%96%B9%E5%BC%8F)
 - [更新日志](#%E6%9B%B4%E6%96%B0%E6%97%A5%E5%BF%97)
 
-# 081贝加莱AS软件与Omron Sysmac studio同时安装报错Failed to create device description dictionary
+# B01.081-贝加莱AS软件与Omron Sysmac studio同时安装报错Failed to create device description dictionary
 
 - 同时安装贝加莱AS 4.12 与欧姆龙 Sysmac studio V1.56，当运行Automation Studio软件时报错
 - ![](FILES/081贝加莱AS软件与Omron%20Sysmac%20studio同时安装报错Failed%20to%20create%20device%20description%20dictionary/image-20240123212119596.png)
@@ -44,6 +44,6 @@
 
 # 更新日志
 
-| 日期     | 修改人     | 修改内容     |
-|:-----|:-----|:-----|
-| 2024-01-23     | YuanZhiyi<br>HuangHaoran     | 初次创建     |
+| 日期         | 修改人        | 修改内容 |
+| :--------- | :--------- | :--- |
+| 2024-01-23 | YZY<br>HHR | 初次创建 |

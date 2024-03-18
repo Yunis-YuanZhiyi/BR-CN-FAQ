@@ -1,5 +1,3 @@
-> 001ACOPOS_Simulink_利用MATLAB_Simulink更快实现完美的驱动解决方案
-
 > Tags: #仿真 #ACOPOS
 
 - [1 ACOPOS for Simulink](#1%20ACOPOS%20for%20Simulink)
@@ -12,6 +10,8 @@
 	- [4.1 使用方式演示](#4.1%20%E4%BD%BF%E7%94%A8%E6%96%B9%E5%BC%8F%E6%BC%94%E7%A4%BA)
 	- [4.2 更多信息](#4.2%20%E6%9B%B4%E5%A4%9A%E4%BF%A1%E6%81%AF)
 - [5 更新日志](#5%20%E6%9B%B4%E6%96%B0%E6%97%A5%E5%BF%97)
+
+# C08.001-ACOPOS_Simulink_利用MATLAB_Simulink更快实现完美的驱动解决方案
 
 # 1 ACOPOS for Simulink
 
@@ -71,6 +71,6 @@
 
 # 5 更新日志
 
-| 日期     | 修改人     | 修改内容     |
-|:-----|:-----|:-----|
-| 2023-12-09     | YuanZhiyi     | 基于innovations 2023.pdf进行汉化整理     |
+| 日期         | 修改人 | 修改内容                         |
+| :--------- | :-- | :--------------------------- |
+| 2023-12-09 | YZY | 基于innovations 2023.pdf进行汉化整理 |

@@ -4,7 +4,7 @@
 - [2 解决方案](#2%20%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88)
 - [3 更新日志](#3%20%E6%9B%B4%E6%96%B0%E6%97%A5%E5%BF%97)
 
-# 1 084AS烧卡报错，提示B&R Disk Image Service windows service is currently not running
+# 1 B01.084-AS烧卡报错，提示B&R Disk Image Service windows service is currently not running
 
 - 烧卡时报错，详细信息如下：
 - Removable storage device cannot be created. The Windows service that is needed to create disks is not started on this system. The required windows service is currently not running. Please start 'B&R Disk Image Service' manually and try it again.
@@ -25,6 +25,6 @@
 
 # 3 更新日志
 
-| 日期     | 修改人     | 修改内容     |
-|:-----|:-----|:-----|
-| 2024-02-24     | YuanZhiyi     | 初次创建     |
+| 日期         | 修改人 | 修改内容 |
+| :--------- | :-- | :--- |
+| 2024-02-24 | YZY | 初次创建 |

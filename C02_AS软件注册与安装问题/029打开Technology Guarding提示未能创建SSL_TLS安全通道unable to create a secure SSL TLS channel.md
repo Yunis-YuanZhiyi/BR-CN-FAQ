@@ -5,7 +5,7 @@
 - [解决方式](#%E8%A7%A3%E5%86%B3%E6%96%B9%E5%BC%8F)
 - [更新日志](#%E6%9B%B4%E6%96%B0%E6%97%A5%E5%BF%97)
 
-# 029打开Technology Guarding提示未能创建SSL_TLS安全通道unable to create a secure SSL TLS channel
+# C02.029-打开Technology Guarding提示未能创建SSL_TLS安全通道unable to create a secure SSL TLS channel
 
 - 安装了最新的 AS 4.12，但如果我运行 Technology Guarding，则会收到此错误：
     - the request was aborted: unable to create a secure SSL/TLS channel
@@ -28,6 +28,6 @@
 
 # 更新日志
 
-| 日期     | 修改人     | 修改内容     |
-|:-----|:-----|:-----|
-| 2024-03-15     | YuanZhiyi     | 初次创建     |
+| 日期         | 修改人 | 修改内容 |
+| :--------- | :-- | :--- |
+| 2024-03-15 | YZY | 初次创建 |

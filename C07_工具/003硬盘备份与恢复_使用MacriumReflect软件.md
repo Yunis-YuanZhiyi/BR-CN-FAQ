@@ -1,5 +1,3 @@
-> 003硬盘备份与恢复_使用MacriumReflect软件
-
 > #CFast卡 #Hypervisor #硬盘 #备份
 
 - [1 软件简介](#1%20%E8%BD%AF%E4%BB%B6%E7%AE%80%E4%BB%8B)
@@ -12,6 +10,8 @@
 	- [7.1 Custer Run Error. Cluster run short - Error code = 21](#7.1%20Custer%20Run%20Error.%20Cluster%20run%20short%20-%20Error%20code%20=%2021)
 	- [7.2 Backup aborted! - Failed To Create Volume Snapshot](#7.2%20Backup%20aborted!%20-%20Failed%20To%20Create%20Volume%20Snapshot)
 - [8 更新日志](#8%20%E6%9B%B4%E6%96%B0%E6%97%A5%E5%BF%97)
+
+# C07.003-硬盘备份与恢复_使用MacriumReflect软件
 
 # 1 软件简介
 
@@ -159,6 +159,6 @@
 
 # 8 更新日志
 
-| 日期     | 修改人     | 修改内容     |
-|:-----|:-----|:-----|
-| 2023-12-06     | YuanZhiyi     | 初次创建     |
+| 日期         | 修改人 | 修改内容 |
+| :--------- | :-- | :--- |
+| 2023-12-06 | YZY | 初次创建 |

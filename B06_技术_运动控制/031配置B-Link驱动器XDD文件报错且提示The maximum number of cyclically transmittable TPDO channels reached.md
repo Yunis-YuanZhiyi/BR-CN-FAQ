@@ -4,7 +4,7 @@
 - [2 解决方式](#2%20%E8%A7%A3%E5%86%B3%E6%96%B9%E5%BC%8F)
 - [3 更新日志](#3%20%E6%9B%B4%E6%96%B0%E6%97%A5%E5%BF%97)
 
-# 1 031配置B-Link驱动器XDD文件报错且提示The maximum number of cyclically transmittable TPDO channels reached
+# 1 B06.031-配置B-Link驱动器XDD文件报错且提示The maximum number of cyclically transmittable TPDO channels reached
 
 - AS报错信息
     - The maximum number of cyclically transmittable TPDO channels reached.(PDOTPDOChannelObjects = 25)
@@ -22,6 +22,6 @@
 
 # 3 更新日志
 
-| 日期     | 修改人     | 修改内容     |
-|:-----|:-----|:-----|
-| 2024-01-18     | ZhouShenyang     | 初次创建     |
+| 日期         | 修改人 | 修改内容 |
+| :--------- | :-- | :--- |
+| 2024-01-18 | ZSY | 初次创建 |

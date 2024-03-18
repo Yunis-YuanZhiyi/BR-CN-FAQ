@@ -1,6 +1,6 @@
 > Tags: #Hypervisor #VC4 #PPC #Windows
 
-📋 019PPC系列硬件使用Hypervisor技术_如何在Windows上使用VNC访问AR侧的VC4画面
+# B07.019-PPC系列硬件使用Hypervisor技术_如何在Windows上使用VNC访问AR侧的VC4画面
 
 # 1 问题
 
@@ -17,6 +17,6 @@
 
 # 3 更新日志
 
-| 日期     | 修改人     | 修改内容     |
-|:-----|:-----|:-----|
-| 2024-01-09     | Hsunyu Hsueh<br>YuanZhiyi     | 初次创建     |
+| 日期         | 修改人       | 修改内容 |
+| :--------- | :-------- | :--- |
+| 2024-01-09 | HH<br>YZY | 初次创建 |

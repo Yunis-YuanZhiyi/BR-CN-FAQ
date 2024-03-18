@@ -5,7 +5,7 @@
 - [3 解决方式](#3%20%E8%A7%A3%E5%86%B3%E6%96%B9%E5%BC%8F)
 - [4 更新日志](#4%20%E6%9B%B4%E6%96%B0%E6%97%A5%E5%BF%97)
 
-# 1 082AS导入X67DS438A报错DTM ID or list index not found
+# 1 B01.082-AS导入X67DS438A报错DTM ID or list index not found
 
 - 报错信息
     - Error connecting DTM deviceX67DS438A'.(DTM ID or list index not found.Parameter name: dtmld)
@@ -27,6 +27,6 @@
 
 # 4 更新日志
 
-| 日期     | 修改人     | 修改内容     |
-|:-----|:-----|:-----|
-| 2024-02-02     | YuanZhiyi     | 初次创建     |
+| 日期         | 修改人 | 修改内容 |
+| :--------- | :-- | :--- |
+| 2024-02-02 | YZY | 初次创建 |
