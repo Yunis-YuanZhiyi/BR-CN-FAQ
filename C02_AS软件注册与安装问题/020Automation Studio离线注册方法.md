@@ -1,5 +1,3 @@
-> 020Automation Studio离线注册方法
-
 > Tags: #AS #授权
 
 > 来源：贝加莱官网链接：[Automation Studio离线授权 | B&R Industrial Automation (br-automation.com)](https://www.br-automation.com/zh/service/automation-studio-offline-licensing/)
@@ -8,6 +6,8 @@
 - [2 STEP A: 在装有 Automation Studio 的 PC 上](#2%20STEP%20A:%20%E5%9C%A8%E8%A3%85%E6%9C%89%20Automation%20Studio%20%E7%9A%84%20PC%20%E4%B8%8A)
 - [3 STEP B: 在可以访问网络的 PC 上](#3%20STEP%20B:%20%E5%9C%A8%E5%8F%AF%E4%BB%A5%E8%AE%BF%E9%97%AE%E7%BD%91%E7%BB%9C%E7%9A%84%20PC%20%E4%B8%8A)
 - [4 STEP C:在装有 Automation Studio 的 PC 上](#4%20STEP%20C:%E5%9C%A8%E8%A3%85%E6%9C%89%20Automation%20Studio%20%E7%9A%84%20PC%20%E4%B8%8A)
+
+# C02.020-Automation Studio离线注册方法
 
 # 1 简介
 
