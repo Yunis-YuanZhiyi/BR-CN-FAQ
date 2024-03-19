@@ -2,14 +2,15 @@
 
 > 来源：贝加莱官网链接：[Automation Studio离线授权 | B&R Industrial Automation (br-automation.com)](https://www.br-automation.com/zh/service/automation-studio-offline-licensing/)
 
-- [1 简介](#1%20%E7%AE%80%E4%BB%8B)
-- [2 STEP A: 在装有 Automation Studio 的 PC 上](#2%20STEP%20A:%20%E5%9C%A8%E8%A3%85%E6%9C%89%20Automation%20Studio%20%E7%9A%84%20PC%20%E4%B8%8A)
-- [3 STEP B: 在可以访问网络的 PC 上](#3%20STEP%20B:%20%E5%9C%A8%E5%8F%AF%E4%BB%A5%E8%AE%BF%E9%97%AE%E7%BD%91%E7%BB%9C%E7%9A%84%20PC%20%E4%B8%8A)
-- [4 STEP C:在装有 Automation Studio 的 PC 上](#4%20STEP%20C:%E5%9C%A8%E8%A3%85%E6%9C%89%20Automation%20Studio%20%E7%9A%84%20PC%20%E4%B8%8A)
+- [1 C02.020-Automation Studio离线注册方法](#_1-c02020-automation-studio%E7%A6%BB%E7%BA%BF%E6%B3%A8%E5%86%8C%E6%96%B9%E6%B3%95)
+- [2 简介](#_2-%E7%AE%80%E4%BB%8B)
+- [3 STEP A: 在装有 Automation Studio 的 PC 上](#_3-step-a-%E5%9C%A8%E8%A3%85%E6%9C%89-automation-studio-%E7%9A%84-pc-%E4%B8%8A)
+- [4 STEP B: 在可以访问网络的 PC 上](#_4-step-b-%E5%9C%A8%E5%8F%AF%E4%BB%A5%E8%AE%BF%E9%97%AE%E7%BD%91%E7%BB%9C%E7%9A%84-pc-%E4%B8%8A)
+- [5 STEP C:在装有 Automation Studio 的 PC 上](#_5-step-c%E5%9C%A8%E8%A3%85%E6%9C%89-automation-studio-%E7%9A%84-pc-%E4%B8%8A)
 
-# C02.020-Automation Studio离线注册方法
+# 1 C02.020-Automation Studio离线注册方法
 
-# 1 简介
+# 2 简介
 
 - Automation Studio 通常通过 Internet 自动获得许可。
     - [002如何获取Automation Studio的试用注册码](/B01_技术_AutomationStudio/002如何获取Automation%20Studio的试用注册码.md)
@@ -17,7 +18,7 @@
 - 若贝加莱AS软件授权服务激活失效，提示报错，也可使用此方式进行离线注册激活AS软件
 - 为此，请完成以下步骤：
 
-# 2 STEP A: 在装有 Automation Studio 的 PC 上
+# 3 STEP A: 在装有 Automation Studio 的 PC 上
 
 - <span style="background:#F0A7D8">1___</span>将此文件下载，然后将其复制到 Automation Studio 应获得许可的离线 PC 上。
     - 文件链接：
@@ -37,7 +38,7 @@
     - ![](FILES/020Automation%20Studio离线注册方法/image-20240315231540699.png)
 - <span style="background:#F0A7D8">8.) </span>将文件传输到可以访问 Internet 的 PC（例如，将其保存到 USB 闪存驱动器或类似设备）
 
-# 3 STEP B: 在可以访问网络的 PC 上
+# 4 STEP B: 在可以访问网络的 PC 上
 
 > 也可以是在装有AS的需要授权的同一台电脑，需能够访问网络
 
@@ -50,7 +51,7 @@
     - ![](FILES/020Automation%20Studio离线注册方法/image-20240315232106522.png)
 - <span style="background:#A0CCF6">12___</span>将这个更新的 .WibuCmRaU 文件传输到离线 PC（例如使用 USB 闪存驱动器或等效设备）。
 
-# 4 STEP C:在装有 Automation Studio 的 PC 上
+# 5 STEP C:在装有 Automation Studio 的 PC 上
 
 - <span style="background:#F0A7D8">13___</span>在 Windows中双击 .WibuCmRaU 进行授权更新。
     - (有当上述方法不起作用时，您可以将文件拖放到“Codemeter”程序中)
