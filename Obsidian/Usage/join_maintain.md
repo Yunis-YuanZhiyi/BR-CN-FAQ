@@ -1,8 +1,11 @@
-- [1 加入我们，一起维护🎉](#1%20%E5%8A%A0%E5%85%A5%E6%88%91%E4%BB%AC%EF%BC%8C%E4%B8%80%E8%B5%B7%E7%BB%B4%E6%8A%A4%F0%9F%8E%89)
-- [2 维护方式](#2%20%E7%BB%B4%E6%8A%A4%E6%96%B9%E5%BC%8F)
-	- [2.1 如何创建文件](#2.1%20%E5%A6%82%E4%BD%95%E5%88%9B%E5%BB%BA%E6%96%87%E4%BB%B6)
-	- [2.2 如何在代码托管平台中搜索](#2.2%20%E5%A6%82%E4%BD%95%E5%9C%A8%E4%BB%A3%E7%A0%81%E6%89%98%E7%AE%A1%E5%B9%B3%E5%8F%B0%E4%B8%AD%E6%90%9C%E7%B4%A2)
-- [3 维护规则](#3%20%E7%BB%B4%E6%8A%A4%E8%A7%84%E5%88%99)
+- [1 加入我们，一起维护🎉](#_1-%E5%8A%A0%E5%85%A5%E6%88%91%E4%BB%AC%EF%BC%8C%E4%B8%80%E8%B5%B7%E7%BB%B4%E6%8A%A4)
+- [2 维护方式](#_2-%E7%BB%B4%E6%8A%A4%E6%96%B9%E5%BC%8F)
+	- [2.1 如何创建文件](#_21-%E5%A6%82%E4%BD%95%E5%88%9B%E5%BB%BA%E6%96%87%E4%BB%B6)
+	- [2.2 如何搜索](#_22-%E5%A6%82%E4%BD%95%E6%90%9C%E7%B4%A2)
+- [3 维护思路](#_3-%E7%BB%B4%E6%8A%A4%E6%80%9D%E8%B7%AF)
+- [4 维护规则](#_4-%E7%BB%B4%E6%8A%A4%E8%A7%84%E5%88%99)
+	- [4.1 附件下载添加规则](#_41-%E9%99%84%E4%BB%B6%E4%B8%8B%E8%BD%BD%E6%B7%BB%E5%8A%A0%E8%A7%84%E5%88%99)
+	- [4.2 视频显示规则](#_42-%E8%A7%86%E9%A2%91%E6%98%BE%E7%A4%BA%E8%A7%84%E5%88%99)
 
 # 1 加入我们，一起维护🎉
 
@@ -16,21 +19,67 @@
 
 - [使用模版创建文件方式](使用模版创建文件方式.md)
 
-## 2.2 如何在代码托管平台中搜索
+## 2.2 如何搜索
 
 - [如何搜索帮助](/C01_其他/007如何搜索帮助.md)
 
-# 3 维护规则
+# 3 维护思路
 
-1. 按照分类建立 FAQ 条目，一个问题一个条目
-2. 新增条目，不修改目录，避免额外的 Merge 操作
-3. 条目命名为 0 XX 开头，以序号来方便定位
-4. 如果没有答案的问题，就创建一个 Issues，看是否有有人能回答
-5. 图片尽量使用 `Snipaste` 软件截图, 减少图片占用空间
-6. 不上传视频，使用 `ScreenToGif` 软件制作 Gif 动图
-7. 建议使用已配置完成的 Obisidian 软件参与本仓库维护，保持项目统一
-8. 标题末尾不能有多余空格，不能以 `.`，`?` 结尾
-9. 标题中不能包含 `%`，`'` 与 `"`
-10. 标题不宜过长
-11. 文本信息中，充分使用格式，避免样式混乱
-12. 不要导入 WORD 文件，请使用 `Writage` 转换为 Markdown 文件
+- 使用obsidian软件编写markdown文本
+    - 通过插件配合调整文档内容
+- 使用docsify发布至腾讯云服务器
+    - 通过docsify插件实现相关功能
+- 域名解析至 brhelp.cn 网站
+
+# 4 维护规则
+
+- 编写markdown软件
+    - Obsidian
+        - [Obsidian - Sharpen your thinking](https://obsidian.md/)
+    - 对应使用FAQ定制配置文件
+        - [点击跳转下载](https://www.br-education.com/downloadDis/72)
+- 创建条目标题命名规则
+    - 按照分类建立条目，一个问题一个条目，尽量用少量字数描述
+    - 已创建的文件名，如无必要，不要改名
+    - 条目开头均以 0XX 三位数字开头，方便定位
+    - 条目标题末尾不能有多余空格，不能以 `.`，`?` 结尾
+    - 条目标题中不能包含 `%`，`'` 与 `"`
+- 图片使用
+    - 图片尽量使用 `pixpin` 软件截图，减少图片占用体积
+        - [PixPin 截图/贴图/长截图/文字识别/标注 | PixPin 截图/贴图/长截图/文字识别/标注 (pixpinapp.com)](https://pixpinapp.com/)
+    - 图片体积控制在 300KB 以下
+- 动图使用
+    - 使用 `ScreenToGif` 软件制作 Gif 动图，并进行压缩，控制体积
+        - [ScreenToGif - Record your screen, edit and save as a gif, video or other formats](https://www.screentogif.com/)
+- 文本内容
+    - 开头内容以 `> Tags: #标签` 方便后续归类
+    - 第一个 H1 样式的内容为 A01.001-标题名，方便查询
+    - 文中内容以列表的方式进行编写，便于格式统一。
+    - 不要导入 WORD 文件，请使用 `Writage` 转换为 Markdown 文件
+        - [Writage - Markdown plugin for Microsoft Word](https://www.writage.com/)
+- 附件与视频上传
+    - 无必要不上传视频，若为了演示，建议使用 `Handbrake` 软件将视频进行压缩在1MB以内
+        - [HandBrake: Open Source Video Transcoder](https://handbrake.fr/)
+    - PDF若大于5MB，建议放在网盘或者下载中心，使用链接指向。
+    - 项目压缩包，建议压缩在5MB以内上传
+
+## 4.1 附件下载添加规则
+
+- 绝对路径
+- 链接末尾添加 ':ignore'
+
+```
+[通用功能 | BrRand库，动态生成随机数 | 2021-09-24](/B04_技术_贝加莱功能库Library/FILES/000B04_技术_贝加莱功能块Library/BrRand-2021-09-24.zip ':ignore')
+```
+
+## 4.2 视频显示规则
+
+- 绝对路径
+- 使用HTML语法实现
+
+```
+<video muted autoplay="autoplay" loop="loop" width="320" height="240" controls>
+  <source src="/A06_产品_柔性传输系统/FILES/003ACOPOS_6D是什么/1.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+```
