@@ -1,13 +1,15 @@
 > Tags: #OPC_UA #SSL #证书 #加密
 
-- [1 047OPC UA创建证书](#1%20047OPC%20UA%E5%88%9B%E5%BB%BA%E8%AF%81%E4%B9%A6)
-- [2 背景](#2%20%E8%83%8C%E6%99%AF)
-	- [2.1 贝加莱 PLC 默认自动生成的证书不能正常使用原因](#2.1%20%E8%B4%9D%E5%8A%A0%E8%8E%B1%20PLC%20%E9%BB%98%E8%AE%A4%E8%87%AA%E5%8A%A8%E7%94%9F%E6%88%90%E7%9A%84%E8%AF%81%E4%B9%A6%E4%B8%8D%E8%83%BD%E6%AD%A3%E5%B8%B8%E4%BD%BF%E7%94%A8%E5%8E%9F%E5%9B%A0)
-- [3 证书创建方式](#3%20%E8%AF%81%E4%B9%A6%E5%88%9B%E5%BB%BA%E6%96%B9%E5%BC%8F)
-	- [3.1 步骤一：安装UaExpert软件](#3.1%20%E6%AD%A5%E9%AA%A4%E4%B8%80%EF%BC%9A%E5%AE%89%E8%A3%85UaExpert%E8%BD%AF%E4%BB%B6)
-	- [3.2 步骤二：创建证书](#3.2%20%E6%AD%A5%E9%AA%A4%E4%BA%8C%EF%BC%9A%E5%88%9B%E5%BB%BA%E8%AF%81%E4%B9%A6)
-	- [3.3 步骤三：调整与放置证书](#3.3%20%E6%AD%A5%E9%AA%A4%E4%B8%89%EF%BC%9A%E8%B0%83%E6%95%B4%E4%B8%8E%E6%94%BE%E7%BD%AE%E8%AF%81%E4%B9%A6)
-- [4 结果：使用UA Expert软件连接，证书信息正常不报错](#4%20%E7%BB%93%E6%9E%9C%EF%BC%9A%E4%BD%BF%E7%94%A8UA%20Expert%E8%BD%AF%E4%BB%B6%E8%BF%9E%E6%8E%A5%EF%BC%8C%E8%AF%81%E4%B9%A6%E4%BF%A1%E6%81%AF%E6%AD%A3%E5%B8%B8%E4%B8%8D%E6%8A%A5%E9%94%99)
+- [1 047OPC UA创建证书](#_1-047opc-ua%E5%88%9B%E5%BB%BA%E8%AF%81%E4%B9%A6)
+- [2 背景](#_2-%E8%83%8C%E6%99%AF)
+	- [2.1 贝加莱 PLC 默认自动生成的证书不能正常使用原因](#_21-%E8%B4%9D%E5%8A%A0%E8%8E%B1-plc-%E9%BB%98%E8%AE%A4%E8%87%AA%E5%8A%A8%E7%94%9F%E6%88%90%E7%9A%84%E8%AF%81%E4%B9%A6%E4%B8%8D%E8%83%BD%E6%AD%A3%E5%B8%B8%E4%BD%BF%E7%94%A8%E5%8E%9F%E5%9B%A0)
+- [3 证书创建方式](#_3-%E8%AF%81%E4%B9%A6%E5%88%9B%E5%BB%BA%E6%96%B9%E5%BC%8F)
+	- [3.1 步骤一：安装UaExpert软件](#_31-%E6%AD%A5%E9%AA%A4%E4%B8%80%E5%AE%89%E8%A3%85uaexpert%E8%BD%AF%E4%BB%B6)
+	- [3.2 步骤二：创建证书](#_32-%E6%AD%A5%E9%AA%A4%E4%BA%8C%E5%88%9B%E5%BB%BA%E8%AF%81%E4%B9%A6)
+	- [3.3 步骤三：调整与放置证书](#_33-%E6%AD%A5%E9%AA%A4%E4%B8%89%E8%B0%83%E6%95%B4%E4%B8%8E%E6%94%BE%E7%BD%AE%E8%AF%81%E4%B9%A6)
+- [4 结果：使用UA Expert软件连接，证书信息正常不报错](#_4-%E7%BB%93%E6%9E%9C%E4%BD%BF%E7%94%A8ua-expert%E8%BD%AF%E4%BB%B6%E8%BF%9E%E6%8E%A5%EF%BC%8C%E8%AF%81%E4%B9%A6%E4%BF%A1%E6%81%AF%E6%AD%A3%E5%B8%B8%E4%B8%8D%E6%8A%A5%E9%94%99)
+- [5 相关信息](#_5-%E7%9B%B8%E5%85%B3%E4%BF%A1%E6%81%AF)
+- [6 更新日志](#_6-%E6%9B%B4%E6%96%B0%E6%97%A5%E5%BF%97)
 
 # 1 047OPC UA创建证书
 
@@ -78,3 +80,13 @@
 # 4 结果：使用UA Expert软件连接，证书信息正常不报错
 
 - ![](FILES/047OPC%20UA创建证书/image-20221114212457108.png)
+
+# 5 相关信息
+
+- [044mappView对接SSL加密的OPC UA服务](/B05_技术_mapp/044mappView对接SSL加密的OPC%20UA服务.md)
+
+# 6 更新日志
+
+| 日期         | 修改人 | 修改内容 |
+| ---------- | --- | ---- |
+| 2023.08.02 | YZY | 初次创建 |
