@@ -48,14 +48,15 @@
     - 图片尽量使用 `pixpin` 软件截图，减少图片占用体积
         - [PixPin 截图/贴图/长截图/文字识别/标注 | PixPin 截图/贴图/长截图/文字识别/标注 (pixpinapp.com)](https://pixpinapp.com/)
     - 图片体积控制在 300KB 以下
+    - 尽量确保图片小，不要有过多留白，尽量突出重点，方便手机浏览
 - 动图使用
     - 使用 `ScreenToGif` 软件制作 Gif 动图，并进行压缩，控制体积
         - [ScreenToGif - Record your screen, edit and save as a gif, video or other formats](https://www.screentogif.com/)
 - 文本内容
     - 开头内容以 `> Tags: #标签` 方便后续归类
     - 第一个 H1 样式的内容为 A01.001-标题名，方便查询
-    - 文内 H1 H2 H3 等标题样式，尽量简洁，不要有 `。`，避免目录生成不跳转
-    - 文中内容以列表的方式进行编写，便于格式统一。
+    - 文内 H1 H2 H3 等标题样式，尽量简洁，不要有以标点符号结尾，避免目录生成不跳转
+    - 文中内容以列表的方式进行编写，便于格式统一
     - 不要导入 WORD 文件，请使用 `Writage` 转换为 Markdown 文件
         - [Writage - Markdown plugin for Microsoft Word](https://www.writage.com/)
 - 附件与视频上传
@@ -63,6 +64,10 @@
         - [HandBrake: Open Source Video Transcoder](https://handbrake.fr/)
     - PDF若大于5MB，建议放在网盘或者下载中心，使用链接指向。
     - 项目压缩包，建议压缩在5MB以内上传
+- 无效资源清空
+    - 避免无效资源被推送
+    - 新写的内容，右键文件夹，选择 `Find orphaned files` 将提示出没有任何关联的文档且无效的资源删除
+    - 确认完成后删除在根目录下的 Find orphaned files 输出文件
 
 ## 4.1 附件下载添加规则
 
