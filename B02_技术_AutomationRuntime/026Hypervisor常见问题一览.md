@@ -6,17 +6,17 @@
 - [4 Hyervisor装完之后进入windows就崩溃，删除后能正常启动](#_4-hyervisor%E8%A3%85%E5%AE%8C%E4%B9%8B%E5%90%8E%E8%BF%9B%E5%85%A5windows%E5%B0%B1%E5%B4%A9%E6%BA%83%EF%BC%8C%E5%88%A0%E9%99%A4%E5%90%8E%E8%83%BD%E6%AD%A3%E5%B8%B8%E5%90%AF%E5%8A%A8)
 - [5 Hypervisor装完后一直重启，最后进入花屏](#_5-hypervisor%E8%A3%85%E5%AE%8C%E5%90%8E%E4%B8%80%E7%9B%B4%E9%87%8D%E5%90%AF%EF%BC%8C%E6%9C%80%E5%90%8E%E8%BF%9B%E5%85%A5%E8%8A%B1%E5%B1%8F)
 - [6 Hypervisor安装完后停留在界面](#_6-hypervisor%E5%AE%89%E8%A3%85%E5%AE%8C%E5%90%8E%E5%81%9C%E7%95%99%E5%9C%A8%E7%95%8C%E9%9D%A2)
-- [7 Hypervisor安装完成后直接进入Win10没有重启。](#_7-hypervisor%E5%AE%89%E8%A3%85%E5%AE%8C%E6%88%90%E5%90%8E%E7%9B%B4%E6%8E%A5%E8%BF%9B%E5%85%A5win10%E6%B2%A1%E6%9C%89%E9%87%8D%E5%90%AF)
-- [8 Linux下装好后启动，停留在黑屏。](#_8-linux%E4%B8%8B%E8%A3%85%E5%A5%BD%E5%90%8E%E5%90%AF%E5%8A%A8%EF%BC%8C%E5%81%9C%E7%95%99%E5%9C%A8%E9%BB%91%E5%B1%8F)
-- [9 对PPC2100硬件，基于AR4.8的U盘安装Hypervisor，在线更新后，CPU原有的3核变为1核。](#_9-%E5%AF%B9ppc2100%E7%A1%AC%E4%BB%B6%EF%BC%8C%E5%9F%BA%E4%BA%8Ear48%E7%9A%84u%E7%9B%98%E5%AE%89%E8%A3%85hypervisor%EF%BC%8C%E5%9C%A8%E7%BA%BF%E6%9B%B4%E6%96%B0%E5%90%8E%EF%BC%8Ccpu%E5%8E%9F%E6%9C%89%E7%9A%843%E6%A0%B8%E5%8F%98%E4%B8%BA1%E6%A0%B8)
+- [7 Hypervisor安装完成后直接进入Win10没有重启](#_7-hypervisor%E5%AE%89%E8%A3%85%E5%AE%8C%E6%88%90%E5%90%8E%E7%9B%B4%E6%8E%A5%E8%BF%9B%E5%85%A5win10%E6%B2%A1%E6%9C%89%E9%87%8D%E5%90%AF)
+- [8 Linux下装好后启动，停留在黑屏](#_8-linux%E4%B8%8B%E8%A3%85%E5%A5%BD%E5%90%8E%E5%90%AF%E5%8A%A8%EF%BC%8C%E5%81%9C%E7%95%99%E5%9C%A8%E9%BB%91%E5%B1%8F)
+- [9 对PPC2100硬件，基于AR4.8的U盘安装Hypervisor，在线更新后，CPU原有的3核变为1核](#_9-%E5%AF%B9ppc2100%E7%A1%AC%E4%BB%B6%EF%BC%8C%E5%9F%BA%E4%BA%8Ear48%E7%9A%84u%E7%9B%98%E5%AE%89%E8%A3%85hypervisor%EF%BC%8C%E5%9C%A8%E7%BA%BF%E6%9B%B4%E6%96%B0%E5%90%8E%EF%BC%8Ccpu%E5%8E%9F%E6%9C%89%E7%9A%843%E6%A0%B8%E5%8F%98%E4%B8%BA1%E6%A0%B8)
 - [10 APC2200，装完hypervisor后，windows（非官方镜像）在第三次断电后出现需要恢复，无法正常启动](#_10-apc2200%EF%BC%8C%E8%A3%85%E5%AE%8Chypervisor%E5%90%8E%EF%BC%8Cwindows%EF%BC%88%E9%9D%9E%E5%AE%98%E6%96%B9%E9%95%9C%E5%83%8F%EF%BC%89%E5%9C%A8%E7%AC%AC%E4%B8%89%E6%AC%A1%E6%96%AD%E7%94%B5%E5%90%8E%E5%87%BA%E7%8E%B0%E9%9C%80%E8%A6%81%E6%81%A2%E5%A4%8D%EF%BC%8C%E6%97%A0%E6%B3%95%E6%AD%A3%E5%B8%B8%E5%90%AF%E5%8A%A8)
 - [11 APC3100，装完hypervisor及驱动后，windows网口无法使用，显示驱动损坏](#_11-apc3100%EF%BC%8C%E8%A3%85%E5%AE%8Chypervisor%E5%8F%8A%E9%A9%B1%E5%8A%A8%E5%90%8E%EF%BC%8Cwindows%E7%BD%91%E5%8F%A3%E6%97%A0%E6%B3%95%E4%BD%BF%E7%94%A8%EF%BC%8C%E6%98%BE%E7%A4%BA%E9%A9%B1%E5%8A%A8%E6%8D%9F%E5%9D%8F)
-- [12 当已正确安装Hypervisor，系统也已提示安装Hypervisor正确安装，在重启后发现卡在此步骤不动，应该如何处理。](#_12-%E5%BD%93%E5%B7%B2%E6%AD%A3%E7%A1%AE%E5%AE%89%E8%A3%85hypervisor%EF%BC%8C%E7%B3%BB%E7%BB%9F%E4%B9%9F%E5%B7%B2%E6%8F%90%E7%A4%BA%E5%AE%89%E8%A3%85hypervisor%E6%AD%A3%E7%A1%AE%E5%AE%89%E8%A3%85%EF%BC%8C%E5%9C%A8%E9%87%8D%E5%90%AF%E5%90%8E%E5%8F%91%E7%8E%B0%E5%8D%A1%E5%9C%A8%E6%AD%A4%E6%AD%A5%E9%AA%A4%E4%B8%8D%E5%8A%A8%EF%BC%8C%E5%BA%94%E8%AF%A5%E5%A6%82%E4%BD%95%E5%A4%84%E7%90%86)
-- [13 通过USB installation stick进行安装Hypervisor，在Install之后，没有正常安装，提示Error:](#_13-%E9%80%9A%E8%BF%87usb-installation-stick%E8%BF%9B%E8%A1%8C%E5%AE%89%E8%A3%85hypervisor%EF%BC%8C%E5%9C%A8install%E4%B9%8B%E5%90%8E%EF%BC%8C%E6%B2%A1%E6%9C%89%E6%AD%A3%E5%B8%B8%E5%AE%89%E8%A3%85%EF%BC%8C%E6%8F%90%E7%A4%BAerror)
+- [12 当已正确安装Hypervisor，系统也已提示安装Hypervisor正确安装，在重启后发现卡在此步骤不动，应该如何处理](#_12-%E5%BD%93%E5%B7%B2%E6%AD%A3%E7%A1%AE%E5%AE%89%E8%A3%85hypervisor%EF%BC%8C%E7%B3%BB%E7%BB%9F%E4%B9%9F%E5%B7%B2%E6%8F%90%E7%A4%BA%E5%AE%89%E8%A3%85hypervisor%E6%AD%A3%E7%A1%AE%E5%AE%89%E8%A3%85%EF%BC%8C%E5%9C%A8%E9%87%8D%E5%90%AF%E5%90%8E%E5%8F%91%E7%8E%B0%E5%8D%A1%E5%9C%A8%E6%AD%A4%E6%AD%A5%E9%AA%A4%E4%B8%8D%E5%8A%A8%EF%BC%8C%E5%BA%94%E8%AF%A5%E5%A6%82%E4%BD%95%E5%A4%84%E7%90%86)
+- [13 通过USB installation stick进行安装Hypervisor，在Install之后，没有正常安装，提示Error](#_13-%E9%80%9A%E8%BF%87usb-installation-stick%E8%BF%9B%E8%A1%8C%E5%AE%89%E8%A3%85hypervisor%EF%BC%8C%E5%9C%A8install%E4%B9%8B%E5%90%8E%EF%BC%8C%E6%B2%A1%E6%9C%89%E6%AD%A3%E5%B8%B8%E5%AE%89%E8%A3%85%EF%BC%8C%E6%8F%90%E7%A4%BAerror)
 - [14 工控机Windows安装界面卡在Recovery Solution，点击Start无法进入下一步](#_14-%E5%B7%A5%E6%8E%A7%E6%9C%BAwindows%E5%AE%89%E8%A3%85%E7%95%8C%E9%9D%A2%E5%8D%A1%E5%9C%A8recovery-solution%EF%BC%8C%E7%82%B9%E5%87%BBstart%E6%97%A0%E6%B3%95%E8%BF%9B%E5%85%A5%E4%B8%8B%E4%B8%80%E6%AD%A5)
 - [15 客户在已安装Hypervisor的工控机上下载程序时报错](#_15-%E5%AE%A2%E6%88%B7%E5%9C%A8%E5%B7%B2%E5%AE%89%E8%A3%85hypervisor%E7%9A%84%E5%B7%A5%E6%8E%A7%E6%9C%BA%E4%B8%8A%E4%B8%8B%E8%BD%BD%E7%A8%8B%E5%BA%8F%E6%97%B6%E6%8A%A5%E9%94%99)
-- [16 重新启动后，安装冻结，无法继续 – ARemb 在RUN的状态](#_16-%E9%87%8D%E6%96%B0%E5%90%AF%E5%8A%A8%E5%90%8E%EF%BC%8C%E5%AE%89%E8%A3%85%E5%86%BB%E7%BB%93%EF%BC%8C%E6%97%A0%E6%B3%95%E7%BB%A7%E7%BB%AD--aremb-%E5%9C%A8run%E7%9A%84%E7%8A%B6%E6%80%81)
-- [17 重新启动后安装冻结，无法继续 - ARemb在SERVICE模式](#_17-%E9%87%8D%E6%96%B0%E5%90%AF%E5%8A%A8%E5%90%8E%E5%AE%89%E8%A3%85%E5%86%BB%E7%BB%93%EF%BC%8C%E6%97%A0%E6%B3%95%E7%BB%A7%E7%BB%AD---aremb%E5%9C%A8service%E6%A8%A1%E5%BC%8F)
+- [16 重新启动后，安装冻结，无法继续–ARemb 在RUN的状态](#_16-%E9%87%8D%E6%96%B0%E5%90%AF%E5%8A%A8%E5%90%8E%EF%BC%8C%E5%AE%89%E8%A3%85%E5%86%BB%E7%BB%93%EF%BC%8C%E6%97%A0%E6%B3%95%E7%BB%A7%E7%BB%ADaremb-%E5%9C%A8run%E7%9A%84%E7%8A%B6%E6%80%81)
+- [17 重新启动后安装冻结，无法继续-ARemb在SERVICE模式](#_17-%E9%87%8D%E6%96%B0%E5%90%AF%E5%8A%A8%E5%90%8E%E5%AE%89%E8%A3%85%E5%86%BB%E7%BB%93%EF%BC%8C%E6%97%A0%E6%B3%95%E7%BB%A7%E7%BB%AD-aremb%E5%9C%A8service%E6%A8%A1%E5%BC%8F)
 - [18 Windows循环重启，并带有错误码: INACCESIBLE BOOT DEVICE](#_18-windows%E5%BE%AA%E7%8E%AF%E9%87%8D%E5%90%AF%EF%BC%8C%E5%B9%B6%E5%B8%A6%E6%9C%89%E9%94%99%E8%AF%AF%E7%A0%81-inaccesible-boot-device)
 - [19 安装GPOS上的驱动时报错](#_19-%E5%AE%89%E8%A3%85gpos%E4%B8%8A%E7%9A%84%E9%A9%B1%E5%8A%A8%E6%97%B6%E6%8A%A5%E9%94%99)
 - [20 在UEFI APC上安装Hypervisor的常见问题](#_20-%E5%9C%A8uefi-apc%E4%B8%8A%E5%AE%89%E8%A3%85hypervisor%E7%9A%84%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98)
@@ -28,18 +28,18 @@
 - [26 安装Hypervisor后，屏幕花屏](#_26-%E5%AE%89%E8%A3%85hypervisor%E5%90%8E%EF%BC%8C%E5%B1%8F%E5%B9%95%E8%8A%B1%E5%B1%8F)
 - [27 使用了性能较差的CF卡作为USB Installation Stick，导致安装异常](#_27-%E4%BD%BF%E7%94%A8%E4%BA%86%E6%80%A7%E8%83%BD%E8%BE%83%E5%B7%AE%E7%9A%84cf%E5%8D%A1%E4%BD%9C%E4%B8%BAusb-installation-stick%EF%BC%8C%E5%AF%BC%E8%87%B4%E5%AE%89%E8%A3%85%E5%BC%82%E5%B8%B8)
 - [28 PPC2200之类的设备，使用Debian系统，在镜像到不同屏幕上，触摸功能失效](#_28-ppc2200%E4%B9%8B%E7%B1%BB%E7%9A%84%E8%AE%BE%E5%A4%87%EF%BC%8C%E4%BD%BF%E7%94%A8debian%E7%B3%BB%E7%BB%9F%EF%BC%8C%E5%9C%A8%E9%95%9C%E5%83%8F%E5%88%B0%E4%B8%8D%E5%90%8C%E5%B1%8F%E5%B9%95%E4%B8%8A%EF%BC%8C%E8%A7%A6%E6%91%B8%E5%8A%9F%E8%83%BD%E5%A4%B1%E6%95%88)
-- [29 安装好Hypervisor后的Windows系统如何再次分区？](#_29-%E5%AE%89%E8%A3%85%E5%A5%BDhypervisor%E5%90%8E%E7%9A%84windows%E7%B3%BB%E7%BB%9F%E5%A6%82%E4%BD%95%E5%86%8D%E6%AC%A1%E5%88%86%E5%8C%BA%EF%BC%9F)
-- [30 安装Hypervisor后提示安装成功，但实际Hypervisor没有启动，ETH口无法连上。](#_30-%E5%AE%89%E8%A3%85hypervisor%E5%90%8E%E6%8F%90%E7%A4%BA%E5%AE%89%E8%A3%85%E6%88%90%E5%8A%9F%EF%BC%8C%E4%BD%86%E5%AE%9E%E9%99%85hypervisor%E6%B2%A1%E6%9C%89%E5%90%AF%E5%8A%A8%EF%BC%8Ceth%E5%8F%A3%E6%97%A0%E6%B3%95%E8%BF%9E%E4%B8%8A)
+- [29 安装好Hypervisor后的Windows系统如何再次分区](#_29-%E5%AE%89%E8%A3%85%E5%A5%BDhypervisor%E5%90%8E%E7%9A%84windows%E7%B3%BB%E7%BB%9F%E5%A6%82%E4%BD%95%E5%86%8D%E6%AC%A1%E5%88%86%E5%8C%BA)
+- [30 安装Hypervisor后提示安装成功，但实际Hypervisor没有启动，ETH口无法连上](#_30-%E5%AE%89%E8%A3%85hypervisor%E5%90%8E%E6%8F%90%E7%A4%BA%E5%AE%89%E8%A3%85%E6%88%90%E5%8A%9F%EF%BC%8C%E4%BD%86%E5%AE%9E%E9%99%85hypervisor%E6%B2%A1%E6%9C%89%E5%90%AF%E5%8A%A8%EF%BC%8Ceth%E5%8F%A3%E6%97%A0%E6%B3%95%E8%BF%9E%E4%B8%8A)
 - [31 在APC910-QM77上安装Hypervisor报错提示Virtualization is disabled by the firmware](#_31-%E5%9C%A8apc910-qm77%E4%B8%8A%E5%AE%89%E8%A3%85hypervisor%E6%8A%A5%E9%94%99%E6%8F%90%E7%A4%BAvirtualization-is-disabled-by-the-firmware)
-- [32 5ACPCE.ETH4-00卡能否支持Hypervisor？](#_32-5acpceeth4-00%E5%8D%A1%E8%83%BD%E5%90%A6%E6%94%AF%E6%8C%81hypervisor%EF%BC%9F)
+- [32 5ACPCE.ETH4-00卡能否支持Hypervisor](#_32-5acpceeth4-00%E5%8D%A1%E8%83%BD%E5%90%A6%E6%94%AF%E6%8C%81hypervisor)
 - [33 在操作系统为Debian 10上的APC910 TS17-04设备上安装Hypervisor，提示如下报错](#_33-%E5%9C%A8%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F%E4%B8%BAdebian-10%E4%B8%8A%E7%9A%84apc910-ts17-04%E8%AE%BE%E5%A4%87%E4%B8%8A%E5%AE%89%E8%A3%85hypervisor%EF%BC%8C%E6%8F%90%E7%A4%BA%E5%A6%82%E4%B8%8B%E6%8A%A5%E9%94%99)
-- [34 安装Hypervisor驱动时，提示A backup of the original boot loader already exists.](#_34-%E5%AE%89%E8%A3%85hypervisor%E9%A9%B1%E5%8A%A8%E6%97%B6%EF%BC%8C%E6%8F%90%E7%A4%BAa-backup-of-the-original-boot-loader-already-exists)
+- [34 安装Hypervisor驱动时，提示A backup of the original boot loader already exists](#_34-%E5%AE%89%E8%A3%85hypervisor%E9%A9%B1%E5%8A%A8%E6%97%B6%EF%BC%8C%E6%8F%90%E7%A4%BAa-backup-of-the-original-boot-loader-already-exists)
 - [35 原先安装正常使用的Hypervisor，卸载安装其他版本的Hypervisor，出现 The original boot loader could not be backuped](#_35-%E5%8E%9F%E5%85%88%E5%AE%89%E8%A3%85%E6%AD%A3%E5%B8%B8%E4%BD%BF%E7%94%A8%E7%9A%84hypervisor%EF%BC%8C%E5%8D%B8%E8%BD%BD%E5%AE%89%E8%A3%85%E5%85%B6%E4%BB%96%E7%89%88%E6%9C%AC%E7%9A%84hypervisor%EF%BC%8C%E5%87%BA%E7%8E%B0-the-original-boot-loader-could-not-be-backuped)
 - [36 Hypervisor在USB更新程序后无法启动显示License is not valid](#_36-hypervisor%E5%9C%A8usb%E6%9B%B4%E6%96%B0%E7%A8%8B%E5%BA%8F%E5%90%8E%E6%97%A0%E6%B3%95%E5%90%AF%E5%8A%A8%E6%98%BE%E7%A4%BAlicense-is-not-valid)
 - [37 给一台全新的硬件安装Hypervisor提示Uninstall](#_37-%E7%BB%99%E4%B8%80%E5%8F%B0%E5%85%A8%E6%96%B0%E7%9A%84%E7%A1%AC%E4%BB%B6%E5%AE%89%E8%A3%85hypervisor%E6%8F%90%E7%A4%BAuninstall)
 - [38 安装过程中 Hypervisor 重启几次后，卡在/OS/1 Booting runtime 0 状态](#_38-%E5%AE%89%E8%A3%85%E8%BF%87%E7%A8%8B%E4%B8%AD-hypervisor-%E9%87%8D%E5%90%AF%E5%87%A0%E6%AC%A1%E5%90%8E%EF%BC%8C%E5%8D%A1%E5%9C%A8os1-booting-runtime-0-%E7%8A%B6%E6%80%81)
 - [39 U盘安装Hypervisor，在系统选择从U盘启动时提示BOOTMGR is missing](#_39-u%E7%9B%98%E5%AE%89%E8%A3%85hypervisor%EF%BC%8C%E5%9C%A8%E7%B3%BB%E7%BB%9F%E9%80%89%E6%8B%A9%E4%BB%8Eu%E7%9B%98%E5%90%AF%E5%8A%A8%E6%97%B6%E6%8F%90%E7%A4%BAbootmgr-is-missing)
-- [40 安装Hypervisor提示Hypervisor boot failed.](#_40-%E5%AE%89%E8%A3%85hypervisor%E6%8F%90%E7%A4%BAhypervisor-boot-failed)
+- [40 安装Hypervisor提示Hypervisor boot failed](#_40-%E5%AE%89%E8%A3%85hypervisor%E6%8F%90%E7%A4%BAhypervisor-boot-failed)
 - [41 安装卡在30%，出现欢迎访问Buildroot的信息](#_41-%E5%AE%89%E8%A3%85%E5%8D%A1%E5%9C%A830%25%EF%BC%8C%E5%87%BA%E7%8E%B0%E6%AC%A2%E8%BF%8E%E8%AE%BF%E9%97%AEbuildroot%E7%9A%84%E4%BF%A1%E6%81%AF)
 - [42 在APC3100上安装Hypervisor提示You cannot install B&R Hypervisor on a UEFI system when you have booted the USB install stick with legacy.](#_42-%E5%9C%A8apc3100%E4%B8%8A%E5%AE%89%E8%A3%85hypervisor%E6%8F%90%E7%A4%BAyou-cannot-install-br-hypervisor-on-a-uefi-system-when-you-have-booted-the-usb-install-stick-with-legacy)
 - [43 使用AS4.10，Hypervisor安装提示 No EFI system partition (ESP) found](#_43-%E4%BD%BF%E7%94%A8as410%EF%BC%8Chypervisor%E5%AE%89%E8%A3%85%E6%8F%90%E7%A4%BA-no-efi-system-partition-esp-found)
@@ -72,17 +72,17 @@
 - A4:CPU型号选错
 - ![](FILES/026Hypervisor常见问题一览/b66b058c581401a467b1891500b02353.png)
 
-# 7 Hypervisor安装完成后直接进入Win10没有重启。
+# 7 Hypervisor安装完成后直接进入Win10没有重启
 
 - A5:BIOS中BOOT启动项要选择B&R Hypervisor（最近采购的工控机才有的选项）
 
-# 8 Linux下装好后启动，停留在黑屏。
+# 8 Linux下装好后启动，停留在黑屏
 
 - A6:一开始使用的AR版本是B4.82，换成B4.62，成功
 - ![](FILES/026Hypervisor常见问题一览/e3042b41dda45f379daaeb2403583fd8.png)
 - ![](FILES/026Hypervisor常见问题一览/195d7f66317e34ba1a382e4aa2bb69b1.png)
 
-# 9 对PPC2100硬件，基于AR4.8的U盘安装Hypervisor，在线更新后，CPU原有的3核变为1核。
+# 9 对PPC2100硬件，基于AR4.8的U盘安装Hypervisor，在线更新后，CPU原有的3核变为1核
 
 - A7:换用AR4.7及以下，通过U盘安装Hypervisor。之后通过AS4.8进行在线更新，则没有问题
 
@@ -113,7 +113,7 @@ bcdedit /set {globalsettings} advancedoptions false
     - 将升级AR后的程序下载至工控机内。
     - 重新安装Windows的BR Hypervisor。
 
-# 12 当已正确安装Hypervisor，系统也已提示安装Hypervisor正确安装，在重启后发现卡在此步骤不动，应该如何处理。
+# 12 当已正确安装Hypervisor，系统也已提示安装Hypervisor正确安装，在重启后发现卡在此步骤不动，应该如何处理
 
 - ![](FILES/026Hypervisor常见问题一览/238de540c0243f2150917d239d01c59f.png)
 - A10:
@@ -121,7 +121,7 @@ bcdedit /set {globalsettings} advancedoptions false
     - 2.更新顺序必须为更新BIOS，再更新Firmware，再更新GPOS上安装的驱动。否则无效。
     - **尝试看看ARemb是否已经起来了，使用Automation Studio软件连接上，更新ARemb程序看是否能够解决。**
 
-# 13 通过USB installation stick进行安装Hypervisor，在Install之后，没有正常安装，提示Error:
+# 13 通过USB installation stick进行安装Hypervisor，在Install之后，没有正常安装，提示Error
 
 - ![](FILES/026Hypervisor常见问题一览/75be8d8dc8d040d3f470cbe3b81fda02.png)
 - A11:
@@ -145,7 +145,7 @@ bcdedit /set {globalsettings} advancedoptions false
 - ![](FILES/026Hypervisor常见问题一览/9fed5385e5476c6f61dd9d98f87e1379.png)
 - A13: 使用SAFE分区并分配500MB User空间的Hypervisor镜像重新安装后客户可以正常下载程序
 
-# 16 重新启动后，安装冻结，无法继续 – ARemb 在RUN的状态
+# 16 重新启动后，安装冻结，无法继续–ARemb 在RUN的状态
 
 - **典型的终端信息情况**:
     - 黑屏终端提示，末尾信息为 /OS/1 Booting runtime 0 information
@@ -161,7 +161,7 @@ bcdedit /set {globalsettings} advancedoptions false
     - U盘被插在APC上错误的USB端口上。有必要将U盘插入APC上的USB端口，该端口在AS中分配给ARemb。
     - ![](FILES/026Hypervisor常见问题一览/9b68d130aa6bb9f14402de03349410da.png)
 
-# 17 重新启动后安装冻结，无法继续 - ARemb在SERVICE模式
+# 17 重新启动后安装冻结，无法继续-ARemb在SERVICE模式
 
 - **典型的终端信息情况**:
     - 黑屏终端提示，末尾信息为 /OS/1 Booting runtime 0 information
@@ -286,13 +286,13 @@ bcdedit /set {globalsettings} advancedoptions false
 - 关于Linux上驱动的具体使用方式，可下载对应的文档，了解更多。
     - ![](FILES/026Hypervisor常见问题一览/99ef5b34aa640c23dd411b10f103f1b2.png)
 
-# 29 安装好Hypervisor后的Windows系统如何再次分区？
+# 29 安装好Hypervisor后的Windows系统如何再次分区
 
 - A27:
     - 需要先卸载Hypervisor，再通过Windows磁盘管理或DiskGenius软件进行分区，否则会提出如下报错。
     - ![](FILES/026Hypervisor常见问题一览/7d15d2cc69fba861313dbfdf531f72ca.png)
 
-# 30 安装Hypervisor后提示安装成功，但实际Hypervisor没有启动，ETH口无法连上。
+# 30 安装Hypervisor后提示安装成功，但实际Hypervisor没有启动，ETH口无法连上
 
 - A28:
 - BIOS启动项设置错误，1st Boot Device需要调整为BR Hypervisor，（选择设置后能够看到此选项）
@@ -304,7 +304,7 @@ bcdedit /set {globalsettings} advancedoptions false
 - A29:
     - BIOS与Firmware版本过低，需要更新至最新。操作参考[此处](#FAQ11)。
 
-# 32 5ACPCE.ETH4-00卡能否支持Hypervisor？
+# 32 5ACPCE.ETH4-00卡能否支持Hypervisor
 
 - A30:
     - 支持在Windows/Linux上使用
@@ -319,7 +319,7 @@ bcdedit /set {globalsettings} advancedoptions false
     - 使用最新的Automation Runtime，创建Hypervisor的USB Installation Stick，可从中获得最新的Linux驱动，将驱动完全安装后，再安装Hypervisor。
     - 详情参考 [Hypervisor使用助手 > 安装与使用 > Linux_Hypervisor安装指导手册 > 驱动安装 | Linux平台上安装Hypervisor驱动 (brhelp.cn)](https://hypervisor.brhelp.cn/index.html?setup10.html)
 
-# 34 安装Hypervisor驱动时，提示A backup of the original boot loader already exists.
+# 34 安装Hypervisor驱动时，提示A backup of the original boot loader already exists
 
 - **现象**
     - ![](FILES/026Hypervisor常见问题一览/d13a798d6b394026786d6031d04200b7.png)
@@ -371,7 +371,7 @@ bcdedit /set {globalsettings} advancedoptions false
 - A37:
     - U 盘坏了，换个 U 盘（建议使用 USB 3.0 及以上的接口的 U 盘，使用 2.0 接口的 U 盘，可能会导致安装失败 )
 
-# 40 安装Hypervisor提示Hypervisor boot failed.
+# 40 安装Hypervisor提示Hypervisor boot failed
 
 - **现象**
     - ![](FILES/026Hypervisor常见问题一览/7b3e0f0247c13857e2de0717d5bb7493.png)

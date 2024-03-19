@@ -54,6 +54,7 @@
 - 文本内容
     - 开头内容以 `> Tags: #标签` 方便后续归类
     - 第一个 H1 样式的内容为 A01.001-标题名，方便查询
+    - 文内 H1 H2 H3 等标题样式，尽量简洁，不要有 `。`，避免目录生成不跳转
     - 文中内容以列表的方式进行编写，便于格式统一。
     - 不要导入 WORD 文件，请使用 `Writage` 转换为 Markdown 文件
         - [Writage - Markdown plugin for Microsoft Word](https://www.writage.com/)
