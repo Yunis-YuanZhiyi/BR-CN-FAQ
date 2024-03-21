@@ -1,19 +1,20 @@
 > #CFast卡 #Hypervisor #硬盘 #备份
 
-- [1 软件简介](#1%20%E8%BD%AF%E4%BB%B6%E7%AE%80%E4%BB%8B)
-- [2 使用软件_备份](#2%20%E4%BD%BF%E7%94%A8%E8%BD%AF%E4%BB%B6_%E5%A4%87%E4%BB%BD)
-- [3 使用软件_恢复镜像](#3%20%E4%BD%BF%E7%94%A8%E8%BD%AF%E4%BB%B6_%E6%81%A2%E5%A4%8D%E9%95%9C%E5%83%8F)
-- [4 使用U盘_制作U盘启动盘](#4%20%E4%BD%BF%E7%94%A8U%E7%9B%98_%E5%88%B6%E4%BD%9CU%E7%9B%98%E5%90%AF%E5%8A%A8%E7%9B%98)
-- [5 使用U盘_恢复镜像](#5%20%E4%BD%BF%E7%94%A8U%E7%9B%98_%E6%81%A2%E5%A4%8D%E9%95%9C%E5%83%8F)
-- [6 使用U盘_备份镜像](#6%20%E4%BD%BF%E7%94%A8U%E7%9B%98_%E5%A4%87%E4%BB%BD%E9%95%9C%E5%83%8F)
-- [7 常见疑难解答](#7%20%E5%B8%B8%E8%A7%81%E7%96%91%E9%9A%BE%E8%A7%A3%E7%AD%94)
-	- [7.1 Custer Run Error. Cluster run short - Error code = 21](#7.1%20Custer%20Run%20Error.%20Cluster%20run%20short%20-%20Error%20code%20=%2021)
-	- [7.2 Backup aborted! - Failed To Create Volume Snapshot](#7.2%20Backup%20aborted!%20-%20Failed%20To%20Create%20Volume%20Snapshot)
-- [8 更新日志](#8%20%E6%9B%B4%E6%96%B0%E6%97%A5%E5%BF%97)
+- [1 C07.003-硬盘备份与恢复_使用MacriumReflect软件](#_1-c07003-%E7%A1%AC%E7%9B%98%E5%A4%87%E4%BB%BD%E4%B8%8E%E6%81%A2%E5%A4%8D_%E4%BD%BF%E7%94%A8macriumreflect%E8%BD%AF%E4%BB%B6)
+- [2 软件简介](#_2-%E8%BD%AF%E4%BB%B6%E7%AE%80%E4%BB%8B)
+- [3 使用软件_备份](#_3-%E4%BD%BF%E7%94%A8%E8%BD%AF%E4%BB%B6_%E5%A4%87%E4%BB%BD)
+- [4 使用软件_恢复镜像](#_4-%E4%BD%BF%E7%94%A8%E8%BD%AF%E4%BB%B6_%E6%81%A2%E5%A4%8D%E9%95%9C%E5%83%8F)
+- [5 使用U盘_制作U盘启动盘](#_5-%E4%BD%BF%E7%94%A8u%E7%9B%98_%E5%88%B6%E4%BD%9Cu%E7%9B%98%E5%90%AF%E5%8A%A8%E7%9B%98)
+- [6 使用U盘_恢复镜像](#_6-%E4%BD%BF%E7%94%A8u%E7%9B%98_%E6%81%A2%E5%A4%8D%E9%95%9C%E5%83%8F)
+- [7 使用U盘_备份镜像](#_7-%E4%BD%BF%E7%94%A8u%E7%9B%98_%E5%A4%87%E4%BB%BD%E9%95%9C%E5%83%8F)
+- [8 常见疑难解答](#_8-%E5%B8%B8%E8%A7%81%E7%96%91%E9%9A%BE%E8%A7%A3%E7%AD%94)
+	- [8.1 Custer Run Error. Cluster run short - Error code = 21](#_81-custer-run-error-cluster-run-short---error-code--21)
+	- [8.2 Backup aborted! - Failed To Create Volume Snapshot](#_82-backup-aborted---failed-to-create-volume-snapshot)
+- [9 更新日志](#_9-%E6%9B%B4%E6%96%B0%E6%97%A5%E5%BF%97)
 
-# C07.003-硬盘备份与恢复_使用MacriumReflect软件
+# 1 C07.003-硬盘备份与恢复_使用MacriumReflect软件
 
-# 1 软件简介
+# 2 软件简介
 
 - 关联对比说明
     - [001硬盘备份与恢复_总览](001硬盘备份与恢复_总览.md)
@@ -30,7 +31,7 @@
         - 密码：5ayf
     - ![](FILES/003硬盘备份与恢复_使用MacriumReflect软件/image-20231207002640042.png)
 
-# 2 使用软件_备份
+# 3 使用软件_备份
 
 - <span style="background:#F0A7D8">1. </span>打开软件，找到备份的选项页
     - ![](FILES/003硬盘备份与恢复_使用MacriumReflect软件/image-20231207002512515.png)
@@ -49,7 +50,7 @@
 - 且存储的数据进行了压缩，使用RUC的zp3格式，55GB的硬盘设备，会生成出6.76GB的镜像文件，而使用Macrium Reflect生成只有3.82GB镜像。
     - ![](FILES/003硬盘备份与恢复_使用MacriumReflect软件/image-20231207001923975.png)
 
-# 3 使用软件_恢复镜像
+# 4 使用软件_恢复镜像
 
 - 常见做法有两种
     - A. 在工作笔记上，使用读卡器加载需要备份恢复的硬盘，将镜像文件恢复至硬盘中
@@ -61,7 +62,7 @@
     - ![](FILES/003硬盘备份与恢复_使用MacriumReflect软件/image-20231207003020793.png)
 - <span style="background:#F0A7D8">3. </span>选择选择目标硬件，进行操作即可
 
-# 4 使用U盘_制作U盘启动盘
+# 5 使用U盘_制作U盘启动盘
 
 - 需求
     - 如果需要多台设备进行镜像恢复，且恢复备份的设备系统为Linux操作系统，推荐制作U盘启动盘
@@ -91,7 +92,7 @@
     - ![](FILES/003硬盘备份与恢复_使用MacriumReflect软件/image-20231207143540723.png)
 - <span style="background:#F0A7D8">10. </span>这时，可恢复操作系统的U盘已准备完成。
 
-# 5 使用U盘_恢复镜像
+# 6 使用U盘_恢复镜像
 
 - 当我们已经准备好了一个USB镜像恢复启动设备，并在盘内放了可恢复的镜像文件，我们按照下面的步骤恢复镜像
 - <span style="background:#F0A7D8">1. </span>移除设备的电源
@@ -118,7 +119,7 @@
 - <span style="background:#F0A7D8">11. </span>耗时大约三分钟，硬盘镜像恢复完成。
     - ![](FILES/003硬盘备份与恢复_使用MacriumReflect软件/image-20231207154907031.png)
 
-# 6 使用U盘_备份镜像
+# 7 使用U盘_备份镜像
 
 - <span style="background:#F0A7D8">1. </span>如**使用U盘_恢复镜像**章节的操作，将准备好的U盘插入设备中，设备上电后进入启动项选择进入U盘内的操作系统。
 - <span style="background:#F0A7D8">2. </span>选择Backup，右侧页面上会自动显示可以备份镜像的设备信息，选择完成后，点击Image this disk…
@@ -132,11 +133,11 @@
 - <span style="background:#F0A7D8">6. </span>创建完成后，可浏览已生成的镜像大小，55GB的SSD固态硬件，内有15GB有效数据，能够压缩成5GB数据至U盘中。
     - ![](FILES/003硬盘备份与恢复_使用MacriumReflect软件/image-20231207155238130.png)
 
-# 7 常见疑难解答
+# 8 常见疑难解答
 
 - 使用Macrium Reflect软件进行系统备份，由于会使用到压缩算法，因此会存在一些特殊情况需要解决，以下大致列出可能出现的问题，以及解决思路。
 
-## 7.1 Custer Run Error. Cluster run short - Error code = 21
+## 8.1 Custer Run Error. Cluster run short - Error code = 21
 
 - **现象**
     - Windows操作系统下，在长时间运行后，可能会出现磁盘上的错误。如果有类似错误，则在备份时会有如下提示：
@@ -146,7 +147,7 @@
     - 在Linux操作系统上也可能出现类似问题，则对应使用 `fsck` 命令。
         - fsck命令被用于检查并且试图修复文件系统中的错误。当文件系统发生错误，可用fsck指令尝试加以修复。
 
-## 7.2 Backup aborted! - Failed To Create Volume Snapshot
+## 8.2 Backup aborted! - Failed To Create Volume Snapshot
 
 - **现象**
     - 在进行镜像时提示如下错误，显示为无法创建虚拟镜像
@@ -157,7 +158,7 @@
     - 重新再使用软件再备份一次。
     - 如果多次尝试无效，建议换用RUC方案进行尝试。
 
-# 8 更新日志
+# 9 更新日志
 
 | 日期         | 修改人 | 修改内容 |
 | :--------- | :-- | :--- |
