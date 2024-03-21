@@ -111,6 +111,7 @@
 - [080每次在线下载程序都会把CPU的配方数据模块覆盖掉或删除](080每次在线下载程序都会把CPU的配方数据模块覆盖掉或删除.md)
 - [083AS软件烧卡报错，提示Windows Error 5](083AS软件烧卡报错，提示Windows%20Error%205.md)
 - [084AS烧卡报错，提示BR Disk Image Servic windows service is currently not running](084AS烧卡报错，提示BR%20Disk%20Image%20Servic%20windows%20service%20is%20currently%20not%20running.md)
+- [088在线更新程序报错LOG CANNOT EXECUTE COMMAND](088在线更新程序报错LOG%20CANNOT%20EXECUTE%20COMMAND.md)
 
 # AS2.7软件使用
 
