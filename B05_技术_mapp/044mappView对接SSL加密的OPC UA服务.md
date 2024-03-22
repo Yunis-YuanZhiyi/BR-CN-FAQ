@@ -2,16 +2,19 @@
 
 - [1 B05.044-mappView对接SSL加密的OPC UA服务](#_1-b05044-mappview%E5%AF%B9%E6%8E%A5ssl%E5%8A%A0%E5%AF%86%E7%9A%84opc-ua%E6%9C%8D%E5%8A%A1)
 - [2 介绍](#_2-%E4%BB%8B%E7%BB%8D)
-- [3 mappView 服务器配置步骤](#_3-mappview-%E6%9C%8D%E5%8A%A1%E5%99%A8%E9%85%8D%E7%BD%AE%E6%AD%A5%E9%AA%A4)
-	- [3.1 生成 mappView 服务器证书](#_31-%E7%94%9F%E6%88%90-mappview-%E6%9C%8D%E5%8A%A1%E5%99%A8%E8%AF%81%E4%B9%A6)
-		- [3.1.1 STEP A 找到生成证书软件openssl](#_311-step-a-%E6%89%BE%E5%88%B0%E7%94%9F%E6%88%90%E8%AF%81%E4%B9%A6%E8%BD%AF%E4%BB%B6openssl)
-		- [3.1.2 STEP B 准备参数文件](#_312-step-b-%E5%87%86%E5%A4%87%E5%8F%82%E6%95%B0%E6%96%87%E4%BB%B6)
-		- [3.1.3 STEP C 通过CMD运行命令](#_313-step-c-%E9%80%9A%E8%BF%87cmd%E8%BF%90%E8%A1%8C%E5%91%BD%E4%BB%A4)
-	- [3.2 在AS项目中放置证书](#_32-%E5%9C%A8as%E9%A1%B9%E7%9B%AE%E4%B8%AD%E6%94%BE%E7%BD%AE%E8%AF%81%E4%B9%A6)
-	- [3.3 在AS项目中进行SSL 配置](#_33-%E5%9C%A8as%E9%A1%B9%E7%9B%AE%E4%B8%AD%E8%BF%9B%E8%A1%8Cssl-%E9%85%8D%E7%BD%AE)
-- [4 画面显示结果](#_4-%E7%94%BB%E9%9D%A2%E6%98%BE%E7%A4%BA%E7%BB%93%E6%9E%9C)
-- [5 Demo案例项目下载](#_5-demo%E6%A1%88%E4%BE%8B%E9%A1%B9%E7%9B%AE%E4%B8%8B%E8%BD%BD)
-- [6 更新日志](#_6-%E6%9B%B4%E6%96%B0%E6%97%A5%E5%BF%97)
+- [3 OPC UA证书生成说明](#_3-opc-ua%E8%AF%81%E4%B9%A6%E7%94%9F%E6%88%90%E8%AF%B4%E6%98%8E)
+- [4 mappView 服务器配置步骤](#_4-mappview-%E6%9C%8D%E5%8A%A1%E5%99%A8%E9%85%8D%E7%BD%AE%E6%AD%A5%E9%AA%A4)
+	- [4.1 生成 mappView 服务器证书](#_41-%E7%94%9F%E6%88%90-mappview-%E6%9C%8D%E5%8A%A1%E5%99%A8%E8%AF%81%E4%B9%A6)
+		- [4.1.1 STEP A 找到生成证书软件openssl](#_411-step-a-%E6%89%BE%E5%88%B0%E7%94%9F%E6%88%90%E8%AF%81%E4%B9%A6%E8%BD%AF%E4%BB%B6openssl)
+		- [4.1.2 STEP B 准备参数文件](#_412-step-b-%E5%87%86%E5%A4%87%E5%8F%82%E6%95%B0%E6%96%87%E4%BB%B6)
+			- [4.1.2.1 使用127.0.0.1](#_4121-%E4%BD%BF%E7%94%A8127001)
+			- [4.1.2.2 使用hostname](#_4122-%E4%BD%BF%E7%94%A8hostname)
+		- [4.1.3 STEP C 通过CMD运行命令](#_413-step-c-%E9%80%9A%E8%BF%87cmd%E8%BF%90%E8%A1%8C%E5%91%BD%E4%BB%A4)
+	- [4.2 在AS项目中放置证书](#_42-%E5%9C%A8as%E9%A1%B9%E7%9B%AE%E4%B8%AD%E6%94%BE%E7%BD%AE%E8%AF%81%E4%B9%A6)
+	- [4.3 在AS项目中进行SSL 配置](#_43-%E5%9C%A8as%E9%A1%B9%E7%9B%AE%E4%B8%AD%E8%BF%9B%E8%A1%8Cssl-%E9%85%8D%E7%BD%AE)
+- [5 画面显示结果](#_5-%E7%94%BB%E9%9D%A2%E6%98%BE%E7%A4%BA%E7%BB%93%E6%9E%9C)
+- [6 Demo案例项目下载](#_6-demo%E6%A1%88%E4%BE%8B%E9%A1%B9%E7%9B%AE%E4%B8%8B%E8%BD%BD)
+- [7 更新日志](#_7-%E6%9B%B4%E6%96%B0%E6%97%A5%E5%BF%97)
 
 # 1 B05.044-mappView对接SSL加密的OPC UA服务
 
@@ -28,15 +31,27 @@
 - 为解决此问题，需继续配置 mapp View 的证书，才能实现在浏览器上显示 OPC UA 变量值，即 mapp View server 的参数设置
     - ![](FILES/044mappView对接SSL加密的OPC%20UA服务/image-20240319165810331.png)
 
-# 3 mappView 服务器配置步骤
+# 3 OPC UA证书生成说明
+
+- 第三方证书相关配置说明
+    - [⭐047OPC UA创建证书](/B08_技术_通信/047OPC%20UA创建证书.md)
+- 注意，针对mappView服务器的连接，OPC UA证书在生成时，尽量把所需实际连接的DNS、IP参数进行添加
+    - 实际测试下，Domain Names随便设置一个，或者IP Address 设置为127.0.0.1，均能正常访问。
+        - ![](FILES/044mappView对接SSL加密的OPC%20UA服务/image-20240322161152367.png)
+    - 若出现异常情况，可把 IP 127.0.0.1 与 hostname 添加上去。
+- hostname对应设置位置
+    - ![](FILES/044mappView对接SSL加密的OPC%20UA服务/image-20240321203950807.png)
+    - 注意：PLC的ETH口的host name名称不影响此处通信，可不设置。
+
+# 4 mappView 服务器配置步骤
 
 - AS 帮助中的配置建议（GUID: 01ced6c0-28ef-4aaa-bd05-2442b971859c）
     - **SSL/TLS 1.0**（Automation Studio-4.25 及以上, Automation Runtime-A4.25 及以上）
     - **TLS 1.2**（Automation Studio-4.9及以上, Automation Runtime-A4.90及以上）
 
-## 3.1 生成 mappView 服务器证书
+## 4.1 生成 mappView 服务器证书
 
-### 3.1.1 STEP A 找到生成证书软件openssl
+### 4.1.1 STEP A 找到生成证书软件openssl
 
 - 与OPC UA的证书生成可用UaExpert软件不同，生成mappView对应证书必须使用 **openssl.exe** 生成
 - 客户证书必须包含 **authorityKeyIdentifier** 属性，并采用 DER 格式。因此，客户端证书必须使用外部工具创建，最好是 Windows 版 **openssl**。
@@ -44,8 +59,11 @@
     - `C:\Program Files\Git\usr\bin`
     - ![](FILES/044mappView对接SSL加密的OPC%20UA服务/image-20240319170155812.png)
 
-### 3.1.2 STEP B 准备参数文件
+### 4.1.2 STEP B 准备参数文件
 
+#### 4.1.2.1 使用127.0.0.1
+
+- 注意，使用127.0.0.1，有时使用实际PLC，则无法建立链接。
 - 证书配置示例
     - 通过指定 **IP 地址** 与 OPC UA 服务器建立连接
 - 在上图文件夹下创建 `ca.conf` 文件，里面内容如下，其中 IP 地址为127.0.0.1
@@ -71,7 +89,15 @@ extendedKeyUsage = critical,serverAuth,clientAuth
 subjectAltName = URI:Client_Cpp_SDK@myComputer,IP:127.0.0.1
 ```
 
-### 3.1.3 STEP C 通过CMD运行命令
+#### 4.1.2.2 使用hostname
+
+- 使用 hostname，实际PLC的ETH IP地址可任意改变，推荐使用此方式
+    - ![](FILES/044mappView对接SSL加密的OPC%20UA服务/image-20240321214944218.png)
+- hostname对应设置位置（可忽略）
+    - 实际测试下此参数有时不设置一样能建立通信
+    - ![](FILES/044mappView对接SSL加密的OPC%20UA服务/image-20240321203950807.png)
+
+### 4.1.3 STEP C 通过CMD运行命令
 
 - 在 win 的菜单栏中右键选 Command Prompt，在弹出的菜单中选中 Run as administrator
     - ![](FILES/044mappView对接SSL加密的OPC%20UA服务/image-20240312154601422.png)
@@ -90,13 +116,13 @@ openssl.exe req -x509 -config C:\Temp\ca.conf -nodes -new -keyout C:\Temp\mappVi
 - 在 `C:\Temp\` 文件夹下，即可见生成的公钥与私钥文件
     - ![](FILES/044mappView对接SSL加密的OPC%20UA服务/image-20240319175342384.png)
 
-## 3.2 在AS项目中放置证书
+## 4.2 在AS项目中放置证书
 
 - 打开 AS 项目，在Configuration View 配置中的 PLC → AccessAndSecurity → CertificateStore → OwnCertificates → Certificate 和 PrivateKeys 下分别拖拽导入 <span style="background:#F0A7D8">mappView.cer</span> 和 <span style="background:#A0CCF6">mappView.key</span>
 - 在 ThirdPartyCertificates → SoftwareCertificates 下导入 <span style="background:#F0A7D8">mappView.cer</span>，如下图所示。
     - ![](FILES/044mappView对接SSL加密的OPC%20UA服务/image-20240319175836686.png)
 
-## 3.3 在AS项目中进行SSL 配置
+## 4.3 在AS项目中进行SSL 配置
 
 - <span style="background:#F0A7D8">1___</span>必须创建新的 SSL 配置，如下图所示，在 TransportLayerSecurity 下，点击 Toolbox 中的 SSL Configuration
     - ![](FILES/044mappView对接SSL加密的OPC%20UA服务/image-20240319180552621.png)
@@ -115,18 +141,18 @@ openssl.exe req -x509 -config C:\Temp\ca.conf -nodes -new -keyout C:\Temp\mappVi
     - 如下图所示，在 Config.sslcfg 下的 Trusted certificate 中选择 mappView.cer
         - ![](FILES/044mappView对接SSL加密的OPC%20UA服务/image-20240319181929025.png)
 
-# 4 画面显示结果
+# 5 画面显示结果
 
 - 重新全编译项目，并开启仿真模式运行
 - 显示画面如下，则代表 SSL 配置成功运行
     - ![](FILES/044mappView对接SSL加密的OPC%20UA服务/SSL1.gif)
 
-# 5 Demo案例项目下载
+# 6 Demo案例项目下载
 
 - 基于AS4.12实现
 - [点击下载Demo](/B05_技术_mapp/FILES/044mappView对接SSL加密的OPC%20UA服务/CertificateSSL-mappView-2024-03-19.zip ':ignore')
 
-# 6 更新日志
+# 7 更新日志
 
 | 日期         | 修改人 | 修改内容                                                                                                                                                                                                                                                                                                                                            |
 | ---------- | --- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
