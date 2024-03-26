@@ -1,9 +1,30 @@
-> Tags: #驱动器 #运动控制
+> Tags: #驱动器 #运动控制 #ACOPOS_D1
+
+- [贝加莱经济型驱动器ACOPOS D1](#_%E8%B4%9D%E5%8A%A0%E8%8E%B1%E7%BB%8F%E6%B5%8E%E5%9E%8B%E9%A9%B1%E5%8A%A8%E5%99%A8acopos-d1)
+	- [ACOPOS D1 驱动器外观](#_acopos-d1-%E9%A9%B1%E5%8A%A8%E5%99%A8%E5%A4%96%E8%A7%82)
+	- [ACOPOS D1 配套电机外观](#_acopos-d1-%E9%85%8D%E5%A5%97%E7%94%B5%E6%9C%BA%E5%A4%96%E8%A7%82)
+	- [ACOPOS D1 接线简单实例](#_acopos-d1-%E6%8E%A5%E7%BA%BF%E7%AE%80%E5%8D%95%E5%AE%9E%E4%BE%8B)
+- [ACOPOS D1 用户手册](#_acopos-d1-%E7%94%A8%E6%88%B7%E6%89%8B%E5%86%8C)
+- [ACOPOS D1 配置文件下载](#_acopos-d1-%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6%E4%B8%8B%E8%BD%BD)
+- [ACOPOS D1 Studio相关文档](#_acopos-d1-studio%E7%9B%B8%E5%85%B3%E6%96%87%E6%A1%A3)
+	- [ACOPOS D1 离线固件升级说明](#_acopos-d1-%E7%A6%BB%E7%BA%BF%E5%9B%BA%E4%BB%B6%E5%8D%87%E7%BA%A7%E8%AF%B4%E6%98%8E)
+- [更新日志](#_%E6%9B%B4%E6%96%B0%E6%97%A5%E5%BF%97)
 
 # 贝加莱经济型驱动器ACOPOS D1
 
 - ACOPOS D1是一款贝加莱于2024年推出的经济型伺服驱动器，通过POWERLINK协议与贝加莱系统无缝集成。
-- ![](FILES/035贝加莱经济型驱动器ACOPOS%20D1/image-20240309192034884.png)
+
+## ACOPOS D1 驱动器外观
+
+![](FILES/035贝加莱经济型驱动器ACOPOS%20D1/image-20240326181320953.png)
+
+## ACOPOS D1 配套电机外观
+
+![](FILES/035贝加莱经济型驱动器ACOPOS%20D1/image-20240326181357732.png)
+
+## ACOPOS D1 接线简单实例
+
+![](FILES/035贝加莱经济型驱动器ACOPOS%20D1/image-20240309192034884.png)
 
 # ACOPOS D1 用户手册
 
@@ -41,6 +62,7 @@
 
 # 更新日志
 
-| 日期         | 修改人        | 修改内容 |
-| :--------- | :--------- | :--- |
-| 2024-03-09 | ZSY<br>YZY | 初次创建 |
+| 日期         | 修改人        | 修改内容  |
+| :--------- | :--------- | :---- |
+| 2024-03-09 | ZSY<br>YZY | 初次创建  |
+| 2024-03-26 | YZY        | 更新外观图 |
