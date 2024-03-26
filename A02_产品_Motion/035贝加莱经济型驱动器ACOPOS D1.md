@@ -22,7 +22,7 @@
 
 ![](FILES/035贝加莱经济型驱动器ACOPOS%20D1/image-20240326181357732.png)
 
-## ACOPOS D1 接线简单实例
+## ACOPOS D1 接线示例
 
 ![](FILES/035贝加莱经济型驱动器ACOPOS%20D1/image-20240309192034884.png)
 
