@@ -96,22 +96,28 @@
 
 # 程序下载与备份
 
-- [020新版本的AS软件烧卡按钮位置在哪里](020新版本的AS软件烧卡按钮位置在哪里.md)
-- [021AS下载程序时提示Automation runtime target mismatch.The target online does not match](021AS下载程序时提示Automation%20runtime%20target%20mismatch.The%20target%20online%20does%20not%20match.md)
-- [035用RUC生产CF卡小镜像](035用RUC生产CF卡小镜像.md)
-- [036用U盘更新包的方式给CPU烧卡](036用U盘更新包的方式给CPU烧卡.md)
-- [039使用烧卡功能误将程序下载U盘导致U盘空间变小 如何恢复](039使用烧卡功能误将程序下载U盘导致U盘空间变小%20如何恢复.md)
-- [040AS软件烧卡时报错提示BR Disk Image Service未启动](040AS软件烧卡时报错提示BR%20Disk%20Image%20Service未启动.md)
-- [053AS在线下载程序报警提示内存不足](053AS在线下载程序报警提示内存不足.md)
-- [071在线更新Transfer参数说明与变量保留规则](071在线更新Transfer参数说明与变量保留规则.md)
-- [072在线更新参数对于mapp应用的使用建议](072在线更新参数对于mapp应用的使用建议.md)
-- [073在线更新会导致程序内存溢出吗](073在线更新会导致程序内存溢出吗.md)
-- [⭐077使用二进制包在线更新PLC程序](077使用二进制包在线更新PLC程序.md)
-- [048U盘更新程序配方数据丢失](048U盘更新程序配方数据丢失.md)
-- [080每次在线下载程序都会把CPU的配方数据模块覆盖掉或删除](080每次在线下载程序都会把CPU的配方数据模块覆盖掉或删除.md)
-- [083AS软件烧卡报错，提示Windows Error 5](083AS软件烧卡报错，提示Windows%20Error%205.md)
-- [084AS烧卡报错，提示BR Disk Image Servic windows service is currently not running](084AS烧卡报错，提示BR%20Disk%20Image%20Servic%20windows%20service%20is%20currently%20not%20running.md)
-- [088在线更新程序报错LOG CANNOT EXECUTE COMMAND](088在线更新程序报错LOG%20CANNOT%20EXECUTE%20COMMAND.md)
+- 烧卡相关
+    - [020新版本的AS软件烧卡按钮位置在哪里](020新版本的AS软件烧卡按钮位置在哪里.md)
+    - [035用RUC生产CF卡小镜像](035用RUC生产CF卡小镜像.md)
+    - [039使用烧卡功能误将程序下载U盘导致U盘空间变小 如何恢复](039使用烧卡功能误将程序下载U盘导致U盘空间变小%20如何恢复.md)
+    - [040AS软件烧卡时报错提示BR Disk Image Service未启动](040AS软件烧卡时报错提示BR%20Disk%20Image%20Service未启动.md)
+    - [083AS软件烧卡报错，提示Windows Error 5](083AS软件烧卡报错，提示Windows%20Error%205.md)
+    - [084AS烧卡报错，提示BR Disk Image Servic windows service is currently not running](084AS烧卡报错，提示BR%20Disk%20Image%20Servic%20windows%20service%20is%20currently%20not%20running.md)
+- 在线更新
+    - [021AS下载程序时提示Automation runtime target mismatch.The target online does not match](021AS下载程序时提示Automation%20runtime%20target%20mismatch.The%20target%20online%20does%20not%20match.md)
+    - [053AS在线下载程序报警提示内存不足](053AS在线下载程序报警提示内存不足.md)
+    - [071在线更新Transfer参数说明与变量保留规则](071在线更新Transfer参数说明与变量保留规则.md)
+    - [072在线更新参数对于mapp应用的使用建议](072在线更新参数对于mapp应用的使用建议.md)
+    - [073在线更新会导致程序内存溢出吗](073在线更新会导致程序内存溢出吗.md)
+    - [⭐077使用二进制包在线更新PLC程序](077使用二进制包在线更新PLC程序.md)
+    - [080每次在线下载程序都会把CPU的配方数据模块覆盖掉或删除](080每次在线下载程序都会把CPU的配方数据模块覆盖掉或删除.md)
+    - [088在线更新程序报错LOG CANNOT EXECUTE COMMAND](088在线更新程序报错LOG%20CANNOT%20EXECUTE%20COMMAND.md)
+- U盘更新
+    - [036用U盘更新包的方式给CPU烧卡](036用U盘更新包的方式给CPU烧卡.md)
+    - [048U盘更新程序配方数据丢失](048U盘更新程序配方数据丢失.md)
+    - [⭐002贝加莱PLC通过U盘更新程序](/C04_现场维运/002贝加莱PLC通过U盘更新程序.md)
+- 源代码备份
+    - [089项目源码程序如何在下载程序时备份于CF卡中](089项目源码程序如何在下载程序时备份于CF卡中.md)
 
 # AS2.7软件使用
 
