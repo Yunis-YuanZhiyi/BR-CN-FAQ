@@ -13,8 +13,8 @@
 
 | 类别           | 链接                                                            |
 | :----------- | :------------------------------------------------------------ |
-| 贝加莱中文问答社区    | [贝加莱社区-问答中心](https://www.br-education.com/qa-community)       |
-| 贝加莱下载中心      | [贝加莱社区-下载中心](https://www.br-education.com/download)           |
+| 贝加莱中文问答社区    | [贝加莱社区-问答中心](https://br-community.com/qa-community)           |
+| 贝加莱下载中心      | [贝加莱社区-下载中心](https://br-community.com/download)               |
 | 贝加莱在线英文帮助    | [🌐贝加莱官方在线AS Help](https://help.br-automation.com/#/en/4)     |
 | 贝加莱全球英文社区    | [B&R Community](https://community.br-automation.com/)         |
 | 📋brhelp变更日志 | [Changelog](https://gitee.com/yzydeer/BuR-FAQ/commits/master) |
@@ -89,7 +89,7 @@
 
 ## 需要帮助？想要补充问题？
 
-- ⭐前往 [贝加莱社区](https://www.br-education.com/qa-community) ，来问一下
+- ⭐前往 [贝加莱社区](https://br-community.com/qa-community) ，来问一下
 - 你也可以：
     - 发送问题至 support.cn@br-automation.com
     - 电话联系：021-54644800

@@ -8,7 +8,7 @@
 
 #  [🔍搜索一下](/Obsidian/Usage/brhelp搜索方式.md)
 
-# [🙋‍♂️有技术问题，就上贝加莱问答社区](//www.br-education.com/qa-community)
+# [🙋‍♂️有技术问题，就上贝加莱问答社区](//br-community.com/qa-community)
 
 # [👍新品发布:经济型驱动器ACOPOS D1](/A02_产品_Motion/035贝加莱经济型驱动器ACOPOS%20D1.md)
 ## [🏮新春限定:2023年度文档汇总](//2023.brhelp.cn)

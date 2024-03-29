@@ -17,7 +17,7 @@
 # 2 安装AS软件版本说明
 
 - <span style="background:#A0CCF6">下载方式一</span>：AS4.12.5合集可前往贝加莱下载中心进行下载
-    - [贝加莱社区-下载中心 (br-education.com)](https://br-education.com/downloadDis/70)
+    - [贝加莱社区-下载中心 (br-education.com)](https://br-community.com/downloadDis/70)
 - <span style="background:#A0CCF6">下载方式二</span>：下载已安装完成AS4.12.5的Win 10 VMware镜像，开箱即用。
     - [085使用VMware虚拟机开箱即用贝加莱AS4.12软件](085使用VMware虚拟机开箱即用贝加莱AS4.12软件.md)
 - <span style="background:#A0CCF6">下载方式三</span>：前往贝加莱官方网站进行下载
