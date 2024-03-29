@@ -47,7 +47,7 @@
 - [031PPC3100硬件启动自动进入BIOS并提示UEFI OS has been blocked by the current security policy](031PPC3100硬件启动自动进入BIOS并提示UEFI%20OS%20has%20been%20blocked%20by%20the%20current%20security%20policy.md)
 - [016PPC2100的掉电保持变量在断电再上电后丢失变零](016PPC2100的掉电保持变量在断电再上电后丢失变零.md)
 - [017AS4.6 配置PPC2200时没有PPC2200的选项](017AS4.6%20配置PPC2200时没有PPC2200的选项.md)
-- [019使用5DLDVI-01与APC910连接在ARemb系统下触摸失灵](019使用5DLDVI-01与APC910连接在ARemb系统下触摸失灵.md)
+- [019使用5DLDVI.1000-01与APC910连接在ARemb系统下触摸失灵](019使用5DLDVI.1000-01与APC910连接在ARemb系统下触摸失灵.md)
 - [023 VC4 Windows10环境下使用VC4出现崩溃现象](023%20VC4%20Windows10环境下使用VC4出现崩溃现象.md)
 - [024PPC2100装hypervisor系统win10不能独立重启的解决办法](024PPC2100装hypervisor系统win10不能独立重启的解决办法.md)
 - [025工控机报错7027 AR plug play device missing](025工控机报错7027%20AR%20plug%20play%20device%20missing.md)
