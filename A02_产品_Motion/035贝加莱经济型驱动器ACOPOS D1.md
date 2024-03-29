@@ -43,18 +43,18 @@
 # 4 ACOPOS D1 Studio相关文档
 
 - ACOPOS D1 Studio软件下载
-    - [点击前往 → 贝加莱社区-下载中心 → 下载 ACOPOS D1 Studio V1.0.0.2 软件](https://br-education.com/downloadDis/69)
+    - [点击前往 → 贝加莱社区-下载中心 → 下载 ACOPOS D1 Studio V1.0.0.2 软件](https://br-community.com/downloadDis/69)
 - [ACOPOS D1 伺服参数备份说明_20240308.pdf](/A02_产品_Motion/FILES/035贝加莱经济型驱动器ACOPOS%20D1/ACOPOS%20D1%20伺服参数备份说明_20240308.pdf ':ignore')
 - 保存电机参数
-    - [ACOPOS D1 电机适配说明参数保存到驱动本地_20240308.pdf](/A02_产品_Motion/FILES/035贝加莱经济型驱动器ACOPOS%20D1/ACOPOS%20D1%20电机适配说明%20参数保存到驱动本地_20240308.pdf ':ignore')
-    - [ACOPOS D1 电机适配说明参数保存到编码器_20240308.pdf](/A02_产品_Motion/FILES/035贝加莱经济型驱动器ACOPOS%20D1/ACOPOS%20D1%20电机适配说明%20参数保存到编码器_20240308.pdf ':ignore')
+    - [ACOPOS D1 电机适配说明参数保存到驱动本地_20240328.pdf](/A02_产品_Motion/FILES/035贝加莱经济型驱动器ACOPOS%20D1/ACOPOS%20D1%20电机适配说明%20参数保存到驱动本地_20240328.pdf ':ignore')
+    - [ACOPO D1 电机适配说明参数保存到编码器_20240328.pdf](/A02_产品_Motion/FILES/035贝加莱经济型驱动器ACOPOS%20D1/ACOPOS%20D1%20电机适配说明%20参数保存到编码器_20240328.pdf ':ignore')
 - 在线固件升级
     - [ACOPOS D1 伺服固件升级说明_20240308.pdf](/A02_产品_Motion/FILES/035贝加莱经济型驱动器ACOPOS%20D1/ACOPOS%20D1%20伺服固件升级说明_20240308.pdf ':ignore')
 
 ## 4.1 ACOPOS D1 离线固件升级说明
 
 - ACOPOS D1 系列驱动器多段固件升级软件
-    - [点击前往 → 贝加莱社区-下载中心 → 下载 ACOPSO D1 固件升级软件](https://br-education.com/downloadDis/68)
+    - [点击前往 → 贝加莱社区-下载中心 → 下载 ACOPSO D1 固件升级软件](https://br-community.com/downloadDis/68)
 - 使用说明
     - ⚠️驱动器boot在3.0和4.0的才可以使用离线升级
     - 查看boot版本：按住驱动器第三个键，通电开机，从屏幕上可看到
@@ -62,7 +62,8 @@
 
 # 5 更新日志
 
-| 日期         | 修改人        | 修改内容  |
-| :--------- | :--------- | :---- |
-| 2024-03-09 | ZSY<br>YZY | 初次创建  |
-| 2024-03-26 | YZY        | 更新外观图 |
+| 日期         | 修改人        | 修改内容                                       |
+| :--------- | :--------- | :----------------------------------------- |
+| 2024-03-09 | ZSY<br>YZY | 初次创建                                       |
+| 2024-03-26 | YZY        | 更新外观图                                      |
+| 2024-03-29 | ZSY<br>YZY | 保存电机参数 相关文档进行了更新，修正了操作步骤需要进入Fn-2后才能进入Fn-20 |
