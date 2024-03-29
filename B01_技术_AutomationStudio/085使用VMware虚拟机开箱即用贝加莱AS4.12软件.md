@@ -19,7 +19,7 @@
 
 # 2 下载链接
 
-- [贝加莱社区-下载中心 (br-education.com)](https://br-education.com/downloadDis/67)
+- [贝加莱社区-下载中心 (br-education.com)](https://br-community.com/downloadDis/67)
 - 备选下载链接
     - 百度网盘
         - 链接： https://pan.baidu.com/s/1Wk-4iKYzjROrB-vUZjTa7A?pwd=g18h
