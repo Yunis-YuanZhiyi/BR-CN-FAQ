@@ -56,14 +56,17 @@
 - [036PPC屏幕断电上电后蓝屏](036PPC屏幕断电上电后蓝屏.md)
 - [044ACP910运行中突然关闭且RUN灯不亮](044ACP910运行中突然关闭且RUN灯不亮.md)
 - [045T50通过更新Linux镜像提高VC4画面操作响应速度](045T50通过更新Linux镜像提高VC4画面操作响应速度.md)
+- [046APC2200安装Hypervisor后无法启动只有POWER灯亮](046APC2200安装Hypervisor后无法启动只有POWER灯亮.md)
 
 # Hypervisor 使用说明
 
+- [🌐Hypervisor使用助手 (brhelp.cn)](https://hypervisor.brhelp.cn/index.html?general.html)
 - [017Hypervisor安装与使用问题](/B02_技术_AutomationRuntime/017Hypervisor安装与使用问题.md)
 - [026Hypervisor常见问题一览](/B02_技术_AutomationRuntime/026Hypervisor常见问题一览.md)
 - [021 Hypervisor与win10 安装之后AR和Windows时间不一致](021%20Hypervisor与win10%20安装之后AR和Windows时间不一致.md)
 - [011在AS中进入CPU configuration界面以后找不到Hypervisor选项怎么办](011在AS中进入CPU%20configuration界面以后找不到Hypervisor选项怎么办.md)
 - [019PPC系列硬件使用Hypervisor技术_如何在Windows上使用VNC访问AR侧的VC4画面](/B07_技术_人机操作/019PPC系列硬件使用Hypervisor技术_如何在Windows上使用VNC访问AR侧的VC4画面.md)
+- [046APC2200安装Hypervisor后无法启动只有POWER灯亮](046APC2200安装Hypervisor后无法启动只有POWER灯亮.md)
 
 # mappView 配合
 
