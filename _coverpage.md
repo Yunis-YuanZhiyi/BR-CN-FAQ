@@ -19,10 +19,10 @@
 ## 🖥️ [硬件_X20CM4810振动模块使用助手](//cm4810.brhelp.cn)
 ## ⚡ [开发_mappframework使用助手](//mappframework.brhelp.cn)
 
-# [FAQ 贝加莱使用常见问题汇总](/README.md)
 ## 🎰[常见报警号](/C03_故障码问题定位/-000C03_故障码问题定位.md)
 ## 🎯[轴控ACOPOS报警号](/C06_轴控报警代码/000轴控ACOPOS报警号.md)
 ## [轴控PLCopen报警号](/C06_轴控报警代码/000轴控PLCopen报警号%2029200%20-%2029699.md)
+# [🎙️ brhelp需求与意见反馈](//txc.qq.com/products/643968/)
 
 <br> <span id="busuanzi_container_site_pv" style='display:none'> 👀 本站总访问量：<span id="busuanzi_value_site_pv"></span> 次 </span> <span id="busuanzi_container_site_uv" style='display:none'> | 🚴‍♂️ 本站总访客数：<span id="busuanzi_value_site_uv"></span> 人 </span> <br>
 
