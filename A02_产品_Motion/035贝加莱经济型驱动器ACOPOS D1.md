@@ -50,6 +50,8 @@
     - [ACOPO D1 电机适配说明参数保存到编码器_20240328.pdf](/A02_产品_Motion/FILES/035贝加莱经济型驱动器ACOPOS%20D1/ACOPOS%20D1%20电机适配说明%20参数保存到编码器_20240328.pdf ':ignore')
 - 在线固件升级
     - [ACOPOS D1 伺服固件升级说明_20240308.pdf](/A02_产品_Motion/FILES/035贝加莱经济型驱动器ACOPOS%20D1/ACOPOS%20D1%20伺服固件升级说明_20240308.pdf ':ignore')
+- STO功能说明
+    - [ACOPOS D1 伺服STO功能说明_20240407.pdf](/A02_产品_Motion/FILES/035贝加莱经济型驱动器ACOPOS%20D1/ACOPOS%20D1%20伺服STO功能说明_20240407.pdf ':ignore')
 
 ## 4.1 ACOPOS D1 离线固件升级说明
 
