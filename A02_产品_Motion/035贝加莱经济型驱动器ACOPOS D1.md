@@ -28,7 +28,7 @@
 
 # 2 ACOPOS D1 用户手册
 
-- [点击访问 ACOPOS D1 用户手册](/A02_产品_Motion/FILES/035贝加莱经济型驱动器ACOPOS%20D1/ACOPOS%20D1%20用户手册_V1.0.2.pdf ':ignore')
+- [点击访问 ACOPOS D1 用户手册 V1.0.3](/A02_产品_Motion/FILES/035贝加莱经济型驱动器ACOPOS%20D1/ACOPOS%20D1%20用户手册_V1.0.3.pdf ':ignore')
 
 # 3 ACOPOS D1 配置文件下载
 
