@@ -57,6 +57,7 @@
 - [044ACP910运行中突然关闭且RUN灯不亮](044ACP910运行中突然关闭且RUN灯不亮.md)
 - [045T50通过更新Linux镜像提高VC4画面操作响应速度](045T50通过更新Linux镜像提高VC4画面操作响应速度.md)
 - [046APC2200安装Hypervisor后无法启动只有POWER灯亮](046APC2200安装Hypervisor后无法启动只有POWER灯亮.md)
+- [034工控机烧卡后无法启动，提示Error loading file errorno=0x13](/B03_技术_诊断/034工控机烧卡后无法启动，提示Error%20loading%20file%20errorno=0x13.md)
 
 # Hypervisor 使用说明
 
