@@ -37,18 +37,18 @@
 
 > 💾CFast 卡 → 📁镜像文件
 
-- <span style="background:#F0A7D8">1. </span>打开软件，找到备份的选项页
+- <span style="background:#F0A7D8">1___</span>打开软件，找到备份的选项页
     - ![](FILES/003硬盘备份与恢复_使用MacriumReflect软件/image-20231207002512515.png)
-- <span style="background:#F0A7D8">2. </span>选择需要备份的硬盘，此软件可直接识别出硬盘中的系统，建议全选。点击Image this disk。
+- <span style="background:#F0A7D8">2___</span>选择需要备份的硬盘，此软件可直接识别出硬盘中的系统，建议全选。点击Image this disk。
     - ![](FILES/003硬盘备份与恢复_使用MacriumReflect软件/image-20231207001650644.png)
-- <span style="background:#F0A7D8">3. </span>在提示框中，输入需要存储的目标存储路径。
+- <span style="background:#F0A7D8">3___</span>在提示框中，输入需要存储的目标存储路径。
     - ![](FILES/003硬盘备份与恢复_使用MacriumReflect软件/image-20231207001707813.png)
-- <span style="background:#F0A7D8">4. </span>按照以下提示框进行点击
+- <span style="background:#F0A7D8">4___</span>按照以下提示框进行点击
     - ![](FILES/003硬盘备份与恢复_使用MacriumReflect软件/image-20231207001729116.png)
     - ![](FILES/003硬盘备份与恢复_使用MacriumReflect软件/image-20231207001756482.png)
-- <span style="background:#F0A7D8">5. </span>等待一段时间，硬盘备份即会完成。
+- <span style="background:#F0A7D8">5___</span>等待一段时间，硬盘备份即会完成。
     - ![](FILES/003硬盘备份与恢复_使用MacriumReflect软件/image-20231207001815901.png)
-- <span style="background:#F0A7D8">6. </span>完成后会提出如下提示。
+- <span style="background:#F0A7D8">6___</span>完成后会提出如下提示。
     - ![](FILES/003硬盘备份与恢复_使用MacriumReflect软件/image-20231207001847035.png)
 - 可发现完整备份耗时1分17秒，同样的设备备份，使用RUC软件需要近40分钟。
 - 且存储的数据进行了压缩，使用RUC的zp3格式，55GB的硬盘设备，会生成出6.76GB的镜像文件，而使用Macrium Reflect生成只有3.82GB镜像。
@@ -61,11 +61,11 @@
     - A. 在工作笔记上，使用读卡器加载需要备份恢复的硬盘，将镜像文件恢复至硬盘中
     - B. 在需要被镜像恢复的工控机上（Windows系统），运行此软件，加载镜像，恢复至此工控机上
         - ⭐ 很多时候此方式更方便
-- <span style="background:#F0A7D8">1. </span>打开软件，选择Restore，选择对应的镜像文件
+- <span style="background:#F0A7D8">1___</span>打开软件，选择Restore，选择对应的镜像文件
     - ![](FILES/003硬盘备份与恢复_使用MacriumReflect软件/image-20231207002849724.png)
-- <span style="background:#F0A7D8">2. </span>点击Restore Image后，在弹出框中选择需要镜像恢复的硬件
+- <span style="background:#F0A7D8">2___</span>点击Restore Image后，在弹出框中选择需要镜像恢复的硬件
     - ![](FILES/003硬盘备份与恢复_使用MacriumReflect软件/image-20231207003020793.png)
-- <span style="background:#F0A7D8">3. </span>选择选择目标硬件，进行操作即可
+- <span style="background:#F0A7D8">3___</span>选择选择目标硬件，进行操作即可
 
 # 5 使用软件_克隆
 
@@ -86,63 +86,63 @@
     - 无论安装了多少分区，它都有效，因此可以恢复B&R Hypervisor安装。
     - 仅对CFast和SSD存储器有效，但对Compact Flash无效，因为Macrium Reflect无法将Compact Flash或USB记忆棒识别为要克隆的物理介质。
     - 不仅如此，如果我们的计算机上装有两种不同的存储介质，例如两张CFast卡，或者一个SSD硬盘驱动器和一张CFas，这种组合方式都可以进行备份恢复。
-- <span style="background:#F0A7D8">1. </span>准备好Macrium Reflect软件。
-- <span style="background:#F0A7D8">2. </span>在我们的电脑中插入一个USB存储器，建议使用USB3.0的U盘，除了至少1 GB的可用空间外它必须包含镜像文件的大小，建议U盘大小在8GB以上。
-- <span style="background:#F0A7D8">3. </span>格式化USB记忆棒。在Windows资源管理器中执行此操作，右键单击并选择格式化…选择**NTFS**作为文件系统。按开始
+- <span style="background:#F0A7D8">1___</span>准备好Macrium Reflect软件。
+- <span style="background:#F0A7D8">2___</span>在我们的电脑中插入一个USB存储器，建议使用USB3.0的U盘，除了至少1 GB的可用空间外它必须包含镜像文件的大小，建议U盘大小在8GB以上。
+- <span style="background:#F0A7D8">3___</span>格式化USB记忆棒。在Windows资源管理器中执行此操作，右键单击并选择格式化…选择**NTFS**作为文件系统。按开始
     - ![](FILES/003硬盘备份与恢复_使用MacriumReflect软件/image-20231207114908280.png)
-- <span style="background:#F0A7D8">4. </span>在Macrium Reflect中，单击按钮。在图像中以橙色表示
+- <span style="background:#F0A7D8">4___</span>在Macrium Reflect中，单击按钮。在图像中以橙色表示
     - ![](FILES/003硬盘备份与恢复_使用MacriumReflect软件/image-20231207114959876.png)
-- <span style="background:#F0A7D8">5. </span>向导打开。选择USB存储器作为目的地，然后按Build按钮。
+- <span style="background:#F0A7D8">5___</span>向导打开。选择USB存储器作为目的地，然后按Build按钮。
     - ![](FILES/003硬盘备份与恢复_使用MacriumReflect软件/image-20231207115027178.png)
-- <span style="background:#F0A7D8">6. </span>将会出现一个新窗口要求格式化USB存储器。我们接受等待过程结束，这将持续一分钟。
+- <span style="background:#F0A7D8">6___</span>将会出现一个新窗口要求格式化USB存储器。我们接受等待过程结束，这将持续一分钟。
     - ![](FILES/003硬盘备份与恢复_使用MacriumReflect软件/image-20231207143138605.png)
-- <span style="background:#F0A7D8">7. </span>在不移除USB存储器的情况下，右键单击Windows 10图标并选择磁盘管理。右侧的窗口将打开，我们将在其中将NTFS格式的新分区添加到USB记忆棒中。为此，请右键单击标记为未分配的空间，然后按新建简单卷…。
+- <span style="background:#F0A7D8">7___</span>在不移除USB存储器的情况下，右键单击Windows 10图标并选择磁盘管理。右侧的窗口将打开，我们将在其中将NTFS格式的新分区添加到USB记忆棒中。为此，请右键单击标记为未分配的空间，然后按新建简单卷…。
     - ![](FILES/003硬盘备份与恢复_使用MacriumReflect软件/image-20231207143316053.png)
-- <span style="background:#F0A7D8">8. </span>向导打开。我们在菜单中前进而不更改任何值或选项，直到我们到达右侧所示的菜单。在其中，我们将文件系统更改为**NTFS**，如果需要，我们将名称更改为Volume Label中的分区。完成分区按下一步创建过程。
+- <span style="background:#F0A7D8">8___</span>向导打开。我们在菜单中前进而不更改任何值或选项，直到我们到达右侧所示的菜单。在其中，我们将文件系统更改为**NTFS**，如果需要，我们将名称更改为Volume Label中的分区。完成分区按下一步创建过程。
     - ![](FILES/003硬盘备份与恢复_使用MacriumReflect软件/image-20231207143358182.png)
-- <span style="background:#F0A7D8">9. </span>创建分区后，你只需要打开Windows资源管理器，和手动复制镜像文件到我们刚刚在USB存储器中创建的新分区中。
+- <span style="background:#F0A7D8">9___</span>创建分区后，你只需要打开Windows资源管理器，和手动复制镜像文件到我们刚刚在USB存储器中创建的新分区中。
     - ![](FILES/003硬盘备份与恢复_使用MacriumReflect软件/image-20231207143540723.png)
-- <span style="background:#F0A7D8">10. </span>这时，可恢复操作系统的U盘已准备完成。
+- <span style="background:#F0A7D8">10___</span>这时，可恢复操作系统的U盘已准备完成。
 
 # 7 使用U盘_恢复镜像
 
 - 当我们已经准备好了一个USB镜像恢复启动设备，并在盘内放了可恢复的镜像文件，我们按照下面的步骤恢复镜像
-- <span style="background:#F0A7D8">1. </span>移除设备的电源
-- <span style="background:#F0A7D8">2. </span>确保CFast卡已经被插入到设备中
-- <span style="background:#F0A7D8">3. </span>插入USB鼠标与键盘，并插入USB
+- <span style="background:#F0A7D8">1___</span>移除设备的电源
+- <span style="background:#F0A7D8">2___</span>确保CFast卡已经被插入到设备中
+- <span style="background:#F0A7D8">3___</span>插入USB鼠标与键盘，并插入USB
     - ![](FILES/003硬盘备份与恢复_使用MacriumReflect软件/image-20231207151930306.png)
-- <span style="background:#F0A7D8">4. </span>开机，在启动过程中按以下按钮进入启动项
+- <span style="background:#F0A7D8">4___</span>开机，在启动过程中按以下按钮进入启动项
     - PC900 -> F11
     - PC2100 -> F5
     - PC2200 -> ESC or F2, 选择 Boot Manager option
     - PC3100 -> ESC or F2, 选择 Boot Manager option
-- <span style="background:#F0A7D8">5. </span>会看到以下屏幕内容，选择USB的名字。
+- <span style="background:#F0A7D8">5___</span>会看到以下屏幕内容，选择USB的名字。
     - ![](FILES/003硬盘备份与恢复_使用MacriumReflect软件/image-20231207152008623.png)
-- <span style="background:#F0A7D8">6. </span>等待一段时间我们会看到Windows启动画面，并且弹出Macrium Reflect窗口，这提示我们已经正常启动了。
+- <span style="background:#F0A7D8">6___</span>等待一段时间我们会看到Windows启动画面，并且弹出Macrium Reflect窗口，这提示我们已经正常启动了。
     - ![](FILES/003硬盘备份与恢复_使用MacriumReflect软件/image-20231207152051804.png)
-- <span style="background:#F0A7D8">7. </span>在左侧菜单中，我们选择“Browse for an image or backup file to restore”选项，我们将在具有可移动存储的设备中选择驱动器（D :)。
+- <span style="background:#F0A7D8">7___</span>在左侧菜单中，我们选择“Browse for an image or backup file to restore”选项，我们将在具有可移动存储的设备中选择驱动器（D :)。
     - ![](FILES/003硬盘备份与恢复_使用MacriumReflect软件/image-20231207152120875.png)
-- <span style="background:#F0A7D8">8. </span>我们将在USB上看到此处可用的所有分区。选择我们之前创建好的空间，点击进入，在新弹出的窗口中我们选择对应的镜像文件。
+- <span style="background:#F0A7D8">8___</span>我们将在USB上看到此处可用的所有分区。选择我们之前创建好的空间，点击进入，在新弹出的窗口中我们选择对应的镜像文件。
     - ![](FILES/003硬盘备份与恢复_使用MacriumReflect软件/image-20231207152147390.png)
-- <span style="background:#F0A7D8">9. </span>从这里开始，源磁盘的分区和出现目标磁盘。右侧是“还原映像”按钮。点击即可。
+- <span style="background:#F0A7D8">9___</span>从这里开始，源磁盘的分区和出现目标磁盘。右侧是“还原映像”按钮。点击即可。
     - ![](FILES/003硬盘备份与恢复_使用MacriumReflect软件/image-20231207152215677.png)
-- <span style="background:#F0A7D8">10. </span>在下面的弹出窗口中选择对应的选项即可
+- <span style="background:#F0A7D8">10___</span>在下面的弹出窗口中选择对应的选项即可
     - ![](FILES/003硬盘备份与恢复_使用MacriumReflect软件/image-20231207154842993.png)
-- <span style="background:#F0A7D8">11. </span>耗时大约三分钟，硬盘镜像恢复完成。
+- <span style="background:#F0A7D8">11___</span>耗时大约三分钟，硬盘镜像恢复完成。
     - ![](FILES/003硬盘备份与恢复_使用MacriumReflect软件/image-20231207154907031.png)
 
 # 8 使用U盘_备份镜像
 
-- <span style="background:#F0A7D8">1. </span>如**使用U盘_恢复镜像**章节的操作，将准备好的U盘插入设备中，设备上电后进入启动项选择进入U盘内的操作系统。
-- <span style="background:#F0A7D8">2. </span>选择Backup，右侧页面上会自动显示可以备份镜像的设备信息，选择完成后，点击Image this disk…
+- <span style="background:#F0A7D8">1___</span>如**使用U盘_恢复镜像**章节的操作，将准备好的U盘插入设备中，设备上电后进入启动项选择进入U盘内的操作系统。
+- <span style="background:#F0A7D8">2___</span>选择Backup，右侧页面上会自动显示可以备份镜像的设备信息，选择完成后，点击Image this disk…
     - ![](FILES/003硬盘备份与恢复_使用MacriumReflect软件/image-20231207155017578.png)
-- <span style="background:#F0A7D8">3. </span>在弹出框中，选择之前创建好的U盘中的指定路径。
+- <span style="background:#F0A7D8">3___</span>在弹出框中，选择之前创建好的U盘中的指定路径。
     - ![](FILES/003硬盘备份与恢复_使用MacriumReflect软件/image-20231207155042306.png)
-- <span style="background:#F0A7D8">4. </span>进行需备份镜像文件的命名，点击Finish。
+- <span style="background:#F0A7D8">4___</span>进行需备份镜像文件的命名，点击Finish。
     - ![](FILES/003硬盘备份与恢复_使用MacriumReflect软件/image-20231207155122078.png)
-- <span style="background:#F0A7D8">5. </span>等待一段时间后，即镜像制作完成。等待时间可能较长，此次15GB有效数据的备份与压缩，花了大约20分钟时间。
+- <span style="background:#F0A7D8">5___</span>等待一段时间后，即镜像制作完成。等待时间可能较长，此次15GB有效数据的备份与压缩，花了大约20分钟时间。
     - ![](FILES/003硬盘备份与恢复_使用MacriumReflect软件/image-20231207155212415.png)
-- <span style="background:#F0A7D8">6. </span>创建完成后，可浏览已生成的镜像大小，55GB的SSD固态硬件，内有15GB有效数据，能够压缩成5GB数据至U盘中。
+- <span style="background:#F0A7D8">6___</span>创建完成后，可浏览已生成的镜像大小，55GB的SSD固态硬件，内有15GB有效数据，能够压缩成5GB数据至U盘中。
     - ![](FILES/003硬盘备份与恢复_使用MacriumReflect软件/image-20231207155238130.png)
 
 # 9 常见疑难解答
