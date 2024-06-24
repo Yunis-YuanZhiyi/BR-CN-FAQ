@@ -97,6 +97,7 @@
 # 程序下载与备份
 
 - 烧卡相关
+    - [⭐005使用RUC方式更新PLC程序_在线无感更新_烧卡](/C04_现场维运/005使用RUC方式更新PLC程序_在线无感更新_烧卡.md)
     - [020新版本的AS软件烧卡按钮位置在哪里](020新版本的AS软件烧卡按钮位置在哪里.md)
     - [035用RUC生产CF卡小镜像](035用RUC生产CF卡小镜像.md)
     - [039使用烧卡功能误将程序下载U盘导致U盘空间变小 如何恢复](039使用烧卡功能误将程序下载U盘导致U盘空间变小%20如何恢复.md)
@@ -104,6 +105,7 @@
     - [083AS软件烧卡报错，提示Windows Error 5](083AS软件烧卡报错，提示Windows%20Error%205.md)
     - [084AS烧卡报错，提示BR Disk Image Servic windows service is currently not running](084AS烧卡报错，提示BR%20Disk%20Image%20Servic%20windows%20service%20is%20currently%20not%20running.md)
 - 在线更新
+    - [⭐005使用RUC方式更新PLC程序_在线无感更新_烧卡](/C04_现场维运/005使用RUC方式更新PLC程序_在线无感更新_烧卡.md)
     - [021AS下载程序时提示Automation runtime target mismatch.The target online does not match](021AS下载程序时提示Automation%20runtime%20target%20mismatch.The%20target%20online%20does%20not%20match.md)
     - [053AS在线下载程序报警提示内存不足](053AS在线下载程序报警提示内存不足.md)
     - [071在线更新Transfer参数说明与变量保留规则](071在线更新Transfer参数说明与变量保留规则.md)
