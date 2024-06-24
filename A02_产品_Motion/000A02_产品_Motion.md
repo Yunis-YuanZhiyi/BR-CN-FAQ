@@ -18,6 +18,9 @@
 
 # ⭐ACOPOS D1
 - [035贝加莱经济型驱动器ACOPOS D1](035贝加莱经济型驱动器ACOPOS%20D1.md)
+- [036ACOPOS_D1_Err4位置超差](036ACOPOS_D1_Err4位置超差.md)
+- [037ACOPOS_D1_平行线与交叉线通讯选择](037ACOPOS_D1_平行线与交叉线通讯选择.md)
+- [038ACOPOS_D1_FAQ](038ACOPOS_D1_FAQ.md)
 
 # ACOPOS P3
 
