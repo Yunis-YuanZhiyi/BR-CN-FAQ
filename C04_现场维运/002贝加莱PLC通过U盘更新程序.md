@@ -1,13 +1,16 @@
 > Tags: #U盘 #更新 #X20CP1381
 
+> ⭐ 现场操作，仅需要看 **⭐ 6 USB更新方式**
+
 - [1 C04.002-贝加莱PLC通过U盘更新程序](#_1-c04002-%E8%B4%9D%E5%8A%A0%E8%8E%B1plc%E9%80%9A%E8%BF%87u%E7%9B%98%E6%9B%B4%E6%96%B0%E7%A8%8B%E5%BA%8F)
 - [2 贝加莱PLC通过U盘更新程序](#_2-%E8%B4%9D%E5%8A%A0%E8%8E%B1plc%E9%80%9A%E8%BF%87u%E7%9B%98%E6%9B%B4%E6%96%B0%E7%A8%8B%E5%BA%8F)
 - [3 烧卡包制作_更新准备操作](#_3-%E7%83%A7%E5%8D%A1%E5%8C%85%E5%88%B6%E4%BD%9C_%E6%9B%B4%E6%96%B0%E5%87%86%E5%A4%87%E6%93%8D%E4%BD%9C)
 - [4 烧卡包制作_AR4.2及以下更新包准备方式](#_4-%E7%83%A7%E5%8D%A1%E5%8C%85%E5%88%B6%E4%BD%9C_ar42%E5%8F%8A%E4%BB%A5%E4%B8%8B%E6%9B%B4%E6%96%B0%E5%8C%85%E5%87%86%E5%A4%87%E6%96%B9%E5%BC%8F)
-	- [4.1 若Automation Studio版本为4.3及以上：](#_41-%E8%8B%A5automation-studio%E7%89%88%E6%9C%AC%E4%B8%BA43%E5%8F%8A%E4%BB%A5%E4%B8%8A)
+	- [4.1 若Automation Studio版本为4.3及以上：](#_41-%E8%8B%A5automation-studio%E7%89%88%E6%9C%AC%E4%B8%BA43%E5%8F%8A%E4%BB%A5%E4%B8%8A%EF%BC%9A)
 	- [4.2 若Automation Studio版本为4.2:](#_42-%E8%8B%A5automation-studio%E7%89%88%E6%9C%AC%E4%B8%BA42)
 - [5 烧卡包制作_AR4.3及以上更新包准备方式](#_5-%E7%83%A7%E5%8D%A1%E5%8C%85%E5%88%B6%E4%BD%9C_ar43%E5%8F%8A%E4%BB%A5%E4%B8%8A%E6%9B%B4%E6%96%B0%E5%8C%85%E5%87%86%E5%A4%87%E6%96%B9%E5%BC%8F)
-- [6 ⭐USB更新方式](#_6-usb%E6%9B%B4%E6%96%B0%E6%96%B9%E5%BC%8F)
+- [6 USB更新方式](#_6-usb%E6%9B%B4%E6%96%B0%E6%96%B9%E5%BC%8F)
+	- [准备一个U盘](#_%E5%87%86%E5%A4%87%E4%B8%80%E4%B8%AAu%E7%9B%98)
 	- [6.1 正常更新方式](#_61-%E6%AD%A3%E5%B8%B8%E6%9B%B4%E6%96%B0%E6%96%B9%E5%BC%8F)
 	- [6.2 强制更新方式](#_62-%E5%BC%BA%E5%88%B6%E6%9B%B4%E6%96%B0%E6%96%B9%E5%BC%8F)
 		- [6.2.1 X20CP138x 系列 | X20CP04xx 系列 | X20CPx68x 系列](#_621-x20cp138x-%E7%B3%BB%E5%88%97--x20cp04xx-%E7%B3%BB%E5%88%97--x20cpx68x-%E7%B3%BB%E5%88%97)
@@ -20,8 +23,6 @@
 	- [7.5 Q:AS4.2下生成USB更新包更新成功的日志信息](#_75-qas42%E4%B8%8B%E7%94%9F%E6%88%90usb%E6%9B%B4%E6%96%B0%E5%8C%85%E6%9B%B4%E6%96%B0%E6%88%90%E5%8A%9F%E7%9A%84%E6%97%A5%E5%BF%97%E4%BF%A1%E6%81%AF)
 	- [7.6 Q: 如果PLC被RESET重置，但没有插U盘，是什么表现](#_76-q-%E5%A6%82%E6%9E%9Cplc%E8%A2%ABreset%E9%87%8D%E7%BD%AE%EF%BC%8C%E4%BD%86%E6%B2%A1%E6%9C%89%E6%8F%92u%E7%9B%98%EF%BC%8C%E6%98%AF%E4%BB%80%E4%B9%88%E8%A1%A8%E7%8E%B0)
 	- [7.7 Q: AR4.33以上操作系统生成USB更新包，四个选项的含义](#_77-q-ar433%E4%BB%A5%E4%B8%8A%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F%E7%94%9F%E6%88%90usb%E6%9B%B4%E6%96%B0%E5%8C%85%EF%BC%8C%E5%9B%9B%E4%B8%AA%E9%80%89%E9%A1%B9%E7%9A%84%E5%90%AB%E4%B9%89)
-
-> ⭐ 现场操作，仅需要看 **5 ⭐USB更新方式**
 
 # 1 C04.002-贝加莱PLC通过U盘更新程序
 
@@ -92,7 +93,20 @@
 - 6.生成在U盘中的内容如下，若需使其他U盘也具有程序更新能力，可将生成在U盘中的文件可复制到其他格式为FAT32的U盘中即可。
     - ![](FILES/002贝加莱PLC通过U盘更新程序/media/0716cfecd10634be60176c2b43ab12e4.png)
 
-# 6 ⭐USB更新方式
+# 6 USB更新方式
+
+## 准备一个U盘
+
+- ⭐U盘建议选择：
+    - 容量：小于等于16GB
+    - 磁盘格式：FAT32
+        - ![](FILES/002贝加莱PLC通过U盘更新程序/image-20240624083303431.png)
+        - ![](FILES/002贝加莱PLC通过U盘更新程序/media/ab54fb7d6e3fb3bd82a8d7dc9db60973.png)
+        - 若U盘过大，Windows系统无法支持格式化为FAT32格式，则可以考虑使用DiskGenius软件格式化，注意簇大小建议设置在4096 bytes/8192 bytes
+            - 🔴此类操作不一定成功，仍建议找一个16GB及以下U盘进行更新操作。
+            - [大容量U盘怎么格式化成FAT32格式？U盘格式化操作指南 (diskgenius.cn)](https://www.diskgenius.cn/resource/format-udisk-fat32.html)
+- U盘中内容
+    - ![](FILES/002贝加莱PLC通过U盘更新程序/media/0716cfecd10634be60176c2b43ab12e4.png)
 
 ## 6.1 正常更新方式
 
