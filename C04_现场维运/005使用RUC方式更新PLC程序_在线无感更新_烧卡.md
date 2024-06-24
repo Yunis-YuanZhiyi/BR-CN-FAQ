@@ -32,7 +32,8 @@
 - 官方下载链接
     - [PVI Development Setup | B&R Industrial Automation (br-automation.com)](https://www.br-automation.com/zh/downloads/software/automation-netpvi/pvi-development-setup/)
 - 贝加莱下载中心
-    - [PVI_4.10.2.15_Install](https://br-community.com/downloadDis/100)
+    - [PVI_4.10.2.15](https://br-community.com/downloadDis/100)
+    - [PVI_4.6.2.58](https://br-community.com/downloadDis/256)
 
 # 4 在线更新方式
 
@@ -54,9 +55,11 @@
     - 导入新库不调用库函数
     - 删除库及调用库函数程序段
 - ❌以下操作，更新程序后会导致PLC重启
+    - 🚩全编译项目
     - 修改硬件配置信息
     - 导入新库并调用库函数
     - 修改CPU Configuration
+- 🔴 若使用场景中需要确保是无感更新，建议以实际更新测试验证的结果为准
 
 # 5 烧卡
 
