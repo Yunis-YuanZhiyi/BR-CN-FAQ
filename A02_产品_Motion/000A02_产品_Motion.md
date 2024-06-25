@@ -15,12 +15,13 @@
 - [004贝加莱支持双驱吗](004贝加莱支持双驱吗.md)
 - [023老项目中3NC154.60-2是什么](023老项目中3NC154.60-2是什么.md)
 
-
 # ⭐ACOPOS D1
+
 - [035贝加莱经济型驱动器ACOPOS D1](035贝加莱经济型驱动器ACOPOS%20D1.md)
 - [036ACOPOS_D1_Err4位置超差](036ACOPOS_D1_Err4位置超差.md)
 - [037ACOPOS_D1_平行线与交叉线通讯选择](037ACOPOS_D1_平行线与交叉线通讯选择.md)
 - [038ACOPOS_D1_FAQ](038ACOPOS_D1_FAQ.md)
+- [039ACOPOS_D1_Err13错误复位](039ACOPOS_D1_Err13错误复位.md)
 
 # ACOPOS P3
 

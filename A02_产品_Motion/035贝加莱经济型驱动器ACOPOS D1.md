@@ -74,6 +74,7 @@
 
 - [036ACOPOS_D1_Err4位置超差](036ACOPOS_D1_Err4位置超差.md)
 - [037ACOPOS_D1_平行线与交叉线通讯选择](037ACOPOS_D1_平行线与交叉线通讯选择.md)
+- [039ACOPOS_D1_Err13错误复位](039ACOPOS_D1_Err13错误复位.md)
 
 ## 6.1 ACOPOS D1 FAQ
 
