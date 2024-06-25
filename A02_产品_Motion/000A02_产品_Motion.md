@@ -22,6 +22,7 @@
 - [037ACOPOS_D1_平行线与交叉线通讯选择](037ACOPOS_D1_平行线与交叉线通讯选择.md)
 - [038ACOPOS_D1_FAQ](038ACOPOS_D1_FAQ.md)
 - [039ACOPOS_D1_Err13错误复位](039ACOPOS_D1_Err13错误复位.md)
+- [040ACOPOS_D1_电机空载运行时抖动](040ACOPOS_D1_电机空载运行时抖动.md)
 
 # ACOPOS P3
 
