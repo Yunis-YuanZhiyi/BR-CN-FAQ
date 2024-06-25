@@ -47,6 +47,12 @@
 - ACOPOS D1 老固件（Re0在V4.1.03.2之前）
     - [FFFF0005_ACOPOS_D1_POWERLINK_Cia402_V1.0.0.1.xdd](/A02_产品_Motion/FILES/035贝加莱经济型驱动器ACOPOS%20D1/FFFF0005_ACOPOS_D1_POWERLINK_Cia402_V1.0.0.1.xdd ':ignore')
 
+## 4.1 ACOPOS D1 驱动器固件
+
+- 2024-06-25 版本
+    - boot是4.0的非STO的驱动器可以更新
+    - [点击前往下载 → ACOPOS_D1_固件_boot是4.0的非STO的驱动器可以更新](https://br-community.com/downloadDis/257)
+
 # 5 ACOPOS D1 Studio相关文档
 
 - ACOPOS D1 Studio软件下载
@@ -91,3 +97,4 @@
 | 2024-04-26 | ZSY<br>YZY | 更新ACOPOS D1 用户手册 V1.0.3<br>更新ACOPOS D1 Studio V1.00.3<br>更新ACOPOS D1 电机适配说明参数保存到编码器_20240426.pdf<br>更新ACOPOS D1 电机适配说明参数保存到驱动本地_20240426.pdf |
 | 2024-05-06 | HDH<br>YZY | 更新ACOPOS D1 选型手册 V1.0                                                                                                                        |
 | 2024-06-24 | ZSY<br>YZY | 更新ACOPOS D1相关报错信息与FAQ                                                                                                                        |
+| 2024-06-25 | ZSY<br>YZY | 更新ACOPOS D1驱动器固件                                                                                                                             |
