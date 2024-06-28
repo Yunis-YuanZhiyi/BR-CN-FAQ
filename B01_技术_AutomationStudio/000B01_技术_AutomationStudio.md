@@ -1,15 +1,3 @@
-- [B01_技术_AutomationStudio](#_b01_%E6%8A%80%E6%9C%AF_automationstudio)
-- [软件安装与注册问题汇总](#_%E8%BD%AF%E4%BB%B6%E5%AE%89%E8%A3%85%E4%B8%8E%E6%B3%A8%E5%86%8C%E9%97%AE%E9%A2%98%E6%B1%87%E6%80%BB)
-- [软件安装简介](#_%E8%BD%AF%E4%BB%B6%E5%AE%89%E8%A3%85%E7%AE%80%E4%BB%8B)
-- [AS软件使用技巧与优化](#_as%E8%BD%AF%E4%BB%B6%E4%BD%BF%E7%94%A8%E6%8A%80%E5%B7%A7%E4%B8%8E%E4%BC%98%E5%8C%96)
-- [AS软件使用](#_as%E8%BD%AF%E4%BB%B6%E4%BD%BF%E7%94%A8)
-- [AS帮助使用](#_as%E5%B8%AE%E5%8A%A9%E4%BD%BF%E7%94%A8)
-- [PLC 连接与操作](#_plc-%E8%BF%9E%E6%8E%A5%E4%B8%8E%E6%93%8D%E4%BD%9C)
-- [🐞使用异常问题解决方式](#_%E4%BD%BF%E7%94%A8%E5%BC%82%E5%B8%B8%E9%97%AE%E9%A2%98%E8%A7%A3%E5%86%B3%E6%96%B9%E5%BC%8F)
-- [授权问题](#_%E6%8E%88%E6%9D%83%E9%97%AE%E9%A2%98)
-- [程序下载与备份](#_%E7%A8%8B%E5%BA%8F%E4%B8%8B%E8%BD%BD%E4%B8%8E%E5%A4%87%E4%BB%BD)
-- [AS2.7软件使用](#_as27%E8%BD%AF%E4%BB%B6%E4%BD%BF%E7%94%A8)
-
 # B01_技术_AutomationStudio
 
 # 软件安装与注册问题汇总
