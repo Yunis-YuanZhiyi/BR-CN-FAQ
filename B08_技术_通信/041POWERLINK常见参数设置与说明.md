@@ -120,6 +120,8 @@
 - 从站响应可能花的时间会长
 - Response Timeout 调整为 250 μs
 - Asynchronous timeout 调整为250 μs
+- 🔴 默认两参数均为25μs，建议根据实际情况调整，可通过抓包工具分析报文，来明确合理的Timeout参数。
+- 🔴 每个从站的 Response Timeout参数之和，不要超过POWERLINK网络循环时间的 80%。
 
 ## 4.3 现场PLK通信过滑环，网线质量不好，偶发丢包
 
