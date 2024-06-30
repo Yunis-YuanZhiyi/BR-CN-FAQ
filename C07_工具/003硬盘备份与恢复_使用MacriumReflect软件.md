@@ -3,7 +3,9 @@
 - [1 C07.003-硬盘备份与恢复_使用MacriumReflect软件](#_1-c07003-%E7%A1%AC%E7%9B%98%E5%A4%87%E4%BB%BD%E4%B8%8E%E6%81%A2%E5%A4%8D_%E4%BD%BF%E7%94%A8macriumreflect%E8%BD%AF%E4%BB%B6)
 - [2 软件简介](#_2-%E8%BD%AF%E4%BB%B6%E7%AE%80%E4%BB%8B)
 - [3 使用软件_备份](#_3-%E4%BD%BF%E7%94%A8%E8%BD%AF%E4%BB%B6_%E5%A4%87%E4%BB%BD)
+	- [3.1 备份视频](#_31-%E5%A4%87%E4%BB%BD%E8%A7%86%E9%A2%91)
 - [4 使用软件_恢复镜像](#_4-%E4%BD%BF%E7%94%A8%E8%BD%AF%E4%BB%B6_%E6%81%A2%E5%A4%8D%E9%95%9C%E5%83%8F)
+	- [4.1 恢复视频](#_41-%E6%81%A2%E5%A4%8D%E8%A7%86%E9%A2%91)
 - [5 使用软件_克隆](#_5-%E4%BD%BF%E7%94%A8%E8%BD%AF%E4%BB%B6_%E5%85%8B%E9%9A%86)
 - [6 使用U盘_制作U盘启动盘](#_6-%E4%BD%BF%E7%94%A8u%E7%9B%98_%E5%88%B6%E4%BD%9Cu%E7%9B%98%E5%90%AF%E5%8A%A8%E7%9B%98)
 - [7 使用U盘_恢复镜像](#_7-%E4%BD%BF%E7%94%A8u%E7%9B%98_%E6%81%A2%E5%A4%8D%E9%95%9C%E5%83%8F)
@@ -37,6 +39,13 @@
 
 > 💾CFast 卡 → 📁镜像文件
 
+## 3.1 备份视频
+
+<video muted autoplay="autoplay" loop="loop" width="640" height="360" controls>
+  <source src="/C07_工具/FILES/003硬盘备份与恢复_使用MacriumReflect软件/backup_720.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
 - <span style="background:#F0A7D8">1___</span>打开软件，找到备份的选项页
     - ![](FILES/003硬盘备份与恢复_使用MacriumReflect软件/image-20231207002512515.png)
 - <span style="background:#F0A7D8">2___</span>选择需要备份的硬盘，此软件可直接识别出硬盘中的系统，建议全选。点击Image this disk。
@@ -57,6 +66,14 @@
 # 4 使用软件_恢复镜像
 
 > 📁镜像文件 → 💾CFast卡
+
+## 4.1 恢复视频
+
+<video muted autoplay="autoplay" loop="loop" width="640" height="360" controls>
+  <source src="/C07_工具/FILES/003硬盘备份与恢复_使用MacriumReflect软件/restore_720.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
 - 常见做法有两种
     - A. 在工作笔记上，使用读卡器加载需要备份恢复的硬盘，将镜像文件恢复至硬盘中
     - B. 在需要被镜像恢复的工控机上（Windows系统），运行此软件，加载镜像，恢复至此工控机上
@@ -172,7 +189,8 @@
 
 # 10 更新日志
 
-| 日期         | 修改人 | 修改内容   |
-| :--------- | :-- | :----- |
-| 2023-12-06 | YZY | 初次创建   |
-| 2024-04-06 | YZY | 更新使用说明 |
+| 日期         | 修改人 | 修改内容     |
+| :--------- | :-- | :------- |
+| 2023-12-06 | YZY | 初次创建     |
+| 2024-04-06 | YZY | 更新使用说明   |
+| 2024-06-28 | YZY | 更新视频操作流程 |
