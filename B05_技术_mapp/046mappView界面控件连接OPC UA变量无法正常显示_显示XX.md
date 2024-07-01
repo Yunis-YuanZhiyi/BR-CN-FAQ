@@ -107,4 +107,4 @@ http://br-automation.com/OpcUa/PLC/PV/
 
 | 日期         | 修改人               | 修改内容 |
 | :--------- | :---------------- | :--- |
-| 2024-07-01 | CJP<br>YZY<br>CJP | 初次创建 |
+| 2024-07-01 | CJP<br>YZY<br>QHC | 初次创建 |
