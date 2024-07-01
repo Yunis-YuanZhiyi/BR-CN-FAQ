@@ -84,13 +84,13 @@
 ### 3.2.3 故障排查
 
 - 若还连接不上，建议在 Windows 侧排查以下信息
-- 1___打开共享文件夹的网络文件共享权限
+- <span style="background:#F0A7D8">1___</span>打开共享文件夹的网络文件共享权限
     - ![](FILES/010AR通过CIFS访问windows共享文件夹/image-20230923013320995.png)
-- 2___关闭防火墙
+- <span style="background:#F0A7D8">2___</span>关闭防火墙
     - ![](FILES/010AR通过CIFS访问windows共享文件夹/image-20230923013345695.png)
-- 3___添加了合适的用户
+- <span style="background:#F0A7D8">3___</span>添加了合适的用户
     - ![](FILES/010AR通过CIFS访问windows共享文件夹/image-20230923013449642.png)
-- 4___分配权限
+- <span style="background:#F0A7D8">4___</span>分配权限
     - ![](FILES/010AR通过CIFS访问windows共享文件夹/image-20230923013601816.png)
 
 # 4 CIFS 是什么
