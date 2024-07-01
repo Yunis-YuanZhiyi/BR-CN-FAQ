@@ -1,6 +1,6 @@
 > Tags: #mappView #OPC_UA
 
-- [1 046mappView界面控件连接OPC UA变量无法正常显示_显示XX](#_1-046mappview%E7%95%8C%E9%9D%A2%E6%8E%A7%E4%BB%B6%E8%BF%9E%E6%8E%A5opc-ua%E5%8F%98%E9%87%8F%E6%97%A0%E6%B3%95%E6%AD%A3%E5%B8%B8%E6%98%BE%E7%A4%BA_%E6%98%BE%E7%A4%BAxx)
+- [1 B05.046-mappView界面控件连接OPC UA变量无法正常显示_显示XX](#_1-b05046-mappview%E7%95%8C%E9%9D%A2%E6%8E%A7%E4%BB%B6%E8%BF%9E%E6%8E%A5opc-ua%E5%8F%98%E9%87%8F%E6%97%A0%E6%B3%95%E6%AD%A3%E5%B8%B8%E6%98%BE%E7%A4%BA_%E6%98%BE%E7%A4%BAxx)
 - [2 检查方向](#_2-%E6%A3%80%E6%9F%A5%E6%96%B9%E5%90%91)
 	- [2.1 确认开启OCP UA通信](#_21-%E7%A1%AE%E8%AE%A4%E5%BC%80%E5%90%AFocp%C2%A0ua%E9%80%9A%E4%BF%A1)
 	- [2.2 确认变量已在程序中调用](#_22-%E7%A1%AE%E8%AE%A4%E5%8F%98%E9%87%8F%E5%B7%B2%E5%9C%A8%E7%A8%8B%E5%BA%8F%E4%B8%AD%E8%B0%83%E7%94%A8)
@@ -13,9 +13,10 @@
 	- [2.8 确认OPC UA的端口是否被占用](#_28-%E7%A1%AE%E8%AE%A4opc-ua%E7%9A%84%E7%AB%AF%E5%8F%A3%E6%98%AF%E5%90%A6%E8%A2%AB%E5%8D%A0%E7%94%A8)
 	- [2.9 OPC UA 协议开启了SSL安全加密但mappView侧未开启](#_29-opc-ua-%E5%8D%8F%E8%AE%AE%E5%BC%80%E5%90%AF%E4%BA%86ssl%E5%AE%89%E5%85%A8%E5%8A%A0%E5%AF%86%E4%BD%86mappview%E4%BE%A7%E6%9C%AA%E5%BC%80%E5%90%AF)
 	- [2.10 AS软件BUG，升级AS软件的SP更新包解决](#_210-as%E8%BD%AF%E4%BB%B6bug%EF%BC%8C%E5%8D%87%E7%BA%A7as%E8%BD%AF%E4%BB%B6%E7%9A%84sp%E6%9B%B4%E6%96%B0%E5%8C%85%E8%A7%A3%E5%86%B3)
+	- [2.11 OPC UA的信息模型变更为2.0](#_211-opc-ua%E7%9A%84%E4%BF%A1%E6%81%AF%E6%A8%A1%E5%9E%8B%E5%8F%98%E6%9B%B4%E4%B8%BA20)
 - [3 更新日志](#_3-%E6%9B%B4%E6%96%B0%E6%97%A5%E5%BF%97)
 
-# 1 046mappView界面控件连接OPC UA变量无法正常显示_显示XX
+# 1 B05.046-mappView界面控件连接OPC UA变量无法正常显示_显示XX
 
 - 现象为mappView界面控件连接OPC UA变量无法正常显示，内容显示为XX
     - ![](FILES/046mappView界面控件连接OPC%20UA变量无法正常显示_显示XX/image-20240701203310977.png)
@@ -89,6 +90,18 @@
 
 - 在使用mappView进行编辑时的稳定性，表现为闪退或者在编译通过后变量显示为XX。此外，它还会导致OpcUA通讯失败，导致mappView画面显示的数值均显示为XX
 - 在版本4.12中首次被发现，并在后续的4.12.5（SP）升级包中得到了修复。
+
+## 2.11 OPC UA的信息模型变更为2.0
+
+- 若OPC UA的信息模型从1.0 → 2.0，则默认情况下mappView访问的所有变量均是XX
+    - ![](FILES/046mappView界面控件连接OPC%20UA变量无法正常显示_显示XX/image-20240701214101722.png)
+- 需要将.uaserver文件中的namespace调整为信息模型2.0的参数
+    - ![](FILES/046mappView界面控件连接OPC%20UA变量无法正常显示_显示XX/image-20240701215410844.png)
+    - 信息来源：GUID: 0e31fb5e-0682-43de-adbc-1a94a1c1c37d
+
+```
+http://br-automation.com/OpcUa/PLC/PV/
+```
 
 # 3 更新日志
 
