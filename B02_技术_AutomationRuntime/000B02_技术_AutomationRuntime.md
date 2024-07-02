@@ -31,5 +31,7 @@
 
 # Hypervisor常见使用问题
 
+- [🌐Hypervisor使用助手 (brhelp.cn)](https://hypervisor.brhelp.cn/index.html?general.html)
 - [017Hypervisor安装与使用问题](017Hypervisor安装与使用问题.md)
 - [🐞026Hypervisor常见问题一览](026Hypervisor常见问题一览.md)
+- [033Hypervisor双系统对时功能](033Hypervisor双系统对时功能.md)
