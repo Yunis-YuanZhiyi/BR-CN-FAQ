@@ -32,7 +32,7 @@
     - GUID: c4615df7-7044-4151-bbb5-4592c6c31810
     - [在线英文帮助链接 B&R Online Help (br-automation.com)](https://help.br-automation.com/#/en/4/visualization%2Fmappview%2Fengineering%2Flv_page%2Flv_page_area.html)
 
-# 4 原因三：在一个项目中同时配置了mappVison与mappView
+# 4 原因三：在一个项目中同时配置了mappVision与mappView
 
 - 原因与解决方式同原因二
 - ![](FILES/047mappView画面无法访问提示Visualization%20already%20open%20on%20this%20client/image-20240702133921834.png)
