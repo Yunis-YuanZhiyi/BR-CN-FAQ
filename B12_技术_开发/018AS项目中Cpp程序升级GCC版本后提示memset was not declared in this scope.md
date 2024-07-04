@@ -1,12 +1,13 @@
 > Tags: #cpp #gcc
 
-- [1 现象](#1%20%E7%8E%B0%E8%B1%A1)
-- [2 解决方式](#2%20%E8%A7%A3%E5%86%B3%E6%96%B9%E5%BC%8F)
-- [3 更新日志](#3%20%E6%9B%B4%E6%96%B0%E6%97%A5%E5%BF%97)
+- [1 B12.018-AS项目中Cpp程序升级GCC版本后提示memset was not declared in this scope](#_1-b12018-as%E9%A1%B9%E7%9B%AE%E4%B8%ADcpp%E7%A8%8B%E5%BA%8F%E5%8D%87%E7%BA%A7gcc%E7%89%88%E6%9C%AC%E5%90%8E%E6%8F%90%E7%A4%BAmemset-was-not-declared-in-this-scope)
+- [2 现象](#_2-%E7%8E%B0%E8%B1%A1)
+- [3 解决方式](#_3-%E8%A7%A3%E5%86%B3%E6%96%B9%E5%BC%8F)
+- [4 更新日志](#_4-%E6%9B%B4%E6%96%B0%E6%97%A5%E5%BF%97)
 
-# B12.018-AS项目中Cpp程序升级GCC版本后提示memset was not declared in this scope
+# 1 B12.018-AS项目中Cpp程序升级GCC版本后提示memset was not declared in this scope
 
-# 1 现象
+# 2 现象
 
 - 原先在GCC 4.1.2编译正常的C++项目，在升级了GCC版本至6.3.0之后，编译异常报错，报错信息如下
 - ![](FILES/018AS项目中Cpp程序升级GCC版本后提示memset%20was%20not%20declared%20in%20this%20scope/image-20231225220406553.png)
@@ -21,7 +22,7 @@
     - `#include <sstream>`
     - `#include <string>`
 
-# 2 解决方式
+# 3 解决方式
 
 - 由于不同GCC版本，函数的实现头文件有变更，需要进行调整。
 - 详情见以下说明
@@ -30,7 +31,7 @@
 - 解决方式操作
 - ![](FILES/018AS项目中Cpp程序升级GCC版本后提示memset%20was%20not%20declared%20in%20this%20scope/image-20231225221212530.png)
 
-# 3 更新日志
+# 4 更新日志
 
 | 日期         | 修改人 | 修改内容 |
 | :--------- | :-- | :--- |

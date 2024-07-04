@@ -1,9 +1,12 @@
-> 013编写 C 与 Cpp 编译提示 undefined reference to sbrk
+> Tags: #cpp
 
-- [1 现象](#1%20%E7%8E%B0%E8%B1%A1)
-- [2 原因](#2%20%E5%8E%9F%E5%9B%A0)
+- [B12 .013.编写 C 与 Cpp 编译提示 undefined reference to sbrk](#_b12-013%E7%BC%96%E5%86%99-c-%E4%B8%8E-cpp-%E7%BC%96%E8%AF%91%E6%8F%90%E7%A4%BA-undefined-reference-to-sbrk)
+- [1 现象](#_1-%E7%8E%B0%E8%B1%A1)
+- [2 原因](#_2-%E5%8E%9F%E5%9B%A0)
 
-# 1 现象
+# 1 B12 .013.编写 C 与 Cpp 编译提示 undefined reference to sbrk
+
+# 2 现象
 
 - 编译项目时提示如下报错：
 - undefined reference to 'sbrk'
@@ -16,7 +19,7 @@
 - undefined reference to 'write'
 - ![](FILES/013编写C与Cpp代码编译提示undefined%20reference%20to%20sbrk/image-20231124200036147.png)
 
-# 2 原因
+# 3 原因
 
 - 在贝加莱 PLC 中编写 C/C++代码，有部分函数无法使用，例如
     - printf

@@ -32,7 +32,9 @@
     - [Automation Studio Target for Simulink | B&R Industrial Automation (br-automation.com)](https://www.br-automation.com/zh/downloads/software/simulation/libraries-for-matlabsimulink/automation-studio-target-for-simulink/)
 - 贝加莱官网产品相关说明
     - [Automation Studio Target for Simulink | B&R Industrial Automation (br-automation.com)](https://www.br-automation.com/en/products/software/modeling-and-simulation/automation-studio-target-for-simulink/)
-- [点击前往 → 贝加莱社区-下载中心 → 在线查看说明文档 ](https://br-community.com/downloadDis/260)
+- [⭐点击前往 → 贝加莱社区-下载中心 → 在线查看说明文档 ](https://br-community.com/downloadDis/260)
+- 贝加莱在线英文帮助 Target For Simulink章节
+    - [B&R Online Help (br-automation.com)](https://help.br-automation.com/#/en/4/simulation%2Fsimulink%2Fastarget.html)
 
 # 4 更新日志
 

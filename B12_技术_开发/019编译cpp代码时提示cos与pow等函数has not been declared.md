@@ -10,8 +10,8 @@
 # 1 B12.019-编译cpp代码时提示cos与pow等函数has not been declared
 
 - 在常规电脑上正常编译通过的C++项目，在某些电脑上使用会提示一些基础的函数找不到
-- ![](FILES/019编译cpp代码时提示cos与pow等函数has%20not%20been%20declared/image-20240701124628100.png)
-- ![](FILES/019编译cpp代码时提示cos与pow等函数has%20not%20been%20declared/image-20240701125827337.png)
+    - ![](FILES/019编译cpp代码时提示cos与pow等函数has%20not%20been%20declared/image-20240701124628100.png)
+    - ![](FILES/019编译cpp代码时提示cos与pow等函数has%20not%20been%20declared/image-20240701125827337.png)
 
 ```
 '::cos' has not been declared
@@ -22,9 +22,9 @@
 # 2 原因
 
 - 在使用的cpp代码中，使用了atan2，cos，pow这些函数，最终引用到贝加莱系统自带的math.h头文件
-- ![](FILES/019编译cpp代码时提示cos与pow等函数has%20not%20been%20declared/image-20240701130046972.png)
+    - ![](FILES/019编译cpp代码时提示cos与pow等函数has%20not%20been%20declared/image-20240701130046972.png)
 - 发现底层调用的math.h实现中，AS4.3软件下__math 68881与__math 6881宏定下的声明被屏蔽。
-- ![](FILES/019编译cpp代码时提示cos与pow等函数has%20not%20been%20declared/image-20240701130117461.png)
+    - ![](FILES/019编译cpp代码时提示cos与pow等函数has%20not%20been%20declared/image-20240701130117461.png)
 
 # 3 解决方式
 
