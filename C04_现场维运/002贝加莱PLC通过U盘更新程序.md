@@ -43,55 +43,57 @@
 
 # 3 烧卡包制作_更新准备操作
 
-- 1. 对U盘进行格式化操作：格式化时注意File system选择FAT32
+- <span style="background:#F0A7D8">1___</span>. 对U盘进行格式化操作：格式化时注意File system选择FAT32
     - ![](FILES/002贝加莱PLC通过U盘更新程序/media/ab54fb7d6e3fb3bd82a8d7dc9db60973.png)
-- 2.需要制作更新包的项目，使用AS软件进行全编译。
+- <span style="background:#F0A7D8">2___</span>.需要制作更新包的项目，使用AS软件进行全编译。
     - ![](FILES/002贝加莱PLC通过U盘更新程序/media/e21a3c5ceb1f590756db392267e05dfa.png)
-- 3.在PLC配置里将U盘安装选项激活（若更新前对PLC进行重置Reset，此步骤可省略）
+- <span style="background:#F0A7D8">3___</span>.在PLC配置里将U盘安装选项激活（若更新前对PLC进行重置Reset，此步骤可省略）
     - ![](FILES/002贝加莱PLC通过U盘更新程序/media/b2c55a3ea561cfc3a2b7c3c06a79a217.png)
-- 4.由于紧凑型PLC出厂默认IP地址为0.0.0.0，为了便于AS或RUC软件连接，建议将IP地址在项目中手动设置。
+- <span style="background:#F0A7D8">4___</span>.由于紧凑型PLC出厂默认IP地址为0.0.0.0，为了便于AS或RUC软件连接，建议将IP地址在项目中手动设置。
     - ![](FILES/002贝加莱PLC通过U盘更新程序/media/8112d6ae2178cc8ee4df6ce8a06c2aa1.png)
 
 # 4 烧卡包制作_AR4.2及以下更新包准备方式
 
 ## 4.1 若Automation Studio版本为4.3及以上：
 
-- 1.打开Automation Studio软件，点击Project – Project Installation – Generate Project Installation Package按钮：
+- <span style="background:#F0A7D8">1___</span>.打开Automation Studio软件，点击Project – Project Installation – Generate Project Installation Package按钮：
     - ![](FILES/002贝加莱PLC通过U盘更新程序/media/40f294558a32adfe4c2c46dd90c20da6.png)
-- 2.进行如下设置：
+- <span style="background:#F0A7D8">2___</span>.进行如下设置：
     - ![](FILES/002贝加莱PLC通过U盘更新程序/media/0bb9171a4515caf81130f9439eff9344.png)
-- 3.等待对U盘的烧录完成，完成后弹出如下弹框。
+- <span style="background:#F0A7D8">3___</span>.等待对U盘的烧录完成，完成后弹出如下弹框。
     - ![](FILES/002贝加莱PLC通过U盘更新程序/media/4fa889e542914f3004aa97ef4953b627.png)
-- 4.U盘中文件如下所示，若需使其他U盘也具有程序更新能力，可将生成在U盘中的文件可复制到其他格式为FAT32的U盘中即可。
+- <span style="background:#F0A7D8">4___</span>.U盘中文件如下所示，若需使其他U盘也具有程序更新能力，可将生成在U盘中的文件可复制到其他格式为FAT32的U盘中即可。
     - ![](FILES/002贝加莱PLC通过U盘更新程序/media/5e06a8dbd0aa4d14a60b4da2abe1f896.png)
 
 ## 4.2 若Automation Studio版本为4.2:
 
-- 1.点击Tools – Runtime Utility Center
+- <span style="background:#F0A7D8">1___</span>.点击Tools – Runtime Utility Center
     - ![](FILES/002贝加莱PLC通过U盘更新程序/media/31cafca6e34fbd5ae3b0e53f9302cbac.png)
-- 2.在弹出框中选择Greate Project installation package
+- <span style="background:#F0A7D8">2___</span>.在弹出框中选择Greate Project installation package
     - ![](FILES/002贝加莱PLC通过U盘更新程序/media/6029ff0e05708bc3768faae191b77baf.png)
-- 3.进行如下设置：
+- <span style="background:#F0A7D8">3___</span>.进行如下设置：
     - ![](FILES/002贝加莱PLC通过U盘更新程序/media/0bb9171a4515caf81130f9439eff9344.png)
-- 4.等待对U盘的烧录完成，完成后弹出如下弹框。
+- <span style="background:#F0A7D8">4___</span>.等待对U盘的烧录完成，完成后弹出如下弹框。
     - ![](FILES/002贝加莱PLC通过U盘更新程序/media/4fa889e542914f3004aa97ef4953b627.png)
-- 5.U盘中文件如下所示，若需使其他U盘也具有程序更新能力，可将生成在U盘中的文件可复制到其他格式为FAT32的U盘中即可。
+- <span style="background:#F0A7D8">5___</span>.U盘中文件如下所示，若需使其他U盘也具有程序更新能力，可将生成在U盘中的文件可复制到其他格式为FAT32的U盘中即可。
     - ![](FILES/002贝加莱PLC通过U盘更新程序/media/5e06a8dbd0aa4d14a60b4da2abe1f896.png)
 
 # 5 烧卡包制作_AR4.3及以上更新包准备方式
 
-- 1.打开AS软件，选择Project – Project Installation – Generate Project Installation Package
+- <span style="background:#F0A7D8">1___</span>.打开AS软件，选择Project – Project Installation – Generate Project Installation Package
     - ![](FILES/002贝加莱PLC通过U盘更新程序/media/1bd8beee2629fae5191f7febe3e82a91.png)
-- 2.选择Generate PIP incl. support of AR \< 4.33 选项
+- <span style="background:#F0A7D8">2___</span>.选择Generate PIP incl. support of AR < 4.33 选项
+    - 🔴 注意！生成的时候选择直接生成到U盘中，即最后一个选项，否则有可能此U盘更新包无法更新成功。
     - ![](FILES/002贝加莱PLC通过U盘更新程序/media/66c26b06a3d3a8905b0eb34f41a88887.png)
-- 3.确认设置中设置如下所示
+    - AS4.12.5开始只有两个选项，选择直接到U盘的选项
+- <span style="background:#F0A7D8">3___</span>.确认设置中设置如下所示
     - ![](FILES/002贝加莱PLC通过U盘更新程序/media/788059847a2cc52b62eeed3697982a60.png)
-- 4.有些AS版本显示如下内容：
+- <span style="background:#F0A7D8">4___</span>.有些AS版本显示如下内容：
     - ![](FILES/002贝加莱PLC通过U盘更新程序/media/25d79789801dfad2ac23e60f4808c696.png)
     - ![](FILES/002贝加莱PLC通过U盘更新程序/media/3e6a1e733bae43d19b83c5278d3198c8.png)
-- 5.生成U盘更新包
+- <span style="background:#F0A7D8">5___</span>.生成U盘更新包
     - ![](FILES/002贝加莱PLC通过U盘更新程序/media/374e2ff7534e25fd5edf5392bbef6f97.png)
-- 6.生成在U盘中的内容如下，若需使其他U盘也具有程序更新能力，可将生成在U盘中的文件可复制到其他格式为FAT32的U盘中即可。
+- <span style="background:#F0A7D8">6___</span>.生成在U盘中的内容如下，若需使其他U盘也具有程序更新能力，可将生成在U盘中的文件可复制到其他格式为FAT32的U盘中即可。
     - ![](FILES/002贝加莱PLC通过U盘更新程序/media/0716cfecd10634be60176c2b43ab12e4.png)
 
 # 6 USB更新方式
