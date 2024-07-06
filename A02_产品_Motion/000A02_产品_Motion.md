@@ -36,6 +36,7 @@
 - [032单轴ACOPOS P3更改编码器卡8EAC0152.003-1接口方法](032单轴ACOPOS%20P3更改编码器卡8EAC0152.003-1接口方法.md)
 - [024ACOPOS P3 SafeMOTION基本应用](/A05_产品_安全模块/024ACOPOS%20P3%20SafeMOTION基本应用.md)
 - [033ACOPOS P3控制多摩川编码器电机的使用说明](/B06_技术_运动控制/033ACOPOS%20P3控制多摩川编码器电机的使用说明.md)
+- [041ACOPOS P3硬件从零开始搭建测试说明](041ACOPOS%20P3硬件从零开始搭建测试说明.md)
 
 ## ACOPOS P3 问题排查
 
