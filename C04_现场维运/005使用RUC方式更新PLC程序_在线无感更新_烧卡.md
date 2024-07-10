@@ -40,6 +40,7 @@
 - 📋 基本等效于使用Automation Studio 在线Tranfer传程序。
 - <span style="background:#A0CCF6">1___</span>获得的RUC安装包如下图所示
     - ![](FILES/005使用RUC方式更新PLC程序_在线无感更新_烧卡/image-20240624102621829.png)
+    - 📋注意，RucPackage_xxx.zip 压缩包无需解压
 - <span style="background:#A0CCF6">2___</span>双击Tranfer.pil文件，一般会自动跳出Runtime Utility Center软件，若不跳出RUC软件，可自行打开，并选择Open project
     - ![](FILES/005使用RUC方式更新PLC程序_在线无感更新_烧卡/image-20240624102654697.png)
 - <span style="background:#A0CCF6">3___</span>可确认文本信息，调整IP地址与模式，确认后即可点击按钮执行
