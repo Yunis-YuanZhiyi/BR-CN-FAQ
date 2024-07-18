@@ -5,7 +5,7 @@
 - [3 Hypervisor安装停留在界面](#_3-hypervisor%E5%AE%89%E8%A3%85%E5%81%9C%E7%95%99%E5%9C%A8%E7%95%8C%E9%9D%A2)
 - [4 Hyervisor装完之后进入windows就崩溃，删除后能正常启动](#_4-hyervisor%E8%A3%85%E5%AE%8C%E4%B9%8B%E5%90%8E%E8%BF%9B%E5%85%A5windows%E5%B0%B1%E5%B4%A9%E6%BA%83%EF%BC%8C%E5%88%A0%E9%99%A4%E5%90%8E%E8%83%BD%E6%AD%A3%E5%B8%B8%E5%90%AF%E5%8A%A8)
 - [5 Hypervisor装完后一直重启，最后进入花屏](#_5-hypervisor%E8%A3%85%E5%AE%8C%E5%90%8E%E4%B8%80%E7%9B%B4%E9%87%8D%E5%90%AF%EF%BC%8C%E6%9C%80%E5%90%8E%E8%BF%9B%E5%85%A5%E8%8A%B1%E5%B1%8F)
-- [6 Hypervisor安装完后停留在界面](#_6-hypervisor%E5%AE%89%E8%A3%85%E5%AE%8C%E5%90%8E%E5%81%9C%E7%95%99%E5%9C%A8%E7%95%8C%E9%9D%A2)
+- [6 Hypervisor安装停留在黑屏 No valid configuration file found](#_6-hypervisor%E5%AE%89%E8%A3%85%E5%81%9C%E7%95%99%E5%9C%A8%E9%BB%91%E5%B1%8F-no-valid-configuration-file-found)
 - [7 Hypervisor安装完成后直接进入Win10没有重启](#_7-hypervisor%E5%AE%89%E8%A3%85%E5%AE%8C%E6%88%90%E5%90%8E%E7%9B%B4%E6%8E%A5%E8%BF%9B%E5%85%A5win10%E6%B2%A1%E6%9C%89%E9%87%8D%E5%90%AF)
 - [8 Linux下装好后启动，停留在黑屏](#_8-linux%E4%B8%8B%E8%A3%85%E5%A5%BD%E5%90%8E%E5%90%AF%E5%8A%A8%EF%BC%8C%E5%81%9C%E7%95%99%E5%9C%A8%E9%BB%91%E5%B1%8F)
 - [9 对PPC2100硬件，基于AR4.8的U盘安装Hypervisor，在线更新后，CPU原有的3核变为1核](#_9-%E5%AF%B9ppc2100%E7%A1%AC%E4%BB%B6%EF%BC%8C%E5%9F%BA%E4%BA%8Ear48%E7%9A%84u%E7%9B%98%E5%AE%89%E8%A3%85hypervisor%EF%BC%8C%E5%9C%A8%E7%BA%BF%E6%9B%B4%E6%96%B0%E5%90%8E%EF%BC%8Ccpu%E5%8E%9F%E6%9C%89%E7%9A%843%E6%A0%B8%E5%8F%98%E4%B8%BA1%E6%A0%B8)
@@ -43,7 +43,9 @@
 - [41 安装卡在30%，出现欢迎访问Buildroot的信息](#_41-%E5%AE%89%E8%A3%85%E5%8D%A1%E5%9C%A830%25%EF%BC%8C%E5%87%BA%E7%8E%B0%E6%AC%A2%E8%BF%8E%E8%AE%BF%E9%97%AEbuildroot%E7%9A%84%E4%BF%A1%E6%81%AF)
 - [42 在APC3100上安装Hypervisor提示You cannot install B&R Hypervisor on a UEFI system when you have booted the USB install stick with legacy.](#_42-%E5%9C%A8apc3100%E4%B8%8A%E5%AE%89%E8%A3%85hypervisor%E6%8F%90%E7%A4%BAyou-cannot-install-br-hypervisor-on-a-uefi-system-when-you-have-booted-the-usb-install-stick-with-legacy)
 - [43 使用AS4.10，Hypervisor安装提示 No EFI system partition (ESP) found](#_43-%E4%BD%BF%E7%94%A8as410%EF%BC%8Chypervisor%E5%AE%89%E8%A3%85%E6%8F%90%E7%A4%BA-no-efi-system-partition-esp-found)
-- [44 更新日志](#_44-%E6%9B%B4%E6%96%B0%E6%97%A5%E5%BF%97)
+- [44 安装Hypervisor提示 No valid configuration file found](#_44-%E5%AE%89%E8%A3%85hypervisor%E6%8F%90%E7%A4%BA-no-valid-configuration-file-found)
+- [45 安装Hypervisor后，工控机始终无法启动](#_45-%E5%AE%89%E8%A3%85hypervisor%E5%90%8E%EF%BC%8C%E5%B7%A5%E6%8E%A7%E6%9C%BA%E5%A7%8B%E7%BB%88%E6%97%A0%E6%B3%95%E5%90%AF%E5%8A%A8)
+- [46 更新日志](#_46-%E6%9B%B4%E6%96%B0%E6%97%A5%E5%BF%97)
 
 # 1 B02.026-Hypervisor常见问题一览
 
@@ -67,7 +69,7 @@
 
 - A3:更新AS版本补丁包
 
-# 6 Hypervisor安装完后停留在界面
+# 6 Hypervisor安装停留在黑屏 No valid configuration file found
 
 - A4:CPU型号选错
 - ![](FILES/026Hypervisor常见问题一览/b66b058c581401a467b1891500b02353.png)
@@ -423,9 +425,28 @@ bcdedit /set {globalsettings} advancedoptions false
         - 剩余磁盘：闲置空区域
     - 3) 重新安装Linux系统，再使用同样的版本安装Hypervisor正常
 
-# 44 更新日志
+# 44 安装Hypervisor提示 No valid configuration file found
 
-| 日期         | 修改人 | 修改内容 |
-| :--------- | :-- | :--- |
-| 2023-12-28 | YZY | 更新   |
-| 2024-03-19 | YZY | 格式调整 |
+- **现象**
+    - 安装Hypervisor提示报错
+    - First line in file must start with "# RTH CONFIG"
+    - No valid configuration file found.
+    - Hypervisor boot failed.
+    - ![](FILES/026Hypervisor常见问题一览/image-20240718172121867.png)
+- **原因**
+    - AS项目中配置硬件型号错误
+
+# 45 安装Hypervisor后，工控机始终无法启动
+
+- **现象**
+    - [046APC2200安装Hypervisor后无法启动只有POWER灯亮](/A03_产品_PC和HMI/046APC2200安装Hypervisor后无法启动只有POWER灯亮.md)
+- **解决方式**
+    - 更新BIOS至最新版本
+
+# 46 更新日志
+
+| 日期         | 修改人 | 修改内容      |
+| :--------- | :-- | :-------- |
+| 2023-12-28 | YZY | 更新        |
+| 2024-03-19 | YZY | 格式调整      |
+| 2024-07-18 | YZY | 更新条目44 45 |
