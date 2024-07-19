@@ -6,6 +6,7 @@
 	- [3.3 系统检查_IECCheckY](#_33-%E7%B3%BB%E7%BB%9F%E6%A3%80%E6%9F%A5_iecchecky)
 	- [3.4 通用功能_BrRand](#_34-%E9%80%9A%E7%94%A8%E5%8A%9F%E8%83%BD_brrand)
 	- [3.5 文件读写_LxMpFile](#_35-%E6%96%87%E4%BB%B6%E8%AF%BB%E5%86%99_lxmpfile)
+	- [3.6 画面显示_ECharts + mappView](#_36-%E7%94%BB%E9%9D%A2%E6%98%BE%E7%A4%BA_echarts--mappview)
 
 # 1 B04_技术_贝加莱功能块Library
 
@@ -69,3 +70,7 @@
     - [LxMpFile使用.pdf](/B04_技术_贝加莱功能库Library/FILES/000B04_技术_贝加莱功能块Library/LxMpFile使用.pdf ':ignore')
 - 🗃️下载链接
     - [2024-07-07-LxMpFile.zip](/B04_技术_贝加莱功能库Library/FILES/000B04_技术_贝加莱功能块Library/2024-07-07-LxMpFile.zip ':ignore')
+
+## 3.6 画面显示_ECharts + mappView
+
+- [048mappView与ECharts配合显示动态可视化图表库](/B05_技术_mapp/048mappView与ECharts配合显示动态可视化图表库.md)
