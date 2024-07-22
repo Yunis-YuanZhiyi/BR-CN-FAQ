@@ -1,3 +1,5 @@
+> Tags: #ModbusRTU
+
 # 20262 Error in frame, protocol error
 
 # 问题描述

@@ -3,11 +3,16 @@
 - [3 截图](#_3-%E6%88%AA%E5%9B%BE)
 - [4 触发原因与解决方式](#_4-%E8%A7%A6%E5%8F%91%E5%8E%9F%E5%9B%A0%E4%B8%8E%E8%A7%A3%E5%86%B3%E6%96%B9%E5%BC%8F)
 
-# 1 C02.007.AS启动报错PVIManagerC00000FD
+# 1 C02.007.AS启动报错PVIManager C00000FD
 
 # 2 问题描述
 
 - AS启动时报错。
+
+```
+EXCEPTION ERROR C00000FD (stack overflow)
+MozartBreathProcess.dll PublicService+10054
+```
 
 # 3 截图
 
@@ -15,8 +20,5 @@
 
 # 4 触发原因与解决方式
 
-| 序号 | 反馈内容 | 解决方案 |
-| -- | -- | -- |
-| 1 | -- | 重新安装PVI，把除driver的选项都选上 |
-
-- ![Img](./FILES/007AS启动报错PVIManagerC00000FD.md/img-20220713155716.png)
+- 重新安装PVI，把除driver的选项都选上
+- ![](FILES/007AS启动报错PVIManagerC00000FD.md/img-20220713155716.png)
