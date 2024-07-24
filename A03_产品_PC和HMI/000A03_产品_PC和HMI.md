@@ -47,7 +47,7 @@
     - [036PPC屏幕断电上电后蓝屏](036PPC屏幕断电上电后蓝屏.md)
     - [034工控机烧卡后无法启动，提示Error loading file errorno=0x13](/B03_技术_诊断/034工控机烧卡后无法启动，提示Error%20loading%20file%20errorno=0x13.md)
 - 黑屏有代码
-    - [⭐034PPC断电后开机显示startup.nsh界面](034PPC断电后开机显示startup.nsh界面.md)
+    - [⭐034PPC断电后开机显示startup.nsh界面 map: Unknown flag -f  map: No mapping found](034PPC断电后开机显示startup.nsh界面.md)
 - [028PPC2200触摸失效](028PPC2200触摸失效.md)
 - [031PPC3100硬件启动自动进入BIOS并提示UEFI OS has been blocked by the current security policy](031PPC3100硬件启动自动进入BIOS并提示UEFI%20OS%20has%20been%20blocked%20by%20the%20current%20security%20policy.md)
 - [016PPC2100的掉电保持变量在断电再上电后丢失变零](016PPC2100的掉电保持变量在断电再上电后丢失变零.md)
@@ -61,7 +61,6 @@
 - [044ACP910运行中突然关闭且RUN灯不亮](044ACP910运行中突然关闭且RUN灯不亮.md)
 - [045T50通过更新Linux镜像提高VC4画面操作响应速度](045T50通过更新Linux镜像提高VC4画面操作响应速度.md)
 - [046APC2200安装Hypervisor后无法启动只有POWER灯亮](046APC2200安装Hypervisor后无法启动只有POWER灯亮.md)
--
 
 # Hypervisor 使用说明
 
