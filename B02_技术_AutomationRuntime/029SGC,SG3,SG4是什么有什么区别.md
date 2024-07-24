@@ -1,13 +1,14 @@
-> 029SGC,SG3,SG4是什么有什么区别
+- [1 B02.029.SGC,SG3,SG4是什么有什么区别](#_1-b02029sgc,sg3,sg4%E6%98%AF%E4%BB%80%E4%B9%88%E6%9C%89%E4%BB%80%E4%B9%88%E5%8C%BA%E5%88%AB)
+- [2 概念](#_2-%E6%A6%82%E5%BF%B5)
+- [3 对应硬件](#_3-%E5%AF%B9%E5%BA%94%E7%A1%AC%E4%BB%B6)
+	- [3.1 SG4](#_31-sg4)
+	- [3.2 SG3](#_32-sg3)
+	- [3.3 SGC](#_33-sgc)
+- [4 开发注意事项](#_4-%E5%BC%80%E5%8F%91%E6%B3%A8%E6%84%8F%E4%BA%8B%E9%A1%B9)
 
-- [1 概念](#1%20%E6%A6%82%E5%BF%B5)
-- [2 对应硬件](#2%20%E5%AF%B9%E5%BA%94%E7%A1%AC%E4%BB%B6)
-	- [2.1 SG4](#2.1%20SG4)
-	- [2.2 SG3](#2.2%20SG3)
-	- [2.3 SGC](#2.3%20SGC)
-- [3 开发注意事项](#3%20%E5%BC%80%E5%8F%91%E6%B3%A8%E6%84%8F%E4%BA%8B%E9%A1%B9)
+# 1 B02.029.SGC,SG3,SG4是什么有什么区别
 
-# 1 概念
+# 2 概念
 
 - 目标系统（Target System）由处理器架构和系统中使用的处理器类型决定。
 - 下面的列表显示了这些平台的不同之处：
@@ -29,9 +30,9 @@
 - Target systems - SG4
     - System Generation 4（SG4）是指与较早的 SG3 和 SGC 目标机系统相比，具有更多功能的新一代目标机系统。
 
-# 2 对应硬件
+# 3 对应硬件
 
-## 2.1 SG4
+## 3.1 SG4
 
 > 2010年之后贝加莱新出的硬件，均是 SG4
 > X20系列
@@ -57,7 +58,7 @@
     - ARsim, ARwin, ARemb
     - APC620, APC700, APC810，
 
-## 2.2 SG3
+## 3.2 SG3
 
 > 基本属于 B&R 2005 系列产品
 - System Generation 3 (SG3) - Motorola 处理器的 CPU
@@ -67,14 +68,14 @@
     - CP100, CP104, CP152, CP153, CP200, CP210, CP260, CP430, CP470, CP474, CP476, CP770, CP774
     - PP15, PP21, PP35, PP41
 
-## 2.3 SGC
+## 3.3 SGC
 
 - System Generation Compact CPUs (SGC) - Motorola 处理器 (embedded µP) 的 CPU
 - 以下 CPU 属于该系列：
     - X20CP0201, X20CP0291,X20CP0292
     - XC0201, XC0202, XC0292
 
-# 3 开发注意事项
+# 4 开发注意事项
 
 - 在 Automation Studio 4 中，使用库进行开发，默认支持版本均是 SG4 的系统。
 - 若提示此功能函数只支持 SG3 的系统，可见如 **Only available for SG3 target systems** 的提示，如下图
