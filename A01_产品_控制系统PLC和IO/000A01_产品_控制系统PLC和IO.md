@@ -5,7 +5,8 @@
 - [🌐贝加莱官网 | 控制系统 | 可编程逻辑控制器（PLC）| 基于面板控制 | 基于PC的控制器 | 移动和室外应用](https://www.br-automation.com/zh/products/plc-systems/)
 - [🌐贝加莱官网 | I/O系统 | IP20和IP67防护等级 | 任意组合](https://www.br-automation.com/zh/products/io-systems/)
 - [📺 视频介绍 | X20CPU及IO介绍](https://app9qg8os8w3630.pc.xiaoe-tech.com/p/t_pc/course_pc_detail/video/v_5f3427b6e4b0b4059c4be3b6?product_id=p_5f8e772ae4b0e95a89c52abd&content_app_id=&type=8&parent_pro_id=p_5f8e752ce4b0e95a89c52a40)
-- [002如何了解贝加莱产品网络安全的标准](002如何了解贝加莱产品网络安全的标准.md)
+- 网络安全
+    - [002如何了解贝加莱产品网络安全的标准_IEC 62443-4-1](002如何了解贝加莱产品网络安全的标准.md)
 - [003如何查看贝加莱X20系列模块的接线图](003如何查看贝加莱X20系列模块的接线图.md)
 - [004如何获取贝加莱产品的认证证书例如UL以及CSA等](004如何获取贝加莱产品的认证证书例如UL以及CSA等.md)
 - [005如何获取贝加莱硬件产品EPLAN图纸文件并使用](005如何获取贝加莱硬件产品EPLAN图纸文件并使用.md)
