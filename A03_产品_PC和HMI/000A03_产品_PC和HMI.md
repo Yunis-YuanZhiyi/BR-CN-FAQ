@@ -48,7 +48,7 @@
     - [034工控机烧卡后无法启动，提示Error loading file errorno=0x13](/B03_技术_诊断/034工控机烧卡后无法启动，提示Error%20loading%20file%20errorno=0x13.md)
 - 黑屏有代码
     - [⭐034PPC断电后开机显示startup.nsh界面 map: Unknown flag -f  map: No mapping found](034PPC断电后开机显示startup.nsh界面.md)
-- [028PPC2200触摸失效](028PPC2200触摸失效.md)
+- [028PPC2200等工控机屏幕触摸失效](028PPC2200触摸失效.md)
 - [031PPC3100硬件启动自动进入BIOS并提示UEFI OS has been blocked by the current security policy](031PPC3100硬件启动自动进入BIOS并提示UEFI%20OS%20has%20been%20blocked%20by%20the%20current%20security%20policy.md)
 - [016PPC2100的掉电保持变量在断电再上电后丢失变零](016PPC2100的掉电保持变量在断电再上电后丢失变零.md)
 - [017AS4.6 配置PPC2200时没有PPC2200的选项](017AS4.6%20配置PPC2200时没有PPC2200的选项.md)
