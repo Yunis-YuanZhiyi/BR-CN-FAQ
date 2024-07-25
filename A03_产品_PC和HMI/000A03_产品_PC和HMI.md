@@ -11,8 +11,8 @@
 
 - [002如何获得CF卡与CFast卡在不同工况下的运行寿命](002如何获得CF卡与CFast卡在不同工况下的运行寿命.md)
 - [003如何通过USB接口将项目文件下载至PLC中](003如何通过USB接口将项目文件下载至PLC中.md)
-- [004如何将PLC内部时钟设置为当前标准时间](../B01_技术_AutomationStudio/004如何将PLC内部时钟设置为当前标准时间.md)
-- [005PLC电池电量耗尽会有什么影响？如何购买新的电池](005PLC电池电量耗尽会有什么影响？如何购买新的电池.md)
+- [004如何将PLC内部时钟设置为当前标准时间](/B01_技术_AutomationStudio/004如何将PLC内部时钟设置为当前标准时间.md)
+- [005工控机或者PLC电池电量耗尽会有什么影响？如何购买新的电池](005PLC电池电量耗尽会有什么影响？如何购买新的电池.md)
 - [006贝加莱控制器是否支持上载程序，在支持的情况下如何上载](006贝加莱控制器是否支持上载程序，在支持的情况下如何上载.md)
 - [007贝加莱的触摸屏如何校准？ ](007贝加莱的触摸屏如何校准.md)
 - [008如何使用Runtime Utility Center对CF卡中的内容进行备份](008如何使用Runtime%20Utility%20Center对CF卡中的内容进行备份.md)
@@ -23,7 +23,6 @@
 - [015APC或PPC上是否可以使用第三方CFast卡](015APC或PPC上是否可以使用第三方CFast卡.md)
 - [018Automation Panel安装固定件遗失，是否有单独订货号](018Automation%20Panel安装固定件遗失，是否有单独订货号.md)
 - [026工控机Windows授权问题](026工控机Windows授权问题.md)
-- [027贝加莱工控机是否支持双系统方案](027贝加莱工控机是否支持双系统方案.md)
 - [032一台工控机如何接两个HMI显示两个独立的画面](032一台工控机如何接两个HMI显示两个独立的画面.md)
 - [033APC工控机支持的最大内存是多少](033APC工控机支持的最大内存是多少.md)
 - [020工控机远端通过SDL线连接的AutomationPanel如何使ETH口访问同一个VC4画面](/B07_技术_人机操作/020工控机远端通过SDL线连接的AutomationPanel如何使ETH口访问同一个VC4画面.md)
@@ -48,29 +47,32 @@
     - [034工控机烧卡后无法启动，提示Error loading file errorno=0x13](/B03_技术_诊断/034工控机烧卡后无法启动，提示Error%20loading%20file%20errorno=0x13.md)
 - 黑屏有代码
     - [⭐034PPC断电后开机显示startup.nsh界面 map: Unknown flag -f  map: No mapping found](034PPC断电后开机显示startup.nsh界面.md)
-- [028PPC2200等工控机屏幕触摸失效](028PPC2200触摸失效.md)
+- 触摸屏
+    - [028PPC2200等工控机屏幕触摸失效](028PPC2200触摸失效.md)
+    - [019使用5DLDVI.1000-01与APC910连接在ARemb系统下触摸失灵](019使用5DLDVI.1000-01与APC910连接在ARemb系统下触摸失灵.md)
 - [031PPC3100硬件启动自动进入BIOS并提示UEFI OS has been blocked by the current security policy](031PPC3100硬件启动自动进入BIOS并提示UEFI%20OS%20has%20been%20blocked%20by%20the%20current%20security%20policy.md)
 - [016PPC2100的掉电保持变量在断电再上电后丢失变零](016PPC2100的掉电保持变量在断电再上电后丢失变零.md)
 - [017AS4.6 配置PPC2200时没有PPC2200的选项](017AS4.6%20配置PPC2200时没有PPC2200的选项.md)
-- [019使用5DLDVI.1000-01与APC910连接在ARemb系统下触摸失灵](019使用5DLDVI.1000-01与APC910连接在ARemb系统下触摸失灵.md)
-- [023 VC4 Windows10环境下使用VC4出现崩溃现象](023%20VC4%20Windows10环境下使用VC4出现崩溃现象.md)
-- [024PPC2100装hypervisor系统win10不能独立重启的解决办法](024PPC2100装hypervisor系统win10不能独立重启的解决办法.md)
 - [025工控机报错7027 AR plug play device missing](025工控机报错7027%20AR%20plug%20play%20device%20missing.md)
 - [029AS4.2无法添加5PPC2200-AL02-00 ](029AS4.2无法添加5PPC2200-AL02-00%20.md)
 - [030工控机Windows不能长时间待机响应第三方远程连接](030工控机Windows不能长时间待机响应第三方远程连接.md)
+- VC4
+    - [023 VC4 Windows10环境下使用VC4出现崩溃现象](023%20VC4%20Windows10环境下使用VC4出现崩溃现象.md)
+    - [045T50通过更新Linux镜像提高VC4画面操作响应速度](045T50通过更新Linux镜像提高VC4画面操作响应速度.md)
 - [044ACP910运行中突然关闭且RUN灯不亮](044ACP910运行中突然关闭且RUN灯不亮.md)
-- [045T50通过更新Linux镜像提高VC4画面操作响应速度](045T50通过更新Linux镜像提高VC4画面操作响应速度.md)
 - [046APC2200安装Hypervisor后无法启动只有POWER灯亮](046APC2200安装Hypervisor后无法启动只有POWER灯亮.md)
 
-# Hypervisor 使用说明
+# Hypervisor 双系统使用说明
 
 - [🌐Hypervisor使用助手 (brhelp.cn)](https://hypervisor.brhelp.cn/index.html?general.html)
 - [017Hypervisor安装与使用问题](/B02_技术_AutomationRuntime/017Hypervisor安装与使用问题.md)
-- [026Hypervisor常见问题一览](/B02_技术_AutomationRuntime/026Hypervisor常见问题一览.md)
+- [🐞026Hypervisor常见问题一览](/B02_技术_AutomationRuntime/026Hypervisor常见问题一览.md)
+- [027贝加莱工控机是否支持双系统方案Hypervisor](027贝加莱工控机是否支持双系统方案.md)
 - [021 Hypervisor与win10 安装之后AR和Windows时间不一致](021%20Hypervisor与win10%20安装之后AR和Windows时间不一致.md)
 - [011在AS中进入CPU configuration界面以后找不到Hypervisor选项怎么办](011在AS中进入CPU%20configuration界面以后找不到Hypervisor选项怎么办.md)
 - [019PPC系列硬件使用Hypervisor技术_如何在Windows上使用VNC访问AR侧的VC4画面](/B07_技术_人机操作/019PPC系列硬件使用Hypervisor技术_如何在Windows上使用VNC访问AR侧的VC4画面.md)
 - [046APC2200安装Hypervisor后无法启动只有POWER灯亮](046APC2200安装Hypervisor后无法启动只有POWER灯亮.md)
+- [024PPC2100装hypervisor系统win10不能独立重启的解决办法](024PPC2100装hypervisor系统win10不能独立重启的解决办法.md)
 
 # mappView 配合
 
