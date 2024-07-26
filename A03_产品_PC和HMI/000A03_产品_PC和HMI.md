@@ -64,6 +64,7 @@
 - [046APC2200安装Hypervisor后无法启动只有POWER灯亮](046APC2200安装Hypervisor后无法启动只有POWER灯亮.md)
 
 # Hypervisor 双系统使用说明
+> [关联信息 → Hypervisor常见使用问题](/B02_技术_AutomationRuntime/000B02_技术_AutomationRuntime.md#Hypervisor常见使用问题)
 
 - [🌐Hypervisor使用助手 (brhelp.cn)](https://hypervisor.brhelp.cn/index.html?general.html)
 - [017Hypervisor安装与使用问题](/B02_技术_AutomationRuntime/017Hypervisor安装与使用问题.md)
