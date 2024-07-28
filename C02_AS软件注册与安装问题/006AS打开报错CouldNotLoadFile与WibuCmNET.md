@@ -15,9 +15,8 @@
 
 # 4 触发原因与解决方式
 
-| 序号 | 反馈内容 | 解决方案 |
-| -- | -- | -- |
-| 1 | -- | 将自己电脑中WibuCmNET.dll，考入客户电脑,可以解决 |
-
+- 将可以正常电脑中WibuCmNET.dll，考入有问题的电脑中，可以解决
+- [点击下载](/C02_AS软件注册与安装问题/FILES/006AS打开报错CouldNotLoadFile与WibuCmNET/v4.0_7.21.4611.501__01d86e1eb0c69c23.zip ':ignore')
 - WibuCmNET.dll的位置：
     - ![Img](./FILES/006AS打开报错CouldNotLoadFile与WibuCmNET.md/img-20220713155451.png)
+- ![](FILES/006AS打开报错CouldNotLoadFile与WibuCmNET/image-20240728162332252.png)
