@@ -22,9 +22,11 @@
 - ![](FILES/058与第三方设备通信如何导入如何使用DTM%20Devices与Fieldbus%20Devices/image-20240729225616464.png)
 - 如果目录未更新（Update DTM Catalog），则无法在Physical View中插入或配置设备。
 - 如果手动导入多个设备描述文件，则只需在导入最后一个文件后执行一次更新。
-- ⭐ 导入的DTM文件实际均存储在 `C:\ProgramData\SYCONnet` 文件夹下（ProgramData文件夹为隐藏文件夹）
+- ⭐ 导入的 <span style="background:#A0CCF6">DTM Devices</span> 文件实际均存储在 `C:\ProgramData\SYCONnet` 文件夹下（ProgramData文件夹为隐藏文件夹）
     - ![](FILES/058与第三方设备通信如何导入如何使用DTM%20Devices与Fieldbus%20Devices/image-20240729233841951.png)
     - 可以直接把配置文件直接拷贝在对应文件夹下，再点击Update DTM Catalog
+- 导入的 <span style="background:#A0CCF6">Fieldbus Devices</span> 文件存储在 `C:\ProgramData\BR\AS412\Hardware\Modules` 文件夹
+    - ![](FILES/058与第三方设备通信如何导入如何使用DTM%20Devices与Fieldbus%20Devices/image-20240729235933145.png)
 
 # 3 导入从站模块
 
@@ -37,6 +39,7 @@
 
 - [060可以编译通过但无法配置其他人电脑中正常的DTM模块从站](../B01_技术_AutomationStudio/060可以编译通过但无法配置其他人电脑中正常的DTM模块从站.md)
 - [059AS中插入X20IF1043-1模块后编译报错](../B01_技术_AutomationStudio/059AS中插入X20IF1043-1模块后编译报错.md)
+- [059如何从DTM Manager删除错误导入的Fieldbus Devices](059如何从DTM%20Manager删除错误导入的Fieldbus%20Devices.md)
 
 # 5 DTM配置注意事项
 
