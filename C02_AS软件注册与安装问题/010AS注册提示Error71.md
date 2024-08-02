@@ -11,6 +11,12 @@
 
 # 3 截图
 
+```
+The Usage Period has expired - en-/decryption  cannot be performed, Error 71.
+
+Error activating license 1TGSWAS.TRL.00-01. No matching license found.
+```
+
 - ![Img](./FILES/010AS注册提示Error71.md/img-20220713160249.png)
 - ![Img](./FILES/010AS注册提示Error71.md/img-20220713160309.png)
 

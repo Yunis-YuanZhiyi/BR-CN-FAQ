@@ -3,7 +3,7 @@
 - [3 截图](#_3-%E6%88%AA%E5%9B%BE)
 - [4 触发原因与解决方式](#_4-%E8%A7%A6%E5%8F%91%E5%8E%9F%E5%9B%A0%E4%B8%8E%E8%A7%A3%E5%86%B3%E6%96%B9%E5%BC%8F)
 
-# 1 C02.006.AS打开报错CouldNotLoadFile与WibuCmNET
+# 1 C02.006.AS打开报错 Could Not Load File 与WibuCmNET
 
 # 2 问题描述
 
@@ -11,6 +11,7 @@
 
 # 3 截图
 
+- `EXCEPTION at: BR.AS.License.Core Message: Could not load file or assembly 'WibuCmNET, Version=6.50.241.500'`
 - ![Img](./FILES/006AS打开报错CouldNotLoadFile与WibuCmNET.md/img-20220713155410.png)
 
 # 4 触发原因与解决方式
