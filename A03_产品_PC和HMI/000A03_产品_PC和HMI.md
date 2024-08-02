@@ -17,7 +17,7 @@
 - [007贝加莱的触摸屏如何校准？ ](007贝加莱的触摸屏如何校准.md)
 - [008如何使用Runtime Utility Center对CF卡中的内容进行备份](008如何使用Runtime%20Utility%20Center对CF卡中的内容进行备份.md)
 - [009在Automation Studio离线烧卡时误将U盘当成CF卡导致U盘空间变小 如何恢复U盘大小](009在Automation%20Studio离线烧卡时误将U盘当成CF卡导致U盘空间变小%20如何恢复U盘大小.md)
-- [012贝加莱的工控机在开机时如何进入bios设置](012贝加莱的工控机在开机时如何进入bios设置.md)
+- [📺012贝加莱的工控机如何进入BIOS_如何升级BIOS](012贝加莱的工控机在开机时如何进入bios设置.md)
 - [013如何生成工控机上的HMI Report](013如何生成工控机上的HMI%20Report.md)
 - [014贝加莱工控机访问局域网其他电脑的共享文件夹](014贝加莱工控机访问局域网其他电脑的共享文件夹.md)
 - [015APC或PPC上是否可以使用第三方CFast卡](015APC或PPC上是否可以使用第三方CFast卡.md)
@@ -27,6 +27,7 @@
 - [020工控机远端通过SDL线连接的AutomationPanel如何使ETH口访问同一个VC4画面](/B07_技术_人机操作/020工控机远端通过SDL线连接的AutomationPanel如何使ETH口访问同一个VC4画面.md)
 - [043APC910同时让DP和DVI显示输出](043APC910同时让DP和DVI显示输出.md)
 - [047贝加莱PPC屏幕适配触控笔推荐](047贝加莱PPC屏幕适配触控笔推荐.md)
+- [📺049贝加莱工控机如何开启RAID磁盘阵列功能](049贝加莱工控机如何开启RAID磁盘阵列功能.md)
 - 授权
     - [026工控机Windows授权问题](026工控机Windows授权问题.md)
 
