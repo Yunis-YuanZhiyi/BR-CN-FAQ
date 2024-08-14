@@ -37,17 +37,21 @@
 
 - [点击访问 → ACOPOS D1 用户手册 V1.0.4.pdf](/A02_产品_Motion/FILES/035贝加莱经济型驱动器ACOPOS%20D1/ACOPOS%20D1%20用户手册_V1.0.4.pdf ':ignore')
 
-# 4 ACOPOS D1 配置文件下载
+# 4 ACOPOS D1 配置选择
 
-- ACOPOS D1 新固件（Re0 4.1.03.2之后）
-    - Automation Studio 4.12版本
-        - [FFFF0005_ACOPOS_D1_POWERLINK_Cia402_V1.0.0.4.xdd](/A02_产品_Motion/FILES/035贝加莱经济型驱动器ACOPOS%20D1/FFFF0005_ACOPOS_D1_POWERLINK_Cia402_V1.0.0.4.xdd ':ignore')
-    - Automation Studio 4.1版本
-        - [FFFF0005_ACOPOS_D1_POWERLINK_Cia402_V1.0.0.3.xdd](/A02_产品_Motion/FILES/035贝加莱经济型驱动器ACOPOS%20D1/FFFF0005_ACOPOS_D1_POWERLINK_Cia402_V1.0.0.3.xdd ':ignore')
-- ACOPOS D1 老固件（Re0在V4.1.03.2之前）
-    - [FFFF0005_ACOPOS_D1_POWERLINK_Cia402_V1.0.0.1.xdd](/A02_产品_Motion/FILES/035贝加莱经济型驱动器ACOPOS%20D1/FFFF0005_ACOPOS_D1_POWERLINK_Cia402_V1.0.0.1.xdd ':ignore')
+## 4.1 通信配置文件下载
 
-## 4.1 ACOPOS D1 驱动器固件
+- ⭐ACOPOS D1 唯一指定XDD文件 → <span style="background:#F0A7D8">1.0.0.4</span>
+    - [FFFF0005_ACOPOS_D1_POWERLINK_Cia402_V1.0.0.4.xdd](/A02_产品_Motion/FILES/035贝加莱经济型驱动器ACOPOS%20D1/FFFF0005_ACOPOS_D1_POWERLINK_Cia402_V1.0.0.4.xdd ':ignore')
+- ⭐推荐使用 Automation Studio 4.12版本
+    - 如使用AS4.12以前的版本导入时提示报警，联系贝加莱技术支持解决
+
+## 4.2 网线类型说明
+
+- ⭐默认情况下，新发货的ACOPOS D1硬件的网线接口仅支持 <span style="background:#A0CCF6">交叉线</span>。
+- 若有其他需求，请联系贝加莱销售，详情参考 [037ACOPOS_D1_平行线与交叉线通讯选择](037ACOPOS_D1_平行线与交叉线通讯选择.md)
+
+## 4.3 ACOPOS D1 驱动器固件
 
 - 2024-06-25 版本
     - boot是4.0的非STO的驱动器可以更新
@@ -99,3 +103,4 @@
 | 2024-06-24 | ZSY<br>YZY | 更新ACOPOS D1相关报错信息与FAQ                                                                                                                                      |
 | 2024-06-25 | ZSY<br>YZY | 更新ACOPOS D1驱动器固件                                                                                                                                           |
 | 2024-07-18 | ZSY        | 更新ACOPOS D1用户手册V1.0.4版本<br>更新自整定需要先进入FN-2模式；<br>更新32位二进制数数值图例；<br>更新了6.4.5章节，移除1010h对象字典操作; <br>2.5章节更新，X5为POWERLINK口输入，X6为输出；<br>更改7.3.2 TH110、TH150安装尺寸图 |
+| 2024-08-14 | ZSY<br>YZY | 更新选型说明                                                                                                                                                     |
