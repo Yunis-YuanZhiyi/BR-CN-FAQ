@@ -2,11 +2,12 @@
 
 - [1 C07.013-在线控制PLC与采集变量软件brwatch](#_1-c07013-%E5%9C%A8%E7%BA%BF%E6%8E%A7%E5%88%B6plc%E4%B8%8E%E9%87%87%E9%9B%86%E5%8F%98%E9%87%8F%E8%BD%AF%E4%BB%B6brwatch)
 - [2 软件来源下载](#_2-%E8%BD%AF%E4%BB%B6%E6%9D%A5%E6%BA%90%E4%B8%8B%E8%BD%BD)
+	- [2.1 新版本推荐下载](#_21-%E6%96%B0%E7%89%88%E6%9C%AC%E6%8E%A8%E8%8D%90%E4%B8%8B%E8%BD%BD)
 - [3 软件使用要求](#_3-%E8%BD%AF%E4%BB%B6%E4%BD%BF%E7%94%A8%E8%A6%81%E6%B1%82)
 - [4 软件介绍](#_4-%E8%BD%AF%E4%BB%B6%E4%BB%8B%E7%BB%8D)
 - [5 注意事项](#_5-%E6%B3%A8%E6%84%8F%E4%BA%8B%E9%A1%B9)
 - [6 使用说明](#_6-%E4%BD%BF%E7%94%A8%E8%AF%B4%E6%98%8E)
-	- [6.1 扫描连接PLC，更改PLC状态](#_61-%E6%89%AB%E6%8F%8F%E8%BF%9E%E6%8E%A5plc%EF%BC%8C%E6%9B%B4%E6%94%B9plc%E7%8A%B6%E6%80%81)
+	- [6.1 扫描连接PLC，更改PLC的IP地址](#_61-%E6%89%AB%E6%8F%8F%E8%BF%9E%E6%8E%A5plc%EF%BC%8C%E6%9B%B4%E6%94%B9plc%E7%9A%84ip%E5%9C%B0%E5%9D%80)
 	- [6.2 Watch 任务及变量](#_62-watch-%E4%BB%BB%E5%8A%A1%E5%8F%8A%E5%8F%98%E9%87%8F)
 		- [6.2.1 修改任务状态](#_621-%E4%BF%AE%E6%94%B9%E4%BB%BB%E5%8A%A1%E7%8A%B6%E6%80%81)
 		- [6.2.2 修改变量值](#_622-%E4%BF%AE%E6%94%B9%E5%8F%98%E9%87%8F%E5%80%BC)
@@ -14,7 +15,12 @@
 	- [6.4 logger功能记录变量（类似AS软件的Trace功能）](#_64-logger%E5%8A%9F%E8%83%BD%E8%AE%B0%E5%BD%95%E5%8F%98%E9%87%8F%EF%BC%88%E7%B1%BB%E4%BC%BCas%E8%BD%AF%E4%BB%B6%E7%9A%84trace%E5%8A%9F%E8%83%BD%EF%BC%89)
 	- [6.5 PVI对象监控](#_65-pvi%E5%AF%B9%E8%B1%A1%E7%9B%91%E6%8E%A7)
 	- [6.6 设置](#_66-%E8%AE%BE%E7%BD%AE)
-- [7 更新日志](#_7-%E6%9B%B4%E6%96%B0%E6%97%A5%E5%BF%97)
+- [7 brwatch 1.4.2新增功能](#_7-brwatch-142%E6%96%B0%E5%A2%9E%E5%8A%9F%E8%83%BD)
+	- [7.1 对时功能](#_71-%E5%AF%B9%E6%97%B6%E5%8A%9F%E8%83%BD)
+	- [7.2 一键导出系统日志](#_72-%E4%B8%80%E9%94%AE%E5%AF%BC%E5%87%BA%E7%B3%BB%E7%BB%9F%E6%97%A5%E5%BF%97)
+	- [7.3 显示PLC的序列号](#_73-%E6%98%BE%E7%A4%BAplc%E7%9A%84%E5%BA%8F%E5%88%97%E5%8F%B7)
+- [8 FAQ 1 若PLC的SNMP服务没有开启，知道IP，如何连接上](#_8-faq-1-%E8%8B%A5plc%E7%9A%84snmp%E6%9C%8D%E5%8A%A1%E6%B2%A1%E6%9C%89%E5%BC%80%E5%90%AF%EF%BC%8C%E7%9F%A5%E9%81%93ip%EF%BC%8C%E5%A6%82%E4%BD%95%E8%BF%9E%E6%8E%A5%E4%B8%8A)
+- [9 更新日志](#_9-%E6%9B%B4%E6%96%B0%E6%97%A5%E5%BF%97)
 
 # 1 C07.013-在线控制PLC与采集变量软件brwatch
 
@@ -30,9 +36,17 @@
 
 - 此软件来源为github的开源项目
     - [GitHub - hilch/brwatch: brwatch: service tool for B&R plc: watch, change, log variables, set ip adresses etc.](https://github.com/hilch/brwatch)
-- [点击直接下载 brwatch 1.4.1 软件压缩包（大小为 108 KB） ](/C07_工具/FILES/013在线控制PLC与采集变量软件brwatch/brwatch_1.4.1.zip ':ignore')
+- [点击直接下载 → brwatch 1.4.1 软件压缩包（大小为 108 KB） ](/C07_工具/FILES/013在线控制PLC与采集变量软件brwatch/brwatch_1.4.1.zip ':ignore')
 - Github下载
     - [Releases · hilch/brwatch (github.com)](https://github.com/hilch/brwatch/releases)
+
+## 2.1 新版本推荐下载
+
+- [点击跳转下载 → brwatch 1.4.2版本](https://br-community.com/downloadDis/284)
+- 新增功能
+    - 一键对时
+    - 一键导出logger
+    - 直接显示PLC序列号
 
 # 3 软件使用要求
 
@@ -110,7 +124,23 @@
 
 - 修改目录下的.ini文件进行参数修改。
 
-# FAQ 1 若PLC的SNMP服务没有开启，知道IP，如何连接上
+# 7 brwatch 1.4.2新增功能
+
+## 7.1 对时功能
+
+- 点击 TimeSync，自动将笔记本与PLC的时间进行对时
+- ![undefined](FILES/013在线控制PLC与采集变量软件brwatch/image-20240815220058180.png)
+
+## 7.2 一键导出系统日志
+
+- ![undefined](FILES/013在线控制PLC与采集变量软件brwatch/image-20240815220109950.png)
+- 导出的.br文件可用AS软件打开查看
+
+## 7.3 显示PLC的序列号
+
+- ![undefined](FILES/013在线控制PLC与采集变量软件brwatch/image-20240815220118730.png)
+
+# 8 FAQ 1 若PLC的SNMP服务没有开启，知道IP，如何连接上
 
 - AS4.8及以上的版本由于网络安全要求，默认项目的SNMP服务是关闭的，brwatch无法扫描到此PLC。
     - [详情可见 → 023AS软件无法扫描到实际的PLC](../B01_技术_AutomationStudio/023AS软件无法扫描到实际的PLC.md)
@@ -120,9 +150,11 @@
 - 关闭BrWatch软件再次打开，双击/IF=tcpip，则可以看到设置的PLC已经加载，可进行变量浏览。
     - ![](FILES/013在线控制PLC与采集变量软件brwatch/image-20240808225725588.png)
 
-# 7 更新日志
+# 9 更新日志
 
-| 日期         | 修改人 | 修改内容       |
-| :--------- | :-- | :--------- |
-| 2024-03-15 | CJP | 初次创建编写文档初版 |
-| 2024-03-15 | YZY | 修改并更新文档    |
+| 日期         | 修改人 | 修改内容                     |
+| :--------- | :-- | :----------------------- |
+| 2024-03-15 | CJP | 初次创建编写文档初版               |
+| 2024-03-15 | YZY | 修改并更新文档                  |
+| 2024-08-12 | CW  | 更新brwatch1.4.2<br>新增三个功能 |
+| 2024-08-15 | YZY | 更新文档                     |
