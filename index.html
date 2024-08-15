@@ -137,6 +137,13 @@
 	<script src="docsify/lib/plugins/time-updater.min.js"></script>
 	<!-- Bilibili视频嵌入 -->
 	<script src="docsify/lib/plugins/bilibili.min.js"></script>
+	<!-- 支持Mermaid -->
+	<script type="module">
+		import mermaid from "https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs";
+		mermaid.initialize({ startOnLoad: true });
+		window.mermaid = mermaid;
+	</script>
+	<script src="docsify/lib/plugins/docsify-mermaid.js"></script>
 </body>
 
 </html>

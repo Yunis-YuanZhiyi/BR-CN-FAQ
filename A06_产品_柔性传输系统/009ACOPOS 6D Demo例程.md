@@ -12,6 +12,12 @@
 - AS Help中对应GUID: f5cb2784-9c90-49c7-8bad-248e82eaa6f8
 - ![undefined](FILES/009ACOPOS%206D%20Demo例程/image-20240815193921608.png)
 
+```mermaid
+graph TD;
+    安装mapp6d组件-->配置hwx文件-->PLC连接ACOPOS6D控制器-->笔记本连接PLC;
+    程序配置mapp6d-->使用gAssembly6d实现PowerON-->获取托盘小车信息-->基于托盘信息ShuttleRef进行控制;
+```
+
 # 3 例程下载
 
 - [点击下载 → ACOPOS 6D基本功能Demo案例.zip](/A06_产品_柔性传输系统/FILES/009ACOPOS%206D%20Demo例程/6D-Demo-2024-08-15.zip ':ignore')
