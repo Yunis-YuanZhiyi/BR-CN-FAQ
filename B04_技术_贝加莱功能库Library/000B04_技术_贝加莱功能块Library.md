@@ -7,6 +7,7 @@
 	- [3.4 通用功能_BrRand](#_34-%E9%80%9A%E7%94%A8%E5%8A%9F%E8%83%BD_brrand)
 	- [3.5 文件读写_LxMpFile](#_35-%E6%96%87%E4%BB%B6%E8%AF%BB%E5%86%99_lxmpfile)
 	- [3.6 画面显示_ECharts + mappView](#_36-%E7%94%BB%E9%9D%A2%E6%98%BE%E7%A4%BA_echarts--mappview)
+	- [3.7 ACOPOS 6D_代码例程](#_37-acopos-6d_%E4%BB%A3%E7%A0%81%E4%BE%8B%E7%A8%8B)
 
 # 1 B04_技术_贝加莱功能块Library
 
@@ -74,3 +75,7 @@
 ## 3.6 画面显示_ECharts + mappView
 
 - [048mappView与ECharts配合显示动态可视化图表库](/B05_技术_mapp/048mappView与ECharts配合显示动态可视化图表库.md)
+
+## 3.7 ACOPOS 6D_代码例程
+
+- [009ACOPOS 6D Demo例程](../A06_产品_柔性传输系统/009ACOPOS%206D%20Demo例程.md)
