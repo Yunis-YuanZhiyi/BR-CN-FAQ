@@ -28,6 +28,7 @@
 - [031贝加莱FTP Server配置与相关说明](031贝加莱FTP%20Server配置与相关说明.md)
 - [032贝加莱NTP对时服务](032贝加莱NTP对时服务.md)
 - [034贝加莱SNTP对时说明](034贝加莱SNTP对时说明.md)
+- [035如何在ARSim模式下的使用USER分区](035如何在ARSim模式下的使用USER分区.md)
 
 # Hypervisor常见使用问题
 
