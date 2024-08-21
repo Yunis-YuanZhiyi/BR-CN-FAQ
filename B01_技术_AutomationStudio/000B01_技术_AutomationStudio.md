@@ -81,7 +81,7 @@
 # 🐞使用异常问题解决方式
 
 - [001Automation Studio在Physical View中添加硬件组态时无法找到实际硬件型号是什么原因](001Automation%20Studio在Physical%20View中添加硬件组态时无法找到实际硬件型号是什么原因.md)
-- [006打开Automation Studio项目时，出现中文注释乱码的情况怎么办？](006打开Automation%20Studio项目时，出现中文注释乱码的情况怎么办？.md)
+- [006打开Automation Studio项目时，出现中文注释乱码的情况怎么办](006打开Automation%20Studio项目时，出现中文注释乱码的情况怎么办.md)
 - [012使用Automation Studio时，部分文本框无法输入中文怎么办？ ](012使用Automation%20Studio时部分文本框无法输入中文怎么办.md)
 - [023 VC4 Windows10环境下使用VC4出现崩溃现象](/A03_产品_PC和HMI/023%20VC4%20Windows10环境下使用VC4出现崩溃现象.md)
 - [027AS中多个窗口无法通过点击标签页进行切换](027AS中多个窗口无法通过点击标签页进行切换.md)
