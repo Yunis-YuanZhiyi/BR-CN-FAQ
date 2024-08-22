@@ -6,7 +6,11 @@
 	- [1.3 ACOPOS D1 接线示例](#_13-acopos-d1-%E6%8E%A5%E7%BA%BF%E7%A4%BA%E4%BE%8B)
 - [2 ACOPOS D1 选型手册](#_2-acopos-d1-%E9%80%89%E5%9E%8B%E6%89%8B%E5%86%8C)
 - [3 ACOPOS D1 用户手册](#_3-acopos-d1-%E7%94%A8%E6%88%B7%E6%89%8B%E5%86%8C)
-- [4 ACOPOS D1 配置文件下载](#_4-acopos-d1-%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6%E4%B8%8B%E8%BD%BD)
+- [4 ACOPOS D1 配置选择](#_4-acopos-d1-%E9%85%8D%E7%BD%AE%E9%80%89%E6%8B%A9)
+	- [4.1 通信配置文件下载](#_41-%E9%80%9A%E4%BF%A1%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6%E4%B8%8B%E8%BD%BD)
+	- [4.2 网线类型说明](#_42-%E7%BD%91%E7%BA%BF%E7%B1%BB%E5%9E%8B%E8%AF%B4%E6%98%8E)
+	- [4.3 ACOPOS D1 驱动器固件](#_43-acopos-d1-%E9%A9%B1%E5%8A%A8%E5%99%A8%E5%9B%BA%E4%BB%B6)
+	- [4.4 ACOPOS D1 版本变更信息](#_44-acopos-d1-%E7%89%88%E6%9C%AC%E5%8F%98%E6%9B%B4%E4%BF%A1%E6%81%AF)
 - [5 ACOPOS D1 Studio相关文档](#_5-acopos-d1-studio%E7%9B%B8%E5%85%B3%E6%96%87%E6%A1%A3)
 	- [5.1 ACOPOS D1 离线固件升级说明](#_51-acopos-d1-%E7%A6%BB%E7%BA%BF%E5%9B%BA%E4%BB%B6%E5%8D%87%E7%BA%A7%E8%AF%B4%E6%98%8E)
 - [6 ACOPOS D1 常见问题](#_6-acopos-d1-%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98)
@@ -43,7 +47,7 @@
 
 - ⭐ACOPOS D1 唯一指定XDD文件 → <span style="background:#F0A7D8">1.0.0.4</span>
     - [FFFF0005_ACOPOS_D1_POWERLINK_Cia402_V1.0.0.4.xdd](/A02_产品_Motion/FILES/035贝加莱经济型驱动器ACOPOS%20D1/FFFF0005_ACOPOS_D1_POWERLINK_Cia402_V1.0.0.4.xdd ':ignore')
-- ⭐推荐使用 Automation Studio 4.12版本
+- ⭐推荐使用 Automation Studio 4.12 版本
     - 如使用AS4.12以前的版本导入时提示报警，联系贝加莱技术支持解决
 
 ## 4.2 网线类型说明
@@ -56,6 +60,10 @@
 - 2024-06-25 版本
     - boot是4.0的非STO的驱动器可以更新
     - [点击前往下载 → ACOPOS_D1_固件_boot是4.0的非STO的驱动器可以更新](https://br-community.com/downloadDis/257)
+
+## 4.4 ACOPOS D1 版本变更信息
+
+- [042ACOPOS D1版本变更信息](042ACOPOS%20D1版本变更信息.md)
 
 # 5 ACOPOS D1 Studio相关文档
 
@@ -104,3 +112,4 @@
 | 2024-06-25 | ZSY<br>YZY | 更新ACOPOS D1驱动器固件                                                                                                                                           |
 | 2024-07-18 | ZSY        | 更新ACOPOS D1用户手册V1.0.4版本<br>更新自整定需要先进入FN-2模式；<br>更新32位二进制数数值图例；<br>更新了6.4.5章节，移除1010h对象字典操作; <br>2.5章节更新，X5为POWERLINK口输入，X6为输出；<br>更改7.3.2 TH110、TH150安装尺寸图 |
 | 2024-08-14 | ZSY<br>YZY | 更新选型说明                                                                                                                                                     |
+| 2024-08-22 | YZY        | 新增版本变更信息                                                                                                                                                   |

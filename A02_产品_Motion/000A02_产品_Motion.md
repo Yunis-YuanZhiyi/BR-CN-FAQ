@@ -24,6 +24,7 @@
 - [038ACOPOS_D1_FAQ](038ACOPOS_D1_FAQ.md)
 - [039ACOPOS_D1_Err13错误复位](039ACOPOS_D1_Err13错误复位.md)
 - [040ACOPOS_D1_电机空载运行时抖动](040ACOPOS_D1_电机空载运行时抖动.md)
+- [042ACOPOS D1版本变更信息](042ACOPOS%20D1版本变更信息.md)
 
 # ACOPOS P3
 
