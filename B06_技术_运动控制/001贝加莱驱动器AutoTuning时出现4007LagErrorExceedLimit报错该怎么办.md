@@ -1,7 +1,5 @@
-# 001贝加莱驱动器AutoTuning时出现4007LagErrorExceedLimit报错该怎么办 
-Tags：4007、AutoTuning
+# B06.001贝加莱驱动器AutoTuning时出现4007LagErrorExceedLimit报错该怎么办
 
-A：
 1.检查操作方法或步骤是否正确
 2.检测电机硬件部分是否存在卡死现象
 3.Auto Tuning 时应该断开负载联接。

@@ -1,11 +1,11 @@
 > Tags: #ACOPOSmotor #温度 #ParID
 
-- [1 026ACOPOSmotor温度无法从ParID381中读到](#1%20026ACOPOSmotor%E6%B8%A9%E5%BA%A6%E6%97%A0%E6%B3%95%E4%BB%8EParID381%E4%B8%AD%E8%AF%BB%E5%88%B0)
-- [2 现象](#2%20%E7%8E%B0%E8%B1%A1)
-- [3 原因](#3%20%E5%8E%9F%E5%9B%A0)
-- [4 解决方式](#4%20%E8%A7%A3%E5%86%B3%E6%96%B9%E5%BC%8F)
+- [1 B06.026.ACOPOSmotor温度无法从ParID381中读到](#_1-b06026acoposmotor%E6%B8%A9%E5%BA%A6%E6%97%A0%E6%B3%95%E4%BB%8Eparid381%E4%B8%AD%E8%AF%BB%E5%88%B0)
+- [2 现象](#_2-%E7%8E%B0%E8%B1%A1)
+- [3 原因](#_3-%E5%8E%9F%E5%9B%A0)
+- [4 解决方式](#_4-%E8%A7%A3%E5%86%B3%E6%96%B9%E5%BC%8F)
 
-# 1 026ACOPOSmotor温度无法从ParID381中读到
+# 1 B06.026.ACOPOSmotor温度无法从ParID381中读到
 
 # 2 现象
 
