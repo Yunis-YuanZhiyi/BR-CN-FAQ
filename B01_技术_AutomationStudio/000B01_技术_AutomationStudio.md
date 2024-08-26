@@ -40,6 +40,7 @@
     - [008在编程时如何开启新变量自动声明？如何设置编程自动缩进？如何设置自动提示结构图变量？](008在编程时如何开启新变量自动声明？如何设置编程自动缩进？如何设置自动提示结构图变量？.md)
     - [009在Automation Studio中编程时如何完成结构体嵌套](009在Automation%20Studio中编程时如何完成结构体嵌套.md)
     - [010Automation Studio项目文件太大太占用电脑存储空间怎么办](010Automation%20Studio项目文件太大太占用电脑存储空间怎么办.md)
+    - [093使用Referenced File文件引用实现多配置间文件同步修改](093使用Referenced%20File文件引用实现多配置间文件同步修改.md)
 - U盘使用
     - [038如何获取USB口device name](038如何获取USB口device%20name.md)
 - 新增硬件软件
