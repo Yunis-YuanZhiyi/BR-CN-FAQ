@@ -1,5 +1,6 @@
 # ACOPOS 错误描述中文信息
 
+- [🌐完整英文报警信息 → 点击访问AS在线帮助](https://help.br-automation.com/#/en/4/ncsoftware%2Facp10_errortext%2Findex.htm)
 - ACOPOS 错误文本描述如下
 - 适用范围： ACP 10/ARNC0
 - [000轴控ACOPOS报警号 1 - 999](000轴控ACOPOS报警号%201%20-%20999.md)

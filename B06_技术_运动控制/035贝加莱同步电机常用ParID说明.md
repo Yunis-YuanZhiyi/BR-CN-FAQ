@@ -17,6 +17,8 @@
 
 > 推荐：[028BuR贝加莱ACOPOS备忘录](028BuR贝加莱ACOPOS备忘录.md)
 
+- [🌐完整的ACP10 ParID列表，点击访问 → AS 在线帮助](https://help.br-automation.com/#/en/4/ncsoftware%2Facp10_parameter%2Facp10_parameter_nach_nummern.htm)
+
 # 2 基本参数
 
 - ![](FILES/035贝加莱同步电机常用ParID说明/image-20240706232348539.png)
@@ -51,6 +53,8 @@
     - 单位：1/s
 - ID251：CTRL Speed：当前速度（SCTRL_SPEED_ACT）
     - 单位：1/s
+- ID92：CTRL Position controller: 电机实际速度（PCTRL_V_ACT）
+    - 单位：Units/s
 - ID256：速度环设定电流前端（SCTRL_ISQ_REF）
     - 单位：A
 - ID281：设定定子电流（FFCTRL_ISQ）
@@ -61,7 +65,13 @@
 - ID381：电机温度传感器所测量温度（TEMP_MOTOR）
     - 单位：℃
     - [026ACOPOSmotor温度无法从ParID381中读到](026ACOPOSmotor温度无法从ParID381中读到.md)
+- ID382：伺服逆变器热点温度（TEMP_JUNCTION）
+    - 单位：℃
 - ID393：电机温度模型计算所得温度（TEMP_MOTOR_MODELL）
+    - 单位：℃
+- ID861：功率级：温度传感器1：温度（TEMP_AIRIN）
+    - 单位：℃
+- ID862：功率级：温度传感器2：温度（TEMP_AIROUT）
     - 单位：℃
 - ID668：电机环境温度（TEMP_MOTOR_AMB）
     - 单位：℃
@@ -74,6 +84,15 @@
     - 单位：Nm
 - ID18：逆变器：峰值电流（COPOS_CURR_MAX）
     - 单位：A
+- ID298：DC BUS电压（UDC_ACT）
+    - 单位：V
+    - 一般此电压在电机不带载停止运动的情况下为进线三相线电压 * 1.414
+        - 例如线电压为380V，则此DC BUS电压为380 * 1.414 = 537
+        - 在带载运动时此电压会上下波动
+- ID380：散热器温度传感器温度（TEMP_HEATSINK）
+    - 单位：℃
+- ID383：制动电阻基于模型计算出的理论温度（TEMP_BLEEDER）
+    - 单位：℃
 
 # 4 伺服电机电流
 
@@ -88,7 +107,7 @@
     - **电机功率ID278** = 2 * 3.1415926 * **电机扭矩ID277（Nm）*** 电机转速（rev/s）
 - ID216：定子电压正交分量（ICTRLS_USQ_REF）
     - 单位：V
-- ID219：CTRL Current：实际定子电流直流分量
+- ID219：CTRL Current：实际定子电流直流分量（ICTRL_ISD_ACT）
     - 单位：A
     - ID219是励磁分量，对于同步电机ID219比较小，可以在计算电流时忽略。
 
