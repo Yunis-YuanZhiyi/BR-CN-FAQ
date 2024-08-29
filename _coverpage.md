@@ -6,7 +6,7 @@
 
 > 📱 [手机端访问注意事项](/Obsidian/Usage/手机端访问注意事项.md)
 
-#  [🔍搜索一下](/Obsidian/Usage/brhelp搜索方式.md)
+#  [🔍全文搜索一下](/Obsidian/Usage/brhelp搜索方式.md)
 
 # [👍新品发布:经济型驱动器ACOPOS D1](/A02_产品_Motion/035贝加莱经济型驱动器ACOPOS%20D1.md)
 # [⭐柔性传输系统ACOPOS 6D](A06_产品_柔性传输系统/000A06_产品_柔性传输系统.md#柔性传输系统ACOPOS%206D)

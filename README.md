@@ -1,4 +1,7 @@
+## 全文搜索
+全文搜索brhelp + 贝加莱问答社区中的所有内容
 
+[搜索一下]( https://brkb.portai.tech/help/ ':include :type=iframe width=100% height=230px')
 ## 贝加莱中文帮助
 
 - www.brhelp.cn
@@ -8,6 +11,7 @@
 - 📖中文帮助，全方位了解贝加莱技术特点
 - 🔍报警、报错、使用方式，搜索即见
 - 🌐分享链接，快速分享，点击即阅
+
 
 ### 相关信息
 
