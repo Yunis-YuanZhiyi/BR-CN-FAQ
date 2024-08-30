@@ -60,6 +60,7 @@
 - 2024-06-25 版本
     - boot是4.0的非STO的驱动器可以更新
     - [点击前往下载 → ACOPOS_D1_固件_boot是4.0的非STO的驱动器可以更新](https://br-community.com/downloadDis/257)
+        - 内置两个文件 PowerlinkControlBoard_4.5.30.1.Bin与PowerlinkSingleBoard_4.5.30.1.Bin 均刷一次，分别对应驱动器中两块板。
 
 ## 4.4 ACOPOS D1 版本变更信息
 
@@ -113,3 +114,4 @@
 | 2024-07-18 | ZSY        | 更新ACOPOS D1用户手册V1.0.4版本<br>更新自整定需要先进入FN-2模式；<br>更新32位二进制数数值图例；<br>更新了6.4.5章节，移除1010h对象字典操作; <br>2.5章节更新，X5为POWERLINK口输入，X6为输出；<br>更改7.3.2 TH110、TH150安装尺寸图 |
 | 2024-08-14 | ZSY<br>YZY | 更新选型说明                                                                                                                                                     |
 | 2024-08-22 | YZY        | 新增版本变更信息                                                                                                                                                   |
+| 2024-08-30 | YZY        | 补充ACOPOS D1 驱动器固件使用说明                                                                                                                                      |
