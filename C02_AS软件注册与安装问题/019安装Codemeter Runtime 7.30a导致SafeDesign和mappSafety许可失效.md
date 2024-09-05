@@ -14,6 +14,7 @@
 - 某些 SafeDesigner 和 mapp Safety版本从 Automation Studio 继承许可证状态。
 - Codemeter Runtime >= 7.30a （最新版本）阻止了此功能，因此在安装最新的版本后会提示如下信息
 - ![](FILES/019安装Codemeter%20Runtime%207.30a导致SafeDesign和mappSafety许可失效/image-20230104144826568.png)
+- 报错信息：There is no license info available. Or the registration has been damaged! Start the Relicense in the AutomationStudio.
 > 需要注意SERVOsoft v4.4需要Codemeter Runtime >= 7.40，因此在实际使用时，此问题是不兼容的。
 
 # 3 Codemeter Runtime可用版本信息
