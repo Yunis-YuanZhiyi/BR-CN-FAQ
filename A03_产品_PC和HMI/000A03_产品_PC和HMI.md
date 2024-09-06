@@ -80,6 +80,7 @@
 - [046APC2200安装Hypervisor后无法启动只有POWER灯亮](046APC2200安装Hypervisor后无法启动只有POWER灯亮.md)
 - [024PPC2100装hypervisor系统win10不能独立重启的解决办法](024PPC2100装hypervisor系统win10不能独立重启的解决办法.md)
 - [026工控机Windows授权问题](026工控机Windows授权问题.md)
+- [📺051一机双用不是梦！使用Hypervisor轻松实现PLC与计算机切换](051一机双用不是梦！使用Hypervisor轻松实现PLC与计算机切换.md)
 
 # mappView 配合
 
