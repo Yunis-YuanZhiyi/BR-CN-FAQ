@@ -70,10 +70,11 @@
 
 # 5 mappFramework下载
 
-| 下载选项 | 链接 |
-| ---: | :--- |
+|     下载选项 | 链接                                                                                                                                         |
+| -------: | :----------------------------------------------------------------------------------------------------------------------------------------- |
 | 贝加莱PC知识库 | 需登录后访问<br>[贝加莱知识库 (huashengyun.online)](https://brtechs.huashengyun.online/index.php?mod=bjl&do=file&gid=19#group&do=file&gid=19&fid=1928) |
-| Github | [Releases · br-automation-com/mapp-Framework (github.com)](https://github.com/br-automation-com/mapp-Framework/releases) |
+|   Github | [Releases · br-automation-com/mapp-Framework (github.com)](https://github.com/br-automation-com/mapp-Framework/releases)                   |
+|  贝加莱下载中心 | https://br-community.com/downloadDis/292                                                                                                   |
 
 # 6 更新日志
 
