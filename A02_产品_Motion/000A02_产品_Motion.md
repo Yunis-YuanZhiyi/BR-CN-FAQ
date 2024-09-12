@@ -3,7 +3,7 @@
 # 选型
 
 - [001如何获取贝加莱电机的CAD图纸文件](001如何获取贝加莱电机的CAD图纸文件.md)
-- [📋贝加莱轴控硬件使用助手 > 常用轴控设备说明 > 伺服驱动产品概览与定位](https://axisinfo.brhelp.cn/index.html?topic3.html)
+- [👍推荐阅读 → 贝加莱轴控硬件使用助手 > 常用轴控设备说明 > 伺服驱动产品概览与定位](https://axisinfo.brhelp.cn/index.html?topic3.html)
 - [📋033贝加莱驱动器对应编码器型号选择一览](033贝加莱驱动器对应编码器型号选择一览.md)
 - [010_8CVE选型配置的简单说明](010_8CVE选型配置的简单说明.md)
 - [014 8LS电机动力电缆选择型号](014%208LS电机动力电缆选择型号.md)
@@ -28,7 +28,7 @@
 
 # ACOPOS P3
 
-- [📋贝加莱轴控硬件使用助手 > 常用轴控设备说明 > ACOPOS_P3](https://axisinfo.brhelp.cn/index.html?acopos_p3.html)
+- [👍推荐阅读 → 贝加莱轴控硬件使用助手 > 常用轴控设备说明 > ACOPOS_P3](https://axisinfo.brhelp.cn/index.html?acopos_p3.html)
 - [📺新一代驱动器——ACOPOS P3](https://app9qg8os8w3630.pc.xiaoe-tech.com/p/t_pc/course_pc_detail/video/v_5d5b9ec82b0e0_WG2Nd098)
 - [📺视频介绍 | 伺服驱动器P3介绍](https://app9qg8os8w3630.pc.xiaoe-tech.com/p/t_pc/course_pc_detail/video/v_5f342a6ee4b075dc42ad6d5d?product_id=p_5f8e772ae4b0e95a89c52abd&content_app_id=&type=8&parent_pro_id=p_5f8e752ce4b0e95a89c52a40)
 - [008ACOPOS P3编码器接口卡一览](008ACOPOS%20P3编码器接口卡一览.md)
@@ -45,7 +45,7 @@
 
 # ACOPOSmulti
 
-- [📋贝加莱轴控硬件使用助手 > 常用轴控设备说明 > ACOPOSmulti](https://axisinfo.brhelp.cn/index.html?acoposmulti.html)
+- [👍推荐阅读 → 贝加莱轴控硬件使用助手 > 常用轴控设备说明 > ACOPOSmulti](https://axisinfo.brhelp.cn/index.html?acoposmulti.html)
 - [007ACOPOSmulti编码器接口一览](007ACOPOSmulti编码器接口一览.md)
 - [028ACOPOSmulti有源电源最小配置](028ACOPOSmulti有源电源最小配置.md)
 - [005关于8CVE在ACOPOSmulti65系统中的使用](005关于8CVE在ACOPOSmulti65系统中的使用.md)
@@ -59,7 +59,7 @@
 
 # ACOPOS
 
-- [📋贝加莱轴控硬件使用助手 > 常用轴控设备说明 > ACOPOS](https://axisinfo.brhelp.cn/index.html?acopos.html)
+- [👍推荐阅读 → 贝加莱轴控硬件使用助手 > 常用轴控设备说明 > ACOPOS](https://axisinfo.brhelp.cn/index.html?acopos.html)
 - [003ACOPOS可以靠在一起安装吗](003ACOPOS可以靠在一起安装吗.md)
 - [006是否所有ACOPOS驱动器都能使用8AC114.60-2 POWERLINK通讯卡](006是否所有ACOPOS驱动器都能使用8AC114.60-2%20POWERLINK通讯卡.md)
 - [009ACOPOS编码器接口卡一览](009ACOPOS编码器接口卡一览.md)
