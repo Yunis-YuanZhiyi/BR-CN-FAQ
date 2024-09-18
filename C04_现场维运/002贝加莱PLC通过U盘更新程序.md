@@ -46,6 +46,7 @@
 
 - <span style="background:#F0A7D8">1___</span>. 对U盘进行格式化操作：格式化时注意File system选择FAT32
     - ![](FILES/002贝加莱PLC通过U盘更新程序/media/ab54fb7d6e3fb3bd82a8d7dc9db60973.png)
+    - 🔴 请注意，U盘的名称（Volume label）中不要有中文，这可能会导致操作系统不能正常识别，有些系统格式化U盘后会默认给U盘起个中文名称！
 - <span style="background:#F0A7D8">2___</span>.需要制作更新包的项目，使用AS软件进行全编译。
     - ![](FILES/002贝加莱PLC通过U盘更新程序/media/e21a3c5ceb1f590756db392267e05dfa.png)
 - <span style="background:#F0A7D8">3___</span>.在PLC配置里将U盘安装选项激活（若更新前对PLC进行重置Reset，此步骤可省略）
@@ -109,6 +110,7 @@
         - 若U盘过大，Windows系统无法支持格式化为FAT32格式，则可以考虑使用DiskGenius软件格式化，注意簇大小建议设置在4096 bytes/8192 bytes
             - 🔴此类操作不一定成功，仍建议找一个16GB及以下U盘进行更新操作。
             - [大容量U盘怎么格式化成FAT32格式？U盘格式化操作指南 (diskgenius.cn)](https://www.diskgenius.cn/resource/format-udisk-fat32.html)
+        - 🔴 请注意，U盘的名称（Volume label）中不要有中文，这可能会导致操作系统不能正常识别，有些系统格式化U盘后会默认给U盘起个中文名称！
 - U盘中内容
     - ![](FILES/002贝加莱PLC通过U盘更新程序/media/0716cfecd10634be60176c2b43ab12e4.png)
 

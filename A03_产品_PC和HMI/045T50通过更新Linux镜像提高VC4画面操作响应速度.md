@@ -13,18 +13,19 @@
 
 # 2 更新T50的Linux镜像
 
-- 1___使用FAT32格式空U盘。
-- 2___解压官网下载的T50 → Linux → 镜像文件到U盘上
+- <span style="background:#A0CCF6">1___</span>使用FAT32格式空U盘。
+    - 🔴 请注意，U盘的名称（Volume label）中不要有中文，这可能会导致操作系统不能正常识别，有些系统格式化U盘后会默认给U盘起个中文名称！
+- <span style="background:#A0CCF6">2___</span>解压官网下载的T50 → Linux → 镜像文件到U盘上
     - ![](FILES/045T50通过更新Linux镜像提高VC4画面操作响应速度/image-20240325215758385.png)
     - U盘中放置如下文件
     - ![](FILES/045T50通过更新Linux镜像提高VC4画面操作响应速度/image-20240325215817397.png)
-- 3___U盘插到T50上，进入内部设置
+- <span style="background:#A0CCF6">3___</span>U盘插到T50上，进入内部设置
     - ![](FILES/045T50通过更新Linux镜像提高VC4画面操作响应速度/image-20240325215849968.png)
-- 4___选择update，先用load from usb看看能否读到U盘
-- 5、能读到U盘后，选择update中第一项，update → setting···
+- <span style="background:#A0CCF6">4___</span>选择update，先用load from usb看看能否读到U盘
+- <span style="background:#A0CCF6">5___</span>能读到U盘后，选择update中第一项，update → setting···
     - ![](FILES/045T50通过更新Linux镜像提高VC4画面操作响应速度/image-20240325215909142.png)
     - ![](FILES/045T50通过更新Linux镜像提高VC4画面操作响应速度/image-20240325215921837.png)
-- 6___正常更新结束后，可以在T50内部设置info中看到版本号
+- <span style="background:#A0CCF6">6___</span>正常更新结束后，可以在T50内部设置info中看到版本号
     - ![](FILES/045T50通过更新Linux镜像提高VC4画面操作响应速度/image-20240325215941715.png)
 
 # 3 VC4画面参数优化
