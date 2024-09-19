@@ -1,4 +1,4 @@
-
+> Tags: #AR
 - [一、Watchdog错误描述 （9206）](#%E4%B8%80watchdog%E9%94%99%E8%AF%AF%E6%8F%8F%E8%BF%B0-9206)
 - [二、什么是Automation Runtime中的Watchdog？](#%E4%BA%8C%E4%BB%80%E4%B9%88%E6%98%AFautomation-runtime%E4%B8%AD%E7%9A%84watchdog)
 - [三、为什么发生Watchdog错误后内存丢失？](#%E4%B8%89%E4%B8%BA%E4%BB%80%E4%B9%88%E5%8F%91%E7%94%9Fwatchdog%E9%94%99%E8%AF%AF%E5%90%8E%E5%86%85%E5%AD%98%E4%B8%A2%E5%A4%B1)
@@ -20,13 +20,14 @@
 - [五、如何通过代码的方式触发Watchdog](#%E4%BA%94%E5%A6%82%E4%BD%95%E9%80%9A%E8%BF%87%E4%BB%A3%E7%A0%81%E7%9A%84%E6%96%B9%E5%BC%8F%E8%A7%A6%E5%8F%91watchdog)
 - [六、参考链接](#%E5%85%AD%E5%8F%82%E8%80%83%E9%93%BE%E6%8E%A5)
 
+# B02.018.贝加莱的看门狗Watchdog机制说明
+
 # 一、Watchdog错误描述 （9206）
 
 - 该错误表示 PLC 已“冻结”。
 - PLC运行一个名为IOScheduler任务。此托盘每System Tick触发 2 次。
 - 他的任务是管理任务并确保它们不会持续太久。它还会重置系统Watchdog计时器。
 - 如果系统检测到此Watchdog计时器尚未重置，则会报告错误 9206。
-
 - 在Watchdog错误期间，DRAM 中的剩余（掉电保持和永久）变量无法备份到 UserRAM，并且它们会丢失。
 
 > 在开始了解Watchdog之前，建议了解贝加莱操作系统Automation Runtime机制，详情见基础培训内容 TM213
@@ -102,10 +103,8 @@
 - 如果可能，“Buffer for created tasks”的设置应设置为 100，以避免在Profiling中出现未知任务。
 - 因此，Profiling配置应如下所示：
 - ![](FILES/018贝加莱的看门狗Watchdog机制说明/image-20230303234154161.png)
-
 - 根据 CPU 的不同，可用的 USER RAM 存在限制。
 - 因此，并非总是可以使用这样的配置。
-
 - 另一个潜在的问题是，某些Automation Rutime版本不直接访问 USERRAM。因此，USERRAM 受到与 DRAM 相同的问题的影响。
 - 对于这一点，存在一种解决方法，在使用之前应与总部支持人员讨论。
 - 在这种情况下，记录器Logger如下所示：
@@ -123,6 +122,7 @@
 ## 3.交换硬件
 
 如果Watchdog错误只发生在一个CPU上，则可能是单个硬件问题。
+
 在这种情况下，应更换 CPU。
 
 ## 4.代码审查 Code review
