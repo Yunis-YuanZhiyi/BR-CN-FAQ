@@ -102,6 +102,7 @@
 - [025使用AS无法编译任务提示Process terminated due to StackOverflowException](025使用AS无法编译任务提示Process%20terminated%20due%20to%20StackOverflowException.md)
 - [081贝加莱AS软件与Omron Sysmac studio同时安装报错Failed to create device description dictionary](081贝加莱AS软件与Omron%20Sysmac%20studio同时安装报错Failed%20to%20create%20device%20description%20dictionary.md)
 - [082AS导入X67DS438A报错DTM ID or list index not found](082AS导入X67DS438A报错DTM%20ID%20or%20list%20index%20not%20found.md)
+- [094使用AS打开项目报错EXCEPTION at BR.AS.Hardware.Tree](094使用AS打开项目报错EXCEPTION%20at%20BR.AS.Hardware.Tree.md)
 - ARSim
     - [090ARSim启动时报错提示DEP_Data Execution Prevention](090ARSim启动时报错提示DEP_Data%20Execution%20Prevention.md)
     - [-1070584297 ARSim无法启动_artransfer.data.tar.gz failed](/C03_故障码问题定位/-1070584297%20Error%20booting%20the%20OPC%20UA%20server.md)
