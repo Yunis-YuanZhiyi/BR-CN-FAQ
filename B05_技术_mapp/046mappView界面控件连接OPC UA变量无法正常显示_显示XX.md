@@ -53,6 +53,8 @@
 - 检查AccessAndSecurity中User是否分配相应的Role
     - ![](FILES/046mappView界面控件连接OPC%20UA变量无法正常显示_显示XX/image-20240701205618796.png)
 - 请勿删除或者编辑自带的Anonymous匿名用户
+    - 🔴注意：不能给anonymous设置密码，要求不设定密码，否则anonymous进去以后还是会显示XX。
+    - 但是serverinfo相关诊断页面不能无密码，所以需要另外建立一个别带有密码的用户名，无所谓权限，只要配好就行。
 
 ## 2.7 确认OPC UA Remote Server参数的合理性
 
@@ -105,6 +107,7 @@ http://br-automation.com/OpcUa/PLC/PV/
 
 # 3 更新日志
 
-| 日期         | 修改人               | 修改内容 |
-| :--------- | :---------------- | :--- |
-| 2024-07-01 | CJP<br>YZY<br>QHC | 初次创建 |
+| 日期         | 修改人               | 修改内容  |
+| :--------- | :---------------- | :---- |
+| 2024-07-01 | CJP<br>YZY<br>QHC | 初次创建  |
+| 2024-09-29 | QHC               | 补充2.6 |
