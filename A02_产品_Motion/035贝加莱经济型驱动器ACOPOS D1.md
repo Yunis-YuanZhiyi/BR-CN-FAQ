@@ -57,6 +57,12 @@
 
 ## 4.3 ACOPOS D1 驱动器固件
 
+> ⭐更新固件规则：1 kW 以上刷Control，1 kW 以下刷Single
+- 2024-08-15 版本
+    - 1 kW 以上刷Control
+        - [点击下载 → PowerlinkControlBoard_4.8.15.3.bin](/A02_产品_Motion/FILES/035贝加莱经济型驱动器ACOPOS%20D1/PowerlinkControlBoard_4.8.15.3.bin ':ignore')
+    - 1 kW 以下刷Single
+        - [点击下载 → PowerlinkSingleBoard_4.8.15.3.bin](/A02_产品_Motion/FILES/035贝加莱经济型驱动器ACOPOS%20D1/PowerlinkSingleBoard_4.8.15.3.bin ':ignore')
 - 2024-06-25 版本
     - boot是4.0的非STO的驱动器可以更新
     - [点击前往下载 → ACOPOS_D1_固件_boot是4.0的非STO的驱动器可以更新](https://br-community.com/downloadDis/257)
@@ -95,6 +101,7 @@
 - [037ACOPOS_D1_平行线与交叉线通讯选择](037ACOPOS_D1_平行线与交叉线通讯选择.md)
 - [039ACOPOS_D1_Err13错误复位](039ACOPOS_D1_Err13错误复位.md)
 - [040ACOPOS_D1_电机空载运行时抖动](040ACOPOS_D1_电机空载运行时抖动.md)
+- ACOPOS D1 报错 Err 25 → 更新驱动器 4.8 版本固件
 
 ## 6.1 ACOPOS D1 FAQ
 
@@ -115,3 +122,4 @@
 | 2024-08-14 | ZSY<br>YZY | 更新选型说明                                                                                                                                                     |
 | 2024-08-22 | YZY        | 新增版本变更信息                                                                                                                                                   |
 | 2024-08-30 | YZY        | 补充ACOPOS D1 驱动器固件使用说明                                                                                                                                      |
+| 2024-10-08 | ZSY<br>YZY | 更新4.8.15版本驱动器固件信息                                                                                                                                          |
