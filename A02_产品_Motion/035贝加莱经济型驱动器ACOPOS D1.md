@@ -57,7 +57,9 @@
 
 ## 4.3 ACOPOS D1 驱动器固件
 
-> ⭐更新固件规则：1 kW 以上刷Control，1 kW 以下刷Single
+> ⭐ 请根据型号查看驱动器输出电流：
+> 1 kW 及小功率驱动器（输出电流为3.0A和4.5A）使用 **SingleBoard** 升级固件；
+> 大功率驱动器(5.4A及以上）使用 **ControlBoard** 升级固件。
 - 2024-08-15 版本
     - 1 kW 以上刷Control
         - [点击下载 → PowerlinkControlBoard_4.8.15.3.bin](/A02_产品_Motion/FILES/035贝加莱经济型驱动器ACOPOS%20D1/PowerlinkControlBoard_4.8.15.3.bin ':ignore')
