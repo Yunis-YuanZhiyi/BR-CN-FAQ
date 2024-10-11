@@ -48,6 +48,8 @@
 
 ## 2.3 SERVICE
 
+> 关联信息 → [006PLC进入Service Mode，该如何解决？](../B03_技术_诊断/006PLC进入Service%20Mode，该如何解决？.md)
+
 - 启动状态描述
     - 加载system modules
 - 导致进入该系统状态的条件
