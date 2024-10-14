@@ -29,6 +29,13 @@
 - [047贝加莱PPC屏幕适配触控笔推荐](047贝加莱PPC屏幕适配触控笔推荐.md)
 - [📺049贝加莱工控机如何开启RAID磁盘阵列功能](049贝加莱工控机如何开启RAID磁盘阵列功能.md)
 - [📺050贝加莱Panel PC怎么拆装](050贝加莱Panel%20PC怎么拆装.md)
+- 系统安装说明
+    - [Hypervisor使用助手 > 系统安装 | 使用ISO文件安装Win10](https://hypervisor.brhelp.cn/--isowin10.html)
+    - [Hypervisor使用助手 > 系统安装 | 使用SWM文件安装Win10](https://hypervisor.brhelp.cn/--swmwin10.html)
+    - [Hypervisor使用助手 > 操作案例 | GPOS（Windows）上的Hypervisor安装环境准备（Step by Step）](https://hypervisor.brhelp.cn/setup2.html)
+    - [Hypervisor使用助手 > 系统安装 | 安装 B&R Linux 使用 B&R Installer](https://hypervisor.brhelp.cn/---br-linux-9.html)
+    - [Hypervisor使用助手 > 系统安装 | 安装 B&R Linux 使用 Rufus](https://hypervisor.brhelp.cn/---br-linux--rufus.html)
+    - [Hypervisor使用助手 > 从零部署 | 如何用原生Debian系统进行Hypervisor环境准备](https://hypervisor.brhelp.cn/faq13.html)
 - 授权
     - [026工控机Windows授权问题](026工控机Windows授权问题.md)
 
