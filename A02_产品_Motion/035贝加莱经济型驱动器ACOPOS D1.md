@@ -77,6 +77,7 @@
 # 5 ACOPOS D1 Studio相关文档
 
 - ACOPOS D1 Studio软件下载
+    - [⭐点击前往 → 贝加莱社区-下载中心 → 下载 ACOPOS D1 Studio V1.1.0.10 软件](https://br-community.com/downloadDis/301)
     - [点击前往 → 贝加莱社区-下载中心 → 下载 ACOPOS D1 Studio V1.0.0.3 软件](https://br-community.com/downloadDis/95)
     - [点击前往 → 贝加莱社区-下载中心 → 下载 ACOPOS D1 Studio V1.0.0.2 软件](https://br-community.com/downloadDis/69)
 - [ACOPOS D1 伺服参数备份说明_20240308.pdf](/A02_产品_Motion/FILES/035贝加莱经济型驱动器ACOPOS%20D1/ACOPOS%20D1%20伺服参数备份说明_20240308.pdf ':ignore')
@@ -125,3 +126,4 @@
 | 2024-08-22 | YZY        | 新增版本变更信息                                                                                                                                                   |
 | 2024-08-30 | YZY        | 补充ACOPOS D1 驱动器固件使用说明                                                                                                                                      |
 | 2024-10-08 | ZSY<br>YZY | 更新4.8.15版本驱动器固件信息                                                                                                                                          |
+| 2024-10-12 | ZSY        | 更新 ACOPOS D1 Studio V1.1.0.10 软件                                                                                                                           |
