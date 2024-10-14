@@ -2,12 +2,12 @@
 
 - [1 B02.026-Hypervisor常见问题一览](#_1-b02026-hypervisor%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98%E4%B8%80%E8%A7%88)
 - [2 Hypervisor安装启动中出现 /OS/1 I/O access blocked. 影响安装吗？](#_2-hypervisor%E5%AE%89%E8%A3%85%E5%90%AF%E5%8A%A8%E4%B8%AD%E5%87%BA%E7%8E%B0-os1-io-access-blocked-%E5%BD%B1%E5%93%8D%E5%AE%89%E8%A3%85%E5%90%97%EF%BC%9F)
-- [3 Hypervisor安装停留在界面](#_3-hypervisor%E5%AE%89%E8%A3%85%E5%81%9C%E7%95%99%E5%9C%A8%E7%95%8C%E9%9D%A2)
+- [3 Hypervisor安装停留在界面 The PCI device specified in section [/PCI/1] cannot be explicitly assigned](#_3-hypervisor%E5%AE%89%E8%A3%85%E5%81%9C%E7%95%99%E5%9C%A8%E7%95%8C%E9%9D%A2-the-pci-device-specified-in-section-pci1-cannot-be-explicitly-assigned)
 - [4 Hyervisor装完之后进入windows就崩溃，删除后能正常启动](#_4-hyervisor%E8%A3%85%E5%AE%8C%E4%B9%8B%E5%90%8E%E8%BF%9B%E5%85%A5windows%E5%B0%B1%E5%B4%A9%E6%BA%83%EF%BC%8C%E5%88%A0%E9%99%A4%E5%90%8E%E8%83%BD%E6%AD%A3%E5%B8%B8%E5%90%AF%E5%8A%A8)
 - [5 Hypervisor装完后一直重启，最后进入花屏](#_5-hypervisor%E8%A3%85%E5%AE%8C%E5%90%8E%E4%B8%80%E7%9B%B4%E9%87%8D%E5%90%AF%EF%BC%8C%E6%9C%80%E5%90%8E%E8%BF%9B%E5%85%A5%E8%8A%B1%E5%B1%8F)
 - [6 Hypervisor安装停留在黑屏 No valid configuration file found](#_6-hypervisor%E5%AE%89%E8%A3%85%E5%81%9C%E7%95%99%E5%9C%A8%E9%BB%91%E5%B1%8F-no-valid-configuration-file-found)
 - [7 Hypervisor安装完成后直接进入Win10没有重启](#_7-hypervisor%E5%AE%89%E8%A3%85%E5%AE%8C%E6%88%90%E5%90%8E%E7%9B%B4%E6%8E%A5%E8%BF%9B%E5%85%A5win10%E6%B2%A1%E6%9C%89%E9%87%8D%E5%90%AF)
-- [8 Linux下装好后启动，停留在黑屏](#_8-linux%E4%B8%8B%E8%A3%85%E5%A5%BD%E5%90%8E%E5%90%AF%E5%8A%A8%EF%BC%8C%E5%81%9C%E7%95%99%E5%9C%A8%E9%BB%91%E5%B1%8F)
+- [8 Linux下装好后启动，停留在黑屏 error: no such device: /boot/vmlinuz.lnk.](#_8-linux%E4%B8%8B%E8%A3%85%E5%A5%BD%E5%90%8E%E5%90%AF%E5%8A%A8%EF%BC%8C%E5%81%9C%E7%95%99%E5%9C%A8%E9%BB%91%E5%B1%8F-error-no-such-device-bootvmlinuzlnk)
 - [9 对PPC2100硬件，基于AR4.8的U盘安装Hypervisor，在线更新后，CPU原有的3核变为1核](#_9-%E5%AF%B9ppc2100%E7%A1%AC%E4%BB%B6%EF%BC%8C%E5%9F%BA%E4%BA%8Ear48%E7%9A%84u%E7%9B%98%E5%AE%89%E8%A3%85hypervisor%EF%BC%8C%E5%9C%A8%E7%BA%BF%E6%9B%B4%E6%96%B0%E5%90%8E%EF%BC%8Ccpu%E5%8E%9F%E6%9C%89%E7%9A%843%E6%A0%B8%E5%8F%98%E4%B8%BA1%E6%A0%B8)
 - [10 APC2200，装完hypervisor后，windows（非官方镜像）在第三次断电后出现需要恢复，无法正常启动](#_10-apc2200%EF%BC%8C%E8%A3%85%E5%AE%8Chypervisor%E5%90%8E%EF%BC%8Cwindows%EF%BC%88%E9%9D%9E%E5%AE%98%E6%96%B9%E9%95%9C%E5%83%8F%EF%BC%89%E5%9C%A8%E7%AC%AC%E4%B8%89%E6%AC%A1%E6%96%AD%E7%94%B5%E5%90%8E%E5%87%BA%E7%8E%B0%E9%9C%80%E8%A6%81%E6%81%A2%E5%A4%8D%EF%BC%8C%E6%97%A0%E6%B3%95%E6%AD%A3%E5%B8%B8%E5%90%AF%E5%8A%A8)
 - [11 APC3100，装完hypervisor及驱动后，windows网口无法使用，显示驱动损坏](#_11-apc3100%EF%BC%8C%E8%A3%85%E5%AE%8Chypervisor%E5%8F%8A%E9%A9%B1%E5%8A%A8%E5%90%8E%EF%BC%8Cwindows%E7%BD%91%E5%8F%A3%E6%97%A0%E6%B3%95%E4%BD%BF%E7%94%A8%EF%BC%8C%E6%98%BE%E7%A4%BA%E9%A9%B1%E5%8A%A8%E6%8D%9F%E5%9D%8F)
@@ -32,7 +32,7 @@
 - [30 安装Hypervisor后提示安装成功，但实际Hypervisor没有启动，ETH口无法连上](#_30-%E5%AE%89%E8%A3%85hypervisor%E5%90%8E%E6%8F%90%E7%A4%BA%E5%AE%89%E8%A3%85%E6%88%90%E5%8A%9F%EF%BC%8C%E4%BD%86%E5%AE%9E%E9%99%85hypervisor%E6%B2%A1%E6%9C%89%E5%90%AF%E5%8A%A8%EF%BC%8Ceth%E5%8F%A3%E6%97%A0%E6%B3%95%E8%BF%9E%E4%B8%8A)
 - [31 在APC910-QM77上安装Hypervisor报错提示Virtualization is disabled by the firmware](#_31-%E5%9C%A8apc910-qm77%E4%B8%8A%E5%AE%89%E8%A3%85hypervisor%E6%8A%A5%E9%94%99%E6%8F%90%E7%A4%BAvirtualization-is-disabled-by-the-firmware)
 - [32 5ACPCE.ETH4-00卡能否支持Hypervisor](#_32-5acpceeth4-00%E5%8D%A1%E8%83%BD%E5%90%A6%E6%94%AF%E6%8C%81hypervisor)
-- [33 在操作系统为Debian 10上的APC910 TS17-04设备上安装Hypervisor，提示如下报错](#_33-%E5%9C%A8%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F%E4%B8%BAdebian-10%E4%B8%8A%E7%9A%84apc910-ts17-04%E8%AE%BE%E5%A4%87%E4%B8%8A%E5%AE%89%E8%A3%85hypervisor%EF%BC%8C%E6%8F%90%E7%A4%BA%E5%A6%82%E4%B8%8B%E6%8A%A5%E9%94%99)
+- [33 安装时报错 not loaded by bootloader: "vmlinuz"](#_33-%E5%AE%89%E8%A3%85%E6%97%B6%E6%8A%A5%E9%94%99-not-loaded-by-bootloader-vmlinuz)
 - [34 安装Hypervisor驱动时，提示A backup of the original boot loader already exists](#_34-%E5%AE%89%E8%A3%85hypervisor%E9%A9%B1%E5%8A%A8%E6%97%B6%EF%BC%8C%E6%8F%90%E7%A4%BAa-backup-of-the-original-boot-loader-already-exists)
 - [35 原先安装正常使用的Hypervisor，卸载安装其他版本的Hypervisor，出现 The original boot loader could not be backuped](#_35-%E5%8E%9F%E5%85%88%E5%AE%89%E8%A3%85%E6%AD%A3%E5%B8%B8%E4%BD%BF%E7%94%A8%E7%9A%84hypervisor%EF%BC%8C%E5%8D%B8%E8%BD%BD%E5%AE%89%E8%A3%85%E5%85%B6%E4%BB%96%E7%89%88%E6%9C%AC%E7%9A%84hypervisor%EF%BC%8C%E5%87%BA%E7%8E%B0-the-original-boot-loader-could-not-be-backuped)
 - [36 Hypervisor在USB更新程序后无法启动显示License is not valid](#_36-hypervisor%E5%9C%A8usb%E6%9B%B4%E6%96%B0%E7%A8%8B%E5%BA%8F%E5%90%8E%E6%97%A0%E6%B3%95%E5%90%AF%E5%8A%A8%E6%98%BE%E7%A4%BAlicense-is-not-valid)
@@ -56,7 +56,7 @@
 - ![](FILES/026Hypervisor常见问题一览/a349e0f6fc0f003b05fcc48bd531a9b3.png)
 - 这些警告并不影响安装程序。
 
-# 3 Hypervisor安装停留在界面
+# 3 Hypervisor安装停留在界面 The PCI device specified in section [/PCI/1] cannot be explicitly assigned
 
 - A1: USB安装盘插在了windows口上
 - ![](FILES/026Hypervisor常见问题一览/3010831b35b19514b2e0feac8505c10f.png)
@@ -78,7 +78,7 @@
 
 - A5:BIOS中BOOT启动项要选择B&R Hypervisor（最近采购的工控机才有的选项）
 
-# 8 Linux下装好后启动，停留在黑屏
+# 8 Linux下装好后启动，停留在黑屏 error: no such device: /boot/vmlinuz.lnk.
 
 - A6:一开始使用的AR版本是B4.82，换成B4.62，成功
 - ![](FILES/026Hypervisor常见问题一览/e3042b41dda45f379daaeb2403583fd8.png)
@@ -313,13 +313,27 @@ bcdedit /set {globalsettings} advancedoptions false
     - ARemb上无须配置
     - 使用贝加莱BR Linux(debian 10)，无须额外装驱动，卡插上即可直接使用。
 
-# 33 在操作系统为Debian 10上的APC910 TS17-04设备上安装Hypervisor，提示如下报错
+# 33 安装时报错 not loaded by bootloader: "vmlinuz"
 
-- ![](FILES/026Hypervisor常见问题一览/9b05f200a6f75ec683f172219add26fa.png)
-- A31:
-    - 原因为Linux下的驱动没有安装好。
-    - 使用最新的Automation Runtime，创建Hypervisor的USB Installation Stick，可从中获得最新的Linux驱动，将驱动完全安装后，再安装Hypervisor。
-    - 详情参考 [Hypervisor使用助手 > 安装与使用 > Linux_Hypervisor安装指导手册 > 驱动安装 | Linux平台上安装Hypervisor驱动 (brhelp.cn)](https://hypervisor.brhelp.cn/index.html?setup10.html)
+- **现象**
+    - 在操作系统为Debian 10上的APC910 TS17-04设备上安装Hypervisor，
+    - ![](FILES/026Hypervisor常见问题一览/9b05f200a6f75ec683f172219add26fa.png)
+- **原因一：brhypervisor的驱动没有安装**
+    - brhypervisor_1.7.0.3_amd64.deb 之类的驱动没有安装或者没有安装成功
+    - 打开图中所示的 GDebi Package Installer。
+        - ![](FILES/026Hypervisor常见问题一览/image-20241014134516408.png)
+    - 点选通过 AS 编译过后 brhypervisor_x.x.x.x_amd64.deb 的驱动文件
+        - ![](FILES/026Hypervisor常见问题一览/image-20241014134619927.png)
+    - 打开图中小三角对应的 Terminal，查看安装过程对应的进度情况。
+        - ![](FILES/026Hypervisor常见问题一览/image-20241014134643770.png)
+    - 确定安装过程未报错，并提示成功，则说明驱动安装成功。
+- **原因二：少安装驱动**
+    - 驱动程序 BRHypervisor\GPOSDrivers\Linux\brhypervisor_1.7.0. 3_amd64.deb 在 Linux 上正确安装。
+    - 为Linux下的驱动没有安装好。由于 AR 的变化，仅安装上述 brhypervisor_1.7.0.3_amd64.deb已不够，需要额外安装 rth-tool_2.0.02_amd64.deb与 rth-virt-dkms_2.3.02_all.deb
+        - ![](FILES/026Hypervisor常见问题一览/image-20241012105550018.png)
+        - 这可以简单地使用 `bash install.sh` 命令来完成
+        - 使用最新的Automation Runtime，创建Hypervisor的USB Installation Stick，可从中获得最新的Linux驱动，将驱动完全安装后，再安装Hypervisor。
+        - 详情参考 [Hypervisor使用助手 > 安装与使用 > Linux_Hypervisor安装指导手册 > 驱动安装 | Linux平台上安装Hypervisor驱动 (brhelp.cn)](https://hypervisor.brhelp.cn/index.html?setup10.html)
 
 # 34 安装Hypervisor驱动时，提示A backup of the original boot loader already exists
 
@@ -450,3 +464,4 @@ bcdedit /set {globalsettings} advancedoptions false
 | 2023-12-28 | YZY | 更新        |
 | 2024-03-19 | YZY | 格式调整      |
 | 2024-07-18 | YZY | 更新条目44 45 |
+| 2024-10-12 | YZY | 部分条目更新    |
