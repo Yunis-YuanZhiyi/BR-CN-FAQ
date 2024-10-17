@@ -56,6 +56,7 @@
     - [056基于OPC UA对T50设备进行亮度调节](056基于OPC%20UA对T50设备进行亮度调节.md)
 - C50
     - [042贝加莱C50硬件如何支持VC4画面显示](042贝加莱C50硬件如何支持VC4画面显示.md)
+    - [057屏幕C50配置mappView画面注意事项](057屏幕C50配置mappView画面注意事项.md)
 - C70
     - [054将C70设置为VNC Client (Terminal模式)](054将C70设置为VNC%20Client%20(Terminal模式).md)
 - C80
