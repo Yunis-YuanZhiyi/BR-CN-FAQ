@@ -45,7 +45,9 @@
 - [43 使用AS4.10，Hypervisor安装提示 No EFI system partition (ESP) found](#_43-%E4%BD%BF%E7%94%A8as410%EF%BC%8Chypervisor%E5%AE%89%E8%A3%85%E6%8F%90%E7%A4%BA-no-efi-system-partition-esp-found)
 - [44 安装Hypervisor提示 No valid configuration file found](#_44-%E5%AE%89%E8%A3%85hypervisor%E6%8F%90%E7%A4%BA-no-valid-configuration-file-found)
 - [45 安装Hypervisor后，工控机始终无法启动](#_45-%E5%AE%89%E8%A3%85hypervisor%E5%90%8E%EF%BC%8C%E5%B7%A5%E6%8E%A7%E6%9C%BA%E5%A7%8B%E7%BB%88%E6%97%A0%E6%B3%95%E5%90%AF%E5%8A%A8)
-- [46 更新日志](#_46-%E6%9B%B4%E6%96%B0%E6%97%A5%E5%BF%97)
+- [46 已安装完成Hypervisor，在线更新程序提示 No memory information passed by bootloader.](#_46-%E5%B7%B2%E5%AE%89%E8%A3%85%E5%AE%8C%E6%88%90hypervisor%EF%BC%8C%E5%9C%A8%E7%BA%BF%E6%9B%B4%E6%96%B0%E7%A8%8B%E5%BA%8F%E6%8F%90%E7%A4%BA-no-memory-information-passed-by-bootloader)
+- [47 Hyperviosr安装完成后Windows操作卡顿](#_47-hyperviosr%E5%AE%89%E8%A3%85%E5%AE%8C%E6%88%90%E5%90%8Ewindows%E6%93%8D%E4%BD%9C%E5%8D%A1%E9%A1%BF)
+- [48 更新日志](#_48-%E6%9B%B4%E6%96%B0%E6%97%A5%E5%BF%97)
 
 # 1 B02.026-Hypervisor常见问题一览
 
@@ -457,7 +459,27 @@ bcdedit /set {globalsettings} advancedoptions false
 - **解决方式**
     - 更新BIOS至最新版本
 
-# 46 更新日志
+# 46 已安装完成Hypervisor，在线更新程序提示 No memory information passed by bootloader.
+
+- **现象**
+    - 在线下载程序下到一半即提示如下信息，使用U盘安装hypervisor正常。
+    - ![](FILES/026Hypervisor常见问题一览/image-20241017110904076.png)
+    - 报错信息 `No memory information passed by bootloader.` `Hypervisor boot failed.`
+    - 在这种状态下，用外部电脑也可以进mappview界面，AR正常显示。
+- **原因**
+    - 下载程序时，修改了AR版本。
+- **建议**
+    - 若需要修改AR版本，建议使用U盘卸载Hypervisor再使用U盘安装。
+
+# 47 Hyperviosr安装完成后Windows操作卡顿
+
+- **现象**
+    - APC910装完 Hypervisor 后在Windows内操作特别特别卡顿，在没有安装Hyperviosr时Windows操作流畅。
+    - AR版本为I4.93
+- **解决方式**
+    - 使用U盘重装一遍Hyperviosr
+
+# 48 更新日志
 
 | 日期         | 修改人 | 修改内容      |
 | :--------- | :-- | :-------- |
@@ -465,3 +487,4 @@ bcdedit /set {globalsettings} advancedoptions false
 | 2024-03-19 | YZY | 格式调整      |
 | 2024-07-18 | YZY | 更新条目44 45 |
 | 2024-10-12 | YZY | 部分条目更新    |
+| 2024-10-17 | YZY | 更新46 47   |
