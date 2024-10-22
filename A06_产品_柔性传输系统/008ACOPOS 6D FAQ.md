@@ -1,6 +1,6 @@
 > Tags: #ACOPOS_6D
 
-- [1 008ACOPOS 6D FAQ](#_1-008acopos-6d-faq)
+- [1 A06.008.ACOPOS 6D FAQ](#_1-a06008acopos-6d-faq)
 - [2 ACOPOS 6D用户手册获取方式](#_2-acopos-6d%E7%94%A8%E6%88%B7%E6%89%8B%E5%86%8C%E8%8E%B7%E5%8F%96%E6%96%B9%E5%BC%8F)
 - [3 ACOPOS 6D产品包含的硬件产品](#_3-acopos-6d%E4%BA%A7%E5%93%81%E5%8C%85%E5%90%AB%E7%9A%84%E7%A1%AC%E4%BB%B6%E4%BA%A7%E5%93%81)
 - [4 ACOPOS 6D产品包含的软件](#_4-acopos-6d%E4%BA%A7%E5%93%81%E5%8C%85%E5%90%AB%E7%9A%84%E8%BD%AF%E4%BB%B6)
@@ -24,7 +24,7 @@
 - [22 典型ACOPOS 6D系统的配置](#_22-%E5%85%B8%E5%9E%8Bacopos-6d%E7%B3%BB%E7%BB%9F%E7%9A%84%E9%85%8D%E7%BD%AE)
 - [23 更新日志](#_23-%E6%9B%B4%E6%96%B0%E6%97%A5%E5%BF%97)
 
-# 1 008ACOPOS 6D FAQ
+# 1 A06.008.ACOPOS 6D FAQ
 
 - 此处列出使用ACOPOS 6D的常问问题
 - [ACOPOS 6D | B&R Industrial Automation (br-automation.com)](https://www.br-automation.com/zh/products/mechatronic-systems/acopos-6d/)

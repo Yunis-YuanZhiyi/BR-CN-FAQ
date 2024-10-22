@@ -1,11 +1,11 @@
 > Tags: #ACOPOS_6D
 
-- [1 009ACOPOS 6D Demo例程](#_1-009acopos-6d-demo%E4%BE%8B%E7%A8%8B)
+- [1 A06.009.ACOPOS 6D Demo例程](#_1-a06009acopos-6d-demo%E4%BE%8B%E7%A8%8B)
 - [2 入门学习](#_2-%E5%85%A5%E9%97%A8%E5%AD%A6%E4%B9%A0)
 - [3 例程下载](#_3-%E4%BE%8B%E7%A8%8B%E4%B8%8B%E8%BD%BD)
 - [4 更新日志](#_4-%E6%9B%B4%E6%96%B0%E6%97%A5%E5%BF%97)
 
-# 1 009ACOPOS 6D Demo例程
+# 1 A06.009.ACOPOS 6D Demo例程
 
 # 2 入门学习
 
