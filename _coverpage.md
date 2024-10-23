@@ -8,8 +8,8 @@
 
 #  [🔍全文搜索一下](/Obsidian/Usage/brhelp搜索方式.md)
 
+#  [👍新品发布:经济型人机界面Smart Screen](/A03_产品_PC和HMI/058贝加莱经济型人机界面Smart%20Screen.md)
 # [👍新品发布:经济型驱动器ACOPOS D1](/A02_产品_Motion/035贝加莱经济型驱动器ACOPOS%20D1.md)
-# [⭐柔性传输系统ACOPOS 6D](A06_产品_柔性传输系统/000A06_产品_柔性传输系统.md#柔性传输系统ACOPOS%206D)
 # [🙋‍♂️有技术问题，就上贝加莱问答社区](//br-community.com/qa-community)
 
 ## 🚀 [轴控_轴控硬件使用助手](//axisinfo.brhelp.cn) 🚀 [轴控_轴控开发助手](//axisdev.brhelp.cn)  🚀 [轴控_ABB变频器使用助手](//abb_inverter.brhelp.cn)

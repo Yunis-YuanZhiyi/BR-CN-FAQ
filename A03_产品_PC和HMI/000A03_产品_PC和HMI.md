@@ -1,5 +1,9 @@
 # A03_产品_PC和HMI
 
+# ⭐经济型人机界面产品Smart Screen
+
+- [058贝加莱经济型人机界面Smart Screen](058贝加莱经济型人机界面Smart%20Screen.md)
+
 # 产品介绍
 
 - [📺贝加莱工业PC是什么](https://app9qg8os8w3630.pc.xiaoe-tech.com/p/t_pc/course_pc_detail/video/v_5d51383db0c4f_alQPWHe4)
