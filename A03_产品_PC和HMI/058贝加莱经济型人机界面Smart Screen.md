@@ -14,16 +14,16 @@
 - 产品特点
     - 设计紧凑、安装深度浅并且易于安装。产品内部没有硬盘以及风扇，因此无需维护。面板前部提供IP65防护，使这些设备适合大部分的工业环境。
 - 选择多样
-    - Smart Screen 产品有 5 种不同的显示屏尺寸供客户选择，范围从 4.3 英寸到 15.6 英寸。
-- 简单易用
-    - 作为 VNC 客户端。用户可使用B&R Automation Studio 软件创建画面程序。
-    - ![](FILES/058贝加莱经济型人机界面Smart%20Screen/image-20241023110109294.png)
+    - Smart Screen 产品有 5 种不同的显示屏尺寸供客户选择，范围从 4.3 英寸到 15.6 英寸，支持横屏竖屏显示。
+    - ![](FILES/058贝加莱经济型人机界面Smart%20Screen/image-20241023132438277.png)
 
 # 2 用户手册
 
 - [点击访问与下载 → SMART SCREEN_User Manual_CN_Rev1.0.pdf](/A03_产品_PC和HMI/FILES/058贝加莱经济型人机界面Smart%20Screen/SMART%20SCREEN_User%20Manual_CN_Rev1.0.pdf ':ignore')
 
 # 3 订货型号
+
+![](FILES/058贝加莱经济型人机界面Smart%20Screen/image-20241023134247311.png)
 
 | **订购型号**         | **描述**                                                                                                                                                       |
 | ---------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------ |
@@ -42,21 +42,21 @@
 
 > 详情信息可见 [SMART SCREEN_User Manual_CN_Rev1.0.pdf](/A03_产品_PC和HMI/FILES/058贝加莱经济型人机界面Smart%20Screen/SMART%20SCREEN_User%20Manual_CN_Rev1.0.pdf ':ignore') 中第6章
 
-- <span style="background:#F0A7D8">1___</span>调出"<span style="background:#A0CCF6">启动菜单</span>"页面
+- 1 调出"<span style="background:#A0CCF6">启动菜单</span>"页面
     - 保证Smart Screen处于断电状态
     - 在断电状态下，保持手指接触屏幕，不要移开
     - 打开电源，为Smart Screen供电
     - 此时，Smart Screen会打开“启动菜单”页面，如下
     - ![](FILES/058贝加莱经济型人机界面Smart%20Screen/image-20241023111218485.png)
-- <span style="background:#F0A7D8">2___</span>在“启动菜单”中点击 “<span style="background:#A0CCF6">系统设置</span>” 按钮，进入配置界面。
+- 2 在“启动菜单”中点击 “<span style="background:#A0CCF6">系统设置</span>” 按钮，进入配置界面。
     - 所有设置参数将自动保存，用户无需在每次上电时重复设定。
-- <span style="background:#F0A7D8">3___</span>在“系统设置”界面中，点击 "<span style="background:#A0CCF6">网络</span>" 按钮后，会进入“<span style="background:#A0CCF6">网络设定</span>” 配置界面，如下图
+- 3 在“系统设置”界面中，点击 "<span style="background:#A0CCF6">网络</span>" 按钮后，会进入“<span style="background:#A0CCF6">网络设定</span>” 配置界面，如下图
     - ![](FILES/058贝加莱经济型人机界面Smart%20Screen/image-20241023111516746.png)
-- <span style="background:#F0A7D8">4___</span>设置VNC服务器IP地址等参数
+- 4 设置VNC服务器IP地址等参数
     - VNC功能默认为开启状态。只有开启VNC功能时，Smart Screen才能正确显示VNC画面。
     - ✏️必须指定VNC服务器地址。用户须手动输入VNC服务器IP地址
     - ✏️必须指定VNC服务器端口（一般VNC服务器的默认端口为5900）
-- <span style="background:#F0A7D8">5___</span>确保Smart Screen屏幕的IP地址与被访问的VNC服务器在同一网段。
+- 5 确保Smart Screen屏幕的IP地址与被访问的VNC服务器在同一网段。
 
 # 5 更新日志
 
