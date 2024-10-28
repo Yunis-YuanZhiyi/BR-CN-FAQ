@@ -42,6 +42,8 @@
     - [Hypervisor使用助手 > 从零部署 | 如何用原生Debian系统进行Hypervisor环境准备](https://hypervisor.brhelp.cn/faq13.html)
 - 授权
     - [026工控机Windows授权问题](026工控机Windows授权问题.md)
+- MP7140
+    - [059屏幕MP7140使用mappView映射按键](059屏幕MP7140使用mappView映射按键.md)
 
 # PowerPanel_T30_C30_C50系列
 
