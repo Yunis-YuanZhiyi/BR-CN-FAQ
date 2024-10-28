@@ -15,8 +15,9 @@
 可使用 `DRV_mbus` 库，实现 ModbusRTU 通信
 
 - 可使用硬件模块：
-    - X 20CS1030（RS485）
+    - X20CS1030（RS485）
     - CPU 的 IF 1 口 (RS232)
+        - 直接使用RS232口
         - 使用 RS232 转 RS485 转换器
 
 # 3 DRV_mbus 简要说明
@@ -39,10 +40,9 @@
 
 ## 5.1 Timeout 参数设置
 
-MBSOpen() 或 MBMOpen() 功能块 timeout 参数建议设置 > 250 ms，否则会报20220 mbERR_NODE_TOUT 错误。
+- MBSOpen() 或 MBMOpen() 功能块 timeout 参数建议设置 > 250 ms，否则会报20220 mbERR_NODE_TOUT 错误。
 
 ## 5.2 接线说明
 
-若使用 RS232 接转换器实现 ModbusRTU 通信，RS232 的 TX, RX, GND 需要都接线，GND 不接会导致通信不上。
-
-![](FILES/048使用RS232接转换器实现ModbusRTU通信/image-20230821130409378.png)
+- 若使用 RS232 接转换器实现 ModbusRTU 通信，RS232 的 TX, RX, GND 需要都接线，GND 不接可能会导致通信不上。
+- ![](FILES/048使用RS232接转换器实现ModbusRTU通信/image-20230821130409378.png)
