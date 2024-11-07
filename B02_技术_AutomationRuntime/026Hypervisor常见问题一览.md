@@ -47,7 +47,8 @@
 - [45 安装Hypervisor后，工控机始终无法启动](#_45-%E5%AE%89%E8%A3%85hypervisor%E5%90%8E%EF%BC%8C%E5%B7%A5%E6%8E%A7%E6%9C%BA%E5%A7%8B%E7%BB%88%E6%97%A0%E6%B3%95%E5%90%AF%E5%8A%A8)
 - [46 已安装完成Hypervisor，在线更新程序提示 No memory information passed by bootloader.](#_46-%E5%B7%B2%E5%AE%89%E8%A3%85%E5%AE%8C%E6%88%90hypervisor%EF%BC%8C%E5%9C%A8%E7%BA%BF%E6%9B%B4%E6%96%B0%E7%A8%8B%E5%BA%8F%E6%8F%90%E7%A4%BA-no-memory-information-passed-by-bootloader)
 - [47 Hyperviosr安装完成后Windows操作卡顿](#_47-hyperviosr%E5%AE%89%E8%A3%85%E5%AE%8C%E6%88%90%E5%90%8Ewindows%E6%93%8D%E4%BD%9C%E5%8D%A1%E9%A1%BF)
-- [48 更新日志](#_48-%E6%9B%B4%E6%96%B0%E6%97%A5%E5%BF%97)
+- [48 工控机Windows系统安装Hypervisor提示 Booting 'B&R Hypervisor USB install drive' 后黑屏](#_48-%E5%B7%A5%E6%8E%A7%E6%9C%BAwindows%E7%B3%BB%E7%BB%9F%E5%AE%89%E8%A3%85hypervisor%E6%8F%90%E7%A4%BA-booting-br-hypervisor-usb-install-drive-%E5%90%8E%E9%BB%91%E5%B1%8F)
+- [49 更新日志](#_49-%E6%9B%B4%E6%96%B0%E6%97%A5%E5%BF%97)
 
 # 1 B02.026-Hypervisor常见问题一览
 
@@ -479,7 +480,19 @@ bcdedit /set {globalsettings} advancedoptions false
 - **解决方式**
     - 使用U盘重装一遍Hyperviosr
 
-# 48 更新日志
+# 48 工控机Windows系统安装Hypervisor提示 Booting 'B&R Hypervisor USB install drive' 后黑屏
+
+- **现象**
+    - APC910 TS17-04，Windows正常启动，但在安装Hyperviosr过程中，在Please select boot device 过程中选择 UEFI: Generic Flash Disk 进入U盘安装Hyperviosr，屏幕提示 Booting 'B&R Hypervisor USB install drive' 后即黑屏，无法安装Hypervisor。
+    - ![](FILES/026Hypervisor常见问题一览/image-20241107214736693.png)
+- **原因**
+    - 和显示接口有关，如果显示接口是DisplayPort到那里就会黑屏，如果是DVI就可以
+- **解决方式**
+    - 方式一：新工控机，第一次上电用dp线不能显示，用DVI先把Windows激活，再用DP线就能正常显示
+    - 方式二：使用DVI口
+- **注意**：此问题可能与硬件以及BIOS批次有关，有些设备会遇到此类问题。
+
+# 49 更新日志
 
 | 日期         | 修改人 | 修改内容      |
 | :--------- | :-- | :-------- |
@@ -488,3 +501,4 @@ bcdedit /set {globalsettings} advancedoptions false
 | 2024-07-18 | YZY | 更新条目44 45 |
 | 2024-10-12 | YZY | 部分条目更新    |
 | 2024-10-17 | YZY | 更新46 47   |
+| 2024-11-07 | YZY | 更新48      |
