@@ -7,6 +7,7 @@
 - [3 STEP A: 在装有 Automation Studio 的 PC 上](#_3-step-a-%E5%9C%A8%E8%A3%85%E6%9C%89-automation-studio-%E7%9A%84-pc-%E4%B8%8A)
 - [4 STEP B: 在可以访问网络的 PC 上](#_4-step-b-%E5%9C%A8%E5%8F%AF%E4%BB%A5%E8%AE%BF%E9%97%AE%E7%BD%91%E7%BB%9C%E7%9A%84-pc-%E4%B8%8A)
 - [5 STEP C:在装有 Automation Studio 的 PC 上](#_5-step-c%E5%9C%A8%E8%A3%85%E6%9C%89-automation-studio-%E7%9A%84-pc-%E4%B8%8A)
+- [6 视频介绍](#_6-%E8%A7%86%E9%A2%91%E4%BB%8B%E7%BB%8D)
 
 # 1 C02.020-Automation Studio离线注册方法
 
@@ -57,3 +58,8 @@
     - (有当上述方法不起作用时，您可以将文件拖放到“Codemeter”程序中)
 - <span style="background:#F0A7D8">14___</span>Automation Studio 现已成功获得许可。
     - ![](FILES/020Automation%20Studio离线注册方法/image-20240315232205716.png)
+
+# 6 视频介绍
+
+- Bilibili video
+- aid=113303250536467&bvid=BV1SCmgYgE1Y&cid=26281117184&p=1

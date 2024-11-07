@@ -38,3 +38,4 @@
 - [033Hypervisor双系统对时功能](033Hypervisor双系统对时功能.md)
 - [017Hypervisor安装与使用问题](017Hypervisor安装与使用问题.md)
 - [022Hypervisor支持使用虚拟机与Docker吗](022Hypervisor支持使用虚拟机与Docker吗.md)
+- [📺036Linux系统加持_一机双用更高效](036Linux系统加持_一机双用更高效.md)
