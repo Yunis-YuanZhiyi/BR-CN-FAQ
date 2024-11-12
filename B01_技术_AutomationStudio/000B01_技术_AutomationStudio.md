@@ -51,6 +51,10 @@
     - [005对于Automation Studio4.3及更早版本 如何降低硬件的固件版本](005对于Automation%20Studio4.3及更早版本%20如何降低硬件的固件版本.md)
     - [087不更新程序实现固件firmware升降级操作说明](087不更新程序实现固件firmware升降级操作说明.md)
 
+# AS6软件使用
+
+- [095贝加莱AS6使用注意事项](095贝加莱AS6使用注意事项.md)
+
 # AS帮助使用
 
 - [014AutomationHelp贝加莱帮助使用与建议](014AutomationHelp贝加莱帮助使用与建议.md)
