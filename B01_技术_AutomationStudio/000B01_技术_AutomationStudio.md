@@ -43,8 +43,9 @@
     - [093使用Referenced File文件引用实现多配置间文件同步修改](093使用Referenced%20File文件引用实现多配置间文件同步修改.md)
 - U盘使用
     - [038如何获取USB口device name](038如何获取USB口device%20name.md)
-- 新增硬件软件
+- 新增硬件、软件与AR
     - [⭐078高版本AS软件使用已停产硬件_AS软件新建工程时找不到X20CP1301_手动下载固件_AS无法通过自带的Tools Upgrades进行更新](078高版本AS软件使用已停产硬件.md)
+    - [📺099项目打开提示Selected CPU cannot be used because there is no valid Automation Runtime Version installed](099项目打开提示Selected%20CPU%20cannot%20be%20used.md)
 - 贝加莱项目版本相关使用
     - [086硬件的固件版本与硬件版本说明](086硬件的固件版本与硬件版本说明.md)
     - [032AS版本降级与固件Firmware版本降级](032AS版本降级与固件Firmware版本降级.md)
