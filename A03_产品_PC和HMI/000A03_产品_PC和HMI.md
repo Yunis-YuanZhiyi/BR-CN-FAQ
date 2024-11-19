@@ -91,6 +91,7 @@
 - VC4
     - [023 VC4 Windows10环境下使用VC4出现崩溃现象](023%20VC4%20Windows10环境下使用VC4出现崩溃现象.md)
     - [045T50通过更新Linux镜像提高VC4画面操作响应速度](045T50通过更新Linux镜像提高VC4画面操作响应速度.md)
+    - [060工控机 + Hypervisor开启VCWT后VC4画面卡顿](060工控机_Hypervisor开启VCWT后VC4画面卡顿.md)
 - [044ACP910运行中突然关闭且RUN灯不亮](044ACP910运行中突然关闭且RUN灯不亮.md)
 - [046APC2200安装Hypervisor后无法启动只有POWER灯亮](046APC2200安装Hypervisor后无法启动只有POWER灯亮.md)
 
@@ -109,6 +110,7 @@
 - [024PPC2100装hypervisor系统win10不能独立重启的解决办法](024PPC2100装hypervisor系统win10不能独立重启的解决办法.md)
 - [026工控机Windows授权问题](026工控机Windows授权问题.md)
 - [📺051一机双用不是梦！使用Hypervisor轻松实现PLC与计算机切换](051一机双用不是梦！使用Hypervisor轻松实现PLC与计算机切换.md)
+- [060工控机 + Hypervisor开启VCWT后VC4画面卡顿](060工控机_Hypervisor开启VCWT后VC4画面卡顿.md)
 
 # mappView 配合
 
