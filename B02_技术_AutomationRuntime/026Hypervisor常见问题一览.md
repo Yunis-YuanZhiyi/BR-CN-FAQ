@@ -48,7 +48,8 @@
 - [46 已安装完成Hypervisor，在线更新程序提示 No memory information passed by bootloader.](#_46-%E5%B7%B2%E5%AE%89%E8%A3%85%E5%AE%8C%E6%88%90hypervisor%EF%BC%8C%E5%9C%A8%E7%BA%BF%E6%9B%B4%E6%96%B0%E7%A8%8B%E5%BA%8F%E6%8F%90%E7%A4%BA-no-memory-information-passed-by-bootloader)
 - [47 Hyperviosr安装完成后Windows操作卡顿](#_47-hyperviosr%E5%AE%89%E8%A3%85%E5%AE%8C%E6%88%90%E5%90%8Ewindows%E6%93%8D%E4%BD%9C%E5%8D%A1%E9%A1%BF)
 - [48 工控机Windows系统安装Hypervisor提示 Booting 'B&R Hypervisor USB install drive' 后黑屏](#_48-%E5%B7%A5%E6%8E%A7%E6%9C%BAwindows%E7%B3%BB%E7%BB%9F%E5%AE%89%E8%A3%85hypervisor%E6%8F%90%E7%A4%BA-booting-br-hypervisor-usb-install-drive-%E5%90%8E%E9%BB%91%E5%B1%8F)
-- [49 更新日志](#_49-%E6%9B%B4%E6%96%B0%E6%97%A5%E5%BF%97)
+- [49 Win10安装Hypervisor卡主，提示 read error from device 0/20/0](#_49-win10%E5%AE%89%E8%A3%85hypervisor%E5%8D%A1%E4%B8%BB%EF%BC%8C%E6%8F%90%E7%A4%BA-read-error-from-device-0200)
+- [50 更新日志](#_50-%E6%9B%B4%E6%96%B0%E6%97%A5%E5%BF%97)
 
 # 1 B02.026-Hypervisor常见问题一览
 
@@ -492,13 +493,29 @@ bcdedit /set {globalsettings} advancedoptions false
     - 方式二：使用DVI口
 - **注意**：此问题可能与硬件以及BIOS批次有关，有些设备会遇到此类问题。
 
-# 49 更新日志
+# 49 Win10安装Hypervisor卡主，提示 read error from device 0/20/0
 
-| 日期         | 修改人 | 修改内容      |
-| :--------- | :-- | :-------- |
-| 2023-12-28 | YZY | 更新        |
-| 2024-03-19 | YZY | 格式调整      |
-| 2024-07-18 | YZY | 更新条目44 45 |
-| 2024-10-12 | YZY | 部分条目更新    |
-| 2024-10-17 | YZY | 更新46 47   |
-| 2024-11-07 | YZY | 更新48      |
+- **现象**
+    - 使用硬件PPC3100.KBU2，使用AS版本 4.12，使用AR为 I4.93，GPOS为Windows 10。
+    - 在安装Hypervisor时卡主，如下图。从Windows系统登录可见Hypervisor的几个盘符都已经创建了。
+    - 尝试通过恢复镜像来解决，但无效。
+    - 报错：
+        - `/OS/1 Attempt to write to LBA 500118191 on [/DRIVE/0] . blocked.`
+        - `IOMMU: read error from device 0/20/0, 0/20/0. address 0x000000000000, reason 0x06.`
+        - `IOMMU: Disabling DMA for device 0/20/0.`
+    - ![](FILES/026Hypervisor常见问题一览/image-20241122153246771.png)
+- **解决方式**
+    - 重装系统
+    - 重新使用U盘重做Hypervisor
+
+# 50 更新日志
+
+| 日期         | 修改人        | 修改内容      |
+| :--------- | :--------- | :-------- |
+| 2023-12-28 | YZY        | 更新        |
+| 2024-03-19 | YZY        | 格式调整      |
+| 2024-07-18 | YZY        | 更新条目44 45 |
+| 2024-10-12 | YZY        | 部分条目更新    |
+| 2024-10-17 | YZY        | 更新46 47   |
+| 2024-11-07 | YZY        | 更新48      |
+| 2024-11-22 | CZP<br>YZY | 更新49      |
