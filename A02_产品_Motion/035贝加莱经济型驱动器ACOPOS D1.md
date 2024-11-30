@@ -60,11 +60,21 @@
 > ⭐ 请根据型号查看驱动器输出电流：
 > 1 kW 及小功率驱动器（输出电流为3.0A和4.5A）使用 **SingleBoard** 升级固件；
 > 大功率驱动器(5.4A及以上）使用 **ControlBoard** 升级固件。
+- 👍2024-11-16 版本
+    - 1 kW 以上刷Control
+        - [点击下载 → PowerlinkControlBoard_4.B.16.6.bin](/A02_产品_Motion/FILES/035贝加莱经济型驱动器ACOPOS%20D1/PowerlinkControlBoard_4.B.16.6.bin ':ignore')
+    - 1 kW 以下刷Single
+        - [点击下载 → PowerlinkSingleBoard_4.B.16.6.bin](/A02_产品_Motion/FILES/035贝加莱经济型驱动器ACOPOS%20D1/PowerlinkSingleBoard_4.B.16.6.bin ':ignore')
+    - 新支持特性
+        - 新加方法：触发回原点驱动器不动作，直接返回原点回归完成，使用mappMotion需要用来跳过PLC上电运行前必须回原点的步骤
+        - 支持模式6连续多次执行原点回归
+    - 注意事项：只要是4.0 boot的驱动器都可以更新，2024年开始之后的驱动器都可以更新此版本。若不是4.0 boot，升级软件会弹出提示框。
 - 2024-08-15 版本
     - 1 kW 以上刷Control
-        - [点击下载 → PowerlinkControlBoard_4.8.15.3.bin](/A02_产品_Motion/FILES/035贝加莱经济型驱动器ACOPOS%20D1/PowerlinkControlBoard_4.8.15.3.bin ':ignore')
+        - [点击下载 → PowerlinkControlBoard_4.8.15.5.bin](/A02_产品_Motion/FILES/035贝加莱经济型驱动器ACOPOS%20D1/PowerlinkControlBoard_4.8.15.5.bin ':ignore')
     - 1 kW 以下刷Single
-        - [点击下载 → PowerlinkSingleBoard_4.8.15.3.bin](/A02_产品_Motion/FILES/035贝加莱经济型驱动器ACOPOS%20D1/PowerlinkSingleBoard_4.8.15.3.bin ':ignore')
+        - [点击下载 → PowerlinkSingleBoard_4.8.15.5.bin](/A02_产品_Motion/FILES/035贝加莱经济型驱动器ACOPOS%20D1/PowerlinkSingleBoard_4.8.15.5.bin ':ignore')
+    - 注意：不要使用4.8.15.3与4.8.15.4版本，请更新。
 - 2024-06-25 版本
     - boot是4.0的非STO的驱动器可以更新
     - [点击前往下载 → ACOPOS_D1_固件_boot是4.0的非STO的驱动器可以更新](https://br-community.com/downloadDis/257)
@@ -107,7 +117,8 @@
 - [037ACOPOS_D1_平行线与交叉线通讯选择](037ACOPOS_D1_平行线与交叉线通讯选择.md)
 - [039ACOPOS_D1_Err13错误复位](039ACOPOS_D1_Err13错误复位.md)
 - [040ACOPOS_D1_电机空载运行时抖动](040ACOPOS_D1_电机空载运行时抖动.md)
-- ACOPOS D1 报错 Err 25 → 更新驱动器 4.8 版本固件
+- ACOPOS D1 报错 Err 25 → 更新驱动器 4.8.15.5 或 4.b.16.6 版本固件
+- ACOPOS D1 报错 Err 20 → 更新驱动器 4.8.15.5 或 4.b.16.6 版本固件
 
 ## 6.1 ACOPOS D1 FAQ
 
@@ -131,3 +142,4 @@
 | 2024-10-08 | ZSY<br>YZY | 更新4.8.15版本驱动器固件信息                                                                                                                                          |
 | 2024-10-12 | ZSY        | 更新 ACOPOS D1 Studio V1.1.0.10 软件                                                                                                                           |
 | 2024-10-18 | ZSY<br>YZY | 更新 ACOPOS D1总线 HDI接线说明.pdf 与 ACOPOS D1参数修改与保存技巧.pdf                                                                                                        |
+| 2024-11-30 | YZY        | 更新驱动器固件4.B.16.6                                                                                                                                            |
