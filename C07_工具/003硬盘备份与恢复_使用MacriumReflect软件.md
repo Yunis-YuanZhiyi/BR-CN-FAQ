@@ -49,6 +49,7 @@
 - <span style="background:#F0A7D8">1___</span>打开软件，找到备份的选项页
     - ![](FILES/003硬盘备份与恢复_使用MacriumReflect软件/image-20231207002512515.png)
 - <span style="background:#F0A7D8">2___</span>选择需要备份的硬盘，此软件可直接识别出硬盘中的系统，建议全选。点击Image this disk。
+    - 🔴 注意！Image this disk 出现在被镜像备份的硬盘下方，注意查看硬盘大小！
     - ![](FILES/003硬盘备份与恢复_使用MacriumReflect软件/image-20231207001650644.png)
 - <span style="background:#F0A7D8">3___</span>在提示框中，输入需要存储的目标存储路径。
     - ![](FILES/003硬盘备份与恢复_使用MacriumReflect软件/image-20231207001707813.png)
@@ -75,7 +76,9 @@
 </video>
 
 - 常见做法有两种
-    - A. 在工作笔记上，使用读卡器加载需要备份恢复的硬盘，将镜像文件恢复至硬盘中
+    - A. 在电脑上，使用读卡器加载需要备份恢复的硬盘，将镜像文件恢复至硬盘中
+        - 🔴小心！恢复镜像时不要选错被恢复的硬盘，选错会让笔记本直接起不来。
+        - 有此顾虑，建议在虚拟机（例如VMware）软件中进行镜像恢复操作。
     - B. 在需要被镜像恢复的工控机上（Windows系统），运行此软件，加载镜像，恢复至此工控机上
         - ⭐ 很多时候此方式更方便
 - <span style="background:#F0A7D8">1___</span>打开软件，选择Restore，选择对应的镜像文件
@@ -83,6 +86,7 @@
 - <span style="background:#F0A7D8">2___</span>点击Restore Image后，在弹出框中选择需要镜像恢复的硬件
     - ![](FILES/003硬盘备份与恢复_使用MacriumReflect软件/image-20231207003020793.png)
 - <span style="background:#F0A7D8">3___</span>选择选择目标硬件，进行操作即可
+    - ![](FILES/003硬盘备份与恢复_使用MacriumReflect软件/image-20241130102848454.png)
 
 # 5 使用软件_克隆
 
@@ -194,3 +198,4 @@
 | 2023-12-06 | YZY | 初次创建     |
 | 2024-04-06 | YZY | 更新使用说明   |
 | 2024-06-28 | YZY | 更新视频操作流程 |
+| 2024-11-30 | YZY | 补充提醒信息   |
