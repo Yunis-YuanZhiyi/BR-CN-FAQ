@@ -78,6 +78,7 @@
     - [035PP500的屏升级了AR版本重新烧卡持续蓝屏](035PP500的屏升级了AR版本重新烧卡持续蓝屏.md)
     - [036PPC屏幕断电上电后蓝屏](036PPC屏幕断电上电后蓝屏.md)
     - [034工控机烧卡后无法启动，提示Error loading file errorno=0x13](/B03_技术_诊断/034工控机烧卡后无法启动，提示Error%20loading%20file%20errorno=0x13.md)
+    - [062贝加莱PPC2200在长时间断电后在低温上电启动出现蓝屏并报错27309](062贝加莱PPC2200在长时间断电后在低温上电启动出现蓝屏并报错27309.md)
 - 黑屏有代码
     - [⭐034PPC断电后开机显示startup.nsh界面 map: Unknown flag -f  map: No mapping found](034PPC断电后开机显示startup.nsh界面.md)
 - 触摸屏
