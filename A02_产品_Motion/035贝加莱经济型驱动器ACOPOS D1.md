@@ -39,7 +39,7 @@
 
 # 3 ACOPOS D1 用户手册
 
-- [点击访问 → ACOPOS D1 用户手册 V1.0.4.pdf](/A02_产品_Motion/FILES/035贝加莱经济型驱动器ACOPOS%20D1/ACOPOS%20D1%20用户手册_V1.0.4.pdf ':ignore')
+- [点击访问 → ACOPOS D1 用户手册_V1.0.5.pdf](/A02_产品_Motion/FILES/035贝加莱经济型驱动器ACOPOS%20D1/ACOPOS%20D1%20用户手册_V1.0.5.pdf ':ignore')
 
 # 4 ACOPOS D1 配置选择
 
@@ -97,6 +97,7 @@
     - [ACOPOS D1 电机适配说明参数保存到编码器_20240426.pdf](/A02_产品_Motion/FILES/035贝加莱经济型驱动器ACOPOS%20D1/ACOPOS%20D1%20电机适配说明%20参数保存到编码器_20240426.pdf ':ignore')
     - [ACOPOS D1 电机适配说明参数保存到驱动本地_20240426.pdf](/A02_产品_Motion/FILES/035贝加莱经济型驱动器ACOPOS%20D1/ACOPOS%20D1%20电机适配说明%20参数保存到驱动本地_20240426.pdf ':ignore')
     - [ACOPOS D1参数修改与保存技巧.pdf](/A02_产品_Motion/FILES/035贝加莱经济型驱动器ACOPOS%20D1/ACOPOS%20D1参数修改与保存技巧.pdf ':ignore')
+    - [ACOPOS D1 开启多圈参数写入说明_20241227.pdf](/A02_产品_Motion/FILES/035贝加莱经济型驱动器ACOPOS%20D1/ACOPOS%20D1%20开启多圈参数写入说明_20241227.pdf ':ignore')
 - 在线固件升级
     - [ACOPOS D1 伺服固件升级说明_20240308.pdf](/A02_产品_Motion/FILES/035贝加莱经济型驱动器ACOPOS%20D1/ACOPOS%20D1%20伺服固件升级说明_20240308.pdf ':ignore')
 - STO功能说明
@@ -119,6 +120,7 @@
 - [040ACOPOS_D1_电机空载运行时抖动](040ACOPOS_D1_电机空载运行时抖动.md)
 - ACOPOS D1 报错 Err 25 → 更新驱动器 4.8.15.5 或 4.b.16.6 版本固件
 - ACOPOS D1 报错 Err 20 → 更新驱动器 4.8.15.5 或 4.b.16.6 版本固件
+- [ACOPOS D1 Err18报警说明_20241220.pdf](/A02_产品_Motion/FILES/035贝加莱经济型驱动器ACOPOS%20D1/ACOPOS%20D1%20Err18报警说明_20241220.pdf ':ignore')
 
 ## 6.1 ACOPOS D1 FAQ
 
@@ -143,3 +145,4 @@
 | 2024-10-12 | ZSY        | 更新 ACOPOS D1 Studio V1.1.0.10 软件                                                                                                                           |
 | 2024-10-18 | ZSY<br>YZY | 更新 ACOPOS D1总线 HDI接线说明.pdf 与 ACOPOS D1参数修改与保存技巧.pdf                                                                                                        |
 | 2024-11-30 | YZY        | 更新驱动器固件4.B.16.6                                                                                                                                            |
+| 2024-12-27 | ZSY<br>YZY | 更新 ACOPOS D1 Err18报警说明_20241220.pdf<br>更新 ACOPOS D1 开启多圈参数写入说明_20241227.pdf<br>更新 ACOPOS D1 用户手册_V1.0.5.pdf                                                |
