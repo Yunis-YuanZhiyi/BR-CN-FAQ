@@ -60,12 +60,14 @@
 > ⭐ 请根据型号查看驱动器输出电流：
 > 1 kW 及小功率驱动器（输出电流为3.0A和4.5A）使用 **SingleBoard** 升级固件；
 > 大功率驱动器(5.4A及以上）使用 **ControlBoard** 升级固件。
-- 👍2024-11-16 版本
+- 👍2024-12-30 版本
     - 1 kW 以上刷Control
-        - [点击下载 → PowerlinkControlBoard_4.B.16.6.bin](/A02_产品_Motion/FILES/035贝加莱经济型驱动器ACOPOS%20D1/PowerlinkControlBoard_4.B.16.6.bin ':ignore')
+        - [点击下载 → PowerlinkControlBoard_4.B.16.8.bin](/A02_产品_Motion/FILES/035贝加莱经济型驱动器ACOPOS%20D1/PowerlinkControlBoard_4.B.16.8.bin ':ignore')
     - 1 kW 以下刷Single
-        - [点击下载 → PowerlinkSingleBoard_4.B.16.6.bin](/A02_产品_Motion/FILES/035贝加莱经济型驱动器ACOPOS%20D1/PowerlinkSingleBoard_4.B.16.6.bin ':ignore')
-    - 新支持特性
+        - [点击下载 → PowerlinkSingleBoard_4.B.16.8.bin](/A02_产品_Motion/FILES/035贝加莱经济型驱动器ACOPOS%20D1/PowerlinkSingleBoard_4.B.16.8.bin ':ignore')
+    - 4.B.16.8 修复问题
+        - 追随误差上电连接的时候会出现相差一个伺服周期
+    - 4.B.16.6 新支持特性
         - 新加方法：触发回原点驱动器不动作，直接返回原点回归完成，使用mappMotion需要用来跳过PLC上电运行前必须回原点的步骤
         - 支持模式6连续多次执行原点回归
     - 注意事项：只要是4.0 boot的驱动器都可以更新，2024年开始之后的驱动器都可以更新此版本。若不是4.0 boot，升级软件会弹出提示框。
@@ -146,3 +148,4 @@
 | 2024-10-18 | ZSY<br>YZY | 更新 ACOPOS D1总线 HDI接线说明.pdf 与 ACOPOS D1参数修改与保存技巧.pdf                                                                                                        |
 | 2024-11-30 | YZY        | 更新驱动器固件4.B.16.6                                                                                                                                            |
 | 2024-12-27 | ZSY<br>YZY | 更新 ACOPOS D1 Err18报警说明_20241220.pdf<br>更新 ACOPOS D1 开启多圈参数写入说明_20241227.pdf<br>更新 ACOPOS D1 用户手册_V1.0.5.pdf                                                |
+| 2024-12-30 | ZSY<br>YZY | 更新 ACOPOS D1驱动器固件版本 PowerlinkSingleBoard_4.B.16.8.bin                                                                                                      |
